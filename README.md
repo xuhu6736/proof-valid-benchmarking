@@ -6,7 +6,7 @@ Experimental code and result artifacts for the paper
 > Jianfeng Xu — Koguan School of Law, China Institute for Smart Justice, School of Computer Science, Shanghai Jiao Tong University
 > ChinaXiv:202608.00158v1 · *Sci China Inf Sci* (under review)
 
-- Paper (ChinaXiv): `ChinaXiv202608.00158v1_Proof-Valid-Caching(1).pdf`
+- Paper (ChinaXiv): -
 - Repository: https://github.com/xuhu6736/proof-valid-benchmarking
 
 ---
