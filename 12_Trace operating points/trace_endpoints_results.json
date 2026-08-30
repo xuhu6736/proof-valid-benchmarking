@@ -1,0 +1,810 @@
+{
+  "config": {
+    "data_dir": "../data",
+    "out_dir": "results",
+    "emb_col": "emb_gte",
+    "resp_col": "response_llama_3_8b",
+    "max_per_dataset": 20000,
+    "delta": 0.02,
+    "static_quantile": 0.9,
+    "kappa_rule": "size",
+    "x_frac": 0.5,
+    "eps_list": "0,0.05,0.1,0.15,0.2,0.3,0.4,0.5"
+  },
+  "datasets": {
+    "SemBenchmarkSearchQueries": {
+      "rows": 20000,
+      "classes": 6113,
+      "emb_col": "emb_gte",
+      "resp_col": "response_llama_3_8b",
+      "thr_static": 1.0,
+      "thr_vcache": 0.9481446694294612,
+      "mean_sim_pos": 0.9373263260155916,
+      "mean_sim_neg": 0.810005136063695,
+      "per_eps": [
+        {
+          "eps": 0.0,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 1.0,
+            "hit_prob_empirical": 1.0
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.004244782454899187,
+            "hit_prob_theory": 1.0,
+            "hit_prob_empirical": 1.0
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 1.0,
+            "hit_prob_empirical": 1.0,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.05,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.8812448427013125,
+            "hit_prob_empirical": 0.88465
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.10806508666430846,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.11230986911920764,
+            "hit_prob_theory": 0.8812448427013125,
+            "hit_prob_empirical": 0.88175
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.8812448427013125,
+            "hit_prob_empirical": 0.8824,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.1,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.00033967391304347825,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.00033967391304347825,
+            "hit_prob_theory": 0.7766386380760001,
+            "hit_prob_empirical": 0.7778
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.20613724796604174,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.21038203042094092,
+            "hit_prob_theory": 0.7766386380760001,
+            "hit_prob_empirical": 0.7749
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.7766386380760001,
+            "hit_prob_empirical": 0.7802,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.15,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0006793478260869565,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0006793478260869565,
+            "hit_prob_theory": 0.6847021817531873,
+            "hit_prob_empirical": 0.68315
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.28891050583657585,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.2931552882914751,
+            "hit_prob_theory": 0.6847021817531873,
+            "hit_prob_empirical": 0.68445
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.6847021817531873,
+            "hit_prob_empirical": 0.68665,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.2,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0006793478260869565,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0006793478260869565,
+            "hit_prob_theory": 0.6040953269760001,
+            "hit_prob_empirical": 0.6022
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.36292889989388044,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.3671736823487796,
+            "hit_prob_theory": 0.6040953269760001,
+            "hit_prob_empirical": 0.60355
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.6040953269760001,
+            "hit_prob_empirical": 0.6069,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.3,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0006793478260869565,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0006793478260869565,
+            "hit_prob_theory": 0.47213472559599995,
+            "hit_prob_empirical": 0.46775
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.47744959320834807,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.48169437566324724,
+            "hit_prob_theory": 0.47213472559599995,
+            "hit_prob_empirical": 0.47165
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.47213472559599995,
+            "hit_prob_empirical": 0.47715,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.4,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0006793478260869565,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0006793478260869565,
+            "hit_prob_theory": 0.372387222016,
+            "hit_prob_empirical": 0.36895
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.5636717368234878,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.5679165192783869,
+            "hit_prob_theory": 0.372387222016,
+            "hit_prob_empirical": 0.3723
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.372387222016,
+            "hit_prob_empirical": 0.37545,
+            "throughput_vs_gptcache": 1.0
+          }
+        },
+        {
+          "eps": 0.5,
+          "GPTCache": {
+            "served": 2944,
+            "premise_err_rate": 0.0006793478260869565,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0006793478260869565,
+            "hit_prob_theory": 0.2980359375,
+            "hit_prob_empirical": 0.29455
+          },
+          "vCache": {
+            "served": 11308,
+            "premise_err_rate": 0.6257516802263884,
+            "falsehit_rate": 0.004244782454899187,
+            "total_err_rate": 0.6299964626812876,
+            "hit_prob_theory": 0.2980359375,
+            "hit_prob_empirical": 0.29745
+          },
+          "proofvalid": {
+            "served": 2944,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.2980359375,
+            "hit_prob_empirical": 0.3002,
+            "throughput_vs_gptcache": 1.0
+          }
+        }
+      ],
+      "hybrid_frontier": {
+        "eps": 0.1,
+        "n_classes": 6113,
+        "points": [
+          {
+            "eta": 0.5,
+            "sigma_over_k": 1.9301342572036175,
+            "asymptotic": 0.55
+          },
+          {
+            "eta": 0.525,
+            "sigma_over_k": 1.8801418513507502,
+            "asymptotic": 0.5725
+          },
+          {
+            "eta": 0.55,
+            "sigma_over_k": 1.8487931933744137,
+            "asymptotic": 0.5950000000000001
+          },
+          {
+            "eta": 0.575,
+            "sigma_over_k": 1.8263870310942127,
+            "asymptotic": 0.6174999999999999
+          },
+          {
+            "eta": 0.6,
+            "sigma_over_k": 1.788526749437922,
+            "asymptotic": 0.64
+          },
+          {
+            "eta": 0.625,
+            "sigma_over_k": 1.7674228769394809,
+            "asymptotic": 0.6625
+          },
+          {
+            "eta": 0.65,
+            "sigma_over_k": 1.748069283534685,
+            "asymptotic": 0.685
+          },
+          {
+            "eta": 0.675,
+            "sigma_over_k": 1.7361873358478952,
+            "asymptotic": 0.7075
+          },
+          {
+            "eta": 0.7,
+            "sigma_over_k": 1.7198067618769586,
+            "asymptotic": 0.73
+          },
+          {
+            "eta": 0.725,
+            "sigma_over_k": 1.7160545748161145,
+            "asymptotic": 0.7525
+          },
+          {
+            "eta": 0.75,
+            "sigma_over_k": 1.4117151237674088,
+            "asymptotic": 0.775
+          },
+          {
+            "eta": 0.7749999999999999,
+            "sigma_over_k": 1.3864548620479276,
+            "asymptotic": 0.7974999999999999
+          },
+          {
+            "eta": 0.8,
+            "sigma_over_k": 1.3892413142413143,
+            "asymptotic": 0.8200000000000001
+          },
+          {
+            "eta": 0.825,
+            "sigma_over_k": 1.498567335243553,
+            "asymptotic": 0.8424999999999999
+          }
+        ]
+      },
+      "certificate_footprint": {
+        "eps": 0.1,
+        "points": [
+          {
+            "kappa": 1,
+            "n_classes": 2942,
+            "storage_floor": 1.0
+          },
+          {
+            "kappa": 2,
+            "n_classes": 347,
+            "storage_floor": 1.0
+          },
+          {
+            "kappa": 3,
+            "n_classes": 372,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 4,
+            "n_classes": 537,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 5,
+            "n_classes": 527,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 6,
+            "n_classes": 458,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 7,
+            "n_classes": 370,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 8,
+            "n_classes": 248,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 9,
+            "n_classes": 139,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 10,
+            "n_classes": 90,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 11,
+            "n_classes": 34,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 12,
+            "n_classes": 32,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 13,
+            "n_classes": 10,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 14,
+            "n_classes": 3,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 15,
+            "n_classes": 2,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 16,
+            "n_classes": 2,
+            "storage_floor": 4.0
+          }
+        ]
+      }
+    },
+    "SemBenchmarkLmArena": {
+      "rows": 20000,
+      "classes": 3372,
+      "emb_col": "emb_gte",
+      "resp_col": "response_gpt-4o-mini",
+      "thr_static": 0.9999998807907104,
+      "thr_vcache": 0.981300650604566,
+      "mean_sim_pos": 0.961881938841939,
+      "mean_sim_neg": 0.7080124636173248,
+      "per_eps": [
+        {
+          "eps": 0.0,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.0014395393474088292,
+            "hit_prob_theory": 1.0,
+            "hit_prob_empirical": 1.0
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.013643451143451144,
+            "hit_prob_theory": 1.0,
+            "hit_prob_empirical": 1.0
+          },
+          "proofvalid": {
+            "served": 2081,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 1.0,
+            "hit_prob_empirical": 1.0,
+            "throughput_vs_gptcache": 0.9985604606525912
+          }
+        },
+        {
+          "eps": 0.05,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.16026871401151632,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.16170825335892514,
+            "hit_prob_theory": 0.845612384091867,
+            "hit_prob_empirical": 0.8475
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.161512474012474,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.17515592515592515,
+            "hit_prob_theory": 0.845612384091867,
+            "hit_prob_empirical": 0.8488
+          },
+          "proofvalid": {
+            "served": 1757,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.845612384091867,
+            "hit_prob_empirical": 0.84705,
+            "throughput_vs_gptcache": 0.8430902111324377
+          }
+        },
+        {
+          "eps": 0.1,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.29846449136276393,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.29990403071017274,
+            "hit_prob_theory": 0.7118617777130001,
+            "hit_prob_empirical": 0.7124
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.3000259875259875,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.3136694386694387,
+            "hit_prob_theory": 0.7118617777130001,
+            "hit_prob_empirical": 0.71235
+          },
+          "proofvalid": {
+            "served": 1454,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.7118617777130001,
+            "hit_prob_empirical": 0.7182,
+            "throughput_vs_gptcache": 0.6976967370441459
+          }
+        },
+        {
+          "eps": 0.15,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.42370441458733205,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.42514395393474086,
+            "hit_prob_theory": 0.596413513739289,
+            "hit_prob_empirical": 0.5952
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.41515072765072764,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.4287941787941788,
+            "hit_prob_theory": 0.596413513739289,
+            "hit_prob_empirical": 0.5979
+          },
+          "proofvalid": {
+            "served": 1208,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.596413513739289,
+            "hit_prob_empirical": 0.6014,
+            "throughput_vs_gptcache": 0.5796545105566219
+          }
+        },
+        {
+          "eps": 0.2,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.5100767754318618,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.5115163147792706,
+            "hit_prob_theory": 0.49715149708800016,
+            "hit_prob_empirical": 0.49495
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.5115644490644491,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.5252079002079002,
+            "hit_prob_theory": 0.49715149708800016,
+            "hit_prob_empirical": 0.499
+          },
+          "proofvalid": {
+            "served": 1032,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.49715149708800016,
+            "hit_prob_empirical": 0.5032,
+            "throughput_vs_gptcache": 0.4952015355086372
+          }
+        },
+        {
+          "eps": 0.3,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.6458733205374281,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.6473128598848369,
+            "hit_prob_theory": 0.3397156874229999,
+            "hit_prob_empirical": 0.34005
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.6678794178794178,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.6815228690228691,
+            "hit_prob_theory": 0.3397156874229999,
+            "hit_prob_empirical": 0.34005
+          },
+          "proofvalid": {
+            "served": 724,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.3397156874229999,
+            "hit_prob_empirical": 0.34545,
+            "throughput_vs_gptcache": 0.3474088291746641
+          }
+        },
+        {
+          "eps": 0.4,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.7567178502879078,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.7581573896353166,
+            "hit_prob_theory": 0.22638896460799998,
+            "hit_prob_empirical": 0.2273
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.7778066528066528,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.791450103950104,
+            "hit_prob_theory": 0.22638896460799998,
+            "hit_prob_empirical": 0.22735
+          },
+          "proofvalid": {
+            "served": 511,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.22638896460799998,
+            "hit_prob_empirical": 0.2296,
+            "throughput_vs_gptcache": 0.24520153550863724
+          }
+        },
+        {
+          "eps": 0.5,
+          "GPTCache": {
+            "served": 2084,
+            "premise_err_rate": 0.8214971209213052,
+            "falsehit_rate": 0.0014395393474088292,
+            "total_err_rate": 0.822936660268714,
+            "hit_prob_theory": 0.146539453125,
+            "hit_prob_empirical": 0.14775
+          },
+          "vCache": {
+            "served": 7696,
+            "premise_err_rate": 0.8521309771309772,
+            "falsehit_rate": 0.013643451143451144,
+            "total_err_rate": 0.8657744282744283,
+            "hit_prob_theory": 0.146539453125,
+            "hit_prob_empirical": 0.1473
+          },
+          "proofvalid": {
+            "served": 373,
+            "premise_err_rate": 0.0,
+            "falsehit_rate": 0.0,
+            "total_err_rate": 0.0,
+            "hit_prob_theory": 0.146539453125,
+            "hit_prob_empirical": 0.14915,
+            "throughput_vs_gptcache": 0.1789827255278311
+          }
+        }
+      ],
+      "hybrid_frontier": {
+        "eps": 0.1,
+        "n_classes": 3372,
+        "points": [
+          {
+            "eta": 0.5,
+            "sigma_over_k": 1.8996499533977291,
+            "asymptotic": 0.55
+          },
+          {
+            "eta": 0.525,
+            "sigma_over_k": 1.8125681077193534,
+            "asymptotic": 0.5725
+          },
+          {
+            "eta": 0.55,
+            "sigma_over_k": 1.7388875380089792,
+            "asymptotic": 0.5950000000000001
+          },
+          {
+            "eta": 0.575,
+            "sigma_over_k": 1.6937355015980462,
+            "asymptotic": 0.6174999999999999
+          },
+          {
+            "eta": 0.6,
+            "sigma_over_k": 1.6251129258246697,
+            "asymptotic": 0.64
+          },
+          {
+            "eta": 0.625,
+            "sigma_over_k": 1.5746578850337745,
+            "asymptotic": 0.6625
+          },
+          {
+            "eta": 0.65,
+            "sigma_over_k": 1.5407157755912204,
+            "asymptotic": 0.685
+          },
+          {
+            "eta": 0.675,
+            "sigma_over_k": 1.5104589899852356,
+            "asymptotic": 0.7075
+          },
+          {
+            "eta": 0.7,
+            "sigma_over_k": 1.4486787152551537,
+            "asymptotic": 0.73
+          },
+          {
+            "eta": 0.725,
+            "sigma_over_k": 1.4352033659079557,
+            "asymptotic": 0.7525
+          },
+          {
+            "eta": 0.75,
+            "sigma_over_k": 1.3897943126144898,
+            "asymptotic": 0.775
+          },
+          {
+            "eta": 0.7749999999999999,
+            "sigma_over_k": 1.3635485675646024,
+            "asymptotic": 0.7974999999999999
+          },
+          {
+            "eta": 0.8,
+            "sigma_over_k": 1.3557847611535248,
+            "asymptotic": 0.8200000000000001
+          },
+          {
+            "eta": 0.825,
+            "sigma_over_k": 1.4986910994764397,
+            "asymptotic": 0.8424999999999999
+          }
+        ]
+      },
+      "certificate_footprint": {
+        "eps": 0.1,
+        "points": [
+          {
+            "kappa": 1,
+            "n_classes": 175,
+            "storage_floor": 1.0
+          },
+          {
+            "kappa": 2,
+            "n_classes": 190,
+            "storage_floor": 1.0
+          },
+          {
+            "kappa": 3,
+            "n_classes": 278,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 4,
+            "n_classes": 385,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 5,
+            "n_classes": 472,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 6,
+            "n_classes": 483,
+            "storage_floor": 2.0
+          },
+          {
+            "kappa": 7,
+            "n_classes": 436,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 8,
+            "n_classes": 383,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 9,
+            "n_classes": 266,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 10,
+            "n_classes": 148,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 11,
+            "n_classes": 90,
+            "storage_floor": 3.0
+          },
+          {
+            "kappa": 12,
+            "n_classes": 39,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 13,
+            "n_classes": 16,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 14,
+            "n_classes": 9,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 15,
+            "n_classes": 1,
+            "storage_floor": 4.0
+          },
+          {
+            "kappa": 16,
+            "n_classes": 1,
+            "storage_floor": 4.0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+ "config": {
+  "eps": 0.1,
+  "delta": 0.02
+ },
+ "grounded_e_q": {
+  "mean": 2.4314652261985144,
+  "hist": {
+   "2": 4990,
+   "3": 1774,
+   "4": 537,
+   "5": 80,
+   "6": 14,
+   "7": 9,
+   "8": 1
+  }
+ },
+ "docs_per_question_mean": 9.952734638757596,
+ "pure_code_storage_ratio_eta0": {
+  "grounded_e": 0.5384288286550272,
+  "docs": 0.3013626571492877,
+  "k20": 0.25,
+  "k50": 0.2,
+  "k100": 0.17,
+  "asymptotic_eps": 0.1
+ },
+ "finite_kappa_deviation_eta0": {
+  "grounded_e": 0.4384288286550272,
+  "docs": 0.20136265714928772,
+  "k20": 0.15,
+  "k50": 0.1,
+  "k100": 0.07
+ },
+ "r_mds_star_by_mu": {
+  "1": 1,
+  "2": 1,
+  "3": 2,
+  "4": 2,
+  "5": 2,
+  "6": 2,
+  "7": 3,
+  "8": 3
+ },
+ "finding": "Coded (MDS/hybrid) caching gains over transparent caching only emerge once the certificate footprint exceeds ~10-20 premise packets.  At grounded evidence counts (kappa=2..8) the residual MDS parity cost is comparable to transparent storage, so hybrid and transparent designs coincide; the asymptotic 1/eps advantage is a large-footprint regime result, not a small-certificate one."
+}

@@ -1,0 +1,53 @@
+{
+ "n_modules": 936,
+ "n_components": 742,
+ "questions_in_components": 1675,
+ "module_reuse_hist": {
+  "2": 852,
+  "3": 77,
+  "4": 7
+ },
+ "per_rho": [
+  {
+   "rho": 0.5,
+   "leaf_only_cost": 3350.0,
+   "greedy_cost": 1855.0,
+   "optimal_cost": 1855.0,
+   "saving_vs_leaf_only": 0.4462686567164179,
+   "greedy_over_optimal": 1.0,
+   "worst_instance_ratio": 1.0,
+   "frac_suboptimal": 0.0
+  },
+  {
+   "rho": 1.0,
+   "leaf_only_cost": 3350.0,
+   "greedy_cost": 2323.0,
+   "optimal_cost": 2323.0,
+   "saving_vs_leaf_only": 0.30656716417910446,
+   "greedy_over_optimal": 1.0,
+   "worst_instance_ratio": 1.0,
+   "frac_suboptimal": 0.0
+  },
+  {
+   "rho": 2.0,
+   "leaf_only_cost": 3350.0,
+   "greedy_cost": 3259.0,
+   "optimal_cost": 3259.0,
+   "saving_vs_leaf_only": 0.02716417910447766,
+   "greedy_over_optimal": 1.0,
+   "worst_instance_ratio": 1.0,
+   "frac_suboptimal": 0.0
+  },
+  {
+   "rho": 4.0,
+   "leaf_only_cost": 3350.0,
+   "greedy_cost": 3350.0,
+   "optimal_cost": 3350.0,
+   "saving_vs_leaf_only": 0.0,
+   "greedy_over_optimal": 1.0,
+   "worst_instance_ratio": 1.0,
+   "frac_suboptimal": 0.0
+  }
+ ],
+ "finding": "All 742 real sharing components are exactly solvable; greedy matches the brute-force optimum on essentially every instance, and module deployment saves up to 44.6% of leaf-only storage at low root cost.  The H(m) worst case of the greedy bound is not realised on real evidence-sharing structure."
+}

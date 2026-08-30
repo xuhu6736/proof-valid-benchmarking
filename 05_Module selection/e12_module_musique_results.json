@@ -1,0 +1,53 @@
+{
+  "n_modules": 956,
+  "n_components": 293,
+  "questions_in_components": 2182,
+  "rho_list": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "per_rho": [
+    {
+      "rho": 0.5,
+      "leaf_only_cost": 5924,
+      "greedy_cost": 1665.0,
+      "optimal_cost": 1665.0,
+      "saving_vs_leaf_only": 0.7189399054692776,
+      "greedy_over_optimal": 1.0,
+      "worst_instance_ratio": 1.0,
+      "n_suboptimal": 0
+    },
+    {
+      "rho": 1.0,
+      "leaf_only_cost": 5924,
+      "greedy_cost": 2143.0,
+      "optimal_cost": 2143.0,
+      "saving_vs_leaf_only": 0.638251181634031,
+      "greedy_over_optimal": 1.0,
+      "worst_instance_ratio": 1.0,
+      "n_suboptimal": 0
+    },
+    {
+      "rho": 2.0,
+      "leaf_only_cost": 5924,
+      "greedy_cost": 3099.0,
+      "optimal_cost": 3099.0,
+      "saving_vs_leaf_only": 0.47687373396353816,
+      "greedy_over_optimal": 1.0,
+      "worst_instance_ratio": 1.0,
+      "n_suboptimal": 0
+    },
+    {
+      "rho": 4.0,
+      "leaf_only_cost": 5924,
+      "greedy_cost": 4018.0,
+      "optimal_cost": 4018.0,
+      "saving_vs_leaf_only": 0.3217420661715057,
+      "greedy_over_optimal": 1.0,
+      "worst_instance_ratio": 1.0,
+      "n_suboptimal": 0
+    }
+  ]
+}

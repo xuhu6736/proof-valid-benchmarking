@@ -1,0 +1,19 @@
+\begin{table}[H]
+\footnotesize
+\caption{Stress-test operating points on the two traces.  Error is total
+benchmark error; throughput is proof-valid served count divided by
+static-cache served count.}
+\label{tab:endpoints}
+\tabcolsep 4pt
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llccccc@{}}
+\toprule
+Dataset & $\varepsilon$ & GPTCache err. & vCache err. & PV served & PV err. & PV throughput \\\hline
+SearchQueries & 0.1 & 0.1463 & 0.2104 & 5132 & 0 & 0.8549 \\
+SearchQueries & 0.3 & 0.3453 & 0.4817 & 4039 & 0 & 0.6728 \\
+SearchQueries & 0.5 & 0.4414 & 0.6300 & 3397 & 0 & 0.5659 \\\hline
+LmArena & 0.1 & 0.2999 & 0.3137 & 1454 & 0 & 0.6977 \\
+LmArena & 0.3 & 0.6473 & 0.6815 & 724 & 0 & 0.3474 \\
+LmArena & 0.5 & 0.8229 & 0.8658 & 373 & 0 & 0.1790 \\
+\bottomrule
+\end{tabular*}
+\end{table}

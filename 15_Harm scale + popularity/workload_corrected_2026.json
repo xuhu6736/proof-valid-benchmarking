@@ -1,0 +1,77 @@
+{
+ "baseline_residual_4mo_unweighted_pct": 1.54,
+ "baseline_residual_4mo_popweighted_pct": 0.87,
+ "note": "residual = baseline x (1 - interception); baselines from WikiFactDiff hazards (unchanged by the entity-matching fix)",
+ "constructors": {
+  "lead5": {
+   "interception": 33.9,
+   "interception_ci95": [
+    26.3,
+    42.3
+   ],
+   "false_rejection": 13.3,
+   "fr_ci95": [
+    11.6,
+    15.2
+   ],
+   "residual_error_4mo_unweighted_pct": 1.02,
+   "residual_error_4mo_popweighted_pct": 0.58
+  },
+  "cascade_only": {
+   "interception": 38.5,
+   "interception_ci95": [
+    30.5,
+    47.0
+   ],
+   "false_rejection": 9.0,
+   "fr_ci95": [
+    7.6,
+    10.6
+   ],
+   "residual_error_4mo_unweighted_pct": 0.95,
+   "residual_error_4mo_popweighted_pct": 0.54
+  },
+  "casc_or_dense1": {
+   "interception": 40.0,
+   "interception_ci95": [
+    32.0,
+    48.6
+   ],
+   "false_rejection": 9.7,
+   "fr_ci95": [
+    8.2,
+    11.4
+   ],
+   "residual_error_4mo_unweighted_pct": 0.92,
+   "residual_error_4mo_popweighted_pct": 0.52
+  },
+  "casc_or_lost12": {
+   "interception": 43.1,
+   "interception_ci95": [
+    34.9,
+    51.7
+   ],
+   "false_rejection": 10.5,
+   "fr_ci95": [
+    9.0,
+    12.2
+   ],
+   "residual_error_4mo_unweighted_pct": 0.88,
+   "residual_error_4mo_popweighted_pct": 0.5
+  },
+  "casc_or_dense1_lost12": {
+   "interception": 44.6,
+   "interception_ci95": [
+    36.4,
+    53.2
+   ],
+   "false_rejection": 11.1,
+   "fr_ci95": [
+    9.5,
+    12.8
+   ],
+   "residual_error_4mo_unweighted_pct": 0.85,
+   "residual_error_4mo_popweighted_pct": 0.48
+  }
+ }
+}

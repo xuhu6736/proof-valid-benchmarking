@@ -1,0 +1,25 @@
+\begin{table}[t]
+\footnotesize
+\caption{Gate operating points on real 2026 dynamics ($1{,}511$ joined
+entities; harms $=130$ semantic statement removals ex-schema, non-harms
+$=1{,}381$; Wilson 95\% CIs in brackets).  Lead-$k$: first $k$ lead
+sentences of the base snapshot.  Cascade: value-mention certificate with
+fuzzy-0.9 survival and lead-3 fallback; dense-1 and lost$\ge$12 are
+revision-level triggers firing in disjunction.  Interception $=$
+fraction of harmed entities flagged; false rejection $=$ fraction of
+unharmed entities flagged.}
+\label{tab:roc-real}
+\tabcolsep 3pt
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcc@{}}
+\toprule
+Certificate & interception & false rejection \\\hline
+lead-1  & 20.0\% [14.0,27.7]  & 5.4\% [4.3,6.7] \\
+lead-3  & 25.4\% [18.7,33.5]  & 10.2\% [8.7,11.9] \\
+lead-5  & 33.9\% [26.3,42.3]  & 13.3\% [11.6,15.2] \\
+lead-10 & 43.1\% [34.9,51.7]  & 18.3\% [16.4,20.4] \\\hline
+cascade (val-mention)                     & 38.5\% [30.5,47.0] & 9.0\% [7.6,10.6] \\
+cascade $\vee$ dense-1                    & 40.0\% [32.0,48.6] & 9.7\% [8.2,11.4] \\
+cascade $\vee$ dense-1 $\vee$ lost$\ge$12 & 44.6\% [36.3,53.2] & 11.1\% [9.5,12.8] \\
+\bottomrule
+\end{tabular*}
+\end{table}

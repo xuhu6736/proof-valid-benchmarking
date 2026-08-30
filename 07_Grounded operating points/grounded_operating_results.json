@@ -1,0 +1,48 @@
+{
+  "hotpotqa": {
+    "n": 7405,
+    "eps": {
+      "0.1": {
+        "sim_only_error": 0.22391813459689394,
+        "pv_transparent_throughput": 0.7760818654031062,
+        "pv_coded_throughput": 0.9826018750452397,
+        "mean_kappa": 2.4314652261985144
+      },
+      "0.3": {
+        "sim_only_error": 0.5680746491951384,
+        "pv_transparent_throughput": 0.43192535080486155,
+        "pv_coded_throughput": 0.8596121862673869,
+        "mean_kappa": 2.4314652261985144
+      },
+      "0.5": {
+        "sim_only_error": 0.796677181802836,
+        "pv_transparent_throughput": 0.20332281819716408,
+        "pv_coded_throughput": 0.6541942732950708,
+        "mean_kappa": 2.4314652261985144
+      }
+    }
+  },
+  "musique": {
+    "n": 2417,
+    "eps": {
+      "0.1": {
+        "sim_only_error": 0.2412575506826644,
+        "pv_transparent_throughput": 0.7587424493173356,
+        "pv_coded_throughput": 0.9772521721141912,
+        "mean_kappa": 2.6495655771617708
+      },
+      "0.3": {
+        "sim_only_error": 0.5980966073645014,
+        "pv_transparent_throughput": 0.4019033926354985,
+        "pv_coded_throughput": 0.8270990897807199,
+        "mean_kappa": 2.6495655771617708
+      },
+      "0.5": {
+        "sim_only_error": 0.8207230037236243,
+        "pv_transparent_throughput": 0.17927699627637567,
+        "pv_coded_throughput": 0.5980812991311544,
+        "mean_kappa": 2.6495655771617708
+      }
+    }
+  }
+}

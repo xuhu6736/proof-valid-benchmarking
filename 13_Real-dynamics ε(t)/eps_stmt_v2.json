@@ -1,0 +1,83 @@
+[
+ {
+  "window": "20260401->20260501",
+  "months": 1,
+  "n_entities": 1739,
+  "n_statements": 58804,
+  "removed": 108,
+  "eps_stmt": 0.0018366097544384736,
+  "eps_stmt_ci95": [
+   0.0015,
+   0.0022
+  ],
+  "eps_stmt_exschema": 0.0018404594332066598,
+  "eps_stmt_exschema_ci95": [
+   0.0015,
+   0.0022
+  ],
+  "entity_any_removal": 0.04370327774583094,
+  "entity_any_removal_ci95": [
+   0.0351,
+   0.0544
+  ],
+  "entity_any_removal_exschema": 0.04370327774583094,
+  "entity_any_removal_exschema_ci95": [
+   0.0351,
+   0.0544
+  ]
+ },
+ {
+  "window": "20260401->20260701",
+  "months": 3,
+  "n_entities": 1739,
+  "n_statements": 58804,
+  "removed": 288,
+  "eps_stmt": 0.004897626011835929,
+  "eps_stmt_ci95": [
+   0.0044,
+   0.0055
+  ],
+  "eps_stmt_exschema": 0.003749084030606159,
+  "eps_stmt_exschema_ci95": [
+   0.0033,
+   0.0043
+  ],
+  "entity_any_removal": 0.09488211615871191,
+  "entity_any_removal_ci95": [
+   0.082,
+   0.1096
+  ],
+  "entity_any_removal_exschema": 0.07533064979873491,
+  "entity_any_removal_exschema_ci95": [
+   0.0638,
+   0.0887
+  ]
+ },
+ {
+  "window": "20260401->20260801",
+  "months": 4,
+  "n_entities": 1739,
+  "n_statements": 58804,
+  "removed": 331,
+  "eps_stmt": 0.005628868784436433,
+  "eps_stmt_ci95": [
+   0.0051,
+   0.0063
+  ],
+  "eps_stmt_exschema": 0.004175116306811404,
+  "eps_stmt_exschema_ci95": [
+   0.0037,
+   0.0047
+  ],
+  "entity_any_removal": 0.10810810810810811,
+  "entity_any_removal_ci95": [
+   0.0944,
+   0.1236
+  ],
+  "entity_any_removal_exschema": 0.07993099482461184,
+  "entity_any_removal_exschema_ci95": [
+   0.0681,
+   0.0936
+  ]
+ }
+]
