@@ -1,0 +1,69 @@
+{
+ "source": "closed-form evaluation on the E11 strict/loose families rebuilt from data/hotpot_validation.parquet; Monte-Carlo curves from e11_or_strict_results.json (seed 42, 20 reps)",
+ "distinct_alternative_leaf": "a (document title, sentence index) pair containing the answer string and not in the gold supporting-fact set",
+ "questions_with_duplicate_alternative_leaves": 0,
+ "eps": [
+  0.05,
+  0.1,
+  0.2,
+  0.3,
+  0.4,
+  0.5
+ ],
+ "families": {
+  "strict": {
+   "exact_family_average": [
+    0.899119,
+    0.805336,
+    0.63761,
+    0.494131,
+    0.372516,
+    0.270653
+   ],
+   "mc_average": [
+    0.898683,
+    0.804159,
+    0.638697,
+    0.493093,
+    0.373457,
+    0.271168
+   ],
+   "mc_minus_exact": [
+    -0.000436,
+    -0.001176,
+    0.001087,
+    -0.001039,
+    0.000941,
+    0.000515
+   ],
+   "max_abs_difference": 0.001176
+  },
+  "loose": {
+   "exact_family_average": [
+    0.920561,
+    0.846129,
+    0.711173,
+    0.592985,
+    0.489496,
+    0.398611
+   ],
+   "mc_average": [
+    0.920392,
+    0.845483,
+    0.711344,
+    0.594126,
+    0.49,
+    0.398967
+   ],
+   "mc_minus_exact": [
+    -0.000169,
+    -0.000646,
+    0.00017,
+    0.001141,
+    0.000504,
+    0.000356
+   ],
+   "max_abs_difference": 0.001141
+  }
+ }
+}

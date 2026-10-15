@@ -1,0 +1,162 @@
+{
+ "n_replace_total": 32873,
+ "n_replace_with_answers": 32873,
+ "top_relations": {
+  "population": 24189,
+  "Elo rating": 1419,
+  "member of sports team": 1405,
+  "patronage": 1046,
+  "located in the administrative territorial entity": 694,
+  "position held": 599,
+  "head coach": 473,
+  "head of government": 389,
+  "official name": 233,
+  "chairperson": 217,
+  "league": 184,
+  "employees": 157,
+  "BTI Status Index": 130,
+  "officeholder": 128,
+  "BTI Governance Index": 121
+ },
+ "popularity_quantiles": {
+  "0.1": 2.3513752571634776,
+  "0.5": 3.979681653901961,
+  "0.9": 7.690834529440113
+ },
+ "n_subjects_unique": 30975,
+ "replaces_per_subject_mean": 1.061275221953188,
+ "top_subjects": {
+  "San Rafael": 12,
+  "Kita-ku": 11,
+  "San Isidro": 10,
+  "Nishi-ku": 9,
+  "Minami-ku": 9,
+  "San Pedro": 9,
+  "San Juan": 8,
+  "San Antonio": 8,
+  "Higashi-ku": 7,
+  "Misato": 7
+ },
+ "examples": [
+  {
+   "subj": "United States of America",
+   "rel": "head of government",
+   "old_answer": "Donald Trump",
+   "new_answer": "Joe Biden"
+  },
+  {
+   "subj": "Cristiano Ronaldo",
+   "rel": "league",
+   "old_answer": "Premier League",
+   "new_answer": "Saudi Professional League"
+  },
+  {
+   "subj": "India",
+   "rel": "head of state",
+   "old_answer": "Ram Nath Kovind",
+   "new_answer": "Droupadi Murmu"
+  },
+  {
+   "subj": "United Kingdom",
+   "rel": "head of government",
+   "old_answer": "Boris Johnson",
+   "new_answer": "Rishi Sunak"
+  },
+  {
+   "subj": "United Kingdom",
+   "rel": "head of state",
+   "old_answer": "Elizabeth II",
+   "new_answer": "Charles III"
+  },
+  {
+   "subj": "Lionel Messi",
+   "rel": "head coach",
+   "old_answer": "Mauricio Pochettino",
+   "new_answer": "Christophe Galtier"
+  },
+  {
+   "subj": "Manchester United F.C.",
+   "rel": "head coach",
+   "old_answer": "Ole Gunnar Solskj\u00e6r",
+   "new_answer": "Erik ten Hag"
+  },
+  {
+   "subj": "Meta Platforms",
+   "rel": "official name",
+   "old_answer": "Facebook, Inc.",
+   "new_answer": "Meta Platforms, Inc."
+  },
+  {
+   "subj": "Japan",
+   "rel": "age of majority",
+   "old_answer": "20",
+   "new_answer": "18"
+  },
+  {
+   "subj": "Japan",
+   "rel": "head of government",
+   "old_answer": "Yoshihide Suga",
+   "new_answer": "Fumio Kishida"
+  },
+  {
+   "subj": "New York City",
+   "rel": "head of government",
+   "old_answer": "Bill de Blasio",
+   "new_answer": "Eric Adams"
+  },
+  {
+   "subj": "Amazon",
+   "rel": "chief executive officer",
+   "old_answer": "Jeff Bezos",
+   "new_answer": "Andy Jassy"
+  },
+  {
+   "subj": "Canada",
+   "rel": "head of state",
+   "old_answer": "Elizabeth II",
+   "new_answer": "Charles III"
+  },
+  {
+   "subj": "Australia",
+   "rel": "head of government",
+   "old_answer": "Scott Morrison",
+   "new_answer": "Anthony Albanese"
+  },
+  {
+   "subj": "Dua Lipa",
+   "rel": "unmarried partner",
+   "old_answer": "Anwar Hadid",
+   "new_answer": "Jack Harlow"
+  },
+  {
+   "subj": "Maryland",
+   "rel": "head of government",
+   "old_answer": "Larry Hogan",
+   "new_answer": "Wes Moore"
+  },
+  {
+   "subj": "Germany",
+   "rel": "head of government",
+   "old_answer": "Angela Merkel",
+   "new_answer": "Olaf Scholz"
+  },
+  {
+   "subj": "Leonardo DiCaprio",
+   "rel": "unmarried partner",
+   "old_answer": "Camila Morrone",
+   "new_answer": "Gigi Hadid"
+  },
+  {
+   "subj": "Chelsea F.C.",
+   "rel": "head coach",
+   "old_answer": "Frank Lampard",
+   "new_answer": "Graham Potter"
+  },
+  {
+   "subj": "Chelsea F.C.",
+   "rel": "chairperson",
+   "old_answer": "Bruce Buck",
+   "new_answer": "Todd Boehly"
+  }
+ ]
+}

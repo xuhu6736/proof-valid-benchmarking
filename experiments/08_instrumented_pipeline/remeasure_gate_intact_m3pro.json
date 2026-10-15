@@ -1,0 +1,15 @@
+{
+ "platform": {
+  "chip": "Apple M3 Pro",
+  "arch": "arm64",
+  "python": "3.12.14"
+ },
+ "note": "gate check on intact certificates: no erasure, every leaf verified (hash + flags), no early exit; same code path and platform as remeasure_timing_m3pro.json",
+ "n_samples": 20000,
+ "gate_us_intact": {
+  "median": 0.666,
+  "p95": 1.541,
+  "p99": 1.916,
+  "mean": 0.6399104499999999
+ }
+}

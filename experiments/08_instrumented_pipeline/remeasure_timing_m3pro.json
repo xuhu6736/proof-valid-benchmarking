@@ -1,0 +1,27 @@
+{
+ "platform": {
+  "chip": "Apple M3 Pro",
+  "arch": "arm64",
+  "memory_GiB": 18,
+  "python": "3.12.14",
+  "note": "timed operations exclude sentence embeddings (batch-precomputed, memory-resident); policy and presentation flags stubbed-allow"
+ },
+ "n_questions": 7405,
+ "retrieval_proxy": "question own 10 context documents stand in for retrieved top-10 (same byte distribution); timed operations are retrieval-independent",
+ "construction_us": {
+  "median": 9.041,
+  "p95": 12.042,
+  "p99": 14.083,
+  "mean": 9.289634841323428
+ },
+ "gate_us": {
+  "median": 0.417,
+  "p95": 1.167,
+  "p99": 1.709,
+  "n_samples": 20000
+ },
+ "cert_metadata_bytes": {
+  "median": 912.0,
+  "p95": 912.0
+ }
+}

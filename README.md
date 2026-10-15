@@ -1,177 +1,146 @@
-# Proof-Valid Benchmarking for Approximate LLM Caching under Premise Erasures
+# Proof-Valid Serving and Benchmarking for Approximate LLM Caches — Experiment Artifact
 
-Experimental code and result artifacts for the paper
+This repository contains the complete experimental programs, data, and result
+artifacts for the paper
 
-> **Proof-Valid Benchmarking for Approximate LLM Caching under Premise Erasures**
-> Jianfeng Xu — Koguan School of Law, China Institute for Smart Justice, School of Computer Science, Shanghai Jiao Tong University
-> ChinaXiv:202608.00158v1 · *Sci China Inf Sci* (under review)
+> J. Xu, *Proof-Valid Serving and Benchmarking for Approximate LLM Caches
+> under Premise Erasure* (companion to *Partial Path Interception in
+> Derivation DAGs: Exact Reliability Laws and a Sharp Complexity Dichotomy*,
+> arXiv:2608.11782).
 
-- Paper (ChinaXiv): -
-- Repository: https://github.com/xuhu6736/proof-valid-benchmarking
+Every number, table, and figure in the paper can be audited against the
+retained result artifacts in this repository, and all figures and tables can
+be regenerated from them. Unless stated otherwise, all stochastic experiments
+use **seed 42** and **20 Monte-Carlo repetitions**. Microsecond timings were
+measured on an Apple M3 Pro as a separate memory-resident context-record
+microbenchmark (see
+`experiments/08_instrumented_pipeline/remeasure_timing_m3pro.json`).
 
----
+**Reproducibility boundary (snapshot change-detection audit).** The locally
+derived per-page JSON inputs of the original 2026 snapshot run are no longer
+retained in the authors' local environment. The configuration-level counts,
+paired comparison summaries (`constructor_results_v4.json`), and the retained
+per-entity outputs (`constructor_results.json`, 1,511-entity panel) are
+archived here, and the paper's matched selector×matcher comparison
+(`constructor_ablation_2x2.json`) is a re-aggregation of those retained
+outputs; end-to-end re-execution of the snapshot extraction pipeline requires
+recovering the corresponding historical snapshot inputs and panel mappings.
 
-## Overview
+## Repository layout
 
-Approximate caches for large language models reuse a stored answer when a new prompt is *semantically close* to a cached one. Similarity alone, however, does not establish that the evidence supporting the stored answer is still available. **Proof-valid benchmarking (PVB)** redefines cache serving as a proof obligation: a cached answer may be served only with a **certificate** whose premises survive a controlled **premise-erasure stress test**. An embedding hit whose premises have been erased is *declined and regenerated*, rather than silently served.
-
-The paper provides:
-
-1. **The PVB framework** — response-conditioned evidence-support DAGs, premise-leaf feature records, and an explicit certificate-construction interface.
-2. **Exact reliability laws** — the residual-premise law `Pr[serve] = (1 - ε)^{e_q(S)}`, with closed-form reliability thresholds and the exact transparent-storage baseline.
-3. **Protection mechanisms and their limits** — semantic-module selection (NP-complete, with a greedy logarithmic guarantee), a certificate-based coded converse (proof *size*, not embedding dimension, sets the storage floor), and the corrected residual-code hybrid law under a common erasure realization.
-4. **Three-layer experimental closure** plus a **real-dynamics harm audit** on live 2026 Wikipedia/Wikidata snapshots.
-
-### Headline results
-
-| Result | Value |
-| --- | --- |
-| Exact law vs. Monte-Carlo (grounded HotpotQA) | agreement within **0.00095** |
-| Exact law vs. instrumented pipeline | agreement within **0.0016** |
-| Certificate construction / gate cost | **38 µs** / **1.6 µs** per question |
-| Module-sharing savings (ρ = 0.5) | **44.6%** (HotpotQA), **71.9%** (MuSiQue) |
-| Coded advantage at equal budget | **+0.51** (κ = 10), **+0.77** (κ = 20) |
-| Measured premise erasure ε(t), 1→4 months | **1.61% → 5.21%** |
-| Gate interception / false rejection on real 2026 changes | **44.6%** / **11.1%** |
-
----
-
-## Repository structure
-
-Each numbered directory implements one experiment from the paper (Table A4). The naming follows the experiment inventory in Appendix A.6.
-
-| Directory | Experiment | Data | Key artifact(s) | Paper |
-| --- | --- | --- | --- | --- |
-| `01_Grounded audit + stress` | Distribution audit + grounded stress test, proxy-bias measurement | HP + SQ/LA | `results_grounded.json` | §6.1, Fig. 2 |
-| `02_Constructor noise` | Constructor-error sensitivity (Proposition 4 tightness) | HP | `e13_constructor_noise_results.json` | §6.1 |
-| `03_Coded regime + converse` | Coded/hybrid regime map + certificate floor (Thm. 5-6) | HP | `coded_regime_results.json` | §6.2, Fig. 3 |
-| `04_OR redundancy (loose_strict)` | Disjunctive certificate families (Proposition 2 bookends) | HP | `e11_or_strict_results.json` | §6.2, Fig. 4 |
-| `05_Module selection` | Module selection at the NP-complete boundary (Thm. 3, Prop. 4) | HP + MQ | `module_selection_results.json`, `e12_module_musique_results.json` | §6.2, Fig. 5 |
-| `06_Gain curve (natural certs)` | Coded-advantage curve on natural full-context certificates | HP + MQ | `e6b_natural_context_results.json` | §6.2, Fig. 6 |
-| `07_Grounded operating points` | Grounded operating-point comparison (three cache semantics) | HP + MQ | `grounded_operating_results.json`, `TableA1.tex` | §6.2, Tab. A1 |
-| `08_Instrumented pipeline` | Instrumented-provenance pipeline, closed-loop validation | HP (66,581 docs) | `e8_pipeline_results.json` | §6.3, Fig. 7 |
-| `09_Correlated erasure` | Document-level correlated + bursty erasure (i.i.d. boundary) | HP + MQ | `e9_correlated_results.json` | §6.3, Fig. 8 |
-| `10_Pareto frontiers` | Error-vs-throughput Pareto frontiers (similarity-only vs. PVB) | HP | `e10_pareto_results.json` | §6.4, Fig. 9 |
-| `11_Regeneration acceptance` | Embedding-judge acceptance test for the regeneration envelope | HP | `regeneration_results.json` | App. B, Fig. B1 |
-| `12_Trace operating points` | End-to-end stress test on the two vCache benchmark traces | SQ + LA | `trace_endpoints_results.json`, `trace_endpoints_sq_results.json`, `TableA3.tex` | App. A, Tab. A3 |
-| `13_Real-dynamics ε(t)` | Measured premise-erasure curve ε(t) on 2026 Wikipedia/Wikidata snapshots | EN + WD 2026 | `eps_t.json`, `eps_stmt_v2.json`, `Table1.tex` | §6.5, Fig. 10(a) |
-| `14_Gate audit on real changes` | End-to-end interception/false-rejection audit of the serving gate | EN + WD 2026, TW panel | `constructor_results_v4.json`, `goldstandard_panel_2026.json`, `Table2.tex` | §6.5, Fig. 11 |
-| `15_Harm scale + popularity` | Harm scale by subject popularity (WikiFactDiff legacy) | WikiFactDiff | `wfd_popularity_workload.json`, `workload_corrected_2026.json` | §6.5, Fig. 10(b) |
-
-**Data key:** HP = HotpotQA distractor validation (7,405 questions); MQ = MuSiQue full dev split (2,417 answerable); SQ/LA = vCache SemBenchmark SearchQueries/LmArena (20,000 prompts each); TW = TemporalWiki probe subjects; EN/WD = Wikimedia enwiki/wikidatawiki 2026 snapshots.
-
-> **Note on figure naming.** Committed figure PDFs are named by their *internal* experiment labels (`fig1a_*`, `fig2a_*`, …, `fig15_*`), which do not coincide with the paper's figure numbers. The mapping is: `fig1a/b/c` → paper Fig. 2(a/b/c); `fig2a/b` → Fig. 3(a/b); `fig3` → Fig. 4; `fig4a/b` → Fig. 5(a/b); `fig5a/b` → Fig. 6(a/b); `fig7` → Fig. B1; `fig13` → Fig. 7; `fig14` → Fig. 8; `fig15` → Fig. 9.
-
----
-
-## Installation
-
-Python 3.9+ recommended. The scripts depend on:
-
-```bash
-pip install numpy pandas scipy matplotlib pyarrow statsmodels \
-            sentence-transformers torch fsspec aiohttp requests
+```
+data/                          Shared inputs for the benchmark experiments
+  hotpot_validation.parquet    HotpotQA distractor validation split (7,405 questions)
+  question_emb.npy             Question embeddings (all-MiniLM-L6-v2)
+  trace_class_sizes.npz        vCache trace class-size distributions (proxy layer)
+  musique_full_dev.jsonl       MuSiQue full dev set (4,834 records; 2,417 answerable)
+  musique_question_emb.npy     MuSiQue question embeddings
+  gptcache_matches.npz         Cached GPTCache match index for the pipeline run
+  azure_conv_slice.csv         13.3 h Azure conversation-trace slice (replay input)
+experiments/
+  01_grounded_audit/           Fig. 2 — footprint audit + grounded stress test
+  02_constructor_noise/        Constructor-noise sensitivity (Appendix)
+  03_coded_regime/             Fig. 3 — coded regime map, MDS parity, converse band
+  04_or_redundancy/            Fig. 9 — loose/strict OR redundancy (bookends)
+  05_module_selection/         Fig. 4 — shared-root module selection (HotpotQA + MuSiQue)
+  06_gain_curve/               Fig. 10 — coded-advantage gain curve on natural certificates
+  07_grounded_operating_points/ Table 2 — grounded operating-point availability
+  08_instrumented_pipeline/    Fig. 5 — retrieval grounding, record availability, overhead
+  09_correlated_erasure/       Fig. 6 — document-correlated and matched-marginal burst erasure
+  10_pareto_frontiers/         Fig. 11 — error–throughput operating curves (1x4 panels)
+  11_trace_operating_points/   Tables 5–6 — trace configuration and operating points
+                               (SemBenchmark SearchQueries + LmArena)
+  12_real_dynamics_audit/      Fig. 8, Table 4 — 2026 Wikipedia/Wikidata
+                               real-dynamics audit; Fig. 12, Tables 8–9 —
+                               snapshot change-detection audit and constructor frontier
+  13_production_trace_replay/  Fig. 7, Table 3 — Azure conversation-trace cost
+                               projection and trace-driven single-server queueing check
 ```
 
-The encoder used throughout is `all-MiniLM-L6-v2` (via `sentence-transformers`); `torch` is required only as a sentence-transformers backend.
+Each experiment folder contains the run script(s), the canonical result
+JSON(s) cited in the paper's experiment-inventory table, the figure-replot
+script (where the published figure was re-rendered for the final layout), and
+the final figure PDF(s) exactly as they appear in the paper.
 
----
+## Environment
 
-## Data preparation
+Python 3.10+ with: `numpy pandas scipy matplotlib pyarrow requests`
+(plus `sentence-transformers torch` only if embeddings must be regenerated —
+all embedding artifacts needed to reproduce the reported numbers are already
+included in `data/`).
 
-Most experiments read two grounded datasets from a local `data/` directory:
+## Data sources
 
-| File | Source | Notes |
-| --- | --- | --- |
-| `data/hotpot_validation.parquet` | `datasets/hotpotqa/hotpot_qa` (config `distractor`, validation split) | human-annotated `supporting_facts` |
-| `data/musique_full_dev.jsonl` | `datasets/MuSiQue` (full dev split) | 4,834 records, 2,417 answerable |
-| `data/question_emb.npy`, `data/doc_emb.npy` | generated by `08_Instrumented pipeline/embed_docs_sliced.py` | `all-MiniLM-L6-v2` embeddings |
+Included in this repository:
 
-Some scripts resolve `data/` relative to the working directory (`data/hotpot_validation.parquet`), others relative to their own location (`os.path.dirname(__file__)/data/…`). The most robust setup is a shared download plus a `data/` **symlink** in each experiment folder.
+- **HotpotQA** distractor validation split and **MuSiQue** dev set (in
+  `data/`; originals: HF `hotpotqa/hotpot_qa`, `dgslibisey/MuSiQue`).
+- **WikiFactDiff** 2021-01-04 → 2023-02-27 atomic-fact diff
+  (`experiments/12_real_dynamics_audit/data/wikifactdiff_20210104_20230227.parquet`;
+  original: the WikiFactDiff release).
+- **TemporalWiki probe pages** (`experiments/12_real_dynamics_audit/data/TWiki_Probes.zip`).
+- **SemBenchmark traces** (Apache-2.0: HF `vCache/SemBenchmarkSearchQueries`,
+  `vCache/SemBenchmarkLmArena`). The 20,000-row trimmed working copies are in
+  `experiments/11_trace_operating_points/data/`. The full parquets are *not*
+  bundled (12 GB); `_dl_trace_emb.py` refetches the required columns from the
+  Hugging Face hub over HTTP range requests.
+- **2026 English Wikipedia / Wikidata snapshots** (2026-04-01 … 2026-08-01):
+  public Wikimedia dumps, re-downloaded by
+  `experiments/12_real_dynamics_audit/fetch_api.py` and the
+  `wd_pipeline*.py` / `rebuild_*.py` chain. The derived per-entity statement
+  diff and audit results are included as JSON.
 
-- `01_Grounded audit + stress` and `12_Trace operating points` fetch the vCache SemBenchmark traces (and HotpotQA, in the case of 01) directly over HTTP range requests, so they do not require the parquet to be pre-downloaded.
-- `13`–`15` implement the **real-dynamics audit**: they download Wikimedia dump snapshots (enwiki/wikidatawiki, 2026) and read/write under `/tmp/pvb_data` and `/mnt/agents/output/pvb_pilot` (Linux paths). These are heavyweight downloads and are best run on a Linux machine with adequate disk.
+## Experiment-to-paper map
 
----
+| Paper item | Folder | Main script(s) | Canonical result JSON(s) |
+|---|---|---|---|
+| Fig. 2 grounded audit + stress | `01_grounded_audit` | `run_grounded_experiment.py`, `measure_overhead.py` | `results_grounded.json`, `overhead_results.json` |
+| Constructor noise (Appendix) | `02_constructor_noise` | `run_constructor_noise_experiment.py` | `e13_constructor_noise_results.json`, `e13_unbalanced_sensitivity.json` |
+| Fig. 3 coded regime + converse | `03_coded_regime` | `run_coded_regime_experiment.py` | `coded_regime_results.json` |
+| Fig. 9 OR redundancy | `04_or_redundancy` | `run_or_redundancy_strict_experiment.py`, `compute_exact_family_agreement.py` | `e11_or_strict_results.json`, `e11_exact_family_agreement.json` |
+| Fig. 4 module selection | `05_module_selection` | `run_module_selection_experiment.py`, `run_module_selection_musique_experiment.py`, `verify_closed_form.py` | `module_selection_results.json`, `e12_module_musique_results.json`, `module_closed_form_verification.json` |
+| Fig. 10 gain curve | `06_gain_curve` | `run_gain_curve_experiment.py`, `run_natural_context_curve_experiment.py` | `gain_curve_results.json`, `e6b_natural_context_results.json` |
+| Table 2 grounded operating points | `07_grounded_operating_points` | `run_grounded_operating_experiment.py` | `grounded_operating_results.json` |
+| Fig. 5 instrumented pipeline | `08_instrumented_pipeline` | `embed_docs_sliced.py` (doc embeddings), `run_pipeline_experiment.py`, `run_retrieval_grounding_experiment.py`, `remeasure_timing_m3pro.py`, `measure_gate_intact_m3pro.py` | `e8_pipeline_results.json`, `remeasure_timing_m3pro.json`, `remeasure_gate_intact_m3pro.json`, `e8_timings_m3pro.npz` |
+| Fig. 6 correlated erasure | `09_correlated_erasure` | `run_correlated_erasure_experiment.py`, `run_correlated_erasure_matched.py` | `e9_correlated_results_matched.json` (canonical; `e9_correlated_results.json` is the earlier unmatched burst arm) |
+| Fig. 7 + Table 3 production-trace projection + queueing | `13_production_trace_replay` | `replay_azure_trace.py` | `azure_replay_results.json` |
+| Fig. 11 operating curves | `10_pareto_frontiers` | `run_pareto_frontier_experiment.py` | `e10_pareto_results.json` |
+| Tables 5–6 trace operating points | `11_trace_operating_points` | `run_experiment.py`, `run_supplement_sq.py` | `trace_endpoints_results.json`, `trace_endpoints_sq_results.json` |
+| Fig. 8 + Table 4 real dynamics | `12_real_dynamics_audit` | `eps_t.py`, `wd_pipeline.py`, `wd_pipeline_v2.py`, `module1_wikifactdiff.py`, `module2_analyze.py`, `make_figures_eps_v2.py` | `eps_t.json`, `eps_stmt_v2.json`, `wfd_popularity_workload.json`, `workload_corrected_2026.json` |
+| Fig. 12 + Tables 8–9 gate-audit operating points and ablation | `12_real_dynamics_audit` | `constructor_lab.py` … `constructor_lab4.py`, `compute_matched_ablation.py`, `make_frontier_fig.py`, `analyze_roc.py`, `roc_close.py` | `constructor_results_v4.json`, `constructor_results.json` (per-entity), `constructor_ablation_2x2.json`, `statement_diff_v2_2026.json` |
 
-## Reproducing the experiments
+## Naming notes (please read before citing artifact files)
 
-From the repository root, with `data/` prepared as above:
+- `trace_endpoints_results.json` / `trace_endpoints_sq_results.json` are the
+  canonical names used in the paper. They are, respectively, the LmArena main
+  run summary (static quantile 0.9) and the supplementary SearchQueries run
+  summary (static quantile 0.70); the paper's endpoint table reads LmArena
+  rows from the former and SearchQueries rows from the latter.
+- The joined 1,511-entity gold-standard panel (proxy labels per entity) is
+  not stored as a separate file: its per-entity constructor outputs are
+  retained in `constructor_results.json`, its configuration-level aggregate
+  statistics are exactly `constructor_results_v4.json` (130 proxy-positive /
+  1,381 proxy-negative entities), and the proxy labels derive from
+  `statement_diff_v2_2026.json` (per-entity removed-statement diffs).
+  Rebuilding the panel itself additionally requires the historical snapshot
+  page inputs, which are no longer retained locally (see the reproducibility
+  boundary above).
+- Figure-replot scripts (`replot_*.py`, `make_figures_eps_v2.py`,
+  `make_frontier_fig.py`) only re-render published figures from the archived
+  JSONs; they never recompute measurements.
 
-```bash
-# §6.1  Grounded audit + stress (downloads HotpotQA + vCache traces over HTTP)
-python3 "01_Grounded audit + stress/run_grounded_experiment.py" --out ./results
+## GitHub size note
 
-# §6.1  Constructor-noise sensitivity
-python3 "02_Constructor noise/run_constructor_noise_experiment.py"
-
-# §6.2  Coded regime + converse
-python3 "03_Coded regime + converse/run_coded_regime_experiment.py"
-
-# §6.2  OR redundancy (loose vs. strict certificates)
-python3 "04_OR redundancy (loose_strict)/run_or_redundancy_strict_experiment.py"
-
-# §6.2  Module selection (HotpotQA + MuSiQue)
-python3 "05_Module selection/run_module_selection_experiment.py"
-python3 "05_Module selection/run_module_selection_musique.py"
-
-# §6.2  Gain curve on natural full-context certificates
-python3 "06_Gain curve (natural certs)/run_natural_context_curve_experiment.py"
-
-# §6.2  Grounded operating points
-python3 "07_Grounded operating points/run_grounded_operating_experiment.py"
-
-# §6.3  Instrumented pipeline (requires precomputed question/doc embeddings)
-python3 "08_Instrumented pipeline/embed_docs_sliced.py"
-python3 "08_Instrumented pipeline/run_pipeline_experiment.py"
-
-# §6.3  Correlated + bursty erasure
-python3 "09_Correlated erasure/run_correlated_erasure_experiment.py"
-
-# §6.4  Pareto frontiers
-python3 "10_Pareto frontiers/run_pareto_frontier_experiment.py"
-
-# App. B  Regeneration acceptance
-python3 "11_Regeneration acceptance/run_regeneration_experiment.py"
-
-# App. A  Trace operating points (vCache traces; re-checks archived numbers if embeddings present)
-python3 "12_Trace operating points/run_trace_endpoints_experiment.py"
-
-# §6.5  Real-dynamics audit (heavy; Wikimedia dumps, Linux paths)
-python3 "13_Real-dynamics ε(t)/full_orchestrator.py"
-python3 "14_Gate audit on real changes/constructor_lab.py" validate
-python3 "15_Harm scale + popularity/make_wfd_popularity_workload.py"
-```
-
-All stochastic experiments use **seed 42**, the erasure grid `{0, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5}`, and a reliability target `δ = 0.02` (the paper's main configuration). Committed result JSONs were produced by the scripts as written; re-running regenerates the figures and re-checks the archived numbers.
-
----
-
-## Result artifacts
-
-Beyond the scripts, each folder contains the archived artifacts from the paper:
-
-- **JSON result summaries** — the endpoint values cited in the paper (e.g. `results_grounded.json`, `e8_pipeline_results.json`, `eps_t.json`), read verbatim by the paper's tables and figures; nothing is smoothed or extrapolated.
-- **Figure PDFs** — `*_scis.pdf` files (see the naming note above).
-- **LaTeX tables** — `Table1.tex` (measured ε(t)), `Table2.tex` (gate operating points), `TableA1.tex` (grounded operating points), `TableA3.tex` (trace operating points).
-
----
-
-## Citation
-
-```bibtex
-@misc{xu2026proofvalid,
-  title   = {Proof-Valid Benchmarking for Approximate LLM Caching under Premise Erasures},
-  author  = {Jianfeng Xu},
-  year    = {2026},
-  note    = {ChinaXiv:202608.00158v1},
-  howpublished = {\url{https://chinaxiv.org/abs/202608.00158}},
-  journal = {Sci China Inf Sci (under review)}
-}
-```
-
----
+`experiments/11_trace_operating_points/data/SemBenchmarkLmArena_trimmed.parquet`
+is 101 MB, marginally above GitHub's 100 MB per-file limit — track it with
+Git LFS, or exclude it and regenerate with `_dl_trace_emb.py`. All other
+files are below the limit. The full repository is intended to be archived on
+Zenodo (or another DOI minting service) as-is.
 
 ## License
 
-This repository accompanies a paper under review. The code and artifacts are released for reproducibility purposes; please cite the paper if you use them.
+The SemBenchmark trace data are redistributed under their original
+Apache-2.0 license; HotpotQA, MuSiQue, WikiFactDiff, TemporalWiki, and
+Wikimedia dump derivatives remain under their respective original licenses.
+Scripts and derived result JSONs are released for academic reproduction of
+the paper.

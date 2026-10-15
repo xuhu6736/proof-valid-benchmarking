@@ -1,0 +1,11 @@
+{
+ "n_pages": 1749,
+ "page_edit_rate_4mo": 0.5866209262435678,
+ "sentence_survival_4mo": 0.9479413704145023,
+ "sentence_erasure_eps": 0.05205862958549767,
+ "edited_pages": 1026,
+ "edited_pages_sentence_loss_mean": 0.05739501294244764,
+ "cert_broken_rate_overall": 0.13664951400800457,
+ "cert_broken_given_edited": 0.23294346978557504,
+ "cert_broken_given_unedited": 0.0
+}

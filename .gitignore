@@ -4,9 +4,6 @@ ChinaXiv202608.00158v1_Proof-Valid-Caching(1).pdf
 # OS junk
 .DS_Store
 
-# Local data (large; download separately, see README)
-data/
-
 # Python
 __pycache__/
 *.pyc

@@ -1,0 +1,49 @@
+{
+ "inputs": {
+  "wfd_window_months": 26,
+  "wfd_hazard_per_month_unweighted": 0.003858384053874887,
+  "wfd_hazard_per_month_popularity_weighted": 0.002176960967364733,
+  "entity_semantic_removal_2026_4mo": 0.038656527249683145,
+  "entity_semantic_removal_2026_4mo_ci95": [
+   0.0302,
+   0.0493
+  ],
+  "gate_lead5_sem": {
+   "interception": 0.3448,
+   "interception_ci95": [
+    0.2356,
+    0.4733
+   ],
+   "false_reject": 0.1455,
+   "false_reject_ci95": [
+    0.1275,
+    0.1655
+   ]
+  }
+ },
+ "stale_serve_error_by_horizon": [
+  {
+   "months": 1,
+   "wfd_unweighted": 0.003858384053874887,
+   "wfd_popularity_weighted": 0.002176960967364733
+  },
+  {
+   "months": 2,
+   "wfd_unweighted": 0.007716768107749774,
+   "wfd_popularity_weighted": 0.004353921934729466
+  },
+  {
+   "months": 4,
+   "wfd_unweighted": 0.015433536215499548,
+   "wfd_popularity_weighted": 0.008707843869458932
+  }
+ ],
+ "gated_end_to_end_4mo": {
+  "baseline_error_4mo_unweighted": 0.015433536215499548,
+  "baseline_error_4mo_weighted": 0.008707843869458932,
+  "residual_error_4mo_unweighted": 0.010112052928395303,
+  "residual_error_4mo_weighted": 0.005705379303269492,
+  "false_reject_cost": 0.1455,
+  "note": "\u6b8b\u4f59\u9519\u8bef = \u57fa\u7ebf \u00d7 (1 \u2212 \u62e6\u622a\u7387); \u62e6\u622a\u7387\u53d6 lead-5 \u8bc1\u4e66\u5728\u8bed\u4e49\u53d8\u66f4\u5b9e\u4f53\u5b50\u96c6\u4e0a\u7684\u5b9e\u6d4b\u503c"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "n_questions": 7405,
+ "docs_per_question_mean": 9.952734638757596,
+ "sentences_per_question_mean": 41.38919648885888,
+ "context_KB": {
+  "mean": 5.359753624029372,
+  "p50": 5.2490234375,
+  "p95": 7.924609374999999,
+  "p99": 9.430546875000001
+ },
+ "supporting_KB": {
+  "mean": 0.8322273537727887,
+  "p50": 0.787109375,
+  "p95": 1.4177734374999993,
+  "p99": 1.7742578125000001
+ },
+ "supporting_fraction_mean": 0.16343851897974285,
+ "sha256_throughput_GBps": 0.23485872892471765,
+ "serving_time_per_question_us": {
+  "sha256_support_us": 3.709463999863753,
+  "sha256_context_us": 29.055738666405276,
+  "version_compare_us": 4.560947999986334,
+  "index_probe_us": 10.18899733329211,
+  "certificate_gate_us": 18.459409333142197,
+  "full_audit_us": 43.80568399968372
+ },
+ "metadata_bytes_per_leaf": {
+  "id": 16,
+  "sha256": 32,
+  "version": 8,
+  "policy": 4,
+  "lineage": 16,
+  "total": 76
+ }
+}

@@ -1,0 +1,132 @@
+{
+  "slice": {
+    "source": "AzureLLMInferenceTrace_conv_1week.csv (dataset-llm-2024 release), first 48 MiB HTTP range slice; complete CSV records only",
+    "citation": "Stojkovic et al., DynamoLLM, HPCA 2025",
+    "requests": 1210573,
+    "span_hours": 13.33709271138889,
+    "windowing": "file order; timestamps verified nondecreasing; ties kept without jitter; offset windows from first timestamp; final partial minute/second excluded"
+  },
+  "arrival": {
+    "mean_rate_req_s": 25.21316189776711,
+    "mean_per_min": 1512.595,
+    "peak_per_min": 2381,
+    "peak_to_mean_min": 1.574116005936817,
+    "peak_per_sec": 61,
+    "interarrival_cv": 1.3284973305199628
+  },
+  "tokens": {
+    "context_mean": 1700.04992263994,
+    "generated_mean": 121.36333950947196,
+    "generated_median": 42,
+    "generated_p99": 813,
+    "generated_max": 1200
+  },
+  "audit_costs_ns": {
+    "gate_check": 670,
+    "record_construct": 9000
+  },
+  "normalized_processing_demand_percent": {
+    "check": {
+      "mean_minute": 0.0016890644166666668,
+      "peak_minute": 0.0026587833333333337,
+      "peak_second": 0.004087
+    },
+    "construct_plus_check": {
+      "mean_minute": 0.02437798941666667,
+      "peak_minute": 0.038373783333333335,
+      "peak_second": 0.058987000000000005
+    }
+  },
+  "queueing_single_server": {
+    "check_fixed_0.67us": {
+      "wait_median_us": 0.0,
+      "wait_p99_us": 0.0,
+      "wait_max_us": 0.67,
+      "q_max": 1,
+      "residual_backlog_at_end": 1,
+      "utilization": 1.6892818471503964e-05
+    },
+    "construct_check_fixed_9.67us": {
+      "wait_median_us": 0.0,
+      "wait_p99_us": 0.0,
+      "wait_max_us": 9.67,
+      "q_max": 1,
+      "residual_backlog_at_end": 1,
+      "utilization": 0.00024381127555140797
+    },
+    "construct_check_empirical_seed42": {
+      "wait_median_us": 0.0,
+      "wait_p99_us": 0.0,
+      "wait_max_us": 138.833,
+      "q_max": 1,
+      "residual_backlog_at_end": 1,
+      "utilization": 0.00024678201400423687
+    }
+  },
+  "queueing_protocol": {
+    "server": "single FCFS, initially empty; f_0 = 0",
+    "arithmetic": "integer nanoseconds relative to first arrival",
+    "queue_length": "waiting requests only; excludes the request in service",
+    "empirical_resampling": "sum of independent draws with replacement from construction and early-exit checking samples; one run, seed 42"
+  },
+  "cost_sensitivity_multiplier": {
+    "1": {
+      "utilization": 0.00024381127555140797,
+      "wait_max_us": 9.67,
+      "q_max": 1
+    },
+    "10": {
+      "utilization": 0.0024381127555140798,
+      "wait_max_us": 180.1,
+      "q_max": 2
+    },
+    "100": {
+      "utilization": 0.0243811275551408,
+      "wait_max_us": 6977.0,
+      "q_max": 8
+    },
+    "1000": {
+      "utilization": 0.24381127555140797,
+      "wait_max_us": 132260.0,
+      "q_max": 14
+    }
+  },
+  "breakeven_mean_service_ms_one_core": 39.66182440959777,
+  "overhead_share_of_modeled_latency_percent": {
+    "20.0": {
+      "check_median_p99": [
+        3.190476190476191e-05,
+        0.0004466666666666667
+      ],
+      "construct_check_median_p99": [
+        0.00046047619047619046,
+        0.006446666666666667
+      ]
+    },
+    "50.0": {
+      "check_median_p99": [
+        7.976190476190477e-05,
+        0.0011166666666666668
+      ],
+      "construct_check_median_p99": [
+        0.0011511904761904764,
+        0.016116666666666668
+      ]
+    },
+    "100.0": {
+      "check_median_p99": [
+        0.00015952380952380954,
+        0.0022333333333333337
+      ],
+      "construct_check_median_p99": [
+        0.002302380952380953,
+        0.032233333333333336
+      ]
+    }
+  },
+  "decode_band_tokens_per_s": [
+    20.0,
+    50.0,
+    100.0
+  ]
+}

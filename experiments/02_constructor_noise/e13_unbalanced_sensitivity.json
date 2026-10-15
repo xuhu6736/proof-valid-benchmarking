@@ -1,0 +1,20 @@
+{
+ "omission-only": {
+  "mean_abs_counterr": 0.6538825118163403,
+  "max_abs_shift": 0.12727014728426744,
+  "signed_shift_at_max": 0.12727014728426744,
+  "mean_signed_shift": 0.09177156184911221
+ },
+ "addition-only": {
+  "mean_abs_counterr": 0.7450371370695476,
+  "max_abs_shift": 0.0820907993564346,
+  "signed_shift_at_max": -0.0820907993564346,
+  "mean_signed_shift": -0.0631975830417244
+ },
+ "balanced": {
+  "mean_abs_counterr": 0.7743416610398379,
+  "max_abs_shift": 0.039755523084064825,
+  "signed_shift_at_max": 0.039755523084064825,
+  "mean_signed_shift": 0.01745680739533943
+ }
+}
