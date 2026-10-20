@@ -1,0 +1,245 @@
+{
+ "ticks": [
+  "20260501",
+  "20260701",
+  "20260801"
+ ],
+ "policies": {
+  "similarity-static": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 6,
+     "served": 147,
+     "decayed_proxy": 4,
+     "wrong_proxy": 13,
+     "fallback": 1
+    },
+    {
+     "tick": "20260701",
+     "abstain": 6,
+     "served": 147,
+     "decayed_proxy": 7,
+     "wrong_proxy": 34,
+     "fallback": 1
+    },
+    {
+     "tick": "20260801",
+     "abstain": 6,
+     "served": 147,
+     "decayed_proxy": 7,
+     "wrong_proxy": 36,
+     "fallback": 1
+    }
+   ],
+   "total_fallbacks": 3,
+   "total_contract_violating_serves_proxy": 83,
+   "total_partially_stale_serves_proxy": 18,
+   "total_abstains": 18,
+   "endpoint_breakdown": {
+    "abstain": 6,
+    "served_correct": 118,
+    "served_incomplete": 17,
+    "served_drift_wrong": 3,
+    "served_indet": 6,
+    "served_wrong": 3,
+    "regen_correct": 1
+   },
+   "endpoint_correct_deliveries": 119
+  },
+  "TTL-1mo": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "fallback": 142,
+     "served": 0,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "fallback": 140,
+     "served": 0,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "fallback": 140,
+     "served": 0,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "total_fallbacks": 422,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 0,
+   "total_abstains": 40,
+   "endpoint_breakdown": {
+    "abstain": 14,
+    "regen_template_proxy": 89,
+    "regen_correct": 43,
+    "regen_incomplete": 8
+   },
+   "endpoint_correct_deliveries": 132
+  },
+  "page-change-loop": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 9,
+     "served": 89,
+     "fallback": 56,
+     "decayed_proxy": 2,
+     "wrong_proxy": 5
+    },
+    {
+     "tick": "20260701",
+     "abstain": 13,
+     "served": 70,
+     "fallback": 71,
+     "decayed_proxy": 1,
+     "wrong_proxy": 9
+    },
+    {
+     "tick": "20260801",
+     "abstain": 13,
+     "served": 94,
+     "fallback": 47,
+     "decayed_proxy": 1,
+     "wrong_proxy": 8
+    }
+   ],
+   "total_fallbacks": 174,
+   "total_contract_violating_serves_proxy": 22,
+   "total_partially_stale_serves_proxy": 4,
+   "total_abstains": 35,
+   "endpoint_breakdown": {
+    "abstain": 13,
+    "served_correct": 35,
+    "regen_correct": 21,
+    "served_incomplete": 6,
+    "served_repaired_proxy": 52,
+    "regen_template_proxy": 22,
+    "served_indet": 1,
+    "regen_incomplete": 4
+   },
+   "endpoint_correct_deliveries": 130
+  },
+  "pvsb-strict-loop": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 123,
+     "fallback": 19,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 110,
+     "fallback": 30,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 136,
+     "fallback": 4,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "total_fallbacks": 53,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 0,
+   "total_abstains": 40,
+   "endpoint_breakdown": {
+    "abstain": 14,
+    "served_correct": 80,
+    "served_repaired_proxy": 47,
+    "served_incomplete": 8,
+    "regen_correct": 3,
+    "regen_incomplete": 1,
+    "served_indet": 1
+   },
+   "endpoint_correct_deliveries": 130
+  },
+  "pvsb-asserted-loop": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 134,
+     "decayed_proxy": 4,
+     "fallback": 8,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 121,
+     "decayed_proxy": 7,
+     "fallback": 19,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 138,
+     "decayed_proxy": 7,
+     "fallback": 2,
+     "wrong_proxy": 0
+    }
+   ],
+   "total_fallbacks": 29,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 18,
+   "total_abstains": 40,
+   "endpoint_breakdown": {
+    "abstain": 14,
+    "served_correct": 100,
+    "served_incomplete": 9,
+    "served_repaired_proxy": 27,
+    "served_indet": 2,
+    "regen_correct": 1,
+    "regen_incomplete": 1
+   },
+   "endpoint_correct_deliveries": 128
+  }
+ },
+ "validations": {
+  "V1_endpoint_reproduction": {
+   "expected": {
+    "strict": 89,
+    "majority": 96,
+    "claims": 104,
+    "asserted": 111
+   },
+   "got": {
+    "strict": 89,
+    "majority": 96,
+    "claims": 104,
+    "asserted": 111
+   }
+  },
+  "V2_writeback_soundness": {
+   "verified": 29,
+   "failed": [],
+   "abstain_no_evidence": 40,
+   "abstain_with_evidence": []
+  },
+  "V3_accounting_complete": true
+ },
+ "notes": [
+  "intermediate-tick regenerations are template-composed from the current truthy values of the same rebuilt snapshots; the 20260801 regenerations are the real cached LLM outputs with human labels",
+  "wrong/decayed serves at intermediate ticks use the deterministic value proxy (asserted/claimed value no longer truthy); the endpoint breakdown uses the human answer labels and incoming-query drift labels",
+  "PVSB write-back adds an evidence-checked retrieval alias, so a regenerated miss becomes a cache hit at later ticks"
+ ]
+}

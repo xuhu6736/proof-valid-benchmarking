@@ -1,0 +1,126 @@
+{
+ "frozen_artifacts": [
+  "s1 pair universe + staleness semantics",
+  "s25 certificate builder and contracts",
+  "s30 byte accounting / greedy 90% rule / fault plan",
+  "s4 base-answer protocol"
+ ],
+ "selection": {
+  "rule": "non-design qids; Wikipedia page present at all four snapshots; >=1 base claim; evidence sentences retrieved by s3's frozen rule (token/year scoring, top 3, lead-sentence fallback); Random(20261017) shuffle; first 50 accepted",
+  "seed": 20261017,
+  "candidates_tried": 181,
+  "panel_size": 50,
+  "qids": [
+   "103760",
+   "1350600",
+   "18746524",
+   "797882",
+   "3352847",
+   "2871004",
+   "2566911",
+   "350538",
+   "10638477",
+   "1638019",
+   "7308296",
+   "11839040",
+   "14944602",
+   "5548947",
+   "30897350",
+   "5005621",
+   "1237940",
+   "20090990",
+   "4698164",
+   "22277167",
+   "23415262",
+   "5538913",
+   "2520530",
+   "16209128",
+   "20666311",
+   "2158370",
+   "277635",
+   "351246",
+   "195455",
+   "6697522",
+   "1100487",
+   "16827413",
+   "296666",
+   "7774484",
+   "7241582",
+   "5228725",
+   "65210349",
+   "7659361",
+   "3168308",
+   "20666311",
+   "2563",
+   "6749265",
+   "75095",
+   "29016796",
+   "3310856",
+   "25426088",
+   "120647",
+   "26130414",
+   "3171430",
+   "934313"
+  ],
+  "value_label_resolution": "value-qid labels fall back to the label stored in the entity snapshot itself",
+  "disclosure": "fresh-only: the stale class was exhausted by the design panel; this check targets protection mechanics, not staleness detection"
+ },
+ "protocol": {
+  "contract": "asserted",
+  "p": 0.1,
+  "seeds": 100,
+  "fallback": "template (structural check; endpoint answer quality out of scope, no human labels)"
+ },
+ "universe": {
+  "items": 162,
+  "total_bytes": 14887,
+  "greedy_set_items": 154,
+  "greedy_bytes": 13377
+ },
+ "checks": {
+  "a_restore_fidelity": {
+   "restores_per_run_fixed": 15.23,
+   "fingerprint_failures": 0,
+   "pass": true
+  },
+  "b_ineligible_never_restored": {
+   "natural_guard_withdrawn_per_run": 0.0,
+   "natural_guard_incompat_per_run": 0.0,
+   "deterministic_flip_test": {
+    "flipped_premise": "103760|P69|Q:Q895796",
+    "gate_served": false,
+    "guard_withdrawn_fired": true,
+    "note": "deterministic eligibility flip; natural guard events were zero on the frozen panel",
+    "pass": true
+   },
+   "pass": true
+  },
+  "c_double_loss_fail_closed": {
+   "both_unreadable_per_run": 1.95,
+   "wrong_serves": 0,
+   "pass": true
+  },
+  "d_writeback_no_false_protection": {
+   "writeback_unprotected_losses_per_run": 0.0,
+   "writeback_false_restores_total": 0,
+   "deterministic_forced_loss_test": {
+    "premise": "Q:999999999|SYNTH",
+    "forced_loss_seed": 2,
+    "restored": false,
+    "note": "deterministic forced source-read loss on a write-back premise outside the protection set",
+    "pass": true
+   },
+   "pass": true
+  },
+  "e_same_budget_direction": {
+   "fallback_mean_none": 16.8,
+   "fallback_mean_fixed": 1.9,
+   "paired_diff_mean": 14.9,
+   "paired_diff_boot95": [
+    14.1,
+    15.7
+   ],
+   "pass": true
+  }
+ }
+}

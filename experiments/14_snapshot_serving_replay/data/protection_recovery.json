@@ -1,0 +1,319 @@
+{
+ "arm1": {
+  "asserted": {
+   "baseline_served": 111,
+   "baseline_decayed_served": 0,
+   "mean_cert_size": 1.5855855855855856,
+   "analytic": [
+    {
+     "p": 0.01,
+     "unprotected": 109.27428256870012,
+     "rand_0.9": 110.82436267361803,
+     "rand_0.95": 110.91209095841525,
+     "fixed_0.9": 109.87029899999997,
+     "full": 111.0
+    },
+    {
+     "p": 0.05,
+     "unprotected": 102.88514365124684,
+     "rand_0.9": 110.12884038105194,
+     "rand_0.95": 110.56224519293976,
+     "fixed_0.9": 105.357375,
+     "full": 111.0
+    },
+    {
+     "p": 0.1,
+     "unprotected": 95.58482079876924,
+     "rand_0.9": 109.27428256870012,
+     "rand_0.95": 110.12884038105194,
+     "fixed_0.9": 99.72900000000007,
+     "full": 111.0
+    },
+    {
+     "p": 0.2,
+     "unprotected": 82.12320189318629,
+     "rand_0.9": 107.60915606744291,
+     "rand_0.95": 109.27428256870012,
+     "fixed_0.9": 88.51199999999999,
+     "full": 111.0
+    }
+   ],
+   "mc_p010": {
+    "rand_0.9": {
+     "mc_mean": 109.2985,
+     "mc_se": 0.028733459256421255,
+     "analytic": 109.27428256870012,
+     "abs_err": 0.024217431299888403
+    },
+    "rand_0.95": {
+     "mc_mean": 110.117,
+     "mc_se": 0.020417245944690552,
+     "analytic": 110.12884038105194,
+     "abs_err": 0.01184038105193963
+    }
+   }
+  },
+  "strict": {
+   "baseline_served": 89,
+   "baseline_decayed_served": 0,
+   "mean_cert_size": 4.426966292134831,
+   "analytic": [
+    {
+     "p": 0.01,
+     "unprotected": 85.17129582424558,
+     "rand_0.9": 88.6071532961742,
+     "rand_0.95": 88.8032889105766,
+     "fixed_0.9": 88.060599,
+     "full": 89.0
+    },
+    {
+     "p": 0.05,
+     "unprotected": 71.72253713495715,
+     "rand_0.9": 87.05837335659497,
+     "rand_0.95": 88.02216453989972,
+     "fixed_0.9": 84.314875,
+     "full": 89.0
+    },
+    {
+     "p": 0.1,
+     "unprotected": 58.0388280873594,
+     "rand_0.9": 85.17129582424558,
+     "rand_0.95": 87.05837335659497,
+     "fixed_0.9": 79.65900000000002,
+     "full": 89.0
+    },
+    {
+     "p": 0.2,
+     "unprotected": 37.671995814872226,
+     "rand_0.9": 81.54880125840454,
+     "rand_0.95": 85.17129582424558,
+     "fixed_0.9": 70.43199999999999,
+     "full": 89.0
+    }
+   ],
+   "mc_p010": {
+    "rand_0.9": {
+     "mc_mean": 85.1815,
+     "mc_se": 0.04266367271443871,
+     "analytic": 85.17129582424558,
+     "abs_err": 0.010204175754424227
+    },
+    "rand_0.95": {
+     "mc_mean": 87.03,
+     "mc_se": 0.030659745758975277,
+     "analytic": 87.05837335659497,
+     "abs_err": 0.028373356594968868
+    }
+   }
+  },
+  "copy_trust_no_audit": {
+   "served": 147,
+   "decayed_served": 8
+  }
+ },
+ "arm2": {
+  "fetched": true,
+  "entries": [
+   {
+    "pid": 24,
+    "qid": "2360382",
+    "prop": "P39",
+    "label": "St\u00e9phane Richard",
+    "asserted": [
+     "Q:Q484876"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q1255921",
+     "Q:Q130297510",
+     "Q:Q428322",
+     "Q:Q708492"
+    ]
+   },
+   {
+    "pid": 33,
+    "qid": "59194713",
+    "prop": "P264",
+    "label": "Morgenshtern",
+    "asserted": [
+     "Q:Q30673858",
+     "Q:Q56760250",
+     "Q:Q100744452",
+     "Q:Q112972756",
+     "Q:Q117033137"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [
+     "Q:Q30673858",
+     "Q:Q100744452",
+     "Q:Q112972756"
+    ],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q100744452",
+     "Q:Q112972756",
+     "Q:Q30673858"
+    ]
+   },
+   {
+    "pid": 48,
+    "qid": "6296829",
+    "prop": "P19",
+    "label": "Jovita Moore",
+    "asserted": [
+     "Q:Q23556"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q60"
+    ]
+   },
+   {
+    "pid": 50,
+    "qid": "40430",
+    "prop": "P2046",
+    "label": "Bahia",
+    "asserted": [
+     "A:+564692"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [],
+    "reverted": false,
+    "now_keys": [
+     "A:+565733"
+    ]
+   },
+   {
+    "pid": 78,
+    "qid": "59194713",
+    "prop": "P106",
+    "label": "Morgenshtern",
+    "asserted": [
+     "Q:Q2252262",
+     "Q:Q177220",
+     "Q:Q753110",
+     "Q:Q639669",
+     "Q:Q17125263"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [
+     "Q:Q2252262",
+     "Q:Q17125263"
+    ],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q17125263",
+     "Q:Q2252262",
+     "Q:Q488205"
+    ]
+   },
+   {
+    "pid": 107,
+    "qid": "59194713",
+    "prop": "P136",
+    "label": "Morgenshtern",
+    "asserted": [
+     "Q:Q3785732",
+     "Q:Q11399",
+     "Q:Q2913982",
+     "Q:Q11401"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [
+     "Q:Q3785732",
+     "Q:Q11399"
+    ],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q11399",
+     "Q:Q3785732"
+    ]
+   },
+   {
+    "pid": 112,
+    "qid": "18345424",
+    "prop": "P27",
+    "label": "Laura Pescatori",
+    "asserted": [
+     "Q:Q29",
+     "Q:Q1098499"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [
+     "Q:Q29"
+    ],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q165040",
+     "Q:Q29"
+    ]
+   },
+   {
+    "pid": 125,
+    "qid": "1601828",
+    "prop": "P106",
+    "label": "Helen Deutsch",
+    "asserted": [
+     "Q:Q28389",
+     "Q:Q1930187",
+     "Q:Q753110",
+     "Q:Q17337766",
+     "Q:Q3455803"
+    ],
+    "hit": true,
+    "verdict_target": false,
+    "asserted_alive_now": [
+     "Q:Q28389",
+     "Q:Q1930187",
+     "Q:Q753110",
+     "Q:Q17337766"
+    ],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q17337766",
+     "Q:Q1930187",
+     "Q:Q214917",
+     "Q:Q28389",
+     "Q:Q3282637",
+     "Q:Q36180",
+     "Q:Q36834",
+     "Q:Q49757",
+     "Q:Q753110"
+    ]
+   },
+   {
+    "pid": 51,
+    "qid": "243439",
+    "prop": "P136",
+    "label": "Full Metal Jacket",
+    "asserted": [
+     "Q:Q369747",
+     "Q:Q130232",
+     "Q:Q52207399"
+    ],
+    "hit": false,
+    "verdict_target": false,
+    "asserted_alive_now": [
+     "Q:Q369747",
+     "Q:Q130232"
+    ],
+    "reverted": false,
+    "now_keys": [
+     "Q:Q130232",
+     "Q:Q369747"
+    ]
+   }
+  ]
+ }
+}

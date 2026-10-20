@@ -1,0 +1,273 @@
+{
+ "n_entries": 154,
+ "n_cells": 770,
+ "n_disagreements": 29,
+ "item_level_agreement": 0.9623,
+ "per_question": {
+  "A1": {
+   "agree": 0.9675,
+   "kappa": 0.809
+  },
+  "A2": {
+   "agree": 0.961,
+   "kappa": 0.904
+  },
+  "A3": {
+   "agree": 0.9805,
+   "kappa": 0.0
+  },
+  "A4": {
+   "agree": 0.9545,
+   "kappa": 0.856
+  },
+  "A5": {
+   "agree": 0.9481,
+   "kappa": 0.91
+  }
+ },
+ "disagreements": [
+  {
+   "pid": 4,
+   "item": "A2",
+   "ann1": "部分支持",
+   "ann2": "支持"
+  },
+  {
+   "pid": 4,
+   "item": "A5",
+   "ann1": "不影响",
+   "ann2": "部分影响"
+  },
+  {
+   "pid": 8,
+   "item": "A1",
+   "ann1": "正确",
+   "ann2": "错误"
+  },
+  {
+   "pid": 8,
+   "item": "A3",
+   "ann1": "不保真",
+   "ann2": "保真"
+  },
+  {
+   "pid": 8,
+   "item": "A4",
+   "ann1": "正确",
+   "ann2": "错误"
+  },
+  {
+   "pid": 18,
+   "item": "A1",
+   "ann1": "无法判断",
+   "ann2": "正确"
+  },
+  {
+   "pid": 18,
+   "item": "A4",
+   "ann1": "无法判断",
+   "ann2": "正确"
+  },
+  {
+   "pid": 18,
+   "item": "A5",
+   "ann1": "无法判断",
+   "ann2": "使其失效"
+  },
+  {
+   "pid": 20,
+   "item": "A2",
+   "ann1": "部分支持",
+   "ann2": "支持"
+  },
+  {
+   "pid": 21,
+   "item": "A4",
+   "ann1": "不完整",
+   "ann2": "正确"
+  },
+  {
+   "pid": 21,
+   "item": "A5",
+   "ann1": "不影响",
+   "ann2": "部分影响"
+  },
+  {
+   "pid": 28,
+   "item": "A2",
+   "ann1": "部分支持",
+   "ann2": "支持"
+  },
+  {
+   "pid": 45,
+   "item": "A2",
+   "ann1": "部分支持",
+   "ann2": "支持"
+  },
+  {
+   "pid": 48,
+   "item": "A1",
+   "ann1": "错误",
+   "ann2": "无法判断"
+  },
+  {
+   "pid": 48,
+   "item": "A2",
+   "ann1": "部分支持",
+   "ann2": "无法判断"
+  },
+  {
+   "pid": 48,
+   "item": "A4",
+   "ann1": "错误",
+   "ann2": "无法判断"
+  },
+  {
+   "pid": 52,
+   "item": "A1",
+   "ann1": "正确",
+   "ann2": "错误"
+  },
+  {
+   "pid": 52,
+   "item": "A3",
+   "ann1": "不保真",
+   "ann2": "保真"
+  },
+  {
+   "pid": 52,
+   "item": "A4",
+   "ann1": "正确",
+   "ann2": "错误"
+  },
+  {
+   "pid": 52,
+   "item": "A5",
+   "ann1": "不影响",
+   "ann2": "使其失效"
+  },
+  {
+   "pid": 56,
+   "item": "A5",
+   "ann1": "无法判断",
+   "ann2": "使其失效"
+  },
+  {
+   "pid": 60,
+   "item": "A4",
+   "ann1": "不完整",
+   "ann2": "正确"
+  },
+  {
+   "pid": 71,
+   "item": "A5",
+   "ann1": "不影响",
+   "ann2": "部分影响"
+  },
+  {
+   "pid": 86,
+   "item": "A5",
+   "ann1": "不影响",
+   "ann2": "部分影响"
+  },
+  {
+   "pid": 95,
+   "item": "A1",
+   "ann1": "正确",
+   "ann2": "错误"
+  },
+  {
+   "pid": 95,
+   "item": "A2",
+   "ann1": "支持",
+   "ann2": "部分支持"
+  },
+  {
+   "pid": 95,
+   "item": "A3",
+   "ann1": "不保真",
+   "ann2": "保真"
+  },
+  {
+   "pid": 95,
+   "item": "A4",
+   "ann1": "正确",
+   "ann2": "错误"
+  },
+  {
+   "pid": 155,
+   "item": "A5",
+   "ann1": "不影响",
+   "ann2": "部分影响"
+  }
+ ],
+ "decayed_ann1": [
+  24,
+  33,
+  48,
+  50,
+  51,
+  78,
+  107,
+  112,
+  125
+ ],
+ "decayed_ann2": [
+  8,
+  24,
+  33,
+  50,
+  51,
+  52,
+  71,
+  78,
+  95,
+  107,
+  112,
+  125,
+  155
+ ],
+ "derived_label_changes": [
+  {
+   "pid": 8,
+   "ann1": "correct",
+   "ann2": "wrong"
+  },
+  {
+   "pid": 18,
+   "ann1": "indet",
+   "ann2": "correct"
+  },
+  {
+   "pid": 48,
+   "ann1": "wrong",
+   "ann2": "indet"
+  },
+  {
+   "pid": 52,
+   "ann1": "correct",
+   "ann2": "wrong"
+  },
+  {
+   "pid": 71,
+   "ann1": "correct",
+   "ann2": "partial"
+  },
+  {
+   "pid": 95,
+   "ann1": "correct",
+   "ann2": "wrong"
+  },
+  {
+   "pid": 155,
+   "ann1": "correct",
+   "ann2": "partial"
+  }
+ ],
+ "ann2_interception": {
+  "strict": 12,
+  "majority": 12,
+  "claims": 12
+ },
+ "ann2_decayed_hits_served_by_similarity": 12
+}

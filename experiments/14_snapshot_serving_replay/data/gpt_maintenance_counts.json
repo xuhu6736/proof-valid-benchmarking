@@ -1,0 +1,47 @@
+{
+ "similarity-static": {
+  "fallbacks": 3,
+  "per_tick": [
+   1,
+   1,
+   1
+  ],
+  "abstains": 18
+ },
+ "TTL-1mo": {
+  "fallbacks": 421,
+  "per_tick": [
+   142,
+   140,
+   139
+  ],
+  "abstains": 41
+ },
+ "page-change-loop": {
+  "fallbacks": 174,
+  "per_tick": [
+   56,
+   71,
+   47
+  ],
+  "abstains": 35
+ },
+ "pvsb-strict-loop": {
+  "fallbacks": 53,
+  "per_tick": [
+   19,
+   30,
+   4
+  ],
+  "abstains": 40
+ },
+ "pvsb-asserted-loop": {
+  "fallbacks": 29,
+  "per_tick": [
+   8,
+   19,
+   2
+  ],
+  "abstains": 40
+ }
+}

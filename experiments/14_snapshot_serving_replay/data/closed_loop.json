@@ -1,0 +1,29 @@
+{
+ "strict": {
+  "served": 89,
+  "served_correct": 88,
+  "served_indet": 1,
+  "served_decayed": 0,
+  "regen_ok": 51,
+  "abstain": 14,
+  "regen_fail": 0
+ },
+ "majority": {
+  "served": 96,
+  "served_correct": 94,
+  "served_indet": 2,
+  "served_decayed": 0,
+  "regen_ok": 44,
+  "abstain": 14,
+  "regen_fail": 0
+ },
+ "claims": {
+  "served": 104,
+  "served_correct": 102,
+  "served_indet": 2,
+  "served_decayed": 0,
+  "regen_ok": 36,
+  "abstain": 14,
+  "regen_fail": 0
+ }
+}

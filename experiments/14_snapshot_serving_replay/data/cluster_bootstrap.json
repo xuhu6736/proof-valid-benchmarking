@@ -1,0 +1,50 @@
+{
+ "B": 10000,
+ "cluster": "entity (qid)",
+ "n_entities": 136,
+ "n_hits": 147,
+ "point": {
+  "dep_stale_share_simonly": 0.2925170068027211,
+  "dep_intact_declined_strict": 0.14423076923076922,
+  "ans_decayed_share_simonly": 0.05442176870748299,
+  "ans_drifted_share_simonly": 0.02040816326530612,
+  "ans_wrong_incoming_share_simonly": 0.07482993197278912,
+  "ans_correct_declined_strict": 0.3220338983050847,
+  "ans_correct_declined_majority": 0.2796610169491525,
+  "ans_correct_declined_claims": 0.211864406779661
+ },
+ "ci95": {
+  "dep_stale_share_simonly": [
+   0.20714285714285716,
+   0.37579617834394907
+  ],
+  "dep_intact_declined_strict": [
+   0.07920792079207921,
+   0.21359223300970873
+  ],
+  "ans_decayed_share_simonly": [
+   0.013888888888888888,
+   0.10596026490066225
+  ],
+  "ans_drifted_share_simonly": [
+   0.0,
+   0.045454545454545456
+  ],
+  "ans_wrong_incoming_share_simonly": [
+   0.028368794326241134,
+   0.12751677852348994
+  ],
+  "ans_correct_declined_strict": [
+   0.23478260869565218,
+   0.4083333333333333
+  ],
+  "ans_correct_declined_majority": [
+   0.19642857142857142,
+   0.3644067796610169
+  ],
+  "ans_correct_declined_claims": [
+   0.1388888888888889,
+   0.288
+  ]
+ }
+}

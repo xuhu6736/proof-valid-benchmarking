@@ -1,0 +1,1083 @@
+{
+ "n_hits": 147,
+ "labels": {
+  "wrong": 3,
+  "partial": 5,
+  "correct": 133,
+  "indet": 6
+ },
+ "baselines": {
+  "page-change": {
+   "served": 43,
+   "decayed_served": 1,
+   "correct_declined": 92,
+   "indet_declined": 5,
+   "declined": 104
+  },
+  "entity-change": {
+   "served": 56,
+   "decayed_served": 0,
+   "correct_declined": 79,
+   "indet_declined": 4,
+   "declined": 91
+  },
+  "prop-change": {
+   "served": 100,
+   "decayed_served": 0,
+   "correct_declined": 35,
+   "indet_declined": 4,
+   "declined": 47
+  },
+  "value-in-page": {
+   "served": 97,
+   "decayed_served": 3,
+   "correct_declined": 41,
+   "indet_declined": 4,
+   "declined": 50
+  },
+  "llm-recheck": {
+   "served": 129,
+   "decayed_served": 3,
+   "correct_declined": 10,
+   "indet_declined": 3,
+   "declined": 18
+  }
+ },
+ "judge_verdicts": {
+  "YES": 129,
+  "NO": 10,
+  "NO_EVIDENCE": 8,
+  "PARSE_FAIL": 0
+ },
+ "per_entry": {
+  "1": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "2": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "3": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "4": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "5": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "6": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "7": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "8": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "9": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "10": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "13": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "14": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "15": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "16": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "17": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "18": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "19": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "20": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "21": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "22": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "23": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "24": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "25": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "26": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "28": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "29": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "30": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "32": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "33": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "34": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "35": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "36": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "37": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "38": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "39": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "40": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "41": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "42": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "43": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "44": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "45": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "46": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "47": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "48": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "49": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "50": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "52": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "53": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "54": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "55": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "56": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "57": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "58": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "59": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "60": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "61": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "62": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "63": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "64": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "65": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "66": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "67": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "68": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "69": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "70": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "71": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "72": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "73": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "74": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "75": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "76": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "77": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "78": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "79": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "80": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "81": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "82": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "83": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "84": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "85": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "86": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "87": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "88": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "89": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "90": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "91": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "92": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "93": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "94": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "95": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "96": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "97": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "99": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "100": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "101": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "102": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "103": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "104": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "105": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "106": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "107": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "108": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "109": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "110": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "111": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "112": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "113": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "114": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "115": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": false
+  },
+  "116": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "117": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "118": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "119": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "120": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "121": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "122": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "124": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "125": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "126": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "127": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "128": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "129": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "131": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "132": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "133": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "134": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "135": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "136": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "137": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "138": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "139": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "140": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "141": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "142": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "143": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "144": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "145": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "146": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "147": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "148": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": false
+  },
+  "149": {
+   "page-change": false,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "150": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "151": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "152": {
+   "page-change": true,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "153": {
+   "page-change": true,
+   "entity-change": true,
+   "prop-change": true,
+   "value-in-page": true,
+   "llm-recheck": true
+  },
+  "154": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": true,
+   "value-in-page": false,
+   "llm-recheck": true
+  },
+  "155": {
+   "page-change": false,
+   "entity-change": false,
+   "prop-change": false,
+   "value-in-page": false,
+   "llm-recheck": true
+  }
+ }
+}

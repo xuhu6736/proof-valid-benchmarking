@@ -1,0 +1,398 @@
+{
+ "2|20260501": {
+  "R1": "不完整",
+  "notes": "「Science fiction action film」为复合体裁表述，涵盖 science fiction film、action film 两项目标值；漏 adventure film、comedy film、fantasy film、dystopian film 共 4 项（目标值共 6 项）。"
+ },
+ "2|20260801": {
+  "R1": "不完整",
+  "notes": "复合体裁表述涵盖 science fiction、action、adventure、comedy 共 4 项目标值；漏 fantasy film、dystopian film 2 项（目标值共 6 项）。"
+ },
+ "4|20260501": {
+  "R1": "不完整",
+  "notes": "「psychological epic war film」为证据句原文表述，涵盖 war film、epic film 目标值（psychological 与 psychological drama/thriller 近似）；漏 drama film、thriller film 等多项（目标值共 12 项）。"
+ },
+ "4|20260801": {
+  "R1": "无法判断",
+  "notes": "答案「anti-war film」不在目标值中，且未给出任何目标体裁，按规则属「给出目标值之外的值」。但：当期证据句[1]原文确称 anti-war film，而[3]称有争议。"
+ },
+ "7|20260801": {
+  "R1": "正确",
+  "notes": "日期格式等价：June 12, 1739 = 1739-06-12。"
+ },
+ "9|20260501": {
+  "R1": "正确",
+  "notes": "「Science fiction horror film」为 horror film 与 science fiction film 两目标值的复合表述，涵盖全部目标值。"
+ },
+ "9|20260801": {
+  "R1": "正确",
+  "notes": "「Science fiction horror film」为 horror film 与 science fiction film 两目标值的复合表述，涵盖全部目标值。"
+ },
+ "17|20260701": {
+  "R1": "不完整",
+  "notes": "sitcom 在目标值中；漏 teen sitcom（目标值共 2 项）。"
+ },
+ "17|20260801": {
+  "R1": "正确",
+  "notes": "「Sitcom (teen sitcom)」以括号补充形式涵盖 sitcom、teen sitcom 全部两项目标值。"
+ },
+ "20|20260501": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "20|20260801": {
+  "R1": "正确",
+  "notes": "「Soccer (association football)」涵盖目标值 association football（soccer 为其通俗称呼）。"
+ },
+ "21|20260801": {
+  "R1": "不完整",
+  "notes": "politician 在目标值中；漏 Q11986654（lobbyist，说客）。"
+ },
+ "24|20260501": {
+  "R1": "不完整",
+  "notes": "président-directeur général 在目标值中；漏 private secretary of the minister of Economy、president、council member 共 3 项（目标值共 4 项）。"
+ },
+ "24|20260701": {
+  "R1": "不完整",
+  "notes": "président-directeur général（CEO）在目标值中；漏 private secretary of the minister of Economy、president、council member 共 3 项。"
+ },
+ "24|20260801": {
+  "R1": "不完整",
+  "notes": "président-directeur général 在目标值中；漏 private secretary of the minister of Economy、president、council member 共 3 项。"
+ },
+ "26|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "33|20260701": {
+  "R1": "正确",
+  "notes": "三家唱片公司（Yoola、Atlantic Records Russia、Bugatti Music）齐全，与目标值一致。"
+ },
+ "33|20260801": {
+  "R1": "正确",
+  "notes": "三家唱片公司（Yoola、Atlantic Records Russia、Bugatti Music）齐全，与目标值一致。"
+ },
+ "34|20260801": {
+  "R1": "不完整",
+  "notes": "lawyer、（former）judge 在目标值中；漏 magistrate（与 judge 近义但为独立目标项，从严判不完整）。"
+ },
+ "35|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "36|20260501": {
+  "R1": "正确",
+  "notes": "完整句形式，日期与目标值一致（2020-01-23）。"
+ },
+ "36|20260801": {
+  "R1": "正确",
+  "notes": "完整句形式，日期与目标值一致（2020-01-23）。"
+ },
+ "37|20260501": {
+  "R1": "正确",
+  "notes": "完整句形式，日期格式等价：23 November 2021 = 2021-11-23。"
+ },
+ "37|20260801": {
+  "R1": "正确",
+  "notes": "完整句形式，日期格式等价：23 November 2021 = 2021-11-23。"
+ },
+ "39|20260801": {
+  "R1": "不完整",
+  "notes": "Guardian Children's Fiction Prize 在目标值中；漏 Michael L. Printz Award、Carnegie Medal、Astrid Lindgren Memorial Award 等其余 5 项（目标值共 6 项）。"
+ },
+ "40|20260801": {
+  "R1": "不完整",
+  "notes": "FTSE 100 Index 在目标值中且有证据句[1]支持；漏目标值 list of companies involved in the Gaza war。"
+ },
+ "41|20260701": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "41|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "44|20260501": {
+  "R1": "正确",
+  "notes": "「Trivia / Christian video game」涵盖全部两项目标值。"
+ },
+ "44|20260701": {
+  "R1": "正确",
+  "notes": "「Trivia video game / Christian video game」与两项目标值逐一对应。"
+ },
+ "44|20260801": {
+  "R1": "正确",
+  "notes": "「Trivia video game (Christian video game)」涵盖全部两项目标值。"
+ },
+ "46|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "47|20260701": {
+  "R1": "不完整",
+  "notes": "philosopher、logician、mathematician 在目标值中；但目标值共 19 项，漏 essayist、pacifist、journalist 等 16 项。"
+ },
+ "51|20260501": {
+  "R1": "正确",
+  "notes": "「War drama film」为 war film 与 drama film 两目标值的复合体裁表述，涵盖全部目标值。"
+ },
+ "51|20260801": {
+  "R1": "正确",
+  "notes": "「War drama film」为 war film 与 drama film 两目标值的复合体裁表述，涵盖全部目标值。"
+ },
+ "53|20260801": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Gmina Rawa Mazowiecka；Rawa County、Łódź Voivodeship 为上级行政区补充说明，未引入并列新值。"
+ },
+ "60|20260501": {
+  "R1": "不完整",
+  "notes": "composer、film score composer 在目标值中；漏 songwriter、conductor 共 2 项（目标值共 4 项）。"
+ },
+ "60|20260701": {
+  "R1": "不完整",
+  "notes": "composer、film score composer 在目标值中；漏 songwriter、conductor、musician 共 3 项（目标值共 5 项）。"
+ },
+ "60|20260801": {
+  "R1": "不完整",
+  "notes": "composer、film-score composer 在目标值中；漏 songwriter、conductor、musician 共 3 项（目标值共 5 项）。"
+ },
+ "61|20260701": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Pessonada；Conca de Dalt、Pallars Jussà、Catalonia、Spain 为逐级上级行政区补充，未引入并列新值。"
+ },
+ "61|20260801": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Pessonada；Conca de Dalt、Pallars Jussà、Catalonia 为逐级上级行政区补充，未引入并列新值。"
+ },
+ "65|20260701": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "69|20260801": {
+  "R1": "不完整",
+  "notes": "114 在目标值中；但目标值为 24 个时点人口值，仅给出 1 个，漏其余 23 个。"
+ },
+ "71|20260701": {
+  "R1": "正确",
+  "notes": "opera singer、bass-baritone（=Bass-baritone singer）在目标值中；singer是上位项。"
+ },
+ "71|20260801": {
+  "R1": "正确",
+  "notes": "opera singer、bass-baritone（=Bass-baritone singer）在目标值中；singer是上位项。"
+ },
+ "72|20260801": {
+  "R1": "不完整",
+  "notes": "Písek District 在目标值中；漏 Q12042020（捷克语标签：správní obvod obce s rozšířenou působností Milevsko，米莱夫斯科扩展权限市镇行政区，与 Písek District 为不同行政实体）。"
+ },
+ "74|20260801": {
+  "R1": "不完整",
+  "notes": "Silver Star 在目标值中；漏 Bronze Star Medal、Legionnaire of Legion of Merit、Purple Heart、Air Medal 共 4 项（目标值共 5 项）。"
+ },
+ "77|20260501": {
+  "R1": "不完整",
+  "notes": "1997-12-23 在目标值中；漏 1997-12-25、1998-02-12 两个上映日期（目标值共 3 个）。"
+ },
+ "77|20260801": {
+  "R1": "正确",
+  "notes": "完整句形式，三个上映日期（1997-12-23、1997-12-25、1998-02-12）全部涵盖。"
+ },
+ "78|20260701": {
+  "R1": "正确",
+  "notes": "三个目标值（rapper、singer-songwriter、YouTuber）全覆盖；多出的 record producer 为证据句原文支持的身份，故不判错误。"
+ },
+ "78|20260801": {
+  "R1": "正确",
+  "notes": "rapper、singer-songwriter、YouTuber 三项目标值齐全。"
+ },
+ "83|20260801": {
+  "R1": "不完整",
+  "notes": "59.62 在目标值中（km² 为单位后缀）；漏另一面积目标值 59.64。"
+ },
+ "85|20260801": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Lousã；Coimbra District 为上级行政区补充说明。"
+ },
+ "86|20260701": {
+  "R1": "不完整",
+  "notes": "actor、comedian 在目标值中（目标值共 22 项）；author、television personality 与 writer、television presenter/talk show host 近义对应；仍漏 singer、novelist、voice actor、film producer 等十余项。"
+ },
+ "87|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "90|20260701": {
+  "R1": "不完整",
+  "notes": "Fortuna Sittard 在目标值中；漏 Roda JC Kerkrade、K. Waterschei S.V. Thor Genk 共 2 项（目标值共 3 项）。"
+ },
+ "90|20260801": {
+  "R1": "正确",
+  "notes": "三支球队（Fortuna Sittard、Roda JC Kerkrade、K. Waterschei S.V. Thor Genk）齐全，与目标值一致。"
+ },
+ "91|20260801": {
+  "R1": "正确",
+  "notes": "答案与证据句[1]原文一致（educated at King's College, University of Aberdeen）；King's College 为 University of Aberdeen 的组成学院，涵盖目标值。"
+ },
+ "92|20260801": {
+  "R1": "正确",
+  "notes": "完整句形式，日期格式等价：21 November 2021 = 2021-11-21。"
+ },
+ "93|20260701": {
+  "R1": "正确",
+  "notes": "musician 在目标值中；「rock singer-songwriter」复合涵盖 rock singer、singer-songwriter 两项目标值；目标值singer是上位项。"
+ },
+ "93|20260801": {
+  "R1": "不完整",
+  "notes": "musician、rock singer 在目标值中；漏 singer-songwriter、singer 共 2 项（目标值共 4 项）。"
+ },
+ "99|20260701": {
+  "R1": "不完整",
+  "notes": "54149 在目标值中；但目标值为 59 个时点人口值，仅给出 1 个，漏其余 58 个。"
+ },
+ "99|20260801": {
+  "R1": "不完整",
+  "notes": "54,149（千分位写法）在目标值中；但目标值为 59 个时点人口值，仅给出 1 个，漏其余 58 个。"
+ },
+ "102|20260801": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Meerane；Saxony 为上级行政区补充说明。"
+ },
+ "106|20260701": {
+  "R1": "不完整",
+  "notes": "Raków Częstochowa 在目标值中；漏 KS Lechia Gdańsk、波兰国家队及各青年队等其余 10 支球队（目标值共 11 支）。"
+ },
+ "106|20260801": {
+  "R1": "不完整",
+  "notes": "Raków Częstochowa 在目标值中；漏 KS Lechia Gdańsk、波兰国家队及各青年队等其余 10 支球队（目标值共 11 支）。"
+ },
+ "107|20260701": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "107|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "108|20260801": {
+  "R1": "错误",
+  "notes": "答案 Moscow Oblast（莫斯科州）与目标值 Moscow（莫斯科市）为不同联邦主体；证据句明确为 Moscow（总部原在莫斯科市，编辑团队仍在莫斯科市工作），未支持 Moscow Oblast，属目标值之外的值。"
+ },
+ "109|20260801": {
+  "R1": "不完整",
+  "notes": "pianist、composer 在目标值中；漏 Q1607826（编辑）、Q1643514（音乐编曲）、musician 共 3 项（目标值共 5 项）。"
+ },
+ "110|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "111|20260801": {
+  "R1": "不完整",
+  "notes": "1,733（千分位写法）在目标值中；但目标值为 9 个时点人口值，仅给出 1 个，漏其余 8 个。"
+ },
+ "112|20260801": {
+  "R1": "正确",
+  "notes": "Spain 与 Duchy of Parma and Piacenza 两项目标值齐全（国名中含 and 为单一实体名）。"
+ },
+ "119|20260701": {
+  "R1": "不完整",
+  "notes": "drummer 在目标值中；漏 musician、composer 共 2 项（目标值共 3 项）。"
+ },
+ "119|20260801": {
+  "R1": "不完整",
+  "notes": "drummer 在目标值中；漏 musician、composer 共 2 项（目标值共 3 项）。"
+ },
+ "124|20260501": {
+  "R1": "不完整",
+  "notes": "359 在目标值中；漏另一人口目标值 361。"
+ },
+ "124|20260801": {
+  "R1": "不完整",
+  "notes": "359 在目标值中；漏另一人口目标值 361。"
+ },
+ "125|20260701": {
+  "R1": "不完整",
+  "notes": "screenwriter、journalist、songwriter 在目标值中；漏 playwright、writer、film producer、theatre critic、poet、composer 共 6 项（目标值共 9 项）。"
+ },
+ "125|20260801": {
+  "R1": "不完整",
+  "notes": "screenwriter、journalist、songwriter 在目标值中；漏 playwright、writer、film producer、theatre critic、poet、composer 共 6 项（目标值共 9 项）。"
+ },
+ "127|20260501": {
+  "R1": "正确",
+  "notes": "日期格式等价：10 December 1839 = 1839-12-10。"
+ },
+ "129|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "131|20260701": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Córdoba；Argentina 为上级行政区补充说明。"
+ },
+ "131|20260801": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Córdoba；Argentina 为上级行政区补充说明。"
+ },
+ "133|20260701": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "133|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "136|20260501": {
+  "R1": "不完整",
+  "notes": "1997-05-07 在目标值中；漏 1997-05-09、1997-08-22、1997-08-28 共 3 个上映日期（目标值共 4 个）。"
+ },
+ "136|20260801": {
+  "R1": "正确",
+  "notes": "四个上映日期（1997-05-07、1997-05-09、1997-08-22、1997-08-28）全部列举，与目标值一致。"
+ },
+ "140|20260701": {
+  "R1": "不完整",
+  "notes": "Member of the Order of Canada 在目标值中；漏 Tom Longboat Awards、Canada's Sports Hall of Fame、Pearson Medal of Peace 共 3 项（目标值共 4 项）。"
+ },
+ "143|20260801": {
+  "R1": "不完整",
+  "notes": "「Film noir crime film」复合涵盖 film noir、crime film 两项目标值；漏 drama film（目标值共 3 项）。"
+ },
+ "144|20260701": {
+  "R1": "错误",
+  "notes": "目标值 Pembroke；证据句[2]虽明确 died in his office in Pembroke Dock，但Pembroke Dock 与 Pembroke 为相邻不同城镇，正确答案应为目标值 Pembroke或Pembroke Dock or Pembroke。"
+ },
+ "144|20260801": {
+  "R1": "正确",
+  "notes": "目标值 Pembroke；证据句[2]虽明确 died in his office in Pembroke Dock，但Pembroke Dock 与 Pembroke 为相邻不同城镇，正确答案应为目标值 Pembroke或Pembroke Dock or Pembroke。"
+ },
+ "147|20260701": {
+  "R1": "不完整",
+  "notes": "singer-songwriter、actor、model、fashion designer、filmmaker、businessperson 在目标值中（6 项）；漏 record producer、voice actor、child actor、pop singer、musician 共 5 项（目标值共 11 项）。"
+ },
+ "147|20260801": {
+  "R1": "不完整",
+  "notes": "singer-songwriter、actor、businessperson 在目标值中；漏 record producer、voice actor、model 等其余 8 项（目标值共 11 项）。"
+ },
+ "149|20260801": {
+  "R1": "正确",
+  "notes": "完整句形式，日期与目标值一致（2009-09-07）。"
+ },
+ "151|20260801": {
+  "R1": "正确",
+  "notes": "涵盖目标值 Groningen；Netherlands 为上级行政区补充说明。"
+ },
+ "154|20260701": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "154|20260801": {
+  "R1": "正确",
+  "notes": "再生答案与当期目标值一致，完整回答问题。"
+ },
+ "155|20260701": {
+  "R1": "不完整",
+  "notes": "Protestant theologian 在目标值中，pastor 为证据句原文支持的多出项；漏 philosopher、university teacher、writer、pedagogue、journalist、opinion journalist 共 6 项（目标值共 7 项）。"
+ },
+ "155|20260801": {
+  "R1": "不完整",
+  "notes": "Protestant theologian 在目标值中；漏 philosopher、university teacher、writer、pedagogue、journalist、opinion journalist 共 6 项（目标值共 7 项）。"
+ }
+}

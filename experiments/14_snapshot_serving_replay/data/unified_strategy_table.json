@@ -1,0 +1,90 @@
+{
+ "n_requests": 154,
+ "category_definitions": {
+  "wrong": "A4=wrong (3) or incoming-query drift (3)",
+  "incomplete": "A4=incomplete (12 non-decayed + 5 partially invalidated)",
+  "note": "decayed/drifted are attribution tags on a separate axis, not quality categories"
+ },
+ "policies": {
+  "similarity-only": {
+   "correct": 119,
+   "incomplete": 17,
+   "wrong": 6,
+   "indet": 6,
+   "abstain": 6,
+   "attr": {
+    "decayed_served": 8,
+    "decayed_avoided": 1,
+    "drifted_served": 3,
+    "drifted_avoided": 0,
+    "served": 147,
+    "fallback": 7,
+    "regenerated": 1
+   }
+  },
+  "strict": {
+   "correct": 123,
+   "incomplete": 16,
+   "wrong": 0,
+   "indet": 1,
+   "abstain": 14,
+   "attr": {
+    "decayed_served": 0,
+    "decayed_avoided": 9,
+    "drifted_served": 0,
+    "drifted_avoided": 3,
+    "served": 89,
+    "fallback": 65,
+    "regenerated": 51
+   }
+  },
+  "majority": {
+   "correct": 121,
+   "incomplete": 17,
+   "wrong": 0,
+   "indet": 2,
+   "abstain": 14,
+   "attr": {
+    "decayed_served": 0,
+    "decayed_avoided": 9,
+    "drifted_served": 0,
+    "drifted_avoided": 3,
+    "served": 96,
+    "fallback": 58,
+    "regenerated": 44
+   }
+  },
+  "claims": {
+   "correct": 122,
+   "incomplete": 16,
+   "wrong": 0,
+   "indet": 2,
+   "abstain": 14,
+   "attr": {
+    "decayed_served": 0,
+    "decayed_avoided": 9,
+    "drifted_served": 0,
+    "drifted_avoided": 3,
+    "served": 104,
+    "fallback": 50,
+    "regenerated": 36
+   }
+  },
+  "asserted": {
+   "correct": 122,
+   "incomplete": 16,
+   "wrong": 0,
+   "indet": 2,
+   "abstain": 14,
+   "attr": {
+    "decayed_served": 0,
+    "decayed_avoided": 9,
+    "drifted_served": 0,
+    "drifted_avoided": 3,
+    "served": 111,
+    "fallback": 43,
+    "regenerated": 29
+   }
+  }
+ }
+}

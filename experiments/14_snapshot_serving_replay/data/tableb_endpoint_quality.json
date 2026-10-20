@@ -1,0 +1,111 @@
+{
+ "tableB_per_arm": {
+  "similarity-static": {
+   "abstain": 6,
+   "correct": 119,
+   "incomplete": 17,
+   "wrong": 6,
+   "indet": 6
+  },
+  "TTL-1mo": {
+   "abstain": 14,
+   "correct": 119,
+   "incomplete": 21
+  },
+  "page-change-loop": {
+   "abstain": 14,
+   "correct": 121,
+   "incomplete": 18,
+   "indet": 1
+  },
+  "pvsb-strict-loop": {
+   "abstain": 14,
+   "correct": 122,
+   "incomplete": 17,
+   "indet": 1
+  },
+  "pvsb-asserted-loop": {
+   "abstain": 14,
+   "correct": 124,
+   "incomplete": 14,
+   "indet": 2
+  }
+ },
+ "labels": "annotation standard identical across sources; first annotator adjudicates disagreements",
+ "agreement": {
+  "n": 174,
+  "agreement": 0.9943,
+  "kappa": 0.976,
+  "n_disagreements": 1,
+  "disagreements": [
+   {
+    "key": "71|20260701",
+    "ann1": "正确",
+    "ann2": "不完整"
+   }
+  ],
+  "R1_ann1": {
+   "正确": 150,
+   "不完整": 24
+  },
+  "R1_ann2": {
+   "正确": 149,
+   "不完整": 25
+  },
+  "adjudicated_R1": {
+   "正确": 150,
+   "不完整": 24
+  }
+ },
+ "accept_fail_keys": [
+  "24|20260701"
+ ],
+ "paired_cluster_bootstrap": {
+  "B": 10000,
+  "clusters": 143,
+  "seed": 20261017,
+  "results": {
+   "similarity-static": {
+    "delta_observed": 0,
+    "ci95": [
+     -11.85,
+     11.85
+    ],
+    "p_ttl_better": 0.451
+   },
+   "page-change-loop": {
+    "delta_observed": -2,
+    "ci95": [
+     -8.0,
+     3.02
+    ],
+    "p_ttl_better": 0.1809
+   },
+   "pvsb-strict-loop": {
+    "delta_observed": -3,
+    "ci95": [
+     -11.29,
+     4.94
+    ],
+    "p_ttl_better": 0.1894
+   },
+   "pvsb-asserted-loop": {
+    "delta_observed": -5,
+    "ci95": [
+     -13.17,
+     2.96
+    ],
+    "p_ttl_better": 0.0864
+   }
+  }
+ },
+ "pooled_regen_accuracy": {
+  "correct": 193,
+  "n": 225,
+  "rate": 0.8578,
+  "wilson95": [
+   0.806,
+   0.897
+  ]
+ }
+}

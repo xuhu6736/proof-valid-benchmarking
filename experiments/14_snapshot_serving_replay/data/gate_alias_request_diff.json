@@ -1,0 +1,23 @@
+{
+ "asserted": {
+  "n_changed_cells": 2,
+  "changes": {
+   "20260701|51": [
+    "regenerated",
+    "served"
+   ],
+   "20260801|51": [
+    "regenerated",
+    "served"
+   ]
+  }
+ },
+ "overlap-proxy": {
+  "n_changed_cells": 0,
+  "changes": {}
+ },
+ "equality-proxy": {
+  "n_changed_cells": 0,
+  "changes": {}
+ }
+}

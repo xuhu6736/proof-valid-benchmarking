@@ -1,0 +1,38 @@
+{
+ "cell": "asserted/p=0.1",
+ "realizations": 200,
+ "state": "real-driven (s37 fallback routing)",
+ "fallback_means": {
+  "none": 68.6,
+  "random": 37.4,
+  "fixed": 34.1,
+  "full": 29.0
+ },
+ "transitions": {
+  "none->random": {
+   "abstain->abstain": 7908,
+   "served->served": 69820,
+   "fallback->served": 7118,
+   "fallback->fallback": 6593,
+   "served->fallback": 883,
+   "served->abstain": 78
+  },
+  "none->fixed": {
+   "abstain->abstain": 7908,
+   "served->served": 69753,
+   "fallback->served": 7823,
+   "fallback->fallback": 5888,
+   "served->fallback": 942,
+   "served->abstain": 86
+  },
+  "none->full": {
+   "abstain->abstain": 7908,
+   "served->served": 69787,
+   "fallback->served": 8813,
+   "fallback->fallback": 4898,
+   "served->fallback": 902,
+   "served->abstain": 92
+  }
+ },
+ "alignment": "whole-trajectory; common random numbers keyed by (seed, tick, request, premise, read route)"
+}

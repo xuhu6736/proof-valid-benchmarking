@@ -1,0 +1,778 @@
+{
+ "0": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "1": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "2": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "3": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "4": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "5": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "6": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "7": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "8": {
+  "q_relation": "meaning_drift",
+  "incoming_wrong": true,
+  "drift_kind": "lexical_sense_drift",
+  "incoming_query": "Who acted in The Fifth Element?",
+  "note": "performer wording drift: cached question asks P175 performer; paraphrase asks about actors"
+ },
+ "9": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "10": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "11": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "12": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "13": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "14": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "15": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "16": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "17": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "18": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "19": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "20": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "21": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "22": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "23": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "24": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "25": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "26": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "27": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "28": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "29": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "30": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "31": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "32": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "33": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "34": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "35": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "36": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "37": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "38": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "39": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "40": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "41": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "42": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "43": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "44": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "45": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "46": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "47": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "48": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "49": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "50": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "51": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "52": {
+  "q_relation": "meaning_drift",
+  "incoming_wrong": true,
+  "drift_kind": "lexical_sense_drift",
+  "incoming_query": "Which actor or actress starred in the film As Good as It Gets?",
+  "note": "performer wording drift: starred vs performed"
+ },
+ "53": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "54": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "55": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "56": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "57": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "58": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "59": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "60": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "61": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "62": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "63": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "64": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "65": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "66": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "67": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "68": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "69": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "70": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "71": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "72": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "73": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "74": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "75": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "76": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "77": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "78": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "79": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "80": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "81": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "82": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "83": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "84": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "85": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "86": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "87": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "88": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "89": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "90": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "91": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "92": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "93": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "94": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "95": {
+  "q_relation": "meaning_drift",
+  "incoming_wrong": true,
+  "drift_kind": "lexical_sense_drift",
+  "incoming_query": "Which actors provided the voices for Cars 3?",
+  "note": "performer wording drift: voice cast vs performer"
+ },
+ "96": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "97": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "99": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "100": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "101": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "102": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "103": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "104": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "105": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "106": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "107": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "108": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "109": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "110": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "111": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "112": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "113": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "114": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "115": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "116": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "117": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "118": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "119": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "120": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "121": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "122": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "124": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "125": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "126": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "127": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "128": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "129": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "130": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "131": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "132": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "133": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "134": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "135": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "136": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "137": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "138": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "139": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "140": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "141": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "142": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "143": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "144": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "145": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "146": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "147": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "148": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "149": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "150": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "151": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "152": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "153": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "154": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ },
+ "155": {
+  "q_relation": "faithful_paraphrase",
+  "incoming_wrong": false,
+  "drift_kind": "none"
+ }
+}

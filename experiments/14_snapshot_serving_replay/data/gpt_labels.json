@@ -1,0 +1,902 @@
+{
+ "100|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "101|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "102|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "103|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "103|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "104|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "105|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "105|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "106|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "106|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "107|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "108|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "109|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "10|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "110|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "111|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "113|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "116|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "116|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "117|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "118|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "119|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "119|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "120|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "121|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "122|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "124|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "124|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "125|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "126|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "127|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "127|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "128|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "129|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "131|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "131|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "132|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "133|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "134|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "135|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "136|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "137|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "138|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "13|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "140|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "141|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "142|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "143|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "144|20260701": {
+  "R1_adjudicated": "错误",
+  "origin": "gpt-round"
+ },
+ "144|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "145|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "146|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "147|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "149|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "149|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "14|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "150|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "151|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "152|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "153|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "154|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "154|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "155|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "15|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "16|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "17|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "18|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "19|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "1|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "20|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "21|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "21|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "22|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "22|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "23|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "24|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "24|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "25|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "26|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "28|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "28|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "29|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "2|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "30|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "30|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "32|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "32|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "33|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "34|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "36|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "36|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "37|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "37|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "38|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "39|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "3|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "40|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "41|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "42|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "43|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "43|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "44|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "44|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "45|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "46|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "46|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "47|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "48|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "49|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "49|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "4|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "50|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "51|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "54|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "54|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "55|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "55|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "56|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "57|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "57|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "58|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "58|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "59|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "5|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "5|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "60|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "60|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "61|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "62|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "63|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "64|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "65|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "65|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "66|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "66|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "67|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "68|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "68|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "69|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "6|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "70|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "71|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "72|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "74|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "75|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "76|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "76|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "77|20260501": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "78|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "79|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "79|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "7|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "80|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "81|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "82|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "83|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "84|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "84|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "85|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "86|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "87|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "88|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "88|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "90|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "91|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "92|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "93|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "94|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "96|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "96|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "97|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "99|20260701": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "9|20260501": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "9|20260701": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "2|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "4|20260801": {
+  "R1_adjudicated": "无法判断",
+  "origin": "gpt-round"
+ },
+ "9|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "10|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "15|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "16|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "17|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "18|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "20|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "24|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "33|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "35|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "38|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "41|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "44|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "45|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "47|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "48|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "49|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "50|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "51|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "53|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "56|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "59|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "60|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "61|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "65|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "67|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "71|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "77|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "78|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "86|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "90|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "93|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "99|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "107|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "108|20260801": {
+  "R1_adjudicated": "错误",
+  "origin": "gpt-round"
+ },
+ "112|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "113|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "118|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "121|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "125|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "129|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "132|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "133|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "136|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "gpt-round"
+ },
+ "139|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "inherited-identical"
+ },
+ "141|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "147|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ },
+ "150|20260801": {
+  "R1_adjudicated": "正确",
+  "origin": "inherited-identical"
+ },
+ "155|20260801": {
+  "R1_adjudicated": "不完整",
+  "origin": "gpt-round"
+ }
+}

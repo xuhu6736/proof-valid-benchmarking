@@ -1,0 +1,590 @@
+{
+ "1": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "2": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "3": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "4": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "5": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "6": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "7": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "8": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "9": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "10": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "13": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "14": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "15": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "16": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "17": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "18": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "19": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "20": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "21": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "22": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "23": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "24": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "25": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "26": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "28": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "29": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "30": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "32": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "33": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "34": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "35": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "36": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "37": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "38": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "39": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "40": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "41": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "42": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "43": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "44": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "45": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "46": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "47": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "48": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "49": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "50": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "52": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "53": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "54": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "55": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "56": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "57": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "58": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "59": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "60": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "61": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "62": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "63": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "64": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "65": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "66": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "67": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "68": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "69": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "70": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "71": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "72": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "73": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "74": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "75": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "76": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "77": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "78": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "79": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "80": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "81": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "82": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "83": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "84": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "85": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "86": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "87": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "88": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "89": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "90": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "91": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "92": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "93": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "94": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "95": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "96": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "97": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "99": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "100": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "101": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "102": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "103": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "104": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "105": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "106": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "107": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "108": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "109": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "110": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "111": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "112": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "113": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "114": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "115": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "116": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "117": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "118": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "119": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "120": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "121": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "122": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "124": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "125": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "126": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "127": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "128": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "129": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "131": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "132": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "133": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "134": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "135": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "136": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "137": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "138": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "139": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "140": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "141": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "142": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "143": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "144": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "145": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "146": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "147": {
+  "verdict": "NO",
+  "raw": "NO"
+ },
+ "148": {
+  "verdict": "NO_EVIDENCE",
+  "raw": null
+ },
+ "149": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "150": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "151": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "152": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "153": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "154": {
+  "verdict": "YES",
+  "raw": "YES"
+ },
+ "155": {
+  "verdict": "YES",
+  "raw": "YES"
+ }
+}

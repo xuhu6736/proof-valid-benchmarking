@@ -1,0 +1,255 @@
+{
+ "convention": "real-driven (s37): archived real generations at every tick; coverage assertion enforced; Table-B endpoint labelling",
+ "design": "crossed control: gate in {asserted, overlap-proxy, equality-proxy} x retrieval-alias {off, on}; identical base cache, requests, screen, evidence states, archived fallbacks, acceptance, and write-back",
+ "ticks": [
+  "20260501",
+  "20260701",
+  "20260801"
+ ],
+ "configurations": {
+  "asserted|alias-off": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 134,
+     "decayed_proxy": 4,
+     "fallback": 8,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 120,
+     "decayed_proxy": 7,
+     "fallback": 20,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 137,
+     "decayed_proxy": 7,
+     "fallback": 3,
+     "wrong_proxy": 0
+    }
+   ],
+   "total_fallbacks": 31,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 18,
+   "total_abstains": 40,
+   "aliases_installed": 0,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 124,
+    "incomplete": 14,
+    "indet": 2
+   }
+  },
+  "asserted|alias-on": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 134,
+     "decayed_proxy": 4,
+     "fallback": 8,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 121,
+     "decayed_proxy": 7,
+     "fallback": 19,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 138,
+     "decayed_proxy": 7,
+     "fallback": 2,
+     "wrong_proxy": 0
+    }
+   ],
+   "total_fallbacks": 29,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 18,
+   "total_abstains": 40,
+   "aliases_installed": 1,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 124,
+    "incomplete": 14,
+    "indet": 2
+   }
+  },
+  "overlap-proxy|alias-off": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 84,
+     "fallback": 58,
+     "decayed_proxy": 2,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 15,
+     "served": 64,
+     "fallback": 75,
+     "decayed_proxy": 2,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 92,
+     "fallback": 48,
+     "decayed_proxy": 2,
+     "wrong_proxy": 0
+    }
+   ],
+   "total_fallbacks": 181,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 6,
+   "total_abstains": 41,
+   "aliases_installed": 0,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 121,
+    "incomplete": 19
+   }
+  },
+  "overlap-proxy|alias-on": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 84,
+     "fallback": 58,
+     "decayed_proxy": 2,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 15,
+     "served": 64,
+     "fallback": 75,
+     "decayed_proxy": 2,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 92,
+     "fallback": 48,
+     "decayed_proxy": 2,
+     "wrong_proxy": 0
+    }
+   ],
+   "total_fallbacks": 181,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 6,
+   "total_abstains": 41,
+   "aliases_installed": 1,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 121,
+    "incomplete": 19
+   }
+  },
+  "equality-proxy|alias-off": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 81,
+     "fallback": 61,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 15,
+     "served": 62,
+     "fallback": 77,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 91,
+     "fallback": 49,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "total_fallbacks": 187,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 0,
+   "total_abstains": 41,
+   "aliases_installed": 0,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 120,
+    "incomplete": 20
+   }
+  },
+  "equality-proxy|alias-on": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 81,
+     "fallback": 61,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 15,
+     "served": 62,
+     "fallback": 77,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 91,
+     "fallback": 49,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "total_fallbacks": 187,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 0,
+   "total_abstains": 41,
+   "aliases_installed": 1,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 120,
+    "incomplete": 20
+   }
+  }
+ },
+ "validations": {
+  "V3_accounting_complete": true,
+  "V5_coverage_misses": 0,
+  "R1_anchors_reproduced": {
+   "asserted|alias-on": 29,
+   "overlap-proxy|alias-off": 181,
+   "equality-proxy|alias-off": 187
+  }
+ },
+ "notes": [
+  "alias on = evidence-checked retrieval alias after write-back (s25 mechanism); alias off = fixed retrieval outcome (s48)",
+  "the asserted gate with alias on is the main-text asserted loop; the two proxies with alias off are the exploratory gate mappings of s48",
+  "endpoint deliveries whose (request, origin-tick) key lacks a human label are counted as unlabeled, never scored"
+ ]
+}

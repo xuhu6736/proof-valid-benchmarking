@@ -1,0 +1,30 @@
+{
+  "title": "Proof-Valid Serving and Benchmarking for Approximate LLM Caches under Premise Erasure — Experiment Artifact",
+  "description": "Complete experimental programs, data, and result artifacts for the paper 'Proof-Valid Serving and Benchmarking for Approximate LLM Caches under Premise Erasure' (J. Xu), submitted to Knowledge and Information Systems. Includes all run scripts, canonical result JSONs, human annotation artifacts, rebuilt 2026 Wikipedia/Wikidata snapshot inputs, and figure-replot scripts. Companion theory preprint: arXiv:2608.11782.",
+  "creators": [
+    {
+      "name": "Xu, Jianfeng",
+      "affiliation": "Koguan School of Law, China Institute for Smart Justice, and School of Computer Science, Shanghai Jiao Tong University, Shanghai 200030, China"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "large language model caching",
+    "semantic cache",
+    "evidence contracts",
+    "premise erasure",
+    "data provenance",
+    "cache auditing",
+    "reproducibility artifact"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "2608.11782",
+      "scheme": "arxiv",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}

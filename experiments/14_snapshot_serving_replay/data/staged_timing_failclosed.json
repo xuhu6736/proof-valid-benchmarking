@@ -1,0 +1,91 @@
+{
+ "timing_us": {
+  "retrieval": {
+   "median": 6.084,
+   "mean": 6.304,
+   "p95": 6.708,
+   "p99": 7.167
+  },
+  "cert_access": {
+   "median": 0.125,
+   "mean": 0.114,
+   "p95": 0.208,
+   "p99": 0.25
+  },
+  "claim_check": {
+   "median": 0.416,
+   "mean": 0.667,
+   "p95": 1.917,
+   "p99": 4.375
+  },
+  "sentence_check": {
+   "median": 1.541,
+   "mean": 1.468,
+   "p95": 2.084,
+   "p99": 2.708
+  },
+  "total_strict": {
+   "median": 8.209,
+   "mean": 8.554,
+   "p95": 10.375,
+   "p99": 12.666
+  },
+  "total_claims": {
+   "median": 6.708,
+   "mean": 7.085,
+   "p95": 8.542,
+   "p99": 11.0
+  },
+  "n_runs": 3000,
+  "platform": {
+   "chip": "Apple M3 Pro",
+   "machine": "arm64",
+   "python": "3.12.14"
+  }
+ },
+ "control_serves": {
+  "strict": 89,
+  "majority": 96,
+  "claims": 104,
+  "asserted": 111
+ },
+ "fault_serves": {
+  "F1": {
+   "strict": 0,
+   "majority": 0,
+   "claims": 0,
+   "asserted": 0
+  },
+  "F2": {
+   "strict": 0,
+   "majority": 0,
+   "claims": 104,
+   "asserted": 111
+  },
+  "F3": {
+   "strict": 0,
+   "majority": 0,
+   "claims": 0,
+   "asserted": 0
+  },
+  "F4": {
+   "strict": 0,
+   "majority": 0,
+   "claims": 0,
+   "asserted": 0
+  },
+  "F5": {
+   "strict": 0,
+   "majority": 0,
+   "claims": 0,
+   "asserted": 0
+  }
+ },
+ "faults": {
+  "F1": "entity evidence unavailable (affects all variants)",
+  "F2": "page evidence unavailable (affects strict/majority)",
+  "F3": "corrupted claim value read (affects all variants)",
+  "F4": "certificate unreadable (all variants decline)",
+  "F5": "query embedding corrupted (retrieval misses)"
+ }
+}

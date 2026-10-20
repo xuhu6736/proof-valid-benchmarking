@@ -1,0 +1,238 @@
+{
+ "n_items": 720,
+ "total_bytes": 65508,
+ "reuse_stats": {
+  "total_citations": 782,
+  "reuse_factor": 1.086,
+  "unique_claim_items": 368,
+  "unique_sentence_items": 352,
+  "citation_count_distribution": {
+   "1": 677,
+   "2": 30,
+   "3": 7,
+   "4": 6
+  },
+  "multi_cited_items": 43,
+  "bytes_share_multi_cited": 0.0287
+ },
+ "realizations": 500,
+ "feasible_set_draws": 50,
+ "rows": [
+  {
+   "c": 0.5,
+   "p": 0.05,
+   "bytes_used": 32754,
+   "q_random": 0.5,
+   "entries_fully_protected": 6,
+   "fixed_S": {
+    "strict": 77.4,
+    "asserted": 104.7
+   },
+   "random_R": {
+    "strict": 79.8,
+    "asserted": 106.8
+   },
+   "random_feasible_set": {
+    "strict": 79.7,
+    "asserted": 106.8
+   },
+   "fixed_S_nodedup": {
+    "strict": 77.0,
+    "asserted": 104.3
+   },
+   "bytes_used_nodedup": 32754
+  },
+  {
+   "c": 0.5,
+   "p": 0.1,
+   "bytes_used": 32754,
+   "q_random": 0.5,
+   "entries_fully_protected": 6,
+   "fixed_S": {
+    "strict": 67.3,
+    "asserted": 98.3
+   },
+   "random_R": {
+    "strict": 71.5,
+    "asserted": 102.8
+   },
+   "random_feasible_set": {
+    "strict": 71.7,
+    "asserted": 102.8
+   },
+   "fixed_S_nodedup": {
+    "strict": 66.9,
+    "asserted": 98.5
+   },
+   "bytes_used_nodedup": 32754
+  },
+  {
+   "c": 0.5,
+   "p": 0.2,
+   "bytes_used": 32754,
+   "q_random": 0.5,
+   "entries_fully_protected": 6,
+   "fixed_S": {
+    "strict": 51.7,
+    "asserted": 87.5
+   },
+   "random_R": {
+    "strict": 58.1,
+    "asserted": 95.4
+   },
+   "random_feasible_set": {
+    "strict": 57.7,
+    "asserted": 95.4
+   },
+   "fixed_S_nodedup": {
+    "strict": 50.9,
+    "asserted": 87.2
+   },
+   "bytes_used_nodedup": 32754
+  },
+  {
+   "c": 0.9,
+   "p": 0.05,
+   "bytes_used": 58954,
+   "q_random": 0.9,
+   "entries_fully_protected": 115,
+   "fixed_S": {
+    "strict": 88.1,
+    "asserted": 111.0
+   },
+   "random_R": {
+    "strict": 87.0,
+    "asserted": 110.1
+   },
+   "random_feasible_set": {
+    "strict": 86.9,
+    "asserted": 110.1
+   },
+   "fixed_S_nodedup": {
+    "strict": 87.4,
+    "asserted": 111.0
+   },
+   "bytes_used_nodedup": 58920
+  },
+  {
+   "c": 0.9,
+   "p": 0.1,
+   "bytes_used": 58954,
+   "q_random": 0.9,
+   "entries_fully_protected": 115,
+   "fixed_S": {
+    "strict": 87.2,
+    "asserted": 111.0
+   },
+   "random_R": {
+    "strict": 85.0,
+    "asserted": 109.2
+   },
+   "random_feasible_set": {
+    "strict": 84.9,
+    "asserted": 109.2
+   },
+   "fixed_S_nodedup": {
+    "strict": 85.8,
+    "asserted": 111.0
+   },
+   "bytes_used_nodedup": 58920
+  },
+  {
+   "c": 0.9,
+   "p": 0.2,
+   "bytes_used": 58954,
+   "q_random": 0.9,
+   "entries_fully_protected": 115,
+   "fixed_S": {
+    "strict": 85.4,
+    "asserted": 111.0
+   },
+   "random_R": {
+    "strict": 81.8,
+    "asserted": 107.6
+   },
+   "random_feasible_set": {
+    "strict": 81.0,
+    "asserted": 107.4
+   },
+   "fixed_S_nodedup": {
+    "strict": 82.7,
+    "asserted": 111.0
+   },
+   "bytes_used_nodedup": 58920
+  },
+  {
+   "c": 0.95,
+   "p": 0.05,
+   "bytes_used": 62218,
+   "q_random": 0.95,
+   "entries_fully_protected": 132,
+   "fixed_S": {
+    "strict": 88.7,
+    "asserted": 111.0
+   },
+   "random_R": {
+    "strict": 88.0,
+    "asserted": 110.6
+   },
+   "random_feasible_set": {
+    "strict": 87.9,
+    "asserted": 110.5
+   },
+   "fixed_S_nodedup": {
+    "strict": 88.2,
+    "asserted": 111.0
+   },
+   "bytes_used_nodedup": 62200
+  },
+  {
+   "c": 0.95,
+   "p": 0.1,
+   "bytes_used": 62218,
+   "q_random": 0.95,
+   "entries_fully_protected": 132,
+   "fixed_S": {
+    "strict": 88.3,
+    "asserted": 111.0
+   },
+   "random_R": {
+    "strict": 87.1,
+    "asserted": 110.1
+   },
+   "random_feasible_set": {
+    "strict": 86.9,
+    "asserted": 110.1
+   },
+   "fixed_S_nodedup": {
+    "strict": 87.4,
+    "asserted": 111.0
+   },
+   "bytes_used_nodedup": 62200
+  },
+  {
+   "c": 0.95,
+   "p": 0.2,
+   "bytes_used": 62218,
+   "q_random": 0.95,
+   "entries_fully_protected": 132,
+   "fixed_S": {
+    "strict": 87.6,
+    "asserted": 111.0
+   },
+   "random_R": {
+    "strict": 85.1,
+    "asserted": 109.3
+   },
+   "random_feasible_set": {
+    "strict": 84.7,
+    "asserted": 109.1
+   },
+   "fixed_S_nodedup": {
+    "strict": 85.8,
+    "asserted": 111.0
+   },
+   "bytes_used_nodedup": 62200
+  }
+ ]
+}

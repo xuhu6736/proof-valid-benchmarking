@@ -1,0 +1,55 @@
+{
+ "envelopes": 183,
+ "base_certificates": 154,
+ "writeback_certificates": 29,
+ "bound_elements": [
+  "pid",
+  "answer_sha",
+  "asserted",
+  "claims",
+  "sentences",
+  "issued_at"
+ ],
+ "validations": {
+  "V1_positive_control": {
+   "comparisons": 2928,
+   "agreements": 2928
+  },
+  "V2_tamper_injection": {
+   "M1": {
+    "injected": 183,
+    "rejected_under_all_contracts": 183
+   },
+   "M2": {
+    "injected": 183,
+    "rejected_under_all_contracts": 183
+   },
+   "M3": {
+    "injected": 183,
+    "rejected_under_all_contracts": 183
+   },
+   "M4": {
+    "injected": 183,
+    "rejected_under_all_contracts": 183
+   },
+   "M5": {
+    "injected": 183,
+    "rejected_under_all_contracts": 183
+   },
+   "M6": {
+    "injected": 183,
+    "rejected_under_all_contracts": 183
+   }
+  },
+  "V3_revocation_laundering": {
+   "revoked_base_certificates_at_endpoint": 43,
+   "laundering_attempts": 86,
+   "rejected": 86
+  }
+ },
+ "notes": [
+  "the envelope digest binds six elements: request id, answer payload digest, asserted claim set, full claim set, evidence sentence ids, issuance snapshot; it makes an honestly issued certificate tamper-evident (a deployment would sign the digest)",
+  "tamper classes: M1 payload substitution, M2 claim-set laundering, M3 asserted-set laundering, M4 sentence substitution, M5 issuance forward-dating, M6 cross-request replay",
+  "the independent verifier reads only the transferred JSONL envelopes plus the state-provider view; integrity and binding checks run before contract evaluation"
+ ]
+}

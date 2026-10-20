@@ -1,0 +1,53 @@
+{
+ "convention": "real-driven (s37): archived real generations at every tick; coverage assertion enforced; Table-B endpoint labelling; comparable with main-text Tables 3 and 4",
+ "ticks": [
+  "20260501",
+  "20260701",
+  "20260801"
+ ],
+ "gate": "claim-level equality of the queried property: current projected truthy-value set exactly equals the issuance-time certificate claim set; NO source-page version condition (isolates the equality predicate from the FinCacheServe mapping of s48); no retrieval-alias expansion",
+ "policy": {
+  "claim-equality-loop": {
+   "per_tick": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 129,
+     "fallback": 13,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 114,
+     "fallback": 26,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 136,
+     "fallback": 4,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "total_fallbacks": 43,
+   "total_contract_violating_serves_proxy": 0,
+   "total_partially_stale_serves_proxy": 0,
+   "total_abstains": 40,
+   "endpoint_quality": {
+    "abstain": 14,
+    "correct": 123,
+    "incomplete": 15,
+    "indet": 2
+   }
+  }
+ },
+ "validations": {
+  "V3_accounting_complete": true,
+  "V5_coverage_misses": 0
+ }
+}

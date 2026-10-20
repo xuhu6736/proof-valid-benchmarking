@@ -1,0 +1,55 @@
+{
+ "transition_strict": {
+  "correct->abstain": 3,
+  "correct->correct": 111,
+  "correct->incomplete": 4,
+  "incomplete->correct": 6,
+  "incomplete->incomplete": 11,
+  "indet->abstain": 2,
+  "indet->correct": 3,
+  "indet->indet": 1,
+  "miss->abstain": 6,
+  "miss->correct": 1,
+  "wrong->abstain": 3,
+  "wrong->correct": 2,
+  "wrong->incomplete": 1
+ },
+ "paired_vs_similarity": {
+  "strict": {
+   "delta_correct_per_request": 0.026,
+   "n_up": 11,
+   "n_down": 7,
+   "cluster_boot95": [
+    -0.0385,
+    0.0926
+   ]
+  },
+  "majority": {
+   "delta_correct_per_request": 0.013,
+   "n_up": 9,
+   "n_down": 7,
+   "cluster_boot95": [
+    -0.0461,
+    0.0764
+   ]
+  },
+  "claims": {
+   "delta_correct_per_request": 0.0195,
+   "n_up": 9,
+   "n_down": 6,
+   "cluster_boot95": [
+    -0.0392,
+    0.0798
+   ]
+  },
+  "asserted": {
+   "delta_correct_per_request": 0.0195,
+   "n_up": 9,
+   "n_down": 6,
+   "cluster_boot95": [
+    -0.0392,
+    0.0813
+   ]
+  }
+ }
+}

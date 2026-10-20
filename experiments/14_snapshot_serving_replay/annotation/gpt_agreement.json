@@ -1,0 +1,30 @@
+{
+ "n": 99,
+ "raw_agreement": 0.9797979797979798,
+ "cohens_kappa": 0.9613809245172615,
+ "disagreements": {
+  "4|20260801": [
+   "无法判断",
+   "不完整",
+   "答案「anti-war film」不在目标值中，且未给出任何目标体裁，按规则属「给出目标值之外的值」。但：当期证据句[1]原文确称 anti-war film，而[3]称有争议。",
+   "anti-war film 不在目标值集合（证据句[1]虽如此表述，[3]显示有争议）；方向正确但漏其余目标值"
+  ],
+  "144|20260801": [
+   "正确",
+   "错误",
+   "目标值 Pembroke；证据句[2]虽明确 died in his office in Pembroke Dock，但Pembroke Dock 与 Pembroke 为相邻不同城镇，正确答案应为目标值 Pembroke或Pembroke Dock or Pembroke。",
+   "目标值 Pembroke与Pembroke Dock 为相邻不同小镇。"
+  ]
+ },
+ "dist_ann1": {
+  "不完整": 42,
+  "无法判断": 1,
+  "正确": 54,
+  "错误": 2
+ },
+ "dist_ann2": {
+  "不完整": 43,
+  "正确": 53,
+  "错误": 3
+ }
+}

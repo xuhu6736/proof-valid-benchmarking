@@ -1,0 +1,121 @@
+{
+ "proxy": "endpoint-tick truthy value mention (same rule as acceptance)",
+ "arms": {
+  "similarity-static": {
+   "kimi": {
+    "served": 148,
+    "proxy_correct": 132,
+    "abstain": 6
+   },
+   "gpt": {
+    "served": 148,
+    "proxy_correct": 132,
+    "abstain": 6
+   }
+  },
+  "TTL-1mo": {
+   "kimi": {
+    "served": 140,
+    "proxy_correct": 140,
+    "abstain": 14
+   },
+   "gpt": {
+    "served": 139,
+    "proxy_correct": 139,
+    "abstain": 15
+   }
+  },
+  "page-change-loop": {
+   "kimi": {
+    "served": 140,
+    "proxy_correct": 137,
+    "abstain": 14
+   },
+   "gpt": {
+    "served": 141,
+    "proxy_correct": 138,
+    "abstain": 13
+   }
+  },
+  "pvsb-strict-loop": {
+   "kimi": {
+    "served": 140,
+    "proxy_correct": 140,
+    "abstain": 14
+   },
+   "gpt": {
+    "served": 140,
+    "proxy_correct": 140,
+    "abstain": 14
+   }
+  },
+  "pvsb-asserted-loop": {
+   "kimi": {
+    "served": 140,
+    "proxy_correct": 140,
+    "abstain": 14
+   },
+   "gpt": {
+    "served": 140,
+    "proxy_correct": 140,
+    "abstain": 14
+   }
+  }
+ },
+ "acceptance_crosstab_tableb_store": {
+  "(False, False)": 40,
+  "(False, True)": 1,
+  "(True, False)": 1,
+  "(True, True)": 369
+ },
+ "acceptance_crosstab_s9_store": {
+  "(False, False)": 14,
+  "(True, True)": 51
+ },
+ "n_delivery_diffs": 2,
+ "delivery_diffs": [
+  {
+   "arm": "TTL-1mo",
+   "pid": "140",
+   "source": "template",
+   "kimi": [
+    "serve",
+    true
+   ],
+   "gpt": [
+    "abstain",
+    false
+   ],
+   "kimi_answer": "Tom Longboat Awards, Canada's Sports Hall of Fame, Member of the Order of Canada, Pearson Medal of Peace, Distinguished Service Award of the Canadian Association of Former Parliamentarians, Order of Sport, Pearson Peace Medal",
+   "gpt_answer": null,
+   "gold": [
+    "Tom Longboat Awards",
+    "Canada's Sports Hall of Fame",
+    "Tom Longboat Awards",
+    "Member of the Order of Canada",
+    "Pearson Medal of Peace"
+   ]
+  },
+  {
+   "arm": "page-change-loop",
+   "pid": "24",
+   "source": "template",
+   "kimi": [
+    "abstain",
+    false
+   ],
+   "gpt": [
+    "serve",
+    true
+   ],
+   "kimi_answer": null,
+   "gpt_answer": "CEO of France Telecom (président-directeur général)",
+   "gold": [
+    "président-directeur général",
+    "private secretary of the minister of Economy",
+    "president",
+    "council member"
+   ]
+  }
+ ]
+}

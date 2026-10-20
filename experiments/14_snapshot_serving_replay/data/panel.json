@@ -1,0 +1,3011 @@
+[
+ {
+  "qid": "3241294",
+  "label": "Last Ones Standing",
+  "prop": "P361",
+  "question": "What is Last Ones Standing part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2236251"
+   }
+  ],
+  "stale": true,
+  "pid": 0
+ },
+ {
+  "qid": "13408250",
+  "label": "Ville Runola",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Ville Runola?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q33"
+   }
+  ],
+  "stale": false,
+  "pid": 1
+ },
+ {
+  "qid": "106506",
+  "label": "The Fifth Element",
+  "prop": "P136",
+  "question": "What genre is The Fifth Element?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q471839"
+   },
+   {
+    "id": "Q319221"
+   },
+   {
+    "id": "Q157443"
+   },
+   {
+    "id": "Q188473"
+   },
+   {
+    "id": "Q157394"
+   },
+   {
+    "id": "Q20443008"
+   },
+   {
+    "id": "Q2973181"
+   }
+  ],
+  "stale": true,
+  "pid": 2
+ },
+ {
+  "qid": "512367",
+  "label": "Leeza Gibbons",
+  "prop": "P166",
+  "question": "Which award did Leeza Gibbons receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1179189"
+   },
+   {
+    "id": "Q17985761"
+   }
+  ],
+  "stale": false,
+  "pid": 3
+ },
+ {
+  "qid": "182692",
+  "label": "Apocalypse Now",
+  "prop": "P136",
+  "question": "What genre is Apocalypse Now?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q369747"
+   },
+   {
+    "id": "Q188473"
+   },
+   {
+    "id": "Q130232"
+   },
+   {
+    "id": "Q52207310"
+   },
+   {
+    "id": "Q2484376"
+   },
+   {
+    "id": "Q652256"
+   },
+   {
+    "id": "Q116456802"
+   },
+   {
+    "id": "Q200092"
+   },
+   {
+    "id": "Q109629396"
+   },
+   {
+    "id": "Q109733304"
+   },
+   {
+    "id": "Q319221"
+   },
+   {
+    "id": "Q63214877"
+   },
+   {
+    "id": "Q138603203"
+   }
+  ],
+  "stale": true,
+  "pid": 4
+ },
+ {
+  "qid": "15109978",
+  "label": "Tor André Johnsen",
+  "prop": "P69",
+  "question": "Where was Tor André Johnsen educated?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q11968294"
+   }
+  ],
+  "stale": false,
+  "pid": 5
+ },
+ {
+  "qid": "6746878",
+  "label": "Manan Vohra",
+  "prop": "P106",
+  "question": "What is the occupation of Manan Vohra?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q12299841"
+   }
+  ],
+  "stale": false,
+  "pid": 6
+ },
+ {
+  "qid": "51480",
+  "label": "Bayombong",
+  "prop": "P571",
+  "question": "When was Bayombong established?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1739-06-12T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 7
+ },
+ {
+  "qid": "106506",
+  "label": "The Fifth Element",
+  "prop": "P175",
+  "question": "Who performed The Fifth Element?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q63987"
+   }
+  ],
+  "stale": true,
+  "pid": 8
+ },
+ {
+  "qid": "1668593",
+  "label": "The Lady and the Monster",
+  "prop": "P136",
+  "question": "What genre is The Lady and the Monster?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q200092"
+   },
+   {
+    "id": "Q471839"
+   },
+   {
+    "id": "Q52207399"
+   }
+  ],
+  "stale": true,
+  "pid": 9
+ },
+ {
+  "qid": "5999678",
+  "label": "Ted Petersen",
+  "prop": "P641",
+  "question": "Which sport does Ted Petersen play?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q41323"
+   }
+  ],
+  "stale": false,
+  "pid": 10
+ },
+ {
+  "qid": "3196495",
+  "label": "The Planets Bend Between Us",
+  "prop": "P361",
+  "question": "What is The Planets Bend Between Us part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2452690"
+   }
+  ],
+  "stale": true,
+  "pid": 11
+ },
+ {
+  "qid": "5977662",
+  "label": "I Hurt for You",
+  "prop": "P361",
+  "question": "What is I Hurt for You part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q5088922"
+   }
+  ],
+  "stale": true,
+  "pid": 12
+ },
+ {
+  "qid": "44638200",
+  "label": "Nappily Ever After",
+  "prop": "P58",
+  "question": "Who was the screenwriter of Nappily Ever After?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q348885"
+   }
+  ],
+  "stale": false,
+  "pid": 13
+ },
+ {
+  "qid": "622916",
+  "label": "Horton Hears a Who!",
+  "prop": "P50",
+  "question": "Who is the author of Horton Hears a Who!?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q298685"
+   }
+  ],
+  "stale": false,
+  "pid": 14
+ },
+ {
+  "qid": "4891881",
+  "label": "Berisad Glacier",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Berisad Glacier located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q21590062"
+   }
+  ],
+  "stale": true,
+  "pid": 15
+ },
+ {
+  "qid": "6513102",
+  "label": "Lee Bo-na",
+  "prop": "P641",
+  "question": "Which sport does Lee Bo-na play?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q206989"
+   }
+  ],
+  "stale": false,
+  "pid": 16
+ },
+ {
+  "qid": "726944",
+  "label": "So Little Time",
+  "prop": "P136",
+  "question": "What genre is So Little Time?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q17113138"
+   },
+   {
+    "id": "Q21188110"
+   }
+  ],
+  "stale": true,
+  "pid": 17
+ },
+ {
+  "qid": "37085",
+  "label": "Solomon",
+  "prop": "P19",
+  "question": "Where was Solomon born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q23792"
+   }
+  ],
+  "stale": true,
+  "pid": 18
+ },
+ {
+  "qid": "22772381",
+  "label": "Iva Slonjšak",
+  "prop": "P106",
+  "question": "What is the occupation of Iva Slonjšak?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q3665646"
+   }
+  ],
+  "stale": false,
+  "pid": 19
+ },
+ {
+  "qid": "5161552",
+  "label": "UConn Huskies men's soccer",
+  "prop": "P641",
+  "question": "Which sport does UConn Huskies men's soccer play?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q31930761"
+   }
+  ],
+  "stale": true,
+  "pid": 20
+ },
+ {
+  "qid": "3504785",
+  "label": "Sven Otto Littorin",
+  "prop": "P106",
+  "question": "What is the occupation of Sven Otto Littorin?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q82955"
+   }
+  ],
+  "stale": false,
+  "pid": 21
+ },
+ {
+  "qid": "1518934",
+  "label": "Houghton Conquest",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Houghton Conquest located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1053723"
+   }
+  ],
+  "stale": false,
+  "pid": 22
+ },
+ {
+  "qid": "1476717",
+  "label": "Sit Tight",
+  "prop": "P495",
+  "question": "What is the country of origin of Sit Tight?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q30"
+   }
+  ],
+  "stale": false,
+  "pid": 23
+ },
+ {
+  "qid": "2360382",
+  "label": "Stéphane Richard",
+  "prop": "P39",
+  "question": "Which position does Stéphane Richard hold?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q484876"
+   },
+   {
+    "id": "Q130297510"
+   }
+  ],
+  "stale": true,
+  "pid": 24
+ },
+ {
+  "qid": "48732555",
+  "label": "Permatang Berangan",
+  "prop": "P17",
+  "question": "In which country is Permatang Berangan located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q833"
+   }
+  ],
+  "stale": false,
+  "pid": 25
+ },
+ {
+  "qid": "4699725",
+  "label": "Aji Santoso",
+  "prop": "P106",
+  "question": "What is the occupation of Aji Santoso?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q937857"
+   },
+   {
+    "id": "Q628099"
+   }
+  ],
+  "stale": false,
+  "pid": 26
+ },
+ {
+  "qid": "4827008",
+  "label": "Autostop/Love Is a Lonely Weekend",
+  "prop": "P361",
+  "question": "What is Autostop/Love Is a Lonely Weekend part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q4839458"
+   }
+  ],
+  "stale": true,
+  "pid": 27
+ },
+ {
+  "qid": "77937",
+  "label": "Princess Kira of Prussia",
+  "prop": "P106",
+  "question": "What is the occupation of Princess Kira of Prussia?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2478141"
+   }
+  ],
+  "stale": false,
+  "pid": 28
+ },
+ {
+  "qid": "107705",
+  "label": "David Cespiva",
+  "prop": "P19",
+  "question": "Where was David Cespiva born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2100"
+   }
+  ],
+  "stale": false,
+  "pid": 29
+ },
+ {
+  "qid": "55975",
+  "label": "Sant'Agata de' Goti",
+  "prop": "P1082",
+  "question": "What is the population of Sant'Agata de' Goti?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+11175"
+   },
+   {
+    "amount": "+11151"
+   },
+   {
+    "amount": "+10282"
+   }
+  ],
+  "stale": false,
+  "pid": 30
+ },
+ {
+  "qid": "7428139",
+  "label": "Saved by Zero",
+  "prop": "P361",
+  "question": "What is Saved by Zero part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q7300203"
+   }
+  ],
+  "stale": true,
+  "pid": 31
+ },
+ {
+  "qid": "30303186",
+  "label": "Mathura Prasad Pal",
+  "prop": "P39",
+  "question": "Which position does Mathura Prasad Pal hold?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q18039836"
+   }
+  ],
+  "stale": false,
+  "pid": 32
+ },
+ {
+  "qid": "59194713",
+  "label": "Morgenshtern",
+  "prop": "P264",
+  "question": "Which record label is Morgenshtern signed to?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q30673858"
+   },
+   {
+    "id": "Q56760250"
+   },
+   {
+    "id": "Q100744452"
+   },
+   {
+    "id": "Q112972756"
+   },
+   {
+    "id": "Q117033137"
+   }
+  ],
+  "stale": true,
+  "pid": 33
+ },
+ {
+  "qid": "6056513",
+  "label": "Pablo Troise",
+  "prop": "P106",
+  "question": "What is the occupation of Pablo Troise?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q4594605"
+   },
+   {
+    "id": "Q40348"
+   },
+   {
+    "id": "Q16533"
+   }
+  ],
+  "stale": false,
+  "pid": 34
+ },
+ {
+  "qid": "1364690",
+  "label": "Konstantin Lopushansky",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Konstantin Lopushansky?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q15180"
+   },
+   {
+    "id": "Q159"
+   }
+  ],
+  "stale": false,
+  "pid": 35
+ },
+ {
+  "qid": "3168274",
+  "label": "Jean-Noël Tremblay",
+  "prop": "P570",
+  "question": "When did Jean-Noël Tremblay die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+2020-01-23T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 36
+ },
+ {
+  "qid": "6048730",
+  "label": "Hasan Fehmi Güneş",
+  "prop": "P570",
+  "question": "When did Hasan Fehmi Güneş die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+2021-11-23T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 37
+ },
+ {
+  "qid": "60737566",
+  "label": "The Burnt Orange Heresy",
+  "prop": "P136",
+  "question": "What genre is The Burnt Orange Heresy?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q19367312"
+   },
+   {
+    "id": "Q52207399"
+   }
+  ],
+  "stale": true,
+  "pid": 38
+ },
+ {
+  "qid": "470302",
+  "label": "Meg Rosoff",
+  "prop": "P166",
+  "question": "Which award did Meg Rosoff receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q971363"
+   },
+   {
+    "id": "Q1928373"
+   },
+   {
+    "id": "Q1043985"
+   },
+   {
+    "id": "Q430035"
+   },
+   {
+    "id": "Q39477935"
+   },
+   {
+    "id": "Q495963"
+   }
+  ],
+  "stale": false,
+  "pid": 39
+ },
+ {
+  "qid": "245343",
+  "label": "Barclays",
+  "prop": "P361",
+  "question": "What is Barclays part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q466496"
+   },
+   {
+    "id": "Q134661623"
+   }
+  ],
+  "stale": false,
+  "pid": 40
+ },
+ {
+  "qid": "170842",
+  "label": "Sergei Korolev",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Sergei Korolev?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q34266"
+   },
+   {
+    "id": "Q15180"
+   }
+  ],
+  "stale": false,
+  "pid": 41
+ },
+ {
+  "qid": "6299657",
+  "label": "Juan Edmunds Rapahango",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Juan Edmunds Rapahango?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q298"
+   }
+  ],
+  "stale": false,
+  "pid": 42
+ },
+ {
+  "qid": "6414305",
+  "label": "Kinsmen of the Dragon",
+  "prop": "P50",
+  "question": "Who is the author of Kinsmen of the Dragon?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q7599813"
+   }
+  ],
+  "stale": false,
+  "pid": 43
+ },
+ {
+  "qid": "7717451",
+  "label": "The Bible Game",
+  "prop": "P136",
+  "question": "What genre is The Bible Game?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1521451"
+   },
+   {
+    "id": "Q5110393"
+   }
+  ],
+  "stale": true,
+  "pid": 44
+ },
+ {
+  "qid": "7045765",
+  "label": "Noble Peak",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Noble Peak located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q21590062"
+   }
+  ],
+  "stale": true,
+  "pid": 45
+ },
+ {
+  "qid": "7297365",
+  "label": "Ray Crone",
+  "prop": "P641",
+  "question": "Which sport does Ray Crone play?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q5369"
+   }
+  ],
+  "stale": false,
+  "pid": 46
+ },
+ {
+  "qid": "33760",
+  "label": "Bertrand Russell",
+  "prop": "P106",
+  "question": "What is the occupation of Bertrand Russell?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q170790"
+   },
+   {
+    "id": "Q15978337"
+   },
+   {
+    "id": "Q11774202"
+   },
+   {
+    "id": "Q14565331"
+   },
+   {
+    "id": "Q15632482"
+   },
+   {
+    "id": "Q18930236"
+   },
+   {
+    "id": "Q11499147"
+   },
+   {
+    "id": "Q16743941"
+   },
+   {
+    "id": "Q18930418"
+   },
+   {
+    "id": "Q18814623"
+   },
+   {
+    "id": "Q1622272"
+   },
+   {
+    "id": "Q18844224"
+   },
+   {
+    "id": "Q16389557"
+   },
+   {
+    "id": "Q82955"
+   },
+   {
+    "id": "Q16323111"
+   },
+   {
+    "id": "Q1930187"
+   },
+   {
+    "id": "Q4964182"
+   },
+   {
+    "id": "Q36180"
+   },
+   {
+    "id": "Q1231865"
+   },
+   {
+    "id": "Q16003550"
+   }
+  ],
+  "stale": true,
+  "pid": 47
+ },
+ {
+  "qid": "6296829",
+  "label": "Jovita Moore",
+  "prop": "P19",
+  "question": "Where was Jovita Moore born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q23556"
+   }
+  ],
+  "stale": true,
+  "pid": 48
+ },
+ {
+  "qid": "1115697",
+  "label": "Kent Manderville",
+  "prop": "P69",
+  "question": "Where was Kent Manderville educated?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q49115"
+   }
+  ],
+  "stale": false,
+  "pid": 49
+ },
+ {
+  "qid": "40430",
+  "label": "Bahia",
+  "prop": "P2046",
+  "question": "What is the area of Bahia?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+564692"
+   }
+  ],
+  "stale": true,
+  "pid": 50
+ },
+ {
+  "qid": "243439",
+  "label": "Full Metal Jacket",
+  "prop": "P136",
+  "question": "What genre is Full Metal Jacket?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q369747"
+   },
+   {
+    "id": "Q130232"
+   },
+   {
+    "id": "Q52207399"
+   }
+  ],
+  "stale": true,
+  "pid": 51
+ },
+ {
+  "qid": "221594",
+  "label": "As Good as It Gets",
+  "prop": "P175",
+  "question": "Who performed As Good as It Gets?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q76364"
+   }
+  ],
+  "stale": true,
+  "pid": 52
+ },
+ {
+  "qid": "11772434",
+  "label": "Małgorzatów",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Małgorzatów located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2459732"
+   }
+  ],
+  "stale": false,
+  "pid": 53
+ },
+ {
+  "qid": "1122102",
+  "label": "Vilson Dias de Oliveira",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Vilson Dias de Oliveira?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q155"
+   }
+  ],
+  "stale": false,
+  "pid": 54
+ },
+ {
+  "qid": "1890375",
+  "label": "Lashmer Whistler",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Lashmer Whistler?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q145"
+   }
+  ],
+  "stale": false,
+  "pid": 55
+ },
+ {
+  "qid": "1601828",
+  "label": "Helen Deutsch",
+  "prop": "P19",
+  "question": "Where was Helen Deutsch born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q11299"
+   }
+  ],
+  "stale": true,
+  "pid": 56
+ },
+ {
+  "qid": "2655237",
+  "label": "Brzeźno-Kolonia",
+  "prop": "P17",
+  "question": "In which country is Brzeźno-Kolonia located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q36"
+   }
+  ],
+  "stale": false,
+  "pid": 57
+ },
+ {
+  "qid": "1477701",
+  "label": "Ist der Ruf erst ruiniert...",
+  "prop": "P264",
+  "question": "Which record label is Ist der Ruf erst ruiniert... signed to?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q202585"
+   }
+  ],
+  "stale": false,
+  "pid": 58
+ },
+ {
+  "qid": "221594",
+  "label": "As Good as It Gets",
+  "prop": "P136",
+  "question": "What genre is As Good as It Gets?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q860626"
+   },
+   {
+    "id": "Q20442589"
+   },
+   {
+    "id": "Q859369"
+   },
+   {
+    "id": "Q157443"
+   },
+   {
+    "id": "Q1054574"
+   },
+   {
+    "id": "Q130232"
+   }
+  ],
+  "stale": true,
+  "pid": 59
+ },
+ {
+  "qid": "1358755",
+  "label": "Georges Garvarentz",
+  "prop": "P106",
+  "question": "What is the occupation of Georges Garvarentz?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q36834"
+   },
+   {
+    "id": "Q753110"
+   },
+   {
+    "id": "Q1415090"
+   },
+   {
+    "id": "Q158852"
+   }
+  ],
+  "stale": false,
+  "pid": 60
+ },
+ {
+  "qid": "3899349",
+  "label": "Pep Coll",
+  "prop": "P19",
+  "question": "Where was Pep Coll born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q18259"
+   }
+  ],
+  "stale": true,
+  "pid": 61
+ },
+ {
+  "qid": "3413161",
+  "label": "Naule Katuwal",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Naule Katuwal located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q28443"
+   }
+  ],
+  "stale": false,
+  "pid": 62
+ },
+ {
+  "qid": "64746600",
+  "label": "Polatbay Berdaliyev",
+  "prop": "P19",
+  "question": "Where was Polatbay Berdaliyev born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q484578"
+   }
+  ],
+  "stale": false,
+  "pid": 63
+ },
+ {
+  "qid": "7334975",
+  "label": "Rings of Steel",
+  "prop": "P175",
+  "question": "Who performed Rings of Steel?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q318322"
+   }
+  ],
+  "stale": false,
+  "pid": 64
+ },
+ {
+  "qid": "2707250",
+  "label": "Corineus",
+  "prop": "P39",
+  "question": "Which position does Corineus hold?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q6517846"
+   }
+  ],
+  "stale": false,
+  "pid": 65
+ },
+ {
+  "qid": "9297870",
+  "label": "Jerzy Polaczek",
+  "prop": "P102",
+  "question": "Which political party does Jerzy Polaczek belong to?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q156874"
+   }
+  ],
+  "stale": false,
+  "pid": 66
+ },
+ {
+  "qid": "4947565",
+  "label": "Bosse Nunatak",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Bosse Nunatak located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q21590062"
+   }
+  ],
+  "stale": true,
+  "pid": 67
+ },
+ {
+  "qid": "957749",
+  "label": "John Marshall Harlan II",
+  "prop": "P19",
+  "question": "Where was John Marshall Harlan II born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1297"
+   }
+  ],
+  "stale": false,
+  "pid": 68
+ },
+ {
+  "qid": "2683174",
+  "label": "Květov",
+  "prop": "P1082",
+  "question": "What is the population of Květov?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+114"
+   },
+   {
+    "amount": "+107"
+   },
+   {
+    "amount": "+125"
+   },
+   {
+    "amount": "+197"
+   },
+   {
+    "amount": "+255"
+   },
+   {
+    "amount": "+330"
+   },
+   {
+    "amount": "+297"
+   },
+   {
+    "amount": "+458"
+   },
+   {
+    "amount": "+464"
+   },
+   {
+    "amount": "+492"
+   },
+   {
+    "amount": "+489"
+   },
+   {
+    "amount": "+476"
+   },
+   {
+    "amount": "+560"
+   },
+   {
+    "amount": "+661"
+   },
+   {
+    "amount": "+117"
+   },
+   {
+    "amount": "+122"
+   },
+   {
+    "amount": "+123"
+   },
+   {
+    "amount": "+120"
+   },
+   {
+    "amount": "+116"
+   },
+   {
+    "amount": "+114"
+   },
+   {
+    "amount": "+104"
+   },
+   {
+    "amount": "+110"
+   },
+   {
+    "amount": "+113"
+   },
+   {
+    "amount": "+131"
+   },
+   {
+    "amount": "+119"
+   },
+   {
+    "amount": "+113"
+   }
+  ],
+  "stale": false,
+  "pid": 69
+ },
+ {
+  "qid": "1983677",
+  "label": "Nikolay Arabov",
+  "prop": "P19",
+  "question": "Where was Nikolay Arabov born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q178385"
+   }
+  ],
+  "stale": false,
+  "pid": 70
+ },
+ {
+  "qid": "1363457",
+  "label": "Erwin Schrott",
+  "prop": "P106",
+  "question": "What is the occupation of Erwin Schrott?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2865819"
+   },
+   {
+    "id": "Q639669"
+   }
+  ],
+  "stale": true,
+  "pid": 71
+ },
+ {
+  "qid": "2683174",
+  "label": "Květov",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Květov located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q594929"
+   },
+   {
+    "id": "Q12042020"
+   }
+  ],
+  "stale": false,
+  "pid": 72
+ },
+ {
+  "qid": "2435711",
+  "label": "Somebody's Me",
+  "prop": "P361",
+  "question": "What is Somebody's Me part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q913568"
+   }
+  ],
+  "stale": true,
+  "pid": 73
+ },
+ {
+  "qid": "7509332",
+  "label": "Sidney Shachnow",
+  "prop": "P166",
+  "question": "Which award did Sidney Shachnow receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q928314"
+   },
+   {
+    "id": "Q17231624"
+   },
+   {
+    "id": "Q145752"
+   },
+   {
+    "id": "Q980090"
+   },
+   {
+    "id": "Q852071"
+   }
+  ],
+  "stale": false,
+  "pid": 74
+ },
+ {
+  "qid": "4776942",
+  "label": "Antonio Rucco",
+  "prop": "P106",
+  "question": "What is the occupation of Antonio Rucco?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q13382566"
+   }
+  ],
+  "stale": false,
+  "pid": 75
+ },
+ {
+  "qid": "7768615",
+  "label": "The Thanksgiving Visitor",
+  "prop": "P577",
+  "question": "When was The Thanksgiving Visitor published or released?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1967-00-00T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 76
+ },
+ {
+  "qid": "221594",
+  "label": "As Good as It Gets",
+  "prop": "P577",
+  "question": "When was As Good as It Gets published or released?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1997-01-01T00:00:00Z"
+   },
+   {
+    "time": "+1998-02-12T00:00:00Z"
+   },
+   {
+    "time": "+1997-12-23T00:00:00Z"
+   },
+   {
+    "time": "+1997-12-23T00:00:00Z"
+   },
+   {
+    "time": "+1997-12-25T00:00:00Z"
+   }
+  ],
+  "stale": true,
+  "pid": 77
+ },
+ {
+  "qid": "59194713",
+  "label": "Morgenshtern",
+  "prop": "P106",
+  "question": "What is the occupation of Morgenshtern?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q2252262"
+   },
+   {
+    "id": "Q177220"
+   },
+   {
+    "id": "Q753110"
+   },
+   {
+    "id": "Q639669"
+   },
+   {
+    "id": "Q17125263"
+   }
+  ],
+  "stale": true,
+  "pid": 78
+ },
+ {
+  "qid": "5019251",
+  "label": "Caleb Heathcote",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Caleb Heathcote?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q179876"
+   }
+  ],
+  "stale": false,
+  "pid": 79
+ },
+ {
+  "qid": "3764091",
+  "label": "Khammam Lok Sabha constituency",
+  "prop": "P571",
+  "question": "When was Khammam Lok Sabha constituency established?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1952-00-00T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 80
+ },
+ {
+  "qid": "7302879",
+  "label": "Recorded Live at the Monterey Jazz Festival",
+  "prop": "P136",
+  "question": "What genre is Recorded Live at the Monterey Jazz Festival?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q8341"
+   }
+  ],
+  "stale": false,
+  "pid": 81
+ },
+ {
+  "qid": "317705",
+  "label": "Andorran Football Federation",
+  "prop": "P17",
+  "question": "In which country is Andorran Football Federation located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q228"
+   }
+  ],
+  "stale": false,
+  "pid": 82
+ },
+ {
+  "qid": "555579",
+  "label": "Duingen",
+  "prop": "P2046",
+  "question": "What is the area of Duingen?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+59.62"
+   },
+   {
+    "amount": "+59.64"
+   }
+  ],
+  "stale": false,
+  "pid": 83
+ },
+ {
+  "qid": "1990220",
+  "label": "Niki Cross",
+  "prop": "P54",
+  "question": "Which sports team does Niki Cross play for?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q15303416"
+   },
+   {
+    "id": "Q7550284"
+   },
+   {
+    "id": "Q2478264"
+   },
+   {
+    "id": "Q1543884"
+   },
+   {
+    "id": "Q612387"
+   },
+   {
+    "id": "Q732929"
+   },
+   {
+    "id": "Q540384"
+   },
+   {
+    "id": "Q1446108"
+   },
+   {
+    "id": "Q21188179"
+   }
+  ],
+  "stale": false,
+  "pid": 84
+ },
+ {
+  "qid": "724757",
+  "label": "Nuno Assis",
+  "prop": "P19",
+  "question": "Where was Nuno Assis born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1006413"
+   }
+  ],
+  "stale": false,
+  "pid": 85
+ },
+ {
+  "qid": "49001",
+  "label": "Whoopi Goldberg",
+  "prop": "P106",
+  "question": "What is the occupation of Whoopi Goldberg?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q10798782"
+   },
+   {
+    "id": "Q10800557"
+   },
+   {
+    "id": "Q2722764"
+   },
+   {
+    "id": "Q488205"
+   },
+   {
+    "id": "Q177220"
+   },
+   {
+    "id": "Q36180"
+   },
+   {
+    "id": "Q6625963"
+   },
+   {
+    "id": "Q2405480"
+   },
+   {
+    "id": "Q18668527"
+   },
+   {
+    "id": "Q948329"
+   },
+   {
+    "id": "Q2259451"
+   },
+   {
+    "id": "Q4853732"
+   },
+   {
+    "id": "Q245068"
+   },
+   {
+    "id": "Q3282637"
+   },
+   {
+    "id": "Q947873"
+   },
+   {
+    "id": "Q28389"
+   },
+   {
+    "id": "Q1759246"
+   },
+   {
+    "id": "Q13235160"
+   },
+   {
+    "id": "Q578109"
+   },
+   {
+    "id": "Q36834"
+   },
+   {
+    "id": "Q33999"
+   },
+   {
+    "id": "Q2526255"
+   }
+  ],
+  "stale": true,
+  "pid": 86
+ },
+ {
+  "qid": "7279160",
+  "label": "Rachel Blau DuPlessis",
+  "prop": "P106",
+  "question": "What is the occupation of Rachel Blau DuPlessis?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q49757"
+   },
+   {
+    "id": "Q36180"
+   }
+  ],
+  "stale": false,
+  "pid": 87
+ },
+ {
+  "qid": "7346291",
+  "label": "Robert Keith Alexander",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Robert Keith Alexander?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q16"
+   }
+  ],
+  "stale": false,
+  "pid": 88
+ },
+ {
+  "qid": "54869011",
+  "label": "Moaning Lisa Smile",
+  "prop": "P361",
+  "question": "What is Moaning Lisa Smile part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q55608542"
+   }
+  ],
+  "stale": true,
+  "pid": 89
+ },
+ {
+  "qid": "2595391",
+  "label": "Leo Ehlen",
+  "prop": "P54",
+  "question": "Which sports team does Leo Ehlen play for?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q854167"
+   },
+   {
+    "id": "Q24719"
+   },
+   {
+    "id": "Q1103097"
+   }
+  ],
+  "stale": false,
+  "pid": 90
+ },
+ {
+  "qid": "2847232",
+  "label": "Andrew Baxter",
+  "prop": "P69",
+  "question": "Where was Andrew Baxter educated?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q270532"
+   }
+  ],
+  "stale": false,
+  "pid": 91
+ },
+ {
+  "qid": "8201210",
+  "label": "Antonio Escohotado",
+  "prop": "P570",
+  "question": "When did Antonio Escohotado die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+2021-11-21T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 92
+ },
+ {
+  "qid": "133151",
+  "label": "Ozzy Osbourne",
+  "prop": "P106",
+  "question": "What is the occupation of Ozzy Osbourne?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q177220"
+   },
+   {
+    "id": "Q639669"
+   },
+   {
+    "id": "Q104218554"
+   },
+   {
+    "id": "Q36834"
+   },
+   {
+    "id": "Q488205"
+   }
+  ],
+  "stale": true,
+  "pid": 93
+ },
+ {
+  "qid": "4191934",
+  "label": "Nikolai Zimin",
+  "prop": "P166",
+  "question": "Which award did Nikolai Zimin receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q185493"
+   }
+  ],
+  "stale": false,
+  "pid": 94
+ },
+ {
+  "qid": "21079862",
+  "label": "Cars 3",
+  "prop": "P175",
+  "question": "Who performed Cars 3?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q318475"
+   }
+  ],
+  "stale": true,
+  "pid": 95
+ },
+ {
+  "qid": "56065619",
+  "label": "Ian Tutty",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Ian Tutty?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q408"
+   }
+  ],
+  "stale": false,
+  "pid": 96
+ },
+ {
+  "qid": "2940902",
+  "label": "Case départ",
+  "prop": "P58",
+  "question": "Who was the screenwriter of Case départ?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q3063963"
+   }
+  ],
+  "stale": false,
+  "pid": 97
+ },
+ {
+  "qid": "18639150",
+  "label": "Chargan Ridge",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Chargan Ridge located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q21590062"
+   }
+  ],
+  "stale": true,
+  "pid": 98
+ },
+ {
+  "qid": "4628",
+  "label": "Faroe Islands",
+  "prop": "P1082",
+  "question": "What is the population of Faroe Islands?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+34266"
+   },
+   {
+    "amount": "+34730"
+   },
+   {
+    "amount": "+35153"
+   },
+   {
+    "amount": "+35550"
+   },
+   {
+    "amount": "+35946"
+   },
+   {
+    "amount": "+36363"
+   },
+   {
+    "amount": "+36804"
+   },
+   {
+    "amount": "+37258"
+   },
+   {
+    "amount": "+37718"
+   },
+   {
+    "amount": "+38164"
+   },
+   {
+    "amount": "+38587"
+   },
+   {
+    "amount": "+38983"
+   },
+   {
+    "amount": "+39360"
+   },
+   {
+    "amount": "+39731"
+   },
+   {
+    "amount": "+40116"
+   },
+   {
+    "amount": "+40529"
+   },
+   {
+    "amount": "+40974"
+   },
+   {
+    "amount": "+41447"
+   },
+   {
+    "amount": "+41946"
+   },
+   {
+    "amount": "+42468"
+   },
+   {
+    "amount": "+43010"
+   },
+   {
+    "amount": "+43559"
+   },
+   {
+    "amount": "+44105"
+   },
+   {
+    "amount": "+44661"
+   },
+   {
+    "amount": "+45239"
+   },
+   {
+    "amount": "+45840"
+   },
+   {
+    "amount": "+46501"
+   },
+   {
+    "amount": "+47194"
+   },
+   {
+    "amount": "+47789"
+   },
+   {
+    "amount": "+48105"
+   },
+   {
+    "amount": "+48031"
+   },
+   {
+    "amount": "+47496"
+   },
+   {
+    "amount": "+46580"
+   },
+   {
+    "amount": "+45512"
+   },
+   {
+    "amount": "+44609"
+   },
+   {
+    "amount": "+44099"
+   },
+   {
+    "amount": "+44058"
+   },
+   {
+    "amount": "+44413"
+   },
+   {
+    "amount": "+45050"
+   },
+   {
+    "amount": "+45788"
+   },
+   {
+    "amount": "+46491"
+   },
+   {
+    "amount": "+47135"
+   },
+   {
+    "amount": "+47751"
+   },
+   {
+    "amount": "+48308"
+   },
+   {
+    "amount": "+48782"
+   },
+   {
+    "amount": "+49157"
+   },
+   {
+    "amount": "+49414"
+   },
+   {
+    "amount": "+49554"
+   },
+   {
+    "amount": "+49601"
+   },
+   {
+    "amount": "+49600"
+   },
+   {
+    "amount": "+49581"
+   },
+   {
+    "amount": "+49551"
+   },
+   {
+    "amount": "+49506"
+   },
+   {
+    "amount": "+49469"
+   },
+   {
+    "amount": "+52154"
+   },
+   {
+    "amount": "+49136"
+   },
+   {
+    "amount": "+51336"
+   },
+   {
+    "amount": "+52912"
+   },
+   {
+    "amount": "+54149"
+   }
+  ],
+  "stale": false,
+  "pid": 99
+ },
+ {
+  "qid": "5815919",
+  "label": "Días de cine",
+  "prop": "P166",
+  "question": "Which award did Días de cine receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q6359608"
+   },
+   {
+    "id": "Q2781969"
+   }
+  ],
+  "stale": false,
+  "pid": 100
+ },
+ {
+  "qid": "30078258",
+  "label": "Universe 10",
+  "prop": "P123",
+  "question": "Who published Universe 10?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1251563"
+   }
+  ],
+  "stale": false,
+  "pid": 101
+ },
+ {
+  "qid": "100732",
+  "label": "Herbert Grundmann",
+  "prop": "P19",
+  "question": "Where was Herbert Grundmann born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q20083"
+   }
+  ],
+  "stale": false,
+  "pid": 102
+ },
+ {
+  "qid": "25096993",
+  "label": "At Swim",
+  "prop": "P175",
+  "question": "Who performed At Swim?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q284227"
+   }
+  ],
+  "stale": false,
+  "pid": 103
+ },
+ {
+  "qid": "1989",
+  "label": "Saskatchewan",
+  "prop": "P6",
+  "question": "Who is the head of government of Saskatchewan?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1386411"
+   },
+   {
+    "id": "Q7436891"
+   }
+  ],
+  "stale": false,
+  "pid": 104
+ },
+ {
+  "qid": "3751266",
+  "label": "Franco Del Campo",
+  "prop": "P641",
+  "question": "Which sport does Franco Del Campo play?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q31920"
+   }
+  ],
+  "stale": false,
+  "pid": 105
+ },
+ {
+  "qid": "15273217",
+  "label": "Paweł Dawidowicz",
+  "prop": "P54",
+  "question": "Which sports team does Paweł Dawidowicz play for?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q734785"
+   },
+   {
+    "id": "Q166196"
+   },
+   {
+    "id": "Q7387221"
+   },
+   {
+    "id": "Q3873519"
+   },
+   {
+    "id": "Q2670674"
+   },
+   {
+    "id": "Q1780231"
+   },
+   {
+    "id": "Q3873552"
+   },
+   {
+    "id": "Q2674"
+   },
+   {
+    "id": "Q8639"
+   },
+   {
+    "id": "Q105861"
+   },
+   {
+    "id": "Q8639"
+   },
+   {
+    "id": "Q287236"
+   }
+  ],
+  "stale": false,
+  "pid": 106
+ },
+ {
+  "qid": "59194713",
+  "label": "Morgenshtern",
+  "prop": "P136",
+  "question": "What genre is Morgenshtern?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q3785732"
+   },
+   {
+    "id": "Q11399"
+   },
+   {
+    "id": "Q2913982"
+   },
+   {
+    "id": "Q11401"
+   }
+  ],
+  "stale": true,
+  "pid": 107
+ },
+ {
+  "qid": "170135",
+  "label": "Novaya Gazeta",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Novaya Gazeta located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q649"
+   }
+  ],
+  "stale": false,
+  "pid": 108
+ },
+ {
+  "qid": "1459829",
+  "label": "Friedrich Höricke",
+  "prop": "P106",
+  "question": "What is the occupation of Friedrich Höricke?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q36834"
+   },
+   {
+    "id": "Q486748"
+   }
+  ],
+  "stale": false,
+  "pid": 109
+ },
+ {
+  "qid": "1768716",
+  "label": "The Daleks",
+  "prop": "P57",
+  "question": "Who directed The Daleks?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q5111916"
+   },
+   {
+    "id": "Q16203893"
+   }
+  ],
+  "stale": false,
+  "pid": 110
+ },
+ {
+  "qid": "829561",
+  "label": "Gençay",
+  "prop": "P1082",
+  "question": "What is the population of Gençay?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+1733"
+   },
+   {
+    "amount": "+1733"
+   },
+   {
+    "amount": "+1796"
+   },
+   {
+    "amount": "+1737"
+   },
+   {
+    "amount": "+1739"
+   },
+   {
+    "amount": "+1746"
+   },
+   {
+    "amount": "+1743"
+   },
+   {
+    "amount": "+1708"
+   },
+   {
+    "amount": "+1681"
+   },
+   {
+    "amount": "+1653"
+   }
+  ],
+  "stale": false,
+  "pid": 111
+ },
+ {
+  "qid": "18345424",
+  "label": "Laura Pescatori",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Laura Pescatori?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q29"
+   },
+   {
+    "id": "Q1098499"
+   }
+  ],
+  "stale": true,
+  "pid": 112
+ },
+ {
+  "qid": "2238795",
+  "label": "Loch Alsh",
+  "prop": "P17",
+  "question": "In which country is Loch Alsh located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q145"
+   }
+  ],
+  "stale": false,
+  "pid": 113
+ },
+ {
+  "qid": "59194713",
+  "label": "Morgenshtern",
+  "prop": "P166",
+  "question": "Which award did Morgenshtern receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q61942967"
+   }
+  ],
+  "stale": true,
+  "pid": 114
+ },
+ {
+  "qid": "16962055",
+  "label": "Shoulda Let You Go",
+  "prop": "P361",
+  "question": "What is Shoulda Let You Go part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q3291208"
+   }
+  ],
+  "stale": true,
+  "pid": 115
+ },
+ {
+  "qid": "665070",
+  "label": "George Lucas in Love",
+  "prop": "P577",
+  "question": "When was George Lucas in Love published or released?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1999-01-01T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 116
+ },
+ {
+  "qid": "1309780",
+  "label": "Johann Salomon Wahl",
+  "prop": "P106",
+  "question": "What is the occupation of Johann Salomon Wahl?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1028181"
+   }
+  ],
+  "stale": false,
+  "pid": 117
+ },
+ {
+  "qid": "4808732",
+  "label": "Assender Glacier",
+  "prop": "P131",
+  "question": "In which administrative territorial entity is Assender Glacier located?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q21590062"
+   }
+  ],
+  "stale": true,
+  "pid": 118
+ },
+ {
+  "qid": "361167",
+  "label": "Carmine Appice",
+  "prop": "P106",
+  "question": "What is the occupation of Carmine Appice?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q386854"
+   },
+   {
+    "id": "Q639669"
+   }
+  ],
+  "stale": false,
+  "pid": 119
+ },
+ {
+  "qid": "5493791",
+  "label": "Kaapro Moilanen",
+  "prop": "P570",
+  "question": "When did Kaapro Moilanen die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1957-05-13T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 120
+ },
+ {
+  "qid": "3713067",
+  "label": "Domenico Gizzi",
+  "prop": "P570",
+  "question": "When did Domenico Gizzi die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1745-00-00T00:00:00Z"
+   }
+  ],
+  "stale": true,
+  "pid": 121
+ },
+ {
+  "qid": "4312896",
+  "label": "Oazu Nantoi",
+  "prop": "P39",
+  "question": "Which position does Oazu Nantoi hold?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q18390049"
+   },
+   {
+    "id": "Q18390049"
+   },
+   {
+    "id": "Q708492"
+   },
+   {
+    "id": "Q18390049"
+   },
+   {
+    "id": "Q708492"
+   }
+  ],
+  "stale": false,
+  "pid": 122
+ },
+ {
+  "qid": "19950954",
+  "label": "Drâa-Tafilalet",
+  "prop": "P2046",
+  "question": "What is the area of Drâa-Tafilalet?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+132167"
+   }
+  ],
+  "stale": true,
+  "pid": 123
+ },
+ {
+  "qid": "4946915",
+  "label": "Borzechów-Kolonia",
+  "prop": "P1082",
+  "question": "What is the population of Borzechów-Kolonia?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+359"
+   },
+   {
+    "amount": "+361"
+   }
+  ],
+  "stale": false,
+  "pid": 124
+ },
+ {
+  "qid": "1601828",
+  "label": "Helen Deutsch",
+  "prop": "P106",
+  "question": "What is the occupation of Helen Deutsch?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q28389"
+   },
+   {
+    "id": "Q1930187"
+   },
+   {
+    "id": "Q753110"
+   },
+   {
+    "id": "Q17337766"
+   },
+   {
+    "id": "Q3455803"
+   }
+  ],
+  "stale": true,
+  "pid": 125
+ },
+ {
+  "qid": "313749",
+  "label": "Jon Anderson",
+  "prop": "P264",
+  "question": "Which record label is Jon Anderson signed to?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q183387"
+   },
+   {
+    "id": "Q202440"
+   }
+  ],
+  "stale": false,
+  "pid": 126
+ },
+ {
+  "qid": "4492951",
+  "label": "Pyotr Frolov",
+  "prop": "P570",
+  "question": "When did Pyotr Frolov die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1839-12-10T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 127
+ },
+ {
+  "qid": "1921337",
+  "label": "Mercedes-Benz USA",
+  "prop": "P495",
+  "question": "What is the country of origin of Mercedes-Benz USA?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q30"
+   }
+  ],
+  "stale": false,
+  "pid": 128
+ },
+ {
+  "qid": "44638200",
+  "label": "Nappily Ever After",
+  "prop": "P136",
+  "question": "What genre is Nappily Ever After?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q860626"
+   }
+  ],
+  "stale": true,
+  "pid": 129
+ },
+ {
+  "qid": "2555550",
+  "label": "Leaving New York",
+  "prop": "P361",
+  "question": "What is Leaving New York part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q698493"
+   }
+  ],
+  "stale": true,
+  "pid": 130
+ },
+ {
+  "qid": "952054",
+  "label": "Roberto Colautti",
+  "prop": "P19",
+  "question": "Where was Roberto Colautti born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q44210"
+   }
+  ],
+  "stale": false,
+  "pid": 131
+ },
+ {
+  "qid": "11424907",
+  "label": "Hiroichi Sakai",
+  "prop": "P20",
+  "question": "Where did Hiroichi Sakai die?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q841309"
+   }
+  ],
+  "stale": false,
+  "pid": 132
+ },
+ {
+  "qid": "3622732",
+  "label": "Ugrin Csák",
+  "prop": "P570",
+  "question": "When did Ugrin Csák die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1311-00-00T00:00:00Z"
+   }
+  ],
+  "stale": true,
+  "pid": 133
+ },
+ {
+  "qid": "20128677",
+  "label": "Maurice J. McCauley",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Maurice J. McCauley?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q30"
+   }
+  ],
+  "stale": false,
+  "pid": 134
+ },
+ {
+  "qid": "5932944",
+  "label": "Hugh Vallance",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Hugh Vallance?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q145"
+   },
+   {
+    "id": "Q174193"
+   }
+  ],
+  "stale": false,
+  "pid": 135
+ },
+ {
+  "qid": "106506",
+  "label": "The Fifth Element",
+  "prop": "P577",
+  "question": "When was The Fifth Element published or released?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1997-05-07T00:00:00Z"
+   },
+   {
+    "time": "+1997-05-09T00:00:00Z"
+   },
+   {
+    "time": "+1997-08-22T00:00:00Z"
+   },
+   {
+    "time": "+1997-08-28T00:00:00Z"
+   },
+   {
+    "time": "+1997-05-07T00:00:00Z"
+   },
+   {
+    "time": "+1997-00-00T00:00:00Z"
+   }
+  ],
+  "stale": true,
+  "pid": 136
+ },
+ {
+  "qid": "2145",
+  "label": "Quebec City",
+  "prop": "P2046",
+  "question": "What is the area of Quebec City?",
+  "kind": "quantity",
+  "values_base": [
+   {
+    "amount": "+485.18"
+   }
+  ],
+  "stale": false,
+  "pid": 137
+ },
+ {
+  "qid": "210453",
+  "label": "Thiago Silva",
+  "prop": "P106",
+  "question": "What is the occupation of Thiago Silva?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q937857"
+   }
+  ],
+  "stale": false,
+  "pid": 138
+ },
+ {
+  "qid": "466228",
+  "label": "Bronislav Kaminski",
+  "prop": "P166",
+  "question": "Which award did Bronislav Kaminski receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q584653"
+   },
+   {
+    "id": "Q312439"
+   },
+   {
+    "id": "Q106474718"
+   },
+   {
+    "id": "Q106474716"
+   },
+   {
+    "id": "Q11353044"
+   },
+   {
+    "id": "Q124738960"
+   }
+  ],
+  "stale": true,
+  "pid": 139
+ },
+ {
+  "qid": "8021634",
+  "label": "Willie Littlechild",
+  "prop": "P166",
+  "question": "Which award did Willie Littlechild receive?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q45947229"
+   },
+   {
+    "id": "Q1330014"
+   },
+   {
+    "id": "Q45947229"
+   },
+   {
+    "id": "Q15278101"
+   },
+   {
+    "id": "Q486225"
+   }
+  ],
+  "stale": false,
+  "pid": 140
+ },
+ {
+  "qid": "49001",
+  "label": "Whoopi Goldberg",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Whoopi Goldberg?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q30"
+   }
+  ],
+  "stale": false,
+  "pid": 141
+ },
+ {
+  "qid": "6759063",
+  "label": "Marga Richter",
+  "prop": "P20",
+  "question": "Where did Marga Richter die?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1088201"
+   }
+  ],
+  "stale": false,
+  "pid": 142
+ },
+ {
+  "qid": "6937726",
+  "label": "Murder by Contract",
+  "prop": "P136",
+  "question": "What genre is Murder by Contract?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q185867"
+   },
+   {
+    "id": "Q959790"
+   },
+   {
+    "id": "Q130232"
+   }
+  ],
+  "stale": false,
+  "pid": 143
+ },
+ {
+  "qid": "8017119",
+  "label": "William Pryce Cumby",
+  "prop": "P20",
+  "question": "Where did William Pryce Cumby die?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q1762242"
+   }
+  ],
+  "stale": false,
+  "pid": 144
+ },
+ {
+  "qid": "2916363",
+  "label": "Papa Little",
+  "prop": "P361",
+  "question": "What is Papa Little part of?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q47134"
+   }
+  ],
+  "stale": false,
+  "pid": 145
+ },
+ {
+  "qid": "7530349",
+  "label": "Siritunga Jayasuriya",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Siritunga Jayasuriya?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q854"
+   }
+  ],
+  "stale": false,
+  "pid": 146
+ },
+ {
+  "qid": "83287",
+  "label": "Selena Gomez",
+  "prop": "P106",
+  "question": "What is the occupation of Selena Gomez?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q177220"
+   },
+   {
+    "id": "Q488205"
+   },
+   {
+    "id": "Q183945"
+   },
+   {
+    "id": "Q33999"
+   },
+   {
+    "id": "Q2405480"
+   },
+   {
+    "id": "Q4610556"
+   },
+   {
+    "id": "Q3501317"
+   },
+   {
+    "id": "Q1414443"
+   },
+   {
+    "id": "Q43845"
+   },
+   {
+    "id": "Q970153"
+   }
+  ],
+  "stale": true,
+  "pid": 147
+ },
+ {
+  "qid": "3876871",
+  "label": "Nikki Garcia",
+  "prop": "P102",
+  "question": "Which political party does Nikki Garcia belong to?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q29552"
+   }
+  ],
+  "stale": true,
+  "pid": 148
+ },
+ {
+  "qid": "7052127",
+  "label": "Norman Curtis",
+  "prop": "P570",
+  "question": "When did Norman Curtis die?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+2009-09-07T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 149
+ },
+ {
+  "qid": "1918",
+  "label": "Franck Ribéry",
+  "prop": "P27",
+  "question": "What is the country of citizenship of Franck Ribéry?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q142"
+   }
+  ],
+  "stale": false,
+  "pid": 150
+ },
+ {
+  "qid": "249344",
+  "label": "Leandro Bacuna",
+  "prop": "P19",
+  "question": "Where was Leandro Bacuna born?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q749"
+   }
+  ],
+  "stale": false,
+  "pid": 151
+ },
+ {
+  "qid": "10856362",
+  "label": "Daimyo Clock Museum",
+  "prop": "P571",
+  "question": "When was Daimyo Clock Museum established?",
+  "kind": "time",
+  "values_base": [
+   {
+    "time": "+1974-04-01T00:00:00Z"
+   }
+  ],
+  "stale": false,
+  "pid": 152
+ },
+ {
+  "qid": "16203985",
+  "label": "Murad Kalam",
+  "prop": "P69",
+  "question": "Where was Murad Kalam educated?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q49122"
+   },
+   {
+    "id": "Q49123"
+   }
+  ],
+  "stale": false,
+  "pid": 153
+ },
+ {
+  "qid": "1383476",
+  "label": "Teodor Andrzej Potocki",
+  "prop": "P106",
+  "question": "What is the occupation of Teodor Andrzej Potocki?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q250867"
+   },
+   {
+    "id": "Q611644"
+   }
+  ],
+  "stale": false,
+  "pid": 154
+ },
+ {
+  "qid": "215508",
+  "label": "Julius Rupp",
+  "prop": "P106",
+  "question": "What is the occupation of Julius Rupp?",
+  "kind": "qid",
+  "values_base": [
+   {
+    "id": "Q4964182"
+   },
+   {
+    "id": "Q1622272"
+   },
+   {
+    "id": "Q36180"
+   },
+   {
+    "id": "Q1234713"
+   }
+  ],
+  "stale": true,
+  "pid": 155
+ }
+]

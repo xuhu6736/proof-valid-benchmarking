@@ -1,1 +1,2 @@
-*.parquet filter=lfs diff=lfs merge=lfs -text
+experiments/11_trace_operating_points/data/SemBenchmarkLmArena_trimmed.parquet filter=lfs diff=lfs merge=lfs -text
+experiments/12_real_dynamics_audit/data/wikifactdiff_20210104_20230227.parquet filter=lfs diff=lfs merge=lfs -text

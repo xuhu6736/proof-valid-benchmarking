@@ -1,0 +1,74 @@
+{
+ "strict": {
+  "served": 89,
+  "decayed_served": 0,
+  "decayed_declined": 8,
+  "correct_declined": 41,
+  "incomplete_nd_declined": 4,
+  "indet_declined": 5
+ },
+ "majority": {
+  "served": 96,
+  "decayed_served": 0,
+  "decayed_declined": 8,
+  "correct_declined": 36,
+  "incomplete_nd_declined": 3,
+  "indet_declined": 4
+ },
+ "claims": {
+  "served": 104,
+  "decayed_served": 0,
+  "decayed_declined": 8,
+  "correct_declined": 28,
+  "incomplete_nd_declined": 3,
+  "indet_declined": 4
+ },
+ "asserted": {
+  "served": 111,
+  "decayed_served": 0,
+  "decayed_declined": 8,
+  "correct_declined": 21,
+  "incomplete_nd_declined": 3,
+  "indet_declined": 4
+ },
+ "page-change": {
+  "served": 43,
+  "decayed_served": 1,
+  "decayed_declined": 7,
+  "correct_declined": 85,
+  "incomplete_nd_declined": 7,
+  "indet_declined": 5
+ },
+ "entity-change": {
+  "served": 56,
+  "decayed_served": 0,
+  "decayed_declined": 8,
+  "correct_declined": 67,
+  "incomplete_nd_declined": 12,
+  "indet_declined": 4
+ },
+ "prop-change": {
+  "served": 100,
+  "decayed_served": 0,
+  "decayed_declined": 8,
+  "correct_declined": 28,
+  "incomplete_nd_declined": 7,
+  "indet_declined": 4
+ },
+ "value-in-page": {
+  "served": 97,
+  "decayed_served": 3,
+  "decayed_declined": 5,
+  "correct_declined": 35,
+  "incomplete_nd_declined": 6,
+  "indet_declined": 4
+ },
+ "llm-recheck": {
+  "served": 129,
+  "decayed_served": 3,
+  "decayed_declined": 5,
+  "correct_declined": 9,
+  "incomplete_nd_declined": 1,
+  "indet_declined": 3
+ }
+}

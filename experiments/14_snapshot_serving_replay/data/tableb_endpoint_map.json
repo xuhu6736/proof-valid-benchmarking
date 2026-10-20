@@ -1,0 +1,4632 @@
+{
+ "similarity-static": {
+  "0": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "1": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Finland"
+  },
+  "2": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Science fiction action film"
+  },
+  "3": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Daytime Emmy Award"
+  },
+  "4": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "War film, psychological epic war film, anti-war film, war drama."
+  },
+  "5": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "FHS/Sjefskurs"
+  },
+  "6": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Cricketer"
+  },
+  "7": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1739"
+  },
+  "8": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Éric Serra performed The Fifth Element."
+  },
+  "9": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Science fiction horror film"
+  },
+  "10": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "American football"
+  },
+  "11": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "12": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "13": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Adam Brooks and Cee Marcellus."
+  },
+  "14": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dr. Seuss"
+  },
+  "15": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Antarctic Treaty area"
+  },
+  "16": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "shooting sports"
+  },
+  "17": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Teen sitcom / American television sitcom"
+  },
+  "18": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Palestine"
+  },
+  "19": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Basketball player"
+  },
+  "20": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Men's association football."
+  },
+  "21": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "politician"
+  },
+  "22": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Central Bedfordshire"
+  },
+  "23": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "24": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chief executive officer"
+  },
+  "25": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Malaysia"
+  },
+  "26": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Association football player and association football coach."
+  },
+  "27": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "28": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Aristocrat"
+  },
+  "29": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Duisburg"
+  },
+  "30": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "11,175"
+  },
+  "31": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "32": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Member of the Uttar Pradesh Legislative Assembly"
+  },
+  "33": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Yoola, Sony Music, Atlantic Records Russia, Bugatti Music, S&P Digital"
+  },
+  "34": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lawyer and former judge."
+  },
+  "35": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Soviet Union, Russia"
+  },
+  "36": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "23 January 2020"
+  },
+  "37": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "23 November 2021"
+  },
+  "38": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Crime thriller film."
+  },
+  "39": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Astrid Lindgren Memorial Award, Guardian Children's Fiction Prize, Michael L. Printz Award, Carnegie Medal, Fellow of the Royal Society of Literature, Branford Boase Award"
+  },
+  "40": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "FTSE 100 Index, list of companies involved in the Gaza war"
+  },
+  "41": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Russian Empire, Soviet Union"
+  },
+  "42": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chile"
+  },
+  "43": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Stanley Mullen"
+  },
+  "44": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Trivia, Christian video game."
+  },
+  "45": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Antarctic Treaty area"
+  },
+  "46": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Baseball"
+  },
+  "47": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Philosopher, logician, mathematician, and public intellectual."
+  },
+  "48": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Atlanta"
+  },
+  "49": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Cornell University"
+  },
+  "50": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "564,692"
+  },
+  "51": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "War film, drama film"
+  },
+  "52": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Hans Zimmer"
+  },
+  "53": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Gmina Rawa Mazowiecka"
+  },
+  "54": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Brazil"
+  },
+  "55": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom"
+  },
+  "56": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Manhattan"
+  },
+  "57": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poland"
+  },
+  "58": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "RCA Records"
+  },
+  "59": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Romantic comedy"
+  },
+  "60": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Composer, songwriter, film score composer, conductor"
+  },
+  "61": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pessonada, Conca de Dalt, Pallars Jussà, Catalonia"
+  },
+  "62": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dailekh District"
+  },
+  "63": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Uzbek Soviet Socialist Republic"
+  },
+  "64": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Die Krupps"
+  },
+  "65": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Legendary ruler of Cornwall"
+  },
+  "66": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Law and Justice"
+  },
+  "67": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Antarctic Treaty area"
+  },
+  "68": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chicago"
+  },
+  "69": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "The population of Květov has varied over time, with recorded values including 104, 107, 110, 113, 114, 116, 117, 119, 120, 122, 123, 125, 131, 255, 297, 330, 458, 464, 476, 489, 492, 560, and 661."
+  },
+  "70": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sliven"
+  },
+  "71": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Opera singer, musician."
+  },
+  "72": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Písek District"
+  },
+  "73": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Insomniac"
+  },
+  "74": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sidney Shachnow received the Bronze Star Medal, Legion of Merit, Purple Heart, Air Medal, and Silver Star."
+  },
+  "75": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canoeist"
+  },
+  "76": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1967"
+  },
+  "77": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1997 (theatrical release on December 25, 1997; home media release on May 19, 1998)."
+  },
+  "78": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Rapper, singer, songwriter, musician, YouTuber, record producer, and showman."
+  },
+  "79": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Kingdom of England"
+  },
+  "80": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1952"
+  },
+  "81": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Jazz"
+  },
+  "82": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Andorra"
+  },
+  "83": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "59.62, 59.64"
+  },
+  "84": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Houston Dash"
+  },
+  "85": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lousã"
+  },
+  "86": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Actor, comedian, author, and television personality."
+  },
+  "87": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poet, writer, essayist, feminist critic, and scholar."
+  },
+  "88": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canada"
+  },
+  "89": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Creature Songs"
+  },
+  "90": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Fortuna Sittard, Roda JC Kerkrade, K. Waterschei S.V. Thor Genk"
+  },
+  "91": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "University of Aberdeen (King's College)"
+  },
+  "92": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "21 November 2021"
+  },
+  "93": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Singer, musician, songwriter, and media personality."
+  },
+  "94": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Order of Lenin"
+  },
+  "95": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Randy Newman performed Cars 3."
+  },
+  "96": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Australia"
+  },
+  "97": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Fabrice Éboué"
+  },
+  "99": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "49,469 to 54,149"
+  },
+  "100": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Iris Awards"
+  },
+  "101": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Doubleday"
+  },
+  "102": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Meerane, Saxony"
+  },
+  "103": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lisa Hannigan performed At Swim."
+  },
+  "104": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Scott Moe"
+  },
+  "105": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Competitive swimming"
+  },
+  "106": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Hellas Verona FC"
+  },
+  "107": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Russian hip-hop, rock music, trap music, hip-hop."
+  },
+  "108": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Moscow"
+  },
+  "109": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pianist"
+  },
+  "110": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Christopher Barry and Richard Martin directed The Daleks."
+  },
+  "111": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1,733"
+  },
+  "112": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Spain, Kingdom of Italy"
+  },
+  "113": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom"
+  },
+  "114": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Diamond Play Button"
+  },
+  "115": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Just like You"
+  },
+  "116": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1999"
+  },
+  "117": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Painter"
+  },
+  "118": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Antarctic Treaty area"
+  },
+  "119": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Drummer, musician."
+  },
+  "120": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "13 May 1957"
+  },
+  "121": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1745"
+  },
+  "122": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Member of the Parliament of Moldova"
+  },
+  "124": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "359 or 361"
+  },
+  "125": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Screenwriter, journalist, songwriter, theatre critic, director"
+  },
+  "126": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Atlantic Records"
+  },
+  "127": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "December 10, 1839"
+  },
+  "128": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "129": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Romantic comedy."
+  },
+  "130": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "131": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Córdoba, Argentina"
+  },
+  "132": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Kainan"
+  },
+  "133": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1311"
+  },
+  "134": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "135": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom, United Kingdom of Great Britain and Ireland"
+  },
+  "136": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1997"
+  },
+  "137": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "485.18"
+  },
+  "138": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Association football player"
+  },
+  "139": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Iron Cross 1st Class"
+  },
+  "140": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Tom Longboat Awards, Canada's Sports Hall of Fame, Member of the Order of Canada, Pearson Medal of Peace"
+  },
+  "141": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "142": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Barnegat Township, New Jersey."
+  },
+  "143": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Film noir, crime film, drama film"
+  },
+  "144": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pembroke"
+  },
+  "145": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Shetland Islands"
+  },
+  "146": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sri Lanka"
+  },
+  "147": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Singer, singer-songwriter, record producer, actor, voice actor, model, fashion designer, filmmaker, businessperson, child actor"
+  },
+  "148": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Democratic Party"
+  },
+  "149": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "7 September 2009"
+  },
+  "150": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "France"
+  },
+  "151": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Groningen"
+  },
+  "152": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "April 1, 1974"
+  },
+  "153": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Harvard Law School and Harvard College."
+  },
+  "154": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Catholic priest, Catholic bishop."
+  },
+  "155": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Theologian, philosopher, university teacher, writer."
+  }
+ },
+ "TTL-1mo": {
+  "0": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "1": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q33"
+  },
+  "2": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Science fiction film, adventure film, comedy film, action film, fantasy film, dystopian film"
+  },
+  "3": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1179189, Q17985761"
+  },
+  "4": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "War film, action film, drama film, thriller film, epic film, war drama, horror film, psychological horror film, psychological thriller film, adventure film, psychological drama film, satirical film."
+  },
+  "5": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q11968294"
+  },
+  "6": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q12299841"
+  },
+  "7": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1739-06-12"
+  },
+  "8": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "9": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Science fiction horror film."
+  },
+  "10": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "American football"
+  },
+  "11": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "12": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "13": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q348885"
+  },
+  "14": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q298685"
+  },
+  "15": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Antarctic Treaty area"
+  },
+  "16": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "shooting sports"
+  },
+  "17": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Teen sitcom, sitcom."
+  },
+  "18": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Jerusalem"
+  },
+  "19": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q3665646"
+  },
+  "20": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Association football."
+  },
+  "21": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q82955, Q11986654"
+  },
+  "22": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1053723"
+  },
+  "23": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "24": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "CEO of France Telecom / président-directeur général"
+  },
+  "25": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q833"
+  },
+  "26": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q937857, Q628099"
+  },
+  "27": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "28": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q2478141"
+  },
+  "29": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q2100"
+  },
+  "30": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "11175, 11151, 10282"
+  },
+  "31": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "32": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q18039836"
+  },
+  "33": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Yoola, Atlantic Records Russia, Bugatti Music"
+  },
+  "34": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q4594605, Q40348, Q16533"
+  },
+  "35": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Soviet Union, Russia"
+  },
+  "36": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "2020-01-23"
+  },
+  "37": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "2021-11-23"
+  },
+  "38": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Crime thriller film"
+  },
+  "39": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q971363, Q1928373, Q1043985, Q430035, Q39477935, Q495963"
+  },
+  "40": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q466496, Q134661623"
+  },
+  "41": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Russian Empire, Soviet Union"
+  },
+  "42": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q298"
+  },
+  "43": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q7599813"
+  },
+  "44": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Trivia video game, Christian video game"
+  },
+  "45": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Antarctic Treaty area"
+  },
+  "46": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q5369"
+  },
+  "47": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Philosopher, logician, and social reformer."
+  },
+  "48": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "New York City"
+  },
+  "49": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Cornell University"
+  },
+  "50": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "565733"
+  },
+  "51": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "War film, drama film"
+  },
+  "52": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "53": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Gmina Rawa Mazowiecka"
+  },
+  "54": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q155"
+  },
+  "55": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q145"
+  },
+  "56": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "New York City"
+  },
+  "57": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q36"
+  },
+  "58": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q202585"
+  },
+  "59": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Romantic comedy film"
+  },
+  "60": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Composer, songwriter, film score composer, conductor, musician"
+  },
+  "61": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Pessonada"
+  },
+  "62": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q28443"
+  },
+  "63": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q484578"
+  },
+  "64": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q318322"
+  },
+  "65": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Legendary ruler of Cornwall"
+  },
+  "66": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q156874"
+  },
+  "67": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Antarctic Treaty area"
+  },
+  "68": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1297"
+  },
+  "69": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "114, 107, 125, 197, 255, 330, 297, 458, 464, 492, 489, 476, 560, 661, 117, 122, 123, 120, 116, 114, 104, 110, 113, 131, 119, 113"
+  },
+  "70": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q178385"
+  },
+  "71": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Opera singer"
+  },
+  "72": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q594929, Q12042020"
+  },
+  "73": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "74": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q928314, Q17231624, Q145752, Q980090, Q852071"
+  },
+  "75": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q13382566"
+  },
+  "76": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1967-00-00"
+  },
+  "77": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1997-12-23"
+  },
+  "78": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Rapper, singer-songwriter, YouTuber, record producer, street musician, and former frontman of rock band MMD Crew."
+  },
+  "79": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q179876"
+  },
+  "80": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1952-00-00"
+  },
+  "81": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q8341"
+  },
+  "82": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q228"
+  },
+  "83": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "59.62, 59.64"
+  },
+  "84": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q15303416, Q7550284, Q2478264, Q1543884, Q612387, Q732929, Q540384, Q1446108, Q21188179"
+  },
+  "85": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1006413"
+  },
+  "86": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Actor, comedian, author, and television personality."
+  },
+  "87": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q49757, Q36180"
+  },
+  "88": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q16"
+  },
+  "89": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "90": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Fortuna Sittard, Roda JC Kerkrade, K. Waterschei S.V. Thor Genk"
+  },
+  "91": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q270532"
+  },
+  "92": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "2021-11-21"
+  },
+  "93": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Musician, rock singer, singer-songwriter, singer."
+  },
+  "94": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q185493"
+  },
+  "95": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "96": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q408"
+  },
+  "97": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q3063963"
+  },
+  "99": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "52154"
+  },
+  "100": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q6359608, Q2781969"
+  },
+  "101": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1251563"
+  },
+  "102": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q20083"
+  },
+  "103": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q284227"
+  },
+  "104": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1386411, Q7436891"
+  },
+  "105": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q31920"
+  },
+  "106": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q734785, Q166196, Q7387221, Q3873519, Q2670674, Q1780231, Q3873552, Q2674, Q8639, Q105861, Q8639, Q287236"
+  },
+  "107": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Russian hip-hop, rock music"
+  },
+  "108": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Moscow"
+  },
+  "109": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q36834, Q486748, Q1607826, Q1643514, Q639669"
+  },
+  "110": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q5111916, Q16203893"
+  },
+  "111": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1733, 1733, 1796, 1737, 1739, 1746, 1743, 1708, 1681, 1653"
+  },
+  "112": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Spain, Duchy of Parma and Piacenza"
+  },
+  "113": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "United Kingdom"
+  },
+  "114": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "115": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "116": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1999-01-01"
+  },
+  "117": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1028181"
+  },
+  "118": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Antarctic Treaty area"
+  },
+  "119": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q386854, Q639669, Q36834"
+  },
+  "120": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1957-05-13"
+  },
+  "121": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1745-01-01"
+  },
+  "122": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q18390049, Q18390049, Q708492, Q18390049, Q708492"
+  },
+  "124": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "359, 361"
+  },
+  "125": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Screenwriter, journalist, and songwriter."
+  },
+  "126": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q183387, Q202440"
+  },
+  "127": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1839-12-10"
+  },
+  "128": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "129": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Romantic comedy film."
+  },
+  "130": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "131": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q44210"
+  },
+  "132": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Kainan"
+  },
+  "133": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1311"
+  },
+  "134": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "135": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q145, Q174193"
+  },
+  "136": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1997-05-07, 1997-05-09, 1997-08-22, 1997-08-28"
+  },
+  "137": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "485.18"
+  },
+  "138": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q937857"
+  },
+  "139": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Iron Cross (1939), 1st class"
+  },
+  "140": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q45947229, Q1330014, Q45947229, Q15278101, Q486225"
+  },
+  "141": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "United States"
+  },
+  "142": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1088201"
+  },
+  "143": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q185867, Q959790, Q130232"
+  },
+  "144": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1762242"
+  },
+  "145": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q47134"
+  },
+  "146": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q854"
+  },
+  "147": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Singer-songwriter, record producer, actor, voice actor, model, fashion designer, filmmaker, businessperson, child actor, pop singer, musician."
+  },
+  "148": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "149": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "2009-09-07"
+  },
+  "150": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "France"
+  },
+  "151": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q749"
+  },
+  "152": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1974-04-01"
+  },
+  "153": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q49122, Q49123"
+  },
+  "154": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q250867, Q611644"
+  },
+  "155": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "German Protestant theologian and pastor."
+  }
+ },
+ "page-change-loop": {
+  "0": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "1": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Finland"
+  },
+  "2": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Science fiction film, adventure film, comedy film, action film, fantasy film, dystopian film"
+  },
+  "3": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Daytime Emmy Award"
+  },
+  "4": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "War film, action film, drama film, thriller film, epic film, war drama, horror film, psychological horror film, psychological thriller film, adventure film, psychological drama film, satirical film."
+  },
+  "5": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q11968294"
+  },
+  "6": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Cricketer"
+  },
+  "7": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1739-06-12"
+  },
+  "8": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "9": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q200092, Q471839"
+  },
+  "10": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "American football"
+  },
+  "11": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "12": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "13": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Adam Brooks and Cee Marcellus."
+  },
+  "14": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q298685"
+  },
+  "15": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "16": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q206989"
+  },
+  "17": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q17113138, Q170238"
+  },
+  "18": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q1218"
+  },
+  "19": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Basketball player"
+  },
+  "20": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q2736"
+  },
+  "21": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q82955"
+  },
+  "22": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q1053723"
+  },
+  "23": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "24": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q428322, Q130297510, Q1255921, Q708492"
+  },
+  "25": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q833"
+  },
+  "26": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q937857, Q628099"
+  },
+  "27": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "28": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2478141"
+  },
+  "29": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Duisburg"
+  },
+  "30": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "11175, 11151, 10282"
+  },
+  "31": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "32": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q18039836"
+  },
+  "33": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q30673858, Q100744452, Q112972756"
+  },
+  "34": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lawyer and former judge."
+  },
+  "35": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Soviet Union, Russia"
+  },
+  "36": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "2020-01-23"
+  },
+  "37": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "2021-11-23"
+  },
+  "38": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Crime thriller film."
+  },
+  "39": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Astrid Lindgren Memorial Award, Guardian Children's Fiction Prize, Michael L. Printz Award, Carnegie Medal, Fellow of the Royal Society of Literature, Branford Boase Award"
+  },
+  "40": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q466496, Q134661623"
+  },
+  "41": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Russian Empire, Soviet Union"
+  },
+  "42": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chile"
+  },
+  "43": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q7599813"
+  },
+  "44": {
+   "how": "served-wrong-proxy",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q1521451, Q5110393"
+  },
+  "45": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Antarctic Treaty area"
+  },
+  "46": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q5369"
+  },
+  "47": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Philosopher, logician, and social reformer."
+  },
+  "48": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "New York City"
+  },
+  "49": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q49115"
+  },
+  "50": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "565733"
+  },
+  "51": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "War film, drama film"
+  },
+  "52": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "53": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Gmina Rawa Mazowiecka"
+  },
+  "54": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q155"
+  },
+  "55": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q145"
+  },
+  "56": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Manhattan"
+  },
+  "57": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q36"
+  },
+  "58": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q202585"
+  },
+  "59": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Romantic comedy film"
+  },
+  "60": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q36834, Q753110, Q1415090, Q158852, Q639669"
+  },
+  "61": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Pessonada"
+  },
+  "62": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dailekh District"
+  },
+  "63": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q484578"
+  },
+  "64": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Die Krupps"
+  },
+  "65": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q6517846"
+  },
+  "66": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q156874"
+  },
+  "67": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Antarctic Treaty area"
+  },
+  "68": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q1297"
+  },
+  "69": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "The population of Květov has varied over time, with recorded values including 104, 107, 110, 113, 114, 116, 117, 119, 120, 122, 123, 125, 131, 255, 297, 330, 458, 464, 476, 489, 492, 560, and 661."
+  },
+  "70": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sliven"
+  },
+  "71": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2865819, Q177220, Q98834056"
+  },
+  "72": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Písek District"
+  },
+  "73": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "74": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q928314, Q17231624, Q145752, Q980090, Q852071"
+  },
+  "75": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canoeist"
+  },
+  "76": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "1967-00-00"
+  },
+  "77": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1997-12-23"
+  },
+  "78": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2252262, Q488205, Q17125263"
+  },
+  "79": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q179876"
+  },
+  "80": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "1952-00-00"
+  },
+  "81": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Jazz"
+  },
+  "82": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Andorra"
+  },
+  "83": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "59.62, 59.64"
+  },
+  "84": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q15303416, Q7550284, Q2478264, Q1543884, Q612387, Q732929, Q540384, Q1446108, Q21188179"
+  },
+  "85": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lousã"
+  },
+  "86": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Actor, comedian, author, and television personality."
+  },
+  "87": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poet, writer, essayist, feminist critic, and scholar."
+  },
+  "88": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q16"
+  },
+  "89": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Creature Songs"
+  },
+  "90": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q854167, Q24719, Q1103097"
+  },
+  "91": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "University of Aberdeen (King's College)"
+  },
+  "92": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "2021-11-21"
+  },
+  "93": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Musician, rock singer, singer-songwriter, singer."
+  },
+  "94": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q185493"
+  },
+  "95": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "96": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q408"
+  },
+  "97": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Fabrice Éboué"
+  },
+  "99": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "52154"
+  },
+  "100": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Iris Awards"
+  },
+  "101": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1251563"
+  },
+  "102": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Meerane, Saxony"
+  },
+  "103": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q284227"
+  },
+  "104": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1386411, Q7436891"
+  },
+  "105": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q31920"
+  },
+  "106": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q734785, Q166196, Q7387221, Q3873519, Q2670674, Q1780231, Q3873552, Q2674, Q8639, Q105861, Q8639, Q287236"
+  },
+  "107": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q3785732, Q11399"
+  },
+  "108": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Moscow"
+  },
+  "109": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pianist"
+  },
+  "110": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q5111916, Q16203893"
+  },
+  "111": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1,733"
+  },
+  "112": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Spain, Duchy of Parma and Piacenza"
+  },
+  "113": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "United Kingdom"
+  },
+  "114": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "115": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "116": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "1999-01-01"
+  },
+  "117": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q1028181"
+  },
+  "118": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "119": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q386854, Q639669, Q36834"
+  },
+  "120": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "13 May 1957"
+  },
+  "121": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1745"
+  },
+  "122": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q18390049, Q18390049, Q708492, Q18390049, Q708492"
+  },
+  "124": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "359, 361"
+  },
+  "125": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Screenwriter, journalist, songwriter, theatre critic, director"
+  },
+  "126": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q183387, Q202440"
+  },
+  "127": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "1839-12-10"
+  },
+  "128": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "129": {
+   "how": "served-wrong-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Romantic comedy."
+  },
+  "130": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "131": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q44210"
+  },
+  "132": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q841309"
+  },
+  "133": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1311"
+  },
+  "134": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "135": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom, United Kingdom of Great Britain and Ireland"
+  },
+  "136": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "1997-05-07, 1997-05-09, 1997-08-22, 1997-08-28"
+  },
+  "137": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "485.18"
+  },
+  "138": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q937857"
+  },
+  "139": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Iron Cross (1939), 1st class"
+  },
+  "140": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q45947229, Q1330014, Q45947229, Q15278101, Q486225"
+  },
+  "141": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "United States"
+  },
+  "142": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Barnegat Township, New Jersey."
+  },
+  "143": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Film noir, crime film, drama film"
+  },
+  "144": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q1762242"
+  },
+  "145": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Shetland Islands"
+  },
+  "146": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sri Lanka"
+  },
+  "147": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Singer-songwriter, record producer, actor, voice actor, model, fashion designer, filmmaker, businessperson, child actor, pop singer, musician."
+  },
+  "148": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "149": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "2009-09-07"
+  },
+  "150": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "France"
+  },
+  "151": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "template",
+   "answer": "Q749"
+  },
+  "152": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "April 1, 1974"
+  },
+  "153": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Harvard Law School and Harvard College."
+  },
+  "154": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q250867, Q611644"
+  },
+  "155": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q4964182, Q1622272, Q36180, Q1231865, Q1930187, Q6051619, Q98833883"
+  }
+ },
+ "pvsb-strict-loop": {
+  "0": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "1": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Finland"
+  },
+  "2": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q471839, Q319221, Q157443, Q188473, Q157394, Q20443008"
+  },
+  "3": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Daytime Emmy Award"
+  },
+  "4": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q369747, Q188473, Q130232, Q2484376, Q652256, Q116456802, Q200092, Q109629396, Q109733304, Q319221, Q63214877, Q138603203"
+  },
+  "5": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "FHS/Sjefskurs"
+  },
+  "6": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Cricketer"
+  },
+  "7": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1739"
+  },
+  "8": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "9": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q200092, Q471839"
+  },
+  "10": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q41323"
+  },
+  "11": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "12": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "13": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Adam Brooks and Cee Marcellus."
+  },
+  "14": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dr. Seuss"
+  },
+  "15": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "16": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q206989"
+  },
+  "17": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q17113138, Q170238"
+  },
+  "18": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q1218"
+  },
+  "19": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Basketball player"
+  },
+  "20": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q2736"
+  },
+  "21": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "politician"
+  },
+  "22": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Central Bedfordshire"
+  },
+  "23": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "24": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q428322, Q130297510, Q1255921, Q708492"
+  },
+  "25": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Malaysia"
+  },
+  "26": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Association football player and association football coach."
+  },
+  "27": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "28": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Aristocrat"
+  },
+  "29": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Duisburg"
+  },
+  "30": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "11,175"
+  },
+  "31": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "32": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Member of the Uttar Pradesh Legislative Assembly"
+  },
+  "33": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q30673858, Q100744452, Q112972756"
+  },
+  "34": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lawyer and former judge."
+  },
+  "35": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Soviet Union, Russia"
+  },
+  "36": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "23 January 2020"
+  },
+  "37": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "23 November 2021"
+  },
+  "38": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q19367312"
+  },
+  "39": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Astrid Lindgren Memorial Award, Guardian Children's Fiction Prize, Michael L. Printz Award, Carnegie Medal, Fellow of the Royal Society of Literature, Branford Boase Award"
+  },
+  "40": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "FTSE 100 Index, list of companies involved in the Gaza war"
+  },
+  "41": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q34266, Q15180"
+  },
+  "42": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chile"
+  },
+  "43": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Stanley Mullen"
+  },
+  "44": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q60617948, Q5110393"
+  },
+  "45": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "46": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Baseball"
+  },
+  "47": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q170790, Q15978337, Q11774202, Q14565331, Q15632482, Q18930236, Q16743941, Q18930418, Q18814623, Q1622272, Q18844224, Q16389557, Q82955, Q16323111, Q1930187, Q4964182, Q36180, Q1231865, Q16003550"
+  },
+  "48": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q60"
+  },
+  "49": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q49115"
+  },
+  "50": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "565733"
+  },
+  "51": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q369747, Q130232"
+  },
+  "52": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "53": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Gmina Rawa Mazowiecka"
+  },
+  "54": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Brazil"
+  },
+  "55": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom"
+  },
+  "56": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q60"
+  },
+  "57": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poland"
+  },
+  "58": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "RCA Records"
+  },
+  "59": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q118612349, Q20442589, Q859369, Q157443, Q1054574, Q130232"
+  },
+  "60": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q36834, Q753110, Q1415090, Q158852"
+  },
+  "61": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q9058727"
+  },
+  "62": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dailekh District"
+  },
+  "63": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Uzbek Soviet Socialist Republic"
+  },
+  "64": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Die Krupps"
+  },
+  "65": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q6517846"
+  },
+  "66": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Law and Justice"
+  },
+  "67": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "68": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chicago"
+  },
+  "69": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "The population of Květov has varied over time, with recorded values including 104, 107, 110, 113, 114, 116, 117, 119, 120, 122, 123, 125, 131, 255, 297, 330, 458, 464, 476, 489, 492, 560, and 661."
+  },
+  "70": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sliven"
+  },
+  "71": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2865819, Q177220, Q98834056"
+  },
+  "72": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Písek District"
+  },
+  "73": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "74": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sidney Shachnow received the Bronze Star Medal, Legion of Merit, Purple Heart, Air Medal, and Silver Star."
+  },
+  "75": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canoeist"
+  },
+  "76": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1967"
+  },
+  "77": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "1997-12-23, 1997-12-23, 1997-12-25, 1998-02-12"
+  },
+  "78": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2252262, Q488205, Q17125263"
+  },
+  "79": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Kingdom of England"
+  },
+  "80": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1952"
+  },
+  "81": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Jazz"
+  },
+  "82": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Andorra"
+  },
+  "83": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "59.62, 59.64"
+  },
+  "84": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Houston Dash"
+  },
+  "85": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lousã"
+  },
+  "86": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10798782, Q10800557, Q2722764, Q488205, Q177220, Q36180, Q6625963, Q2405480, Q18668527, Q948329, Q2259451, Q4853732, Q245068, Q3282637, Q947873, Q28389, Q1759246, Q578109, Q36834, Q33999, Q2526255, Q639669"
+  },
+  "87": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poet, writer, essayist, feminist critic, and scholar."
+  },
+  "88": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canada"
+  },
+  "89": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "90": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q854167, Q24719, Q1103097"
+  },
+  "91": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "University of Aberdeen (King's College)"
+  },
+  "92": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "21 November 2021"
+  },
+  "93": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q639669, Q104218554, Q488205, Q177220"
+  },
+  "94": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Order of Lenin"
+  },
+  "95": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "96": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Australia"
+  },
+  "97": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Fabrice Éboué"
+  },
+  "99": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "34266, 34730, 35153, 35550, 35946, 36363, 36804, 37258, 37718, 38164, 38587, 38983, 39360, 39731, 40116, 40529, 40974, 41447, 41946, 42468, 43010, 43559, 44105, 44661, 45239, 45840, 46501, 47194, 47789, 48105, 48031, 47496, 46580, 45512, 44609, 44099, 44058, 44413, 45050, 45788, 46491, 47135, 47751, 48308, 48782, 49157, 49414, 49554, 49601, 49600, 49581, 49551, 49506, 49469, 52154, 49136, 51336, 52912, 54149"
+  },
+  "100": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Iris Awards"
+  },
+  "101": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Doubleday"
+  },
+  "102": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Meerane, Saxony"
+  },
+  "103": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lisa Hannigan performed At Swim."
+  },
+  "104": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Scott Moe"
+  },
+  "105": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Competitive swimming"
+  },
+  "106": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Hellas Verona FC"
+  },
+  "107": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q3785732, Q11399"
+  },
+  "108": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q649"
+  },
+  "109": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pianist"
+  },
+  "110": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Christopher Barry and Richard Martin directed The Daleks."
+  },
+  "111": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1,733"
+  },
+  "112": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Spain, Duchy of Parma and Piacenza"
+  },
+  "113": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q145"
+  },
+  "114": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "115": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "116": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1999"
+  },
+  "117": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Painter"
+  },
+  "118": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "119": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Drummer, musician."
+  },
+  "120": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "13 May 1957"
+  },
+  "121": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "1745-01-01"
+  },
+  "122": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Member of the Parliament of Moldova"
+  },
+  "124": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "359 or 361"
+  },
+  "125": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q28389, Q214917, Q36180, Q3282637, Q1930187, Q17337766, Q49757, Q753110, Q36834"
+  },
+  "126": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Atlantic Records"
+  },
+  "127": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "December 10, 1839"
+  },
+  "128": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "129": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q118612349"
+  },
+  "130": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "131": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Córdoba, Argentina"
+  },
+  "132": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q841309"
+  },
+  "133": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "1311-01-01"
+  },
+  "134": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "135": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom, United Kingdom of Great Britain and Ireland"
+  },
+  "136": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "1997-05-07, 1997-05-07, 1997-05-09, 1997-08-22, 1997-08-28"
+  },
+  "137": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "485.18"
+  },
+  "138": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Association football player"
+  },
+  "139": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Iron Cross (1939), 1st class"
+  },
+  "140": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Tom Longboat Awards, Canada's Sports Hall of Fame, Member of the Order of Canada, Pearson Medal of Peace"
+  },
+  "141": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q30"
+  },
+  "142": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Barnegat Township, New Jersey."
+  },
+  "143": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Film noir, crime film, drama film"
+  },
+  "144": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pembroke"
+  },
+  "145": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Shetland Islands"
+  },
+  "146": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sri Lanka"
+  },
+  "147": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q488205, Q183945, Q33999, Q2405480, Q4610556, Q3501317, Q1414443, Q43845, Q970153, Q60723829, Q639669"
+  },
+  "148": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "149": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "7 September 2009"
+  },
+  "150": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q142"
+  },
+  "151": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Groningen"
+  },
+  "152": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "April 1, 1974"
+  },
+  "153": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Harvard Law School and Harvard College."
+  },
+  "154": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Catholic priest, Catholic bishop."
+  },
+  "155": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q4964182, Q1622272, Q36180, Q1231865, Q1930187, Q6051619, Q98833883"
+  }
+ },
+ "pvsb-asserted-loop": {
+  "0": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "1": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Finland"
+  },
+  "2": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Science fiction action film"
+  },
+  "3": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Daytime Emmy Award"
+  },
+  "4": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "War film, psychological epic war film, anti-war film, war drama."
+  },
+  "5": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "FHS/Sjefskurs"
+  },
+  "6": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Cricketer"
+  },
+  "7": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1739"
+  },
+  "8": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "9": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Science fiction horror film"
+  },
+  "10": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "American football"
+  },
+  "11": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "12": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "13": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Adam Brooks and Cee Marcellus."
+  },
+  "14": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dr. Seuss"
+  },
+  "15": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "16": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "shooting sports"
+  },
+  "17": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q17113138, Q170238"
+  },
+  "18": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q1218"
+  },
+  "19": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Basketball player"
+  },
+  "20": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q2736"
+  },
+  "21": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "politician"
+  },
+  "22": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Central Bedfordshire"
+  },
+  "23": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "24": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q428322, Q130297510, Q1255921, Q708492"
+  },
+  "25": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Malaysia"
+  },
+  "26": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Association football player and association football coach."
+  },
+  "27": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "28": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Aristocrat"
+  },
+  "29": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Duisburg"
+  },
+  "30": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "11,175"
+  },
+  "31": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "32": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Member of the Uttar Pradesh Legislative Assembly"
+  },
+  "33": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q30673858, Q100744452, Q112972756"
+  },
+  "34": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lawyer and former judge."
+  },
+  "35": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Soviet Union, Russia"
+  },
+  "36": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "23 January 2020"
+  },
+  "37": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "23 November 2021"
+  },
+  "38": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Crime thriller film."
+  },
+  "39": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Astrid Lindgren Memorial Award, Guardian Children's Fiction Prize, Michael L. Printz Award, Carnegie Medal, Fellow of the Royal Society of Literature, Branford Boase Award"
+  },
+  "40": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "FTSE 100 Index, list of companies involved in the Gaza war"
+  },
+  "41": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Russian Empire, Soviet Union"
+  },
+  "42": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chile"
+  },
+  "43": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Stanley Mullen"
+  },
+  "44": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q60617948, Q5110393"
+  },
+  "45": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "46": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Baseball"
+  },
+  "47": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Philosopher, logician, mathematician, and public intellectual."
+  },
+  "48": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q60"
+  },
+  "49": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Cornell University"
+  },
+  "50": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "565733"
+  },
+  "51": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q369747, Q130232"
+  },
+  "52": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "53": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Gmina Rawa Mazowiecka"
+  },
+  "54": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Brazil"
+  },
+  "55": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom"
+  },
+  "56": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q60"
+  },
+  "57": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poland"
+  },
+  "58": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "RCA Records"
+  },
+  "59": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q118612349, Q20442589, Q859369, Q157443, Q1054574, Q130232"
+  },
+  "60": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Composer, songwriter, film score composer, conductor"
+  },
+  "61": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q9058727"
+  },
+  "62": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Dailekh District"
+  },
+  "63": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Uzbek Soviet Socialist Republic"
+  },
+  "64": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Die Krupps"
+  },
+  "65": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Legendary ruler of Cornwall"
+  },
+  "66": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Law and Justice"
+  },
+  "67": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "68": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Chicago"
+  },
+  "69": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "The population of Květov has varied over time, with recorded values including 104, 107, 110, 113, 114, 116, 117, 119, 120, 122, 123, 125, 131, 255, 297, 330, 458, 464, 476, 489, 492, 560, and 661."
+  },
+  "70": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sliven"
+  },
+  "71": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2865819, Q177220, Q98834056"
+  },
+  "72": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Písek District"
+  },
+  "73": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "74": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sidney Shachnow received the Bronze Star Medal, Legion of Merit, Purple Heart, Air Medal, and Silver Star."
+  },
+  "75": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canoeist"
+  },
+  "76": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1967"
+  },
+  "77": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "1997-12-23, 1997-12-23, 1997-12-25, 1998-02-12"
+  },
+  "78": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q2252262, Q488205, Q17125263"
+  },
+  "79": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Kingdom of England"
+  },
+  "80": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1952"
+  },
+  "81": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Jazz"
+  },
+  "82": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Andorra"
+  },
+  "83": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "59.62, 59.64"
+  },
+  "84": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Houston Dash"
+  },
+  "85": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lousã"
+  },
+  "86": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Actor, comedian, author, and television personality."
+  },
+  "87": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Poet, writer, essayist, feminist critic, and scholar."
+  },
+  "88": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Canada"
+  },
+  "89": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "90": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Fortuna Sittard, Roda JC Kerkrade, K. Waterschei S.V. Thor Genk"
+  },
+  "91": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "University of Aberdeen (King's College)"
+  },
+  "92": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "21 November 2021"
+  },
+  "93": {
+   "how": "served-decayed-proxy",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Singer, musician, songwriter, and media personality."
+  },
+  "94": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Order of Lenin"
+  },
+  "95": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "96": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Australia"
+  },
+  "97": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Fabrice Éboué"
+  },
+  "99": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "49,469 to 54,149"
+  },
+  "100": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Iris Awards"
+  },
+  "101": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Doubleday"
+  },
+  "102": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Meerane, Saxony"
+  },
+  "103": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Lisa Hannigan performed At Swim."
+  },
+  "104": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Scott Moe"
+  },
+  "105": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Competitive swimming"
+  },
+  "106": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Hellas Verona FC"
+  },
+  "107": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q3785732, Q11399"
+  },
+  "108": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Moscow"
+  },
+  "109": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pianist"
+  },
+  "110": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Christopher Barry and Richard Martin directed The Daleks."
+  },
+  "111": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1,733"
+  },
+  "112": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Spain, Duchy of Parma and Piacenza"
+  },
+  "113": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom"
+  },
+  "114": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "115": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "116": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "1999"
+  },
+  "117": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Painter"
+  },
+  "118": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q10372207"
+  },
+  "119": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Drummer, musician."
+  },
+  "120": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "13 May 1957"
+  },
+  "121": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "1745-01-01"
+  },
+  "122": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Member of the Parliament of Moldova"
+  },
+  "124": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "359 or 361"
+  },
+  "125": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q28389, Q214917, Q36180, Q3282637, Q1930187, Q17337766, Q49757, Q753110, Q36834"
+  },
+  "126": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Atlantic Records"
+  },
+  "127": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "December 10, 1839"
+  },
+  "128": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "129": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "Q118612349"
+  },
+  "130": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "131": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Córdoba, Argentina"
+  },
+  "132": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Kainan"
+  },
+  "133": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "1311-01-01"
+  },
+  "134": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "135": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United Kingdom, United Kingdom of Great Britain and Ireland"
+  },
+  "136": {
+   "how": "served",
+   "origin": "20260501",
+   "source": "template",
+   "answer": "1997-05-07, 1997-05-07, 1997-05-09, 1997-08-22, 1997-08-28"
+  },
+  "137": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "485.18"
+  },
+  "138": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Association football player"
+  },
+  "139": {
+   "how": "regenerated",
+   "origin": "20260801",
+   "source": "real-regen",
+   "answer": "Iron Cross (1939), 1st class"
+  },
+  "140": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Tom Longboat Awards, Canada's Sports Hall of Fame, Member of the Order of Canada, Pearson Medal of Peace"
+  },
+  "141": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "United States"
+  },
+  "142": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Barnegat Township, New Jersey."
+  },
+  "143": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Film noir, crime film, drama film"
+  },
+  "144": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Pembroke"
+  },
+  "145": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Shetland Islands"
+  },
+  "146": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Sri Lanka"
+  },
+  "147": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q488205, Q183945, Q33999, Q2405480, Q4610556, Q3501317, Q1414443, Q43845, Q970153, Q60723829, Q639669"
+  },
+  "148": {
+   "how": "abstain",
+   "origin": null,
+   "source": "abstain",
+   "answer": null
+  },
+  "149": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "7 September 2009"
+  },
+  "150": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "France"
+  },
+  "151": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Groningen"
+  },
+  "152": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "April 1, 1974"
+  },
+  "153": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Harvard Law School and Harvard College."
+  },
+  "154": {
+   "how": "served",
+   "origin": "20260401",
+   "source": "base-cached",
+   "answer": "Catholic priest, Catholic bishop."
+  },
+  "155": {
+   "how": "served",
+   "origin": "20260701",
+   "source": "template",
+   "answer": "Q4964182, Q1622272, Q36180, Q1231865, Q1930187, Q6051619, Q98833883"
+  }
+ }
+}

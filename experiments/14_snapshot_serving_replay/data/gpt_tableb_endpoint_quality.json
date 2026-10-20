@@ -1,0 +1,76 @@
+{
+ "generator": "gpt-5-mini",
+ "labels": "225 human labels (126 inherited-identical, 99 fresh; see annotation/gpt_agreement.json)",
+ "tableB_per_arm": {
+  "similarity-static": {
+   "abstain": 6,
+   "correct": 119,
+   "incomplete": 17,
+   "wrong": 6,
+   "indet": 6
+  },
+  "TTL-1mo": {
+   "abstain": 15,
+   "correct": 105,
+   "incomplete": 32,
+   "indet": 1,
+   "wrong": 1
+  },
+  "page-change-loop": {
+   "abstain": 13,
+   "correct": 109,
+   "incomplete": 28,
+   "indet": 2,
+   "wrong": 2
+  },
+  "pvsb-strict-loop": {
+   "abstain": 14,
+   "correct": 115,
+   "incomplete": 24,
+   "indet": 1
+  },
+  "pvsb-asserted-loop": {
+   "abstain": 14,
+   "correct": 120,
+   "incomplete": 18,
+   "indet": 2
+  }
+ },
+ "bootstrap_TTL_minus_loop": {
+  "similarity-static": {
+   "mean": -14.128032277919718,
+   "ci95": [
+    -26.169934640522875,
+    -1.0065359477124183
+   ]
+  },
+  "page-change-loop": {
+   "mean": -4.026933394223421,
+   "ci95": [
+    -11.144736842105264,
+    2.8875
+   ]
+  },
+  "pvsb-strict-loop": {
+   "mean": -10.027492754774435,
+   "ci95": [
+    -19.77027027027027,
+    -0.9390243902439024
+   ]
+  },
+  "pvsb-asserted-loop": {
+   "mean": -14.992991552873836,
+   "ci95": [
+    -24.15686274509804,
+    -6.243243243243243
+   ]
+  }
+ },
+ "bootstrap_kimi_minus_gpt_asserted": {
+  "mean": 4.060174211525228,
+  "ci95": [
+   0.0,
+   9.0
+  ]
+ }
+}

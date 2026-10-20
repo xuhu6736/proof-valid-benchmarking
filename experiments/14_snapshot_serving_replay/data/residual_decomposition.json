@@ -1,0 +1,14 @@
+{
+ "cell": "asserted/fixed/p=0.10",
+ "realizations": 200,
+ "state": "real-driven (s37)",
+ "mutually_exclusive": true,
+ "per_run_means": {
+  "necessary": 28.48,
+  "both_unreadable": 5.36,
+  "tail_loss": 0.3
+ },
+ "total_per_run": 34.15,
+ "alignment": "a fallback is \"necessary\" iff the same request-tick falls back or abstains in the same-seed p=0 run",
+ "note": "both-unreadable takes precedence over tail-loss when a request-tick shows both"
+}

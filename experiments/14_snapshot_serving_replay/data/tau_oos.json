@@ -1,0 +1,66 @@
+{
+ "scheme": "entity-grouped 5-fold CV, seed 42, tau = 5th percentile of genuine train sims",
+ "folds": [
+  {
+   "fold": 0,
+   "tau": 0.8569636265434925,
+   "n_test": 32,
+   "paired_hits": 31,
+   "paired_hit_rate": 0.96875,
+   "unified_correct": 31,
+   "unified_misrouted": 0,
+   "unified_missed": 1
+  },
+  {
+   "fold": 1,
+   "tau": 0.8383995567615978,
+   "n_test": 31,
+   "paired_hits": 31,
+   "paired_hit_rate": 1.0,
+   "unified_correct": 31,
+   "unified_misrouted": 0,
+   "unified_missed": 0
+  },
+  {
+   "fold": 2,
+   "tau": 0.8693419949578642,
+   "n_test": 33,
+   "paired_hits": 29,
+   "paired_hit_rate": 0.8787878787878788,
+   "unified_correct": 29,
+   "unified_misrouted": 0,
+   "unified_missed": 4
+  },
+  {
+   "fold": 3,
+   "tau": 0.8584121416395898,
+   "n_test": 28,
+   "paired_hits": 27,
+   "paired_hit_rate": 0.9642857142857143,
+   "unified_correct": 27,
+   "unified_misrouted": 0,
+   "unified_missed": 1
+  },
+  {
+   "fold": 4,
+   "tau": 0.8705642259294201,
+   "n_test": 30,
+   "paired_hits": 26,
+   "paired_hit_rate": 0.8666666666666667,
+   "unified_correct": 26,
+   "unified_misrouted": 0,
+   "unified_missed": 4
+  }
+ ],
+ "tau_min": 0.8383995567615978,
+ "tau_max": 0.8705642259294201,
+ "oos_paired_hit_rate_mean": 0.9356980519480519,
+ "oos_paired_hit_rate_min": 0.8666666666666667,
+ "oos_paired_hits_total": 144,
+ "oos_n_total": 154,
+ "oos_unified": {
+  "correct": 144,
+  "misrouted": 0,
+  "missed": 10
+ }
+}

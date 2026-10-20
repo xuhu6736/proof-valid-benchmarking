@@ -1,0 +1,223 @@
+{
+ "n_pairs": 154,
+ "n_stale": 50,
+ "n_fresh": 104,
+ "paraphrase_sim_min": 0.7197,
+ "paraphrase_sim_p05": 0.8364,
+ "paraphrase_sim_med": 0.9641,
+ "calibrated": {
+  "tau": 0.8364,
+  "baseline_error_serve": 0.88,
+  "pvsb_intercept_stale": 0.88,
+  "pvsb_residual_error": 0.0,
+  "pvsb_false_reject_fresh": 0.1442,
+  "baseline_hit_rate": 0.961,
+  "pvsb_hit_rate": 0.5779
+ },
+ "sweep": [
+  {
+   "tau": 0.5,
+   "baseline_error_serve": 1.0,
+   "pvsb_intercept_stale": 1.0,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 1.0,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.55,
+   "baseline_error_serve": 1.0,
+   "pvsb_intercept_stale": 1.0,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 1.0,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.6,
+   "baseline_error_serve": 1.0,
+   "pvsb_intercept_stale": 1.0,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 1.0,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.65,
+   "baseline_error_serve": 1.0,
+   "pvsb_intercept_stale": 1.0,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 1.0,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.7,
+   "baseline_error_serve": 1.0,
+   "pvsb_intercept_stale": 1.0,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 1.0,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.75,
+   "baseline_error_serve": 0.98,
+   "pvsb_intercept_stale": 0.98,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 0.9935,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.8,
+   "baseline_error_serve": 0.9,
+   "pvsb_intercept_stale": 0.9,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 0.9675,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.85,
+   "baseline_error_serve": 0.86,
+   "pvsb_intercept_stale": 0.86,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 0.9545,
+   "pvsb_hit_rate": 0.5779
+  },
+  {
+   "tau": 0.9,
+   "baseline_error_serve": 0.76,
+   "pvsb_intercept_stale": 0.76,
+   "pvsb_residual_error": 0.0,
+   "pvsb_false_reject_fresh": 0.1442,
+   "baseline_hit_rate": 0.8896,
+   "pvsb_hit_rate": 0.5455
+  }
+ ],
+ "gate_fail_fresh_detail": [
+  {
+   "pid": 10,
+   "label": "Ted Petersen",
+   "prop": "P641",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  },
+  {
+   "pid": 16,
+   "label": "Lee Bo-na",
+   "prop": "P641",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  },
+  {
+   "pid": 35,
+   "label": "Konstantin Lopushansky",
+   "prop": "P27",
+   "claims_dead": 0,
+   "sents_dead": 2,
+   "sents_total": 3
+  },
+  {
+   "pid": 41,
+   "label": "Sergei Korolev",
+   "prop": "P27",
+   "claims_dead": 0,
+   "sents_dead": 2,
+   "sents_total": 3
+  },
+  {
+   "pid": 49,
+   "label": "Kent Manderville",
+   "prop": "P69",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  },
+  {
+   "pid": 53,
+   "label": "Małgorzatów",
+   "prop": "P131",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 2
+  },
+  {
+   "pid": 60,
+   "label": "Georges Garvarentz",
+   "prop": "P106",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  },
+  {
+   "pid": 65,
+   "label": "Corineus",
+   "prop": "P39",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  },
+  {
+   "pid": 90,
+   "label": "Leo Ehlen",
+   "prop": "P54",
+   "claims_dead": 0,
+   "sents_dead": 2,
+   "sents_total": 3
+  },
+  {
+   "pid": 99,
+   "label": "Faroe Islands",
+   "prop": "P1082",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 2
+  },
+  {
+   "pid": 108,
+   "label": "Novaya Gazeta",
+   "prop": "P131",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  },
+  {
+   "pid": 113,
+   "label": "Loch Alsh",
+   "prop": "P17",
+   "claims_dead": 0,
+   "sents_dead": 2,
+   "sents_total": 2
+  },
+  {
+   "pid": 132,
+   "label": "Hiroichi Sakai",
+   "prop": "P20",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 2
+  },
+  {
+   "pid": 141,
+   "label": "Whoopi Goldberg",
+   "prop": "P27",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 2
+  },
+  {
+   "pid": 150,
+   "label": "Franck Ribéry",
+   "prop": "P27",
+   "claims_dead": 0,
+   "sents_dead": 1,
+   "sents_total": 3
+  }
+ ],
+ "gate_pass_stale_detail": []
+}

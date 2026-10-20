@@ -1,0 +1,918 @@
+{
+ "0": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "2": {
+  "target_values_text": [
+   "science fiction film",
+   "adventure film",
+   "comedy film",
+   "action film",
+   "fantasy film",
+   "dystopian film"
+  ],
+  "target_sentences": [
+   "Despite being set in the United States, the film was developed and produced by a French studio.--&gt; science fiction-action film conceived and directed by Luc Besson, and co-written by Besson and Robert Mark Kamen.",
+   "Telotte, writing in the book Science Fiction Film, credited the film with exploring the theme of political corruption.&lt;ref&gt; &lt;/ref&gt;",
+   "It won the BAFTA Award for Best Special Visual Effects,&lt;ref&gt; &lt;/ref&gt;&lt;ref name=nyawards /&gt; and the Lumière Award for Best Director.&lt;ref&gt; &lt;/ref&gt; It was nominated for seven César awards, winning three: Best Director,&lt;ref&gt; &lt;/ref&gt; Best Cinematography and Best Production Design.&lt;ref name=nyawards&gt; &lt;/ref&gt;&lt;ref&gt; Note: Choose '1998' from the drop-down box.&lt;/ref&gt; It was nominated for Film of the Year at the 1997 European Film Awards,&lt;ref&gt; &lt;/ref&gt; as well as the Hugo Award for Best Dramatic Presentation,&lt;ref&gt; &lt;/ref&gt; and the Satellite Award for Best Visual Effects.&lt;ref&gt; &lt;/ref&gt; Thierry Arbogast was awarded the Technical Grand Prize at the 1997 Cannes Film Festival for his work on both The Fifth Element and She's So Lovely.&lt;ref name=nyawards /&gt; The film received four Saturn Award nominations: Best Science Fiction Film, Best Costume, Best Special Effects,&lt;ref&gt; &lt;/ref&gt; and Best Supporting Actress for Milla Jovovich.&lt;ref name=post&gt; &lt;/ref&gt; Jovovich's fight against the Mangalores was nominated for the MTV Movie Award for Best Fight,&lt;ref name=post /&gt;&lt;ref&gt; Note: Click on the 'Winners' tab.&lt;/ref&gt; and the actress was also nominated for Best Actress Newcomer at the Blockbuster Entertainment Awards.&lt;ref&gt; &lt;/ref&gt;"
+  ],
+  "regen_answer": "Science fiction film, adventure film, comedy film, action film, fantasy film, dystopian film",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "4": {
+  "target_values_text": [
+   "war film",
+   "action film",
+   "drama film",
+   "thriller film",
+   "epic film",
+   "war drama",
+   "horror film",
+   "psychological horror film",
+   "psychological thriller film",
+   "adventure film",
+   "psychological drama film",
+   "satirical film"
+  ],
+  "target_sentences": [
+   "Apocalypse Now is a 1979 American anti-war film produced and directed by Francis Ford Coppola.",
+   "While working as an assistant for Francis Ford Coppola on The Rain People in 1967, filmmaker John Milius was encouraged by his friends George Lucas and Steven Spielberg to write a Vietnam War film.",
+   "Commentators have debated whether Apocalypse Now is an anti-war or pro-war film."
+  ],
+  "regen_answer": "War film, action film, drama film, thriller film, epic film, war drama, horror film, psychological horror film, psychological thriller film, adventure film, psychological drama film, satirical film.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "8": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "9": {
+  "target_values_text": [
+   "horror film",
+   "science fiction film"
+  ],
+  "target_sentences": [
+   "The Lady and the Monster is a 1944 American science fiction horror film directed by George Sherman, and starring Vera Ralston, Richard Arlen, and Erich von Stroheim.&lt;ref name=&quot;afi&quot; /&gt; The film is about the attempts to keep alive the brain of a multimillionaire after his death, only to create a telepathic monster.",
+   "Pitts declared the film in their book The Great Science Fiction Films as &quot;lightweight entertainment&quot; with Erich Von Stroheim providing 'some scene-chewing moment in his intense characterization of Professor Franz Mueller&quot;.",
+   "Category:1944 science fiction horror films"
+  ],
+  "regen_answer": "Science fiction horror film.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "10": {
+  "target_values_text": [
+   "American football"
+  ],
+  "target_sentences": [
+   "Category:American football offensive linemen",
+   "Category:Players of American football from Illinois"
+  ],
+  "regen_answer": "American football",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "11": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "12": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "16": {
+  "target_values_text": [
+   "shooting sports"
+  ],
+  "target_sentences": [],
+  "regen_answer": "shooting sports",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "27": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "31": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "33": {
+  "target_values_text": [
+   "Yoola",
+   "Atlantic Records Russia",
+   "Bugatti Music"
+  ],
+  "target_sentences": [
+   "In May 2022, the Russian Ministry of Justice designated Morgenshtern a foreign agent, citing funding from the Israeli multi-channel network Yoola Labs and his public remarks questioning the celebrations of Victory Day."
+  ],
+  "regen_answer": "Yoola, Atlantic Records Russia, Bugatti Music",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "35": {
+  "target_values_text": [
+   "Soviet Union",
+   "Russia"
+  ],
+  "target_sentences": [
+   "Konstantin Sergeyevich Lopushansky ( ; born 12 June 1947) is a Soviet and Russian film director, film theorist, and author.&lt;ref&gt; &lt;/ref&gt;&lt;ref name=&quot;vt&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;rc&quot;&gt; &lt;/ref&gt; He is best known for directing the apocalyptic and post-apocalyptic films Dead Man's Letters (1986), A Visitor to a Museum (1989), Russian Symphony (1994), and The Ugly Swans (2006).",
+   "In 1997, Lopushansky was awarded the honorary title of Honoured Artist of the Russian Federation.",
+   "In 2007, he was awarded the title of People's Artist of Russia, the highest civilian honour in Russia for the performing arts.&lt;ref name=&quot;vt&quot;/&gt;"
+  ],
+  "regen_answer": "Soviet Union, Russia",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "38": {
+  "target_values_text": [
+   "crime thriller film"
+  ],
+  "target_sentences": [
+   "The Burnt Orange Heresy is a 2019 crime thriller film directed by Giuseppe Capotondi and with a screenplay by Scott Smith.",
+   "Category:English-language crime thriller films"
+  ],
+  "regen_answer": "Crime thriller film",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "41": {
+  "target_values_text": [
+   "Russian Empire",
+   "Soviet Union"
+  ],
+  "target_sentences": [
+   "| birth_place = Zhytomyr, Russian Empire",
+   "Under his leadership, the Soviet Union launched Sputnik 1, the first artificial satellite; Laika, the first animal to orbit Earth; Luna 2, the first human-made object to reach another celestial body; and Belka and Strelka, the first animals to survive orbital spaceflight.",
+   "135.&lt;/ref&gt; Even some cosmonauts who worked with him did not know his name.&lt;ref name=&quot;:0&quot; /&gt; His identity was publicly disclosed only after his death in 1966, when his role in the Soviet Union's space achievements became widely known.&lt;ref name=Great&gt; &lt;/ref&gt;"
+  ],
+  "regen_answer": "Russian Empire, Soviet Union",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "47": {
+  "target_values_text": [
+   "mathematician",
+   "social critic",
+   "essayist",
+   "logician",
+   "epistemologist",
+   "philosopher of language",
+   "metaphysician",
+   "analytic philosopher",
+   "autobiographer",
+   "university teacher",
+   "science fiction writer",
+   "philosopher of science",
+   "politician",
+   "peace activist",
+   "journalist",
+   "philosopher",
+   "writer",
+   "pedagogue",
+   "pacifist"
+  ],
+  "target_sentences": [
+   "Bertrand Arthur William Russell, 3rd Earl Russell (18 May 1872 – 2 February 1970), was an English&lt;!--DO NOT CHANGE WITHOUT CONSENSUS--&gt; philosopher, logician, and social reformer.",
+   "He was one of the early 20th century's prominent logicians&lt;ref name=&quot;stanford&quot;&gt;Stanford Encyclopedia of Philosophy, &quot;Bertrand Russell&quot; , 1 May 2003.&lt;/ref&gt; and a founder of analytic philosophy, along with his predecessor Gottlob Frege, his friend and colleague G.",
+   "He was a pacifist who championed anti-imperialism and chaired the England-based India League.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt;&lt;ref name=&quot;:1&quot; /&gt; He went to prison for his pacifism during the First World War,&lt;ref&gt;Samoiloff, Louise Cripps."
+  ],
+  "regen_answer": "Philosopher, logician, and social reformer.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "49": {
+  "target_values_text": [
+   "Cornell University"
+  ],
+  "target_sentences": [
+   "Manderville was drafted 24th overall in the second round by the Calgary Flames in the 1989 NHL entry draft and played for Cornell University from 1989 to 1991.",
+   "After four years in Northern Europe he retired in 2007 and was accepted to attend law school at the University of Ottawa.&lt;ref&gt; &lt;/ref&gt; He deferred admission for a year and then ultimately decided to decline the offer, instead opting to complete his Cornell University Bachelor of Science degree."
+  ],
+  "regen_answer": "Cornell University",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "50": {
+  "target_values_text": [
+   "565733"
+  ],
+  "target_sentences": [],
+  "regen_answer": "565733",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "51": {
+  "target_values_text": [
+   "war film",
+   "drama film"
+  ],
+  "target_sentences": [
+   "Full Metal Jacket is a 1987 war film directed and produced by Stanley Kubrick from a screenplay he co-wrote with Michael Herr and Gustav Hasford.",
+   "Ermey had played a similar character in the 1978 Vietnam War film The Boys in Company C.",
+   "In early 1980, Stanley Kubrick contacted Michael Herr, author of the Vietnam War memoir Dispatches (1977), to discuss work on a film about the Holocaust but Kubrick discarded that idea in favor of a film about the Vietnam War.&lt;ref name=&quot;vulliamy&quot;&gt; &lt;/ref&gt; Herr and Kubrick met in England; Kubrick told Herr he wanted to make a war film but had yet to find a story to adapt.&lt;ref name=&quot;lobrutto&quot;&gt; &lt;/ref&gt; Kubrick discovered Gustav Hasford's novel The Short-Timers (1979) while reading the Kirkus Review.&lt;ref name=&quot;clines&quot;&gt; &lt;/ref&gt; Herr received the novel in bound galleys and thought it a masterpiece.&lt;ref name=&quot;lobrutto&quot; /&gt; In 1982, Kubrick read the novel twice; he concluded it is &quot;a unique, absolutely wonderful book&quot; and decided to adapt it for his next film.&lt;ref name=&quot;clines&quot; /&gt; According to Kubrick, he was drawn to the book's dialogue, which he found &quot;almost poetic in its carved-out, stark quality&quot;.&lt;ref name=&quot;clines&quot; /&gt; In 1983, Kubrick began researching for the film; he watched archival footage and documentaries, read Vietnamese newspapers on microfilm from the Library of Congress, and studied hundreds of photographs from the era.&lt;ref name=&quot;rose&quot;/&gt; Initially, Herr was not interested in revisiting his Vietnam War experiences, but Kubrick spent three years persuading him, describing the discussions as &quot;a single phone call lasting three years, with interruptions&quot;.&lt;ref name=&quot;vulliamy&quot; /&gt;"
+  ],
+  "regen_answer": "War film, drama film",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "52": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "53": {
+  "target_values_text": [
+   "Gmina Rawa Mazowiecka"
+  ],
+  "target_sentences": [
+   "Małgorzatów is a village in the administrative district of Gmina Rawa Mazowiecka, within Rawa County, Łódź Voivodeship, in central Poland."
+  ],
+  "regen_answer": "Gmina Rawa Mazowiecka",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "60": {
+  "target_values_text": [
+   "composer",
+   "songwriter",
+   "film score composer",
+   "conductor",
+   "musician"
+  ],
+  "target_sentences": [
+   "Georges Diran Garvarentz ( , 1 April 1932 - 19 March 1993) was an Armenian-French composer, noted for his music for films and Charles Aznavour's songs.",
+   "Category:French male film score composers",
+   "Category:20th-century French male musicians"
+  ],
+  "regen_answer": "Composer, songwriter, film score composer, conductor, musician",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "65": {
+  "target_values_text": [
+   "legendary ruler of Cornwall"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Legendary ruler of Cornwall",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "73": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "77": {
+  "target_values_text": [
+   "1997-12-23",
+   "1997-12-25",
+   "1998-02-12"
+  ],
+  "target_sentences": [],
+  "regen_answer": "1997-12-23",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "78": {
+  "target_values_text": [
+   "rapper",
+   "singer-songwriter",
+   "YouTuber"
+  ],
+  "target_sentences": [
+   "Alisher Tagirovich Morgenshtern{{efn| }} (né Valeyev;{{efn| }}; born 17 February 1998), known professionally as Morgenshtern, is a Russian rapper, singer-songwriter, and record producer.",
+   "Morgenshtern also worked as a street musician,&lt;ref name=&quot;earn-money&quot;&gt; &lt;/ref&gt; and was the frontman of the rock band MMD Crew (short for &quot;My Mother the Virgin Crew&quot;), with whom he collaborated on a track with the Russian rapper Face and recorded under the aliases MamaVirgin and 1st July.",
+   "Category:21st-century Russian male rappers"
+  ],
+  "regen_answer": "Rapper, singer-songwriter, YouTuber, record producer, street musician, and former frontman of rock band MMD Crew.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "86": {
+  "target_values_text": [
+   "television actor",
+   "film actor",
+   "radio personality",
+   "singer-songwriter",
+   "singer",
+   "writer",
+   "novelist",
+   "voice actor",
+   "talk show host",
+   "character actor",
+   "stage actor",
+   "children's writer",
+   "comedian",
+   "film producer",
+   "television presenter",
+   "screenwriter",
+   "theatrical producer",
+   "television producer",
+   "composer",
+   "actor",
+   "film director",
+   "musician"
+  ],
+  "target_sentences": [
+   "Caryn Elaine Johnson (born November 13, 1955),&lt;ref name=&quot;CBS&quot;/&gt;&lt;ref name=&quot;Huff&quot;/&gt;&lt;ref name=&quot;GH&quot;/&gt; known professionally as Whoopi Goldberg ( ), is an American &lt;!--She calls herself an &quot;actor&quot;, MOS:IDENTITY has a priority here.--&gt;actor, comedian, author, and television personality.&lt;ref name=&quot;1984APintv&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;guardian&quot;&gt; &lt;/ref&gt; She is one of 28 entertainers to receive the EGOT, consisting of an Emmy, a Grammy, an Oscar (Academy Award), and a Tony Award.",
+   "A10.&lt;/ref&gt; winning a Daytime Emmy Award for Outstanding Talk Show Host from ten nominations, and hosted the Academy Awards four times.",
+   "The show ran from October 24, 1984, to March 10, 1985, and was taped and broadcast by HBO as Whoopi Goldberg: Direct from Broadway.&lt;ref&gt; &lt;/ref&gt; The recording of the special was awarded the Grammy Award for Best Comedy Album, making Goldberg the first Black female comedian to win the Grammy.&lt;ref&gt; &lt;/ref&gt;"
+  ],
+  "regen_answer": "Actor, comedian, author, and television personality.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "89": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "90": {
+  "target_values_text": [
+   "Fortuna Sittard",
+   "Roda JC Kerkrade",
+   "K. Waterschei S.V. Thor Genk"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Fortuna Sittard, Roda JC Kerkrade, K. Waterschei S.V. Thor Genk",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "93": {
+  "target_values_text": [
+   "musician",
+   "rock singer",
+   "singer-songwriter",
+   "singer"
+  ],
+  "target_sentences": [
+   "John Michael &quot;Ozzy&quot; Osbourne (3 December 1948 – 22 July 2025) was an English singer, songwriter, and media personality.",
+   "Pinafore.&lt;ref&gt;GQ interview&lt;/ref&gt; Upon hearing the first hit single of the Beatles at age 14, he became a fan of the band and credited their 1963 song &quot;She Loves You&quot; with inspiring him to become a musician.&lt;ref name=&quot;esquire&quot; /&gt;&lt;ref&gt; &lt;/ref&gt; In the 2011 documentary God Bless Ozzy Osbourne, Osbourne said that the Beatles made him realize that &quot;[he] was going to be a rock star the rest of [his] life&quot;.&lt;ref&gt; &lt;/ref&gt;",
+   "In late 1967, Geezer Butler formed his first band, Rare Breed, and recruited Osbourne to be the singer.&lt;ref name=&quot;I Am Ozzy&quot; /&gt; The band played two shows and broke up.&lt;ref&gt; &lt;/ref&gt; Osbourne and Butler reunited in another band, Polka Tulk Blues, which included guitarist Tony Iommi and drummer Bill Ward, whose band Mythology had recently broken up.&lt;ref name=&quot;AllMusic Bill Ward biography&quot;&gt; &lt;/ref&gt; They renamed the band Earth, but after being accidentally booked for a show instead of a different band with the same name, they decided to change the band's name again, settling on the name Black Sabbath in August 1969.&lt;ref name=&quot;Allmusic&quot; /&gt; The band's name was inspired by the film of the same title.&lt;ref name=&quot;Allmusic&quot;&gt; &lt;/ref&gt; Black Sabbath noticed how people enjoyed being frightened during their appearances, which inspired their decision to play a heavy blues style of music laced with gloomy sounds and lyrics.&lt;ref name=&quot;Allmusic-Weber&quot;&gt; &lt;/ref&gt; While recording their first album, Butler read an occult book and woke up seeing a dark figure at the end of his bed.&lt;ref name=&quot;:1&quot; /&gt;&lt;ref name=&quot;AMG Biography&quot; /&gt; Butler told Osbourne about it, and together they wrote the lyrics to &quot;Black Sabbath&quot;, their first song in a darker vein.&lt;ref name=&quot;:1&quot;&gt;Osbourne, Ozzy (2010)."
+  ],
+  "regen_answer": "Musician, rock singer, singer-songwriter, singer.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "95": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "99": {
+  "target_values_text": [
+   "34266",
+   "34730",
+   "35153",
+   "35550",
+   "35946",
+   "36363",
+   "36804",
+   "37258",
+   "37718",
+   "38164",
+   "38587",
+   "38983",
+   "39360",
+   "39731",
+   "40116",
+   "40529",
+   "40974",
+   "41447",
+   "41946",
+   "42468",
+   "43010",
+   "43559",
+   "44105",
+   "44661",
+   "45239",
+   "45840",
+   "46501",
+   "47194",
+   "47789",
+   "48105",
+   "48031",
+   "47496",
+   "46580",
+   "45512",
+   "44609",
+   "44099",
+   "44058",
+   "44413",
+   "45050",
+   "45788",
+   "46491",
+   "47135",
+   "47751",
+   "48308",
+   "48782",
+   "49157",
+   "49414",
+   "49554",
+   "49601",
+   "49600",
+   "49581",
+   "49551",
+   "49506",
+   "49469",
+   "52154",
+   "49136",
+   "51336",
+   "52912",
+   "54149"
+  ],
+  "target_sentences": [],
+  "regen_answer": "52154",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "107": {
+  "target_values_text": [
+   "Russian hip-hop",
+   "rock music"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Russian hip-hop, rock music",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "108": {
+  "target_values_text": [
+   "Moscow"
+  ],
+  "target_sentences": [
+   "| headquarters = Moscow (formerly)",
+   "It is known for its critical and investigative coverage of Russian political and social affairs, the Chechen wars, corruption among the ruling elite, and increasing authoritarianism in Russia.&lt;ref&gt; &lt;/ref&gt;&lt;ref name=&quot;auto&quot;&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; It was formerly published in Moscow until shortly after the 2022 Russian invasion of Ukraine began.",
+   "Since then Novaya Gazeta has appeared online only, though its editorial team is still working out of Moscow, which is seen by some as one sign of resistance.&lt;ref&gt; &lt;/ref&gt; English-language articles on the website are published on a weekly basis in the form of the Russia, Explained newsletter."
+  ],
+  "regen_answer": "Moscow",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "113": {
+  "target_values_text": [
+   "United Kingdom"
+  ],
+  "target_sentences": [],
+  "regen_answer": "United Kingdom",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "114": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "115": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "121": {
+  "target_values_text": [
+   "1745-01-01"
+  ],
+  "target_sentences": [],
+  "regen_answer": "1745-01-01",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "130": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "132": {
+  "target_values_text": [
+   "Kainan"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Kainan",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "133": {
+  "target_values_text": [
+   "1311-01-01"
+  ],
+  "target_sentences": [],
+  "regen_answer": "1311",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "136": {
+  "target_values_text": [
+   "1997-05-07",
+   "1997-05-09",
+   "1997-08-22",
+   "1997-08-28"
+  ],
+  "target_sentences": [],
+  "regen_answer": "1997-05-07, 1997-05-09, 1997-08-22, 1997-08-28",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "141": {
+  "target_values_text": [
+   "United States"
+  ],
+  "target_sentences": [],
+  "regen_answer": "United States",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "148": {
+  "target_values_text": [],
+  "target_sentences": [],
+  "regen_answer": null,
+  "regen_ok": false,
+  "no_current_evidence": true,
+  "differs_from_cached": null
+ },
+ "150": {
+  "target_values_text": [
+   "France"
+  ],
+  "target_sentences": [
+   "| birth_place = Boulogne-sur-Mer, Pas-de-Calais, France",
+   "After six months at Galatasaray, he departed the club in controversial fashion in order to return to France to join Marseille.",
+   "Ribéry spent two seasons at the club, helping OM reach the final of the Coupe de France in back-to-back seasons."
+  ],
+  "regen_answer": "France",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "15": {
+  "target_values_text": [
+   "Antarctic Treaty area"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Antarctic Treaty area",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "17": {
+  "target_values_text": [
+   "teen sitcom",
+   "sitcom"
+  ],
+  "target_sentences": [
+   "So Little Time is an American sitcom starring Mary-Kate and Ashley Olsen in their third and final television sitcom (after Full House and Two of a Kind).&lt;ref&gt; &lt;/ref&gt;",
+   "Category:2000s American single-camera sitcoms",
+   "Category:2000s American multi-camera sitcoms"
+  ],
+  "regen_answer": "Teen sitcom, sitcom.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "18": {
+  "target_values_text": [
+   "Jerusalem"
+  ],
+  "target_sentences": [
+   "| birth_place = Jerusalem, Kingdom of Israel and Judah",
+   "Solomon was born in Jerusalem,&lt;ref&gt; &lt;/ref&gt; the second-born child of David and his wife Bathsheba (widow of Uriah the Hittite).",
+   "For years before his death, David was engaged in collecting materials for building a temple in Jerusalem as a permanent home for Yahweh and the Ark of the Covenant."
+  ],
+  "regen_answer": "Jerusalem",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "20": {
+  "target_values_text": [
+   "association football"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Association football.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "24": {
+  "target_values_text": [
+   "président-directeur général",
+   "private secretary of the minister of Economy",
+   "president",
+   "council member"
+  ],
+  "target_sentences": [
+   "* Fondation Orange, President of the board of directors&lt;ref&gt;Board of Directors Fondation Orange.&lt;/ref&gt;",
+   "Israel's president Reuvin Rivlin said of Richard: &quot;Disturbingly, I have yet to hear condemnations from France's heads of state of the statements by the CEO of France Telecom like those I heard from Britain, and I expect their voices to be heard here in Israel, in Cairo, and the entire world.&quot;&lt;ref&gt;Israel tells France: Condemn Orange CEO's support for boycott Attila Somfalvi and Itamar Eichner, 6 April 2015, Ynetnews.com&lt;/ref&gt;"
+  ],
+  "regen_answer": "CEO of France Telecom / président-directeur général",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "44": {
+  "target_values_text": [
+   "trivia video game",
+   "Christian video game"
+  ],
+  "target_sentences": [
+   "However, he noted that if a parent was looking for a cheap, non-violent game for their kids, they &quot;could definitely do worse.&quot;&lt;ref name=&quot;ign2&quot;/&gt; IGN writer Mark Bozon's review of the Game Boy Advance version was critical, pointing out how poor the gameplay is and how many bugs it has.&lt;ref name=&quot;ign&quot;/&gt; Eurogamer writer John Walker felt that it was &quot;well-presented&quot; and &quot;contemporary in design&quot; but still &quot;shallow.&quot; He felt that there was only a small niche of people who might enjoy it.&lt;ref name=&quot;eg&quot;/&gt; In discussing mainstream Christian video games, Vice author Emanuel Maiberg described The Bible Game as one of the better examples of a game that came close to the mainstream.&lt;ref&gt; &lt;/ref&gt; GameSpot writer Bob Colayco was critical of the game, calling it &quot;mediocre.&quot; He felt that it would be a Christian family friendly product and felt they would enjoy its &quot;commercial Christian pop soundtrack.&quot; He felt that the mini-games were &quot;basic&quot; and lacking in variety.&lt;ref name=&quot;gs&quot;/&gt;"
+  ],
+  "regen_answer": "Trivia video game, Christian video game",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "45": {
+  "target_values_text": [
+   "Antarctic Treaty area"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Antarctic Treaty area",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "48": {
+  "target_values_text": [
+   "New York City"
+  ],
+  "target_sentences": [
+   "Jovita Moore was born in New York City on October 4, 1967."
+  ],
+  "regen_answer": "New York City",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "56": {
+  "target_values_text": [
+   "New York City"
+  ],
+  "target_sentences": [
+   "Deutsch was born in New York City and graduated from Barnard College.",
+   "Helen Deutsch died in New York City of natural causes.",
+   "Category:Screenwriters from New York City"
+  ],
+  "regen_answer": "New York City",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "59": {
+  "target_values_text": [
+   "romantic comedy film",
+   "LGBTQ-related film",
+   "comedy drama",
+   "comedy film",
+   "romance film",
+   "drama film"
+  ],
+  "target_sentences": [
+   "As Good as It Gets is a 1997 American romantic comedy film directed by James L.",
+   "| Best Performance by a Young Actor in a Comedy Film",
+   "Category:English-language romantic comedy films"
+  ],
+  "regen_answer": "Romantic comedy film",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "61": {
+  "target_values_text": [
+   "Pessonada"
+  ],
+  "target_sentences": [
+   "Josep Coll i Martí (born October 16, 1949 in Pessonada, Conca de Dalt, Pallars Jussà (Catalonia)), better known as Pep Coll, is a Spanish writer.&lt;ref&gt; &lt;/ref&gt; A prolific author, he has cultivated all literary genres, including journalism (having contributed articles to the newspapers Segre and El Periódico and the magazine Descobrir Catalunya)."
+  ],
+  "regen_answer": "Pessonada",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "67": {
+  "target_values_text": [
+   "Antarctic Treaty area"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Antarctic Treaty area",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "71": {
+  "target_values_text": [
+   "opera singer",
+   "singer",
+   "Bass-baritone singer"
+  ],
+  "target_sentences": [
+   "After winning first prize (male singer) and the Audience Prize in the 1998 Operalia competition founded by Plácido Domingo, he went on to leading roles in major opera houses in both Europe and the United States.",
+   "*1998: First prize (male singer) and Audience prize Operalia competition founded by Plácido Domingo",
+   "Category:21st-century Uruguayan male singers"
+  ],
+  "regen_answer": "Opera singer",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "112": {
+  "target_values_text": [
+   "Spain",
+   "Duchy of Parma and Piacenza"
+  ],
+  "target_sentences": [
+   "Laura Pescatori ( ) was an influential favorite of the queen of Spain, Elisabeth Farnese.",
+   "She did not accompany her in her retinue when Elisabeth left Italy for her marriage to King Philip V of Spain in 1714.",
+   "In Spain, Elisabeth quickly became the de facto ruler through the king and by the guidance of the Parmese ambassador, Cardinal Alberoni."
+  ],
+  "regen_answer": "Spain, Duchy of Parma and Piacenza",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "118": {
+  "target_values_text": [
+   "Antarctic Treaty area"
+  ],
+  "target_sentences": [],
+  "regen_answer": "Antarctic Treaty area",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": false
+ },
+ "125": {
+  "target_values_text": [
+   "screenwriter",
+   "playwright",
+   "writer",
+   "film producer",
+   "journalist",
+   "theatre critic",
+   "poet",
+   "songwriter",
+   "composer"
+  ],
+  "target_sentences": [
+   "Helen Deutsch (March 21, 1906 – March 15, 1992) was an American screenwriter, journalist, and songwriter.",
+   "Deutsch was nominated for the Academy Award for the screenplay of Lili, which won her a Golden Globe Award, as well as awards from the Cannes Film Festival and Writers Guild of America.&lt;ref&gt; &lt;/ref&gt;",
+   "Category:Screenwriters from New York City"
+  ],
+  "regen_answer": "Screenwriter, journalist, and songwriter.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "129": {
+  "target_values_text": [
+   "romantic comedy film"
+  ],
+  "target_sentences": [
+   "Nappily Ever After is a 2018 American romantic comedy film directed by Haifaa al-Mansour and written by Adam Brooks and Cee Marcellus.",
+   "Category:African-American romantic comedy films",
+   "Category:English-language romantic comedy films"
+  ],
+  "regen_answer": "Romantic comedy film.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "139": {
+  "target_values_text": [
+   "Bandit-warfare Badge",
+   "Eastern Medal",
+   "Ostvolk Medal 1st Class in Gold with Swords",
+   "Ostvolk Medal 2nd Class in Silver with Swords",
+   "Iron Cross (1939), 1st class",
+   "Wound Badge (1939) in Black"
+  ],
+  "target_sentences": [
+   "Category:Recipients of the Iron Cross (1939), 1st class"
+  ],
+  "regen_answer": "Iron Cross (1939), 1st class",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "147": {
+  "target_values_text": [
+   "singer-songwriter",
+   "record producer",
+   "actor",
+   "voice actor",
+   "model",
+   "fashion designer",
+   "filmmaker",
+   "businessperson",
+   "child actor",
+   "pop singer",
+   "musician"
+  ],
+  "target_sentences": [
+   "Her accolades include an Actor Award, an American Music Award, a Billboard Music Award, a Cannes Film Festival Award, two MTV Video Music Awards and 16 Guinness World Records.",
+   "She is the most-followed woman on Instagram and one of the wealthiest musicians.",
+   "In March 2025, Gomez and record producer Benny Blanco released the collaborative album I Said I Love You First.&lt;ref&gt; &lt;/ref&gt; It received generally favorable reviews and debuted at number two on the Billboard 200, with 120,000 units, marking the largest sales week of Gomez's career.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; It also debuted within the top five in several countries, including Australia, Germany, and the UK.&lt;ref&gt;"
+  ],
+  "regen_answer": "Singer-songwriter, record producer, actor, voice actor, model, fashion designer, filmmaker, businessperson, child actor, pop singer, musician.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ },
+ "155": {
+  "target_values_text": [
+   "philosopher",
+   "university teacher",
+   "writer",
+   "pedagogue",
+   "journalist",
+   "opinion journalist",
+   "Protestant theologian"
+  ],
+  "target_sentences": [
+   "Julius Friedrich Leopold Rupp (13 August 1809 – 11 July 1884) was a German Protestant theologian and pastor.",
+   "Category:19th-century German Protestant theologians",
+   "Category:19th-century German male writers"
+  ],
+  "regen_answer": "German Protestant theologian and pastor.",
+  "regen_ok": true,
+  "no_current_evidence": false,
+  "differs_from_cached": true
+ }
+}

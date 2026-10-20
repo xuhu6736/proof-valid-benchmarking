@@ -1,0 +1,139 @@
+{
+ "accounting": "Table-B matched accounting (s32-s34 human labels for every formerly template-composed delivery; the single accept-fail key counts as an abstention)",
+ "erasure_free_reference_tableB": {
+  "asserted": 124,
+  "strict": 122
+ },
+ "accept_fail_scored_as_abstain_events": 52686,
+ "cells": {
+  "asserted/none/p=0.05": {
+   "endpoint_correct_mean_tableB": 115.6,
+   "min": 107,
+   "max": 124
+  },
+  "asserted/none/p=0.1": {
+   "endpoint_correct_mean_tableB": 109.3,
+   "min": 100,
+   "max": 118
+  },
+  "asserted/none/p=0.2": {
+   "endpoint_correct_mean_tableB": 100.8,
+   "min": 90,
+   "max": 110
+  },
+  "asserted/random/p=0.05": {
+   "endpoint_correct_mean_tableB": 122.7,
+   "min": 119,
+   "max": 126
+  },
+  "asserted/random/p=0.1": {
+   "endpoint_correct_mean_tableB": 120.6,
+   "min": 114,
+   "max": 126
+  },
+  "asserted/random/p=0.2": {
+   "endpoint_correct_mean_tableB": 114.7,
+   "min": 107,
+   "max": 122
+  },
+  "asserted/fixed/p=0.05": {
+   "endpoint_correct_mean_tableB": 123.2,
+   "min": 120,
+   "max": 125
+  },
+  "asserted/fixed/p=0.1": {
+   "endpoint_correct_mean_tableB": 121.6,
+   "min": 116,
+   "max": 126
+  },
+  "asserted/fixed/p=0.2": {
+   "endpoint_correct_mean_tableB": 116.1,
+   "min": 108,
+   "max": 124
+  },
+  "asserted/full/p=0.05": {
+   "endpoint_correct_mean_tableB": 124.0,
+   "min": 124,
+   "max": 124
+  },
+  "asserted/full/p=0.1": {
+   "endpoint_correct_mean_tableB": 124.0,
+   "min": 124,
+   "max": 124
+  },
+  "asserted/full/p=0.2": {
+   "endpoint_correct_mean_tableB": 124.0,
+   "min": 124,
+   "max": 124
+  },
+  "strict/none/p=0.05": {
+   "endpoint_correct_mean_tableB": 100.5,
+   "min": 89,
+   "max": 115
+  },
+  "strict/none/p=0.1": {
+   "endpoint_correct_mean_tableB": 88.9,
+   "min": 78,
+   "max": 103
+  },
+  "strict/none/p=0.2": {
+   "endpoint_correct_mean_tableB": 79.6,
+   "min": 67,
+   "max": 91
+  },
+  "strict/random/p=0.05": {
+   "endpoint_correct_mean_tableB": 118.0,
+   "min": 112,
+   "max": 123
+  },
+  "strict/random/p=0.1": {
+   "endpoint_correct_mean_tableB": 112.5,
+   "min": 105,
+   "max": 120
+  },
+  "strict/random/p=0.2": {
+   "endpoint_correct_mean_tableB": 99.0,
+   "min": 90,
+   "max": 111
+  },
+  "strict/fixed/p=0.05": {
+   "endpoint_correct_mean_tableB": 119.1,
+   "min": 114,
+   "max": 123
+  },
+  "strict/fixed/p=0.1": {
+   "endpoint_correct_mean_tableB": 114.0,
+   "min": 104,
+   "max": 121
+  },
+  "strict/fixed/p=0.2": {
+   "endpoint_correct_mean_tableB": 100.3,
+   "min": 89,
+   "max": 112
+  },
+  "strict/full/p=0.05": {
+   "endpoint_correct_mean_tableB": 122.0,
+   "min": 122,
+   "max": 122
+  },
+  "strict/full/p=0.1": {
+   "endpoint_correct_mean_tableB": 122.0,
+   "min": 122,
+   "max": 122
+  },
+  "strict/full/p=0.2": {
+   "endpoint_correct_mean_tableB": 122.0,
+   "min": 122,
+   "max": 122
+  },
+  "asserted/_delta_vs_erasure_free": {
+   "min": -23.2,
+   "max": 0.0
+  },
+  "strict/_delta_vs_erasure_free": {
+   "min": -42.4,
+   "max": 0.0
+  }
+ },
+ "note": "same seeds/fault plans as s30; mechanism columns (fallbacks, violating serves, restores, guards) are unchanged and remain archived in real_payload_chain.json"
+}

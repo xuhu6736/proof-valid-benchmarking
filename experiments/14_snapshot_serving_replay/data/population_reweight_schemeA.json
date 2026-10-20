@@ -1,0 +1,125 @@
+{
+ "scheme": "A: stratified by staleness AT age t; claims-side decline deterministic over the rebuilt universe; asserted stale-side rate panel-measured (cohort caveat); sentence-side rates panel-conditional",
+ "ages_months": [
+  0,
+  1,
+  3,
+  4
+ ],
+ "det_prevalence": {
+  "20260401": 0.0,
+  "20260501": 0.003799392097264438,
+  "20260701": 0.007750759878419453,
+  "20260801": 0.007902735562310031
+ },
+ "hit_rates": {
+  "h_S": 0.86,
+  "h_I": 1.0,
+  "n_stale": 50,
+  "n_intact": 104
+ },
+ "schemeA": {
+  "strict": [
+   0.0,
+   5.12,
+   13.07,
+   14.99
+  ],
+  "majority": [
+   0.0,
+   1.28,
+   6.39,
+   8.31
+  ],
+  "claims": [
+   0.0,
+   0.33,
+   0.67,
+   0.68
+  ],
+  "asserted": [
+   0.0,
+   0.1,
+   0.53,
+   0.57
+  ]
+ },
+ "deterministic_claims_part": {
+  "strict": [
+   0.0,
+   0.327,
+   0.667,
+   0.68
+  ],
+  "majority": [
+   0.0,
+   0.327,
+   0.667,
+   0.68
+  ],
+  "claims": [
+   0.0,
+   0.327,
+   0.667,
+   0.68
+  ],
+  "asserted": [
+   0.0,
+   0.099,
+   0.527,
+   0.569
+  ]
+ },
+ "panel_sentence_part": {
+  "strict": [
+   0.0,
+   4.789,
+   12.403,
+   14.309
+  ],
+  "majority": [
+   0.0,
+   0.958,
+   5.725,
+   7.632
+  ],
+  "claims": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "asserted": [
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "s13_mixed_cohort": {
+  "strict": [
+   0.0,
+   4.93,
+   13.04,
+   14.99
+  ],
+  "majority": [
+   0.0,
+   1.09,
+   6.36,
+   8.31
+  ],
+  "claims": [
+   0.0,
+   0.13,
+   0.64,
+   0.68
+  ],
+  "asserted": [
+   0.0,
+   0.1,
+   0.53,
+   0.57
+  ]
+ }
+}

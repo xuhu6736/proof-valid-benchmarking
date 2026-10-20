@@ -1,0 +1,149 @@
+{
+ "base": "20260401",
+ "text": [
+  {
+   "window": "20260401->20260501",
+   "n_pages": 1749,
+   "n_sentences": 86441,
+   "sentences_lost": 1391,
+   "eps_text": 0.01609190083409493,
+   "eps_text_ci95": [
+    0.0153,
+    0.017
+   ],
+   "per_page_eps_mean": 0.011519457773887166,
+   "page_edit_rate": 0.2578616352201258,
+   "lead5_cert_break": 0.048027444253859346,
+   "lead5_cert_break_ci95": [
+    0.039,
+    0.0591
+   ],
+   "lead10_cert_break": 0.06518010291595197
+  },
+  {
+   "window": "20260401->20260601",
+   "n_pages": 1749,
+   "n_sentences": 86441,
+   "sentences_lost": 2662,
+   "eps_text": 0.030795571545909926,
+   "eps_text_ci95": [
+    0.0297,
+    0.032
+   ],
+   "per_page_eps_mean": 0.01888795949292515,
+   "page_edit_rate": 0.39736992567181245,
+   "lead5_cert_break": 0.07833047455688966,
+   "lead5_cert_break_ci95": [
+    0.0666,
+    0.0919
+   ],
+   "lead10_cert_break": 0.10577472841623785
+  },
+  {
+   "window": "20260401->20260701",
+   "n_pages": 1749,
+   "n_sentences": 86441,
+   "sentences_lost": 3661,
+   "eps_text": 0.0423525873138904,
+   "eps_text_ci95": [
+    0.041,
+    0.0437
+   ],
+   "per_page_eps_mean": 0.02651402629684327,
+   "page_edit_rate": 0.5168667810177244,
+   "lead5_cert_break": 0.115494568324757,
+   "lead5_cert_break_ci95": [
+    0.1014,
+    0.1313
+   ],
+   "lead10_cert_break": 0.15494568324757005
+  },
+  {
+   "window": "20260401->20260801",
+   "n_pages": 1749,
+   "n_sentences": 86441,
+   "sentences_lost": 4500,
+   "eps_text": 0.052058629585497625,
+   "eps_text_ci95": [
+    0.0506,
+    0.0536
+   ],
+   "per_page_eps_mean": 0.03366911565406019,
+   "page_edit_rate": 0.5866209262435678,
+   "lead5_cert_break": 0.13664951400800457,
+   "lead5_cert_break_ci95": [
+    0.1213,
+    0.1535
+   ],
+   "lead10_cert_break": 0.18296169239565466
+  }
+ ],
+ "stmt": [
+  {
+   "window": "20260401->20260501",
+   "n_entities": 1739,
+   "n_statements": 58804,
+   "removed": 108,
+   "eps_stmt": 0.0018366097544384736,
+   "eps_stmt_ci95": [
+    0.0015,
+    0.0022
+   ],
+   "eps_stmt_exschema": 0.0018404594332066598,
+   "eps_stmt_exschema_ci95": [
+    0.0015,
+    0.0022
+   ],
+   "entity_any_removal": 0.04370327774583094,
+   "entity_any_removal_exschema": 0.04370327774583094,
+   "entity_any_removal_exschema_ci95": [
+    0.0351,
+    0.0544
+   ]
+  },
+  {
+   "window": "20260401->20260701",
+   "n_entities": 1739,
+   "n_statements": 58804,
+   "removed": 288,
+   "eps_stmt": 0.004897626011835929,
+   "eps_stmt_ci95": [
+    0.0044,
+    0.0055
+   ],
+   "eps_stmt_exschema": 0.003749084030606159,
+   "eps_stmt_exschema_ci95": [
+    0.0033,
+    0.0043
+   ],
+   "entity_any_removal": 0.09488211615871191,
+   "entity_any_removal_exschema": 0.07533064979873491,
+   "entity_any_removal_exschema_ci95": [
+    0.0638,
+    0.0887
+   ]
+  },
+  {
+   "window": "20260401->20260801",
+   "n_entities": 1739,
+   "n_statements": 58804,
+   "removed": 331,
+   "eps_stmt": 0.005628868784436433,
+   "eps_stmt_ci95": [
+    0.0051,
+    0.0063
+   ],
+   "eps_stmt_exschema": 0.004175116306811404,
+   "eps_stmt_exschema_ci95": [
+    0.0037,
+    0.0047
+   ],
+   "entity_any_removal": 0.10810810810810811,
+   "entity_any_removal_exschema": 0.07993099482461184,
+   "entity_any_removal_exschema_ci95": [
+    0.0681,
+    0.0936
+   ]
+  }
+ ]
+}

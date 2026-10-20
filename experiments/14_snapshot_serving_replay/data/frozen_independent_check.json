@@ -1,0 +1,422 @@
+{
+ "frozen_artifacts": [
+  "four dependency contracts",
+  "anchored lexical acceptance rule (qualified_alternatives.json, zero revisions since freezing)",
+  "t0 base certificates"
+ ],
+ "leg1_entity_holdout": {
+  "design-trail": {
+   "hits": 15,
+   "confirmed_correct": 6,
+   "decayed_or_drifted": 8,
+   "policies": {
+    "strict": {
+     "served": 0,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      21.8
+     ],
+     "correct_declined": 6,
+     "correct_decline_rate": 100.0,
+     "served_wrong_pids": []
+    },
+    "claims": {
+     "served": 0,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      21.8
+     ],
+     "correct_declined": 6,
+     "correct_decline_rate": 100.0,
+     "served_wrong_pids": []
+    },
+    "asserted": {
+     "served": 1,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      21.8
+     ],
+     "correct_declined": 5,
+     "correct_decline_rate": 83.3,
+     "served_wrong_pids": []
+    },
+    "anchored family (frozen)": {
+     "served": 5,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      21.8
+     ],
+     "correct_declined": 1,
+     "correct_decline_rate": 16.7,
+     "served_wrong_pids": []
+    },
+    "naive family (control)": {
+     "served": 15,
+     "wrong_served": 8,
+     "wrong_serve_ci": [
+      26.6,
+      78.7
+     ],
+     "correct_declined": 0,
+     "correct_decline_rate": 0.0,
+     "served_wrong_pids": [
+      8,
+      24,
+      48,
+      50,
+      52,
+      95,
+      112,
+      125
+     ]
+    }
+   }
+  },
+  "holdout": {
+   "hits": 132,
+   "confirmed_correct": 112,
+   "decayed_or_drifted": 3,
+   "policies": {
+    "strict": {
+     "served": 89,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      2.8
+     ],
+     "correct_declined": 32,
+     "correct_decline_rate": 28.6,
+     "served_wrong_pids": []
+    },
+    "claims": {
+     "served": 104,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      2.8
+     ],
+     "correct_declined": 19,
+     "correct_decline_rate": 17.0,
+     "served_wrong_pids": []
+    },
+    "asserted": {
+     "served": 110,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      2.8
+     ],
+     "correct_declined": 13,
+     "correct_decline_rate": 11.6,
+     "served_wrong_pids": []
+    },
+    "anchored family (frozen)": {
+     "served": 110,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      2.8
+     ],
+     "correct_declined": 13,
+     "correct_decline_rate": 11.6,
+     "served_wrong_pids": []
+    },
+    "naive family (control)": {
+     "served": 122,
+     "wrong_served": 0,
+     "wrong_serve_ci": [
+      0.0,
+      2.8
+     ],
+     "correct_declined": 4,
+     "correct_decline_rate": 3.6,
+     "served_wrong_pids": []
+    }
+   }
+  }
+ },
+ "leg2_forward_2026_10_16": {
+  "forward_date": "2026-10-16",
+  "entries_refetched": 9,
+  "claims_level_contract_declines": 9,
+  "all_declined": true,
+  "detail": [
+   {
+    "pid": 24,
+    "qid": "2360382",
+    "prop": "P39",
+    "asserted_alive_now": [],
+    "reverted": false
+   },
+   {
+    "pid": 33,
+    "qid": "59194713",
+    "prop": "P264",
+    "asserted_alive_now": [
+     "Q:Q30673858",
+     "Q:Q100744452",
+     "Q:Q112972756"
+    ],
+    "reverted": false
+   },
+   {
+    "pid": 48,
+    "qid": "6296829",
+    "prop": "P19",
+    "asserted_alive_now": [],
+    "reverted": false
+   },
+   {
+    "pid": 50,
+    "qid": "40430",
+    "prop": "P2046",
+    "asserted_alive_now": [],
+    "reverted": false
+   },
+   {
+    "pid": 78,
+    "qid": "59194713",
+    "prop": "P106",
+    "asserted_alive_now": [
+     "Q:Q2252262",
+     "Q:Q17125263"
+    ],
+    "reverted": false
+   },
+   {
+    "pid": 107,
+    "qid": "59194713",
+    "prop": "P136",
+    "asserted_alive_now": [
+     "Q:Q3785732",
+     "Q:Q11399"
+    ],
+    "reverted": false
+   },
+   {
+    "pid": 112,
+    "qid": "18345424",
+    "prop": "P27",
+    "asserted_alive_now": [
+     "Q:Q29"
+    ],
+    "reverted": false
+   },
+   {
+    "pid": 125,
+    "qid": "1601828",
+    "prop": "P106",
+    "asserted_alive_now": [
+     "Q:Q28389",
+     "Q:Q1930187",
+     "Q:Q753110",
+     "Q:Q17337766"
+    ],
+    "reverted": false
+   },
+   {
+    "pid": 51,
+    "qid": "243439",
+    "prop": "P136",
+    "asserted_alive_now": [
+     "Q:Q369747",
+     "Q:Q130232"
+    ],
+    "reverted": false
+   }
+  ],
+  "anchored_rule_forward": "not evaluable: no 2026-10 page snapshot was rebuilt (sentence component needs page text); network egress unavailable in this run"
+ },
+ "leg3_4_admission_dossiers_and_challenge": {
+  "admissions": 4,
+  "all_human_correct": true,
+  "challenge_entries_with_co_occurrence_shape": 4,
+  "challenge_wrong_serves": 0,
+  "dossiers": [
+   {
+    "pid": 77,
+    "label": "As Good as It Gets",
+    "prop_name": "publication date",
+    "question": "When was As Good as It Gets published or released?",
+    "cached_answer": "1997 (theatrical release on December 25, 1997; home media release on May 19, 1998).",
+    "human_label_A4": "正确",
+    "asserted_values": {
+     "1997-01-01": "sentence-covered",
+     "1998-02-12": "claim-covered",
+     "1997-12-23": "claim-covered",
+     "1997-12-25": "claim-covered"
+    },
+    "current_truthy_values": [
+     "1997-12-23",
+     "1997-12-23",
+     "1997-12-25",
+     "1998-02-12"
+    ],
+    "anchoring_sentences": [
+     "As Good as It Gets is a 1997 American romantic comedy film directed by James L.",
+     "As Good as It Gets premiered at the Regency Village Theatre on December 6, 1997, and was released theatrically in the United States on Christmas Day.",
+     "The film was released on VHS, LaserDisc and DVD on May 19, 1998 by Columbia TriStar Home Video."
+    ],
+    "co_occurrence_shape": [
+     {
+      "value": "1997-01-01",
+      "sentence": "As Good as It Gets is a 1997 American romantic comedy film directed by James L.",
+      "co_occurring_live_values": [
+       "1997-12-23",
+       "1997-12-23",
+       "1997-12-25"
+      ]
+     },
+     {
+      "value": "1997-01-01",
+      "sentence": "As Good as It Gets premiered at the Regency Village Theatre on December 6, 1997, and was released theatrically in the United States on Christmas Day.",
+      "co_occurring_live_values": [
+       "1997-12-23",
+       "1997-12-23",
+       "1997-12-25"
+      ]
+     }
+    ]
+   },
+   {
+    "pid": 121,
+    "label": "Domenico Gizzi",
+    "prop_name": "date of death",
+    "question": "When did Domenico Gizzi die?",
+    "cached_answer": "1745",
+    "human_label_A4": "正确",
+    "asserted_values": {
+     "1745-00-00": "sentence-covered"
+    },
+    "current_truthy_values": [
+     "1745-01-01"
+    ],
+    "anchoring_sentences": [
+     "Domenico Gizzi (Arpino, 1680 – Naples, 1745) was an Italian composer and singing teacher.&lt;ref&gt;Waldo Selden Pratt The History of Ballroom Dancing 1907 &quot;Other important singing-teachers were Domenico Gizzi and his pupil Fernando Feo..&quot;&lt;/ref&gt; Also known as &quot;Egizio&quot; or &quot;Egiziello&quot;, he founded a famous singing school in 1720 and among his pupils counted Francesco Feo and Gioacchino Conti, who was named &quot;Gizziello&quot; in his teacher's honour."
+    ],
+    "co_occurrence_shape": [
+     {
+      "value": "1745-00-00",
+      "sentence": "Domenico Gizzi (Arpino, 1680 – Naples, 1745) was an Italian composer and singing teacher.&lt;ref&gt;Waldo Selden Pratt The History of Ballroom Dancing 1907 &quot;Other important singing-teachers were Domenico Gizzi and his pupil Fernando Feo..&quot;&lt;/ref&gt; Also known as &quot;Egizio&quot; or &quot;Egiziello&quot;, he founded a famous singing school in 1720 and among his pupils counted Francesco Feo and Gioacchino Conti, who was named &quot;Gizziello&quot; in his teacher's honour.",
+      "co_occurring_live_values": [
+       "1745-01-01"
+      ]
+     }
+    ]
+   },
+   {
+    "pid": 133,
+    "label": "Ugrin Csák",
+    "prop_name": "date of death",
+    "question": "When did Ugrin Csák die?",
+    "cached_answer": "1311",
+    "human_label_A4": "正确",
+    "asserted_values": {
+     "1311-00-00": "sentence-covered"
+    },
+    "current_truthy_values": [
+     "1311-01-01"
+    ],
+    "anchoring_sentences": [
+     "Ugrin (III) from the kindred Csák ( , , ; died in 1311) was a prominent Hungarian baron and oligarch in the early 14th century.",
+     "The elderly lord died in 1311, his dominion was soon integrated into the royal administration.",
+     "Historian Iván Bertényi argued Ugrin Csák functioned as Judge royal from 1304 to 1311, however majority of the historians do not accept his theory, and considered that the position of Judge royal was in a state of vacancy for a decade, until Charles's third coronation was performed in full accordance with customary law in August 1310."
+    ],
+    "co_occurrence_shape": [
+     {
+      "value": "1311-00-00",
+      "sentence": "Ugrin (III) from the kindred Csák ( , , ; died in 1311) was a prominent Hungarian baron and oligarch in the early 14th century.",
+      "co_occurring_live_values": [
+       "1311-01-01"
+      ]
+     },
+     {
+      "value": "1311-00-00",
+      "sentence": "The elderly lord died in 1311, his dominion was soon integrated into the royal administration.",
+      "co_occurring_live_values": [
+       "1311-01-01"
+      ]
+     },
+     {
+      "value": "1311-00-00",
+      "sentence": "Historian Iván Bertényi argued Ugrin Csák functioned as Judge royal from 1304 to 1311, however majority of the historians do not accept his theory, and considered that the position of Judge royal was in a state of vacancy for a decade, until Charles's third coronation was performed in full accordance with customary law in August 1310.",
+      "co_occurring_live_values": [
+       "1311-01-01"
+      ]
+     }
+    ]
+   },
+   {
+    "pid": 136,
+    "label": "The Fifth Element",
+    "prop_name": "publication date",
+    "question": "When was The Fifth Element published or released?",
+    "cached_answer": "1997",
+    "human_label_A4": "正确",
+    "asserted_values": {
+     "1997-05-07": "claim-covered",
+     "1997-05-09": "claim-covered",
+     "1997-08-22": "claim-covered",
+     "1997-08-28": "claim-covered",
+     "1997-00-00": "sentence-covered"
+    },
+    "current_truthy_values": [
+     "1997-05-07",
+     "1997-05-07",
+     "1997-05-09",
+     "1997-08-22",
+     "1997-08-28"
+    ],
+    "anchoring_sentences": [
+     "The Fifth Element ( ) is a 1997 English-language French&lt;!--Please don't change it to American.",
+     "The film premiered on 7 May at the 1997 Cannes Film Festival, where it was selected as the opening film.&lt;ref name=&quot;festival-cannes.com&quot;&gt; &lt;/ref&gt;&lt;ref name=todd /&gt; Gaumont built an area for the screening that was over .",
+     "A novel was adapted from the screenplay of The Fifth Element, written by Terry Bisson and published by HarperPrism in 1997.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; Rumors arose after the film's release that it would be followed by a sequel, tentatively titled Mr."
+    ],
+    "co_occurrence_shape": [
+     {
+      "value": "1997-00-00",
+      "sentence": "The Fifth Element ( ) is a 1997 English-language French&lt;!--Please don't change it to American.",
+      "co_occurring_live_values": [
+       "1997-05-07",
+       "1997-05-07",
+       "1997-05-09",
+       "1997-08-22",
+       "1997-08-28"
+      ]
+     },
+     {
+      "value": "1997-00-00",
+      "sentence": "The film premiered on 7 May at the 1997 Cannes Film Festival, where it was selected as the opening film.&lt;ref name=&quot;festival-cannes.com&quot;&gt; &lt;/ref&gt;&lt;ref name=todd /&gt; Gaumont built an area for the screening that was over .",
+      "co_occurring_live_values": [
+       "1997-05-07",
+       "1997-05-07",
+       "1997-05-09",
+       "1997-08-22",
+       "1997-08-28"
+      ]
+     },
+     {
+      "value": "1997-00-00",
+      "sentence": "A novel was adapted from the screenplay of The Fifth Element, written by Terry Bisson and published by HarperPrism in 1997.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; Rumors arose after the film's release that it would be followed by a sequel, tentatively titled Mr.",
+      "co_occurring_live_values": [
+       "1997-05-07",
+       "1997-05-07",
+       "1997-05-09",
+       "1997-08-22",
+       "1997-08-28"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "honesty_notes": [
+  "the anchored rule wording was informed by panel-wide failure analysis; the holdout is pristine for evaluation (no holdout label consulted in any revision) but not for wording",
+  "the 2026-08 endpoint labels informed the design trail for the 12 design-trail entries; the forward check at 2026-10-16 covers the decayed cohort only (claims state), no forward page text",
+  "representative panel (natural prevalence) and challenge runs (fault injection, s30) are reported separately throughout"
+ ]
+}

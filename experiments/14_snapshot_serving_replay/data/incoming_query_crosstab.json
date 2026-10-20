@@ -1,0 +1,270 @@
+{
+ "categories": {
+  "decayed": 8,
+  "drifted": 3,
+  "correct": 118,
+  "incomplete_nd": 12,
+  "indet": 6
+ },
+ "policies": {
+  "similarity-only": {
+   "served": 147,
+   "decayed_served": 8,
+   "decayed_declined": 0,
+   "drifted_served": 3,
+   "drifted_declined": 0,
+   "correct_served": 118,
+   "correct_declined": 0,
+   "incomplete_nd_served": 12,
+   "incomplete_nd_declined": 0,
+   "indet_served": 6,
+   "indet_declined": 0,
+   "correct_total": 118,
+   "correct_decline_rate": 0.0,
+   "correct_decline_ci": [
+    0.0,
+    3.1
+   ],
+   "wrong_served": 11,
+   "wrong_serve_rate": 7.5,
+   "wrong_serve_ci": [
+    3.8,
+    13.0
+   ]
+  },
+  "strict": {
+   "served": 89,
+   "decayed_served": 0,
+   "decayed_declined": 8,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 80,
+   "correct_declined": 38,
+   "incomplete_nd_served": 8,
+   "incomplete_nd_declined": 4,
+   "indet_served": 1,
+   "indet_declined": 5,
+   "correct_total": 118,
+   "correct_decline_rate": 32.2,
+   "correct_decline_ci": [
+    23.9,
+    41.4
+   ],
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ]
+  },
+  "majority": {
+   "served": 96,
+   "decayed_served": 0,
+   "decayed_declined": 8,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 85,
+   "correct_declined": 33,
+   "incomplete_nd_served": 9,
+   "incomplete_nd_declined": 3,
+   "indet_served": 2,
+   "indet_declined": 4,
+   "correct_total": 118,
+   "correct_decline_rate": 28.0,
+   "correct_decline_ci": [
+    20.1,
+    37.0
+   ],
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ]
+  },
+  "claims": {
+   "served": 104,
+   "decayed_served": 0,
+   "decayed_declined": 8,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 93,
+   "correct_declined": 25,
+   "incomplete_nd_served": 9,
+   "incomplete_nd_declined": 3,
+   "indet_served": 2,
+   "indet_declined": 4,
+   "correct_total": 118,
+   "correct_decline_rate": 21.2,
+   "correct_decline_ci": [
+    14.2,
+    29.7
+   ],
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ]
+  },
+  "asserted": {
+   "served": 111,
+   "decayed_served": 0,
+   "decayed_declined": 8,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 100,
+   "correct_declined": 18,
+   "incomplete_nd_served": 9,
+   "incomplete_nd_declined": 3,
+   "indet_served": 2,
+   "indet_declined": 4,
+   "correct_total": 118,
+   "correct_decline_rate": 15.3,
+   "correct_decline_ci": [
+    9.3,
+    23.0
+   ],
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ]
+  },
+  "page-change": {
+   "served": 43,
+   "decayed_served": 1,
+   "decayed_declined": 7,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 36,
+   "correct_declined": 82,
+   "incomplete_nd_served": 5,
+   "incomplete_nd_declined": 7,
+   "indet_served": 1,
+   "indet_declined": 5,
+   "correct_total": 118,
+   "correct_decline_rate": 69.5,
+   "correct_decline_ci": [
+    60.3,
+    77.6
+   ],
+   "wrong_served": 1,
+   "wrong_serve_rate": 0.7,
+   "wrong_serve_ci": [
+    0.0,
+    3.7
+   ]
+  },
+  "entity-change": {
+   "served": 56,
+   "decayed_served": 0,
+   "decayed_declined": 8,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 54,
+   "correct_declined": 64,
+   "incomplete_nd_served": 0,
+   "incomplete_nd_declined": 12,
+   "indet_served": 2,
+   "indet_declined": 4,
+   "correct_total": 118,
+   "correct_decline_rate": 54.2,
+   "correct_decline_ci": [
+    44.8,
+    63.4
+   ],
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ]
+  },
+  "prop-change": {
+   "served": 100,
+   "decayed_served": 0,
+   "decayed_declined": 8,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 93,
+   "correct_declined": 25,
+   "incomplete_nd_served": 5,
+   "incomplete_nd_declined": 7,
+   "indet_served": 2,
+   "indet_declined": 4,
+   "correct_total": 118,
+   "correct_decline_rate": 21.2,
+   "correct_decline_ci": [
+    14.2,
+    29.7
+   ],
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ]
+  },
+  "value-in-page": {
+   "served": 97,
+   "decayed_served": 3,
+   "decayed_declined": 5,
+   "drifted_served": 3,
+   "drifted_declined": 0,
+   "correct_served": 83,
+   "correct_declined": 35,
+   "incomplete_nd_served": 6,
+   "incomplete_nd_declined": 6,
+   "indet_served": 2,
+   "indet_declined": 4,
+   "correct_total": 118,
+   "correct_decline_rate": 29.7,
+   "correct_decline_ci": [
+    21.6,
+    38.8
+   ],
+   "wrong_served": 6,
+   "wrong_serve_rate": 4.1,
+   "wrong_serve_ci": [
+    1.5,
+    8.7
+   ]
+  },
+  "llm-recheck": {
+   "served": 129,
+   "decayed_served": 3,
+   "decayed_declined": 5,
+   "drifted_served": 0,
+   "drifted_declined": 3,
+   "correct_served": 112,
+   "correct_declined": 6,
+   "incomplete_nd_served": 11,
+   "incomplete_nd_declined": 1,
+   "indet_served": 3,
+   "indet_declined": 3,
+   "correct_total": 118,
+   "correct_decline_rate": 5.1,
+   "correct_decline_ci": [
+    1.9,
+    10.7
+   ],
+   "wrong_served": 3,
+   "wrong_serve_rate": 2.0,
+   "wrong_serve_ci": [
+    0.4,
+    5.8
+   ]
+  },
+  "__closed_loop__": {
+   "drift_trio_all_abstain": true,
+   "note": "all three drifted incoming queries are declined by every gated contract and then abstain in the fallback loop (target-period P175 evidence empty): no wrong answer is ever delivered for a drifted query"
+  }
+ },
+ "drift_pids": [
+  8,
+  52,
+  95
+ ]
+}

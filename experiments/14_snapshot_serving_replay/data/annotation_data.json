@@ -1,0 +1,6374 @@
+[
+ {
+  "pid": 0,
+  "qid": "3241294",
+  "entity": "Last Ones Standing",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Last Ones Standing part of?",
+  "paraphrase": "What larger work or collection does Last Ones Standing belong to?",
+  "answer": "Won't Go Quietly",
+  "page_title": "Last Ones Standing",
+  "base_values": [
+   "Won't Go Quietly"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Won't Go Quietly"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "This is the fourth single from Example's second album, Won't Go Quietly.",
+    "alive": true
+   },
+   {
+    "text": "On 16 September 2010 the single debuted at number 44 on the Irish Singles Chart, becoming the third of Example's singles to do so; the other two being &quot;Won't Go Quietly&quot; and &quot;Kickstarts&quot;.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.7859018984795634,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 1,
+  "qid": "13408250",
+  "entity": "Ville Runola",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Ville Runola?",
+  "paraphrase": "What nation does Ville Runola hold citizenship in?",
+  "answer": "Finland",
+  "page_title": "Ville Runola",
+  "base_values": [
+   "Finland"
+  ],
+  "target_values": [
+   "Finland"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Ville Runola (born January 4, 1993) is a Finnish ice hockey defenceman.",
+    "alive": true
+   },
+   {
+    "text": "His is currently playing with HC TPS in the Finnish SM-liiga.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9807740230661116,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 2,
+  "qid": "106506",
+  "entity": "The Fifth Element",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is The Fifth Element?",
+  "paraphrase": "What category does The Fifth Element belong to?",
+  "answer": "Science fiction action film",
+  "page_title": "The Fifth Element",
+  "base_values": [
+   "science fiction film",
+   "adventure film",
+   "comedy film",
+   "action film",
+   "fantasy film",
+   "dystopian film",
+   "speculative fiction film"
+  ],
+  "target_values": [
+   "science fiction film",
+   "adventure film",
+   "comedy film",
+   "action film",
+   "fantasy film",
+   "dystopian film"
+  ],
+  "removed_values": [
+   "speculative fiction film"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Despite being set in the United States, the film was developed and produced by a French studio.--&gt; science fiction-action film conceived and directed by Luc Besson, and co-written by Besson and Robert Mark Kamen.",
+    "alive": true
+   },
+   {
+    "text": "Category:1997 science fiction action films",
+    "alive": true
+   },
+   {
+    "text": "Category:French science fiction action films",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9061954521760989,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 3,
+  "qid": "512367",
+  "entity": "Leeza Gibbons",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Leeza Gibbons receive?",
+  "paraphrase": "What honor was bestowed upon Leeza Gibbons?",
+  "answer": "Daytime Emmy Award",
+  "page_title": "Leeza Gibbons",
+  "base_values": [
+   "Daytime Emmy Award",
+   "star on Hollywood Walk of Fame"
+  ],
+  "target_values": [
+   "Daytime Emmy Award",
+   "star on Hollywood Walk of Fame"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "In 2013, Gibbons won a Daytime Emmy Award for Outstanding Lifestyle/Travel Host for the PBS series My Generation.&lt;ref&gt; &lt;/ref&gt; In 2015, she won the NBC reality game-show series Celebrity Apprentice.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "In 2013, her book Take 2 became a New York Times bestseller and she won the Daytime Emmy for Outstanding Host in a Lifestyle or Travel program for the PBS show, My Generation.",
+    "alive": true
+   },
+   {
+    "text": "thumb|right|Leeza Gibbons, in 1990 at the [[Emmy Awards]]",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9411628459699489,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 4,
+  "qid": "182692",
+  "entity": "Apocalypse Now",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is Apocalypse Now?",
+  "paraphrase": "In what category or style would Apocalypse Now be classified?",
+  "answer": "War film, psychological epic war film, anti-war film, war drama.",
+  "page_title": "Apocalypse Now",
+  "base_values": [
+   "war film",
+   "action film",
+   "drama film",
+   "film based on book",
+   "thriller film",
+   "epic film",
+   "war drama",
+   "horror film",
+   "psychological horror film",
+   "psychological thriller film",
+   "adventure film",
+   "psychological drama film",
+   "satirical film"
+  ],
+  "target_values": [
+   "war film",
+   "action film",
+   "drama film",
+   "thriller film",
+   "epic film",
+   "war drama",
+   "horror film",
+   "psychological horror film",
+   "psychological thriller film",
+   "adventure film",
+   "psychological drama film",
+   "satirical film"
+  ],
+  "removed_values": [
+   "film based on book"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Apocalypse Now is a 1979 American psychological epic war film produced and directed by Francis Ford Coppola (credited as Francis Coppola).",
+    "alive": false
+   },
+   {
+    "text": "an anti-war film, I always thought, should be like [&lt;nowiki/&gt;Kon Ichikawa's 1956 post-second world war drama] The Burmese Harp – something filled with love and peace and tranquillity and happiness.",
+    "alive": true
+   },
+   {
+    "text": "Category:English-language war drama films",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.8820909095038474,
+  "claims_dead": 1,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 5,
+  "qid": "15109978",
+  "entity": "Tor André Johnsen",
+  "prop": "P69",
+  "prop_name": "educated at",
+  "kind": "qid",
+  "question": "Where was Tor André Johnsen educated?",
+  "paraphrase": "At which institution or institutions did Tor André Johnsen receive his education?",
+  "answer": "FHS/Sjefskurs",
+  "page_title": "Tor André Johnsen",
+  "base_values": [
+   "FHS/Sjefskurs"
+  ],
+  "target_values": [
+   "FHS/Sjefskurs"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Tor André Johnsen (born 25 November 1968) is a Norwegian politician for the Progress Party (FrP).",
+    "alive": true
+   },
+   {
+    "text": "He has been a member of the Storting since 2013.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9441036592763153,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 6,
+  "qid": "6746878",
+  "entity": "Manan Vohra",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Manan Vohra?",
+  "paraphrase": "What does Manan Vohra do for a living?",
+  "answer": "Cricketer",
+  "page_title": "Manan Vohra",
+  "base_values": [
+   "cricketer"
+  ],
+  "target_values": [
+   "cricketer"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Manan Vohra (born 18 July 1993) is an Indian cricketer.",
+    "alive": true
+   },
+   {
+    "text": "Category:Royal Challengers Bengaluru cricketers",
+    "alive": true
+   },
+   {
+    "text": "Category:Lucknow Super Giants cricketers",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9453074129038945,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 7,
+  "qid": "51480",
+  "entity": "Bayombong",
+  "prop": "P571",
+  "prop_name": "inception",
+  "kind": "time",
+  "question": "When was Bayombong established?",
+  "paraphrase": "What is the founding date of Bayombong?",
+  "answer": "1739",
+  "page_title": "Bayombong",
+  "base_values": [
+   "1739-06-12"
+  ],
+  "target_values": [
+   "1739-06-12"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| established_date = 12 June 1739",
+    "alive": true
+   },
+   {
+    "text": "When the friars asked about the bamboo water jugs, the carriers answered in unison with &quot;Bayongyong.&quot; It was in 1739 when Spanish Augustinian Friars named the place &quot;Bayumbung&quot;, which was later changed into Bayombong.",
+    "alive": true
+   },
+   {
+    "text": "Bayombong was formally founded on April 12, 1739, during the first Catholic mass celebrated in the region, officiated by Father Pedro Freire in a makeshift chapel at the foot of the Bangan Hill.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9609075962340088,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 8,
+  "qid": "106506",
+  "entity": "The Fifth Element",
+  "prop": "P175",
+  "prop_name": "performer",
+  "kind": "qid",
+  "question": "Who performed The Fifth Element?",
+  "paraphrase": "Who acted in The Fifth Element?",
+  "answer": "Éric Serra performed The Fifth Element.",
+  "page_title": "The Fifth Element",
+  "base_values": [
+   "Éric Serra"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Éric Serra"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Serra also used many non-French influences, such as the Stalinist fanfare heard before the spaceport sequence, the reggae piece played in preparation for the flight, and the hula music that greets the passengers as they arrive in Fhloston.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.8920120573420178,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 9,
+  "qid": "1668593",
+  "entity": "The Lady and the Monster",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is The Lady and the Monster?",
+  "paraphrase": "What category does The Lady and the Monster belong to?",
+  "answer": "Science fiction horror film",
+  "page_title": "The Lady and the Monster",
+  "base_values": [
+   "horror film",
+   "science fiction film",
+   "film based on a novel"
+  ],
+  "target_values": [
+   "horror film",
+   "science fiction film"
+  ],
+  "removed_values": [
+   "film based on a novel"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The Lady and the Monster is a 1944 American science fiction horror film directed by George Sherman, and starring Vera Ralston, Richard Arlen, and Erich von Stroheim.&lt;ref name=&quot;afi&quot; /&gt; The film is about the attempts to keep alive the brain of a multimillionaire after his death, only to create a telepathic monster.",
+    "alive": true
+   },
+   {
+    "text": "Category:1940s science fiction horror films",
+    "alive": false
+   },
+   {
+    "text": "Category:American science fiction horror films",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9071408949552652,
+  "claims_dead": 1,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 10,
+  "qid": "5999678",
+  "entity": "Ted Petersen",
+  "prop": "P641",
+  "prop_name": "sport",
+  "kind": "qid",
+  "question": "Which sport does Ted Petersen play?",
+  "paraphrase": "What is Ted Petersen's sport?",
+  "answer": "American football",
+  "page_title": "Ted Petersen",
+  "base_values": [
+   "American football"
+  ],
+  "target_values": [
+   "American football"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Category:American football offensive linemen",
+    "alive": true
+   },
+   {
+    "text": "Category:Players of American football from Illinois",
+    "alive": true
+   },
+   {
+    "text": "Ted Petersen (born February 7, 1955) is an American former professional football offensive lineman.",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9883179057377733,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 11,
+  "qid": "3196495",
+  "entity": "The Planets Bend Between Us",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is The Planets Bend Between Us part of?",
+  "paraphrase": "What larger work or collection does The Planets Bend Between Us belong to?",
+  "answer": "A Hundred Million Suns",
+  "page_title": "The Planets Bend Between Us",
+  "base_values": [
+   "A Hundred Million Suns"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "A Hundred Million Suns"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "&quot;The Planets Bend Between Us&quot; (or &quot;The Planets Bend Between Us (For You)&quot;) is a song by Northern Irish alternative rock band Snow Patrol, released on 24 May 2009 as the fourth and final single of their fifth album, A Hundred Million Suns (2008).",
+    "alive": true
+   },
+   {
+    "text": "The performance was aired live on Ken Bruce's radio show on BBC Radio 2 and was recorded on video, which were posted on the BBC website shortly afterwards.&lt;ref&gt; &lt;/ref&gt; On 13 May, Gary Lightbody and lead guitarist Nathan Connolly joined George Lamb on his radio show on BBC 6 Music and played a short acoustic set which additionally featured &quot;Take Back the City&quot;, the first single from A Hundred Million Suns.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.7954506575766119,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 12,
+  "qid": "5977662",
+  "entity": "I Hurt for You",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is I Hurt for You part of?",
+  "paraphrase": "What larger work or collection does \"I Hurt for You\" belong to?",
+  "answer": "Cheat the Night",
+  "page_title": "I Hurt for You",
+  "base_values": [
+   "Cheat the Night"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Cheat the Night"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was released in May 1984 as the third single from the album Cheat the Night.",
+    "alive": true
+   },
+   {
+    "text": "The song reached #10 on the Billboard Hot Country Singles &amp; Tracks chart.&lt;ref&gt; &lt;/ref&gt; The song was written by Allen and Rafe Van Hoy.",
+    "alive": true
+   },
+   {
+    "text": "The album version of the song is different from the single version, which adds more harmony vocals and features a different drum and percussion arrangement.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.759513942017052,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 13,
+  "qid": "44638200",
+  "entity": "Nappily Ever After",
+  "prop": "P58",
+  "prop_name": "screenwriter",
+  "kind": "qid",
+  "question": "Who was the screenwriter of Nappily Ever After?",
+  "paraphrase": "Who wrote the screenplay for Nappily Ever After?",
+  "answer": "Adam Brooks and Cee Marcellus.",
+  "page_title": "Nappily Ever After",
+  "base_values": [
+   "Adam Brooks"
+  ],
+  "target_values": [
+   "Adam Brooks"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Nappily Ever After is a 2018 American romantic comedy film directed by Haifaa al-Mansour and written by Adam Brooks and Cee Marcellus.",
+    "alive": true
+   },
+   {
+    "text": "On August 15, 2017, it was announced that the film was now developing by Netflix and Sanaa Lathan was cast to play the lead role, which Haifaa al-Mansour would direct from a screenplay by Adam Brooks and Cee Marcellus.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9688549113715214,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 14,
+  "qid": "622916",
+  "entity": "Horton Hears a Who!",
+  "prop": "P50",
+  "prop_name": "author",
+  "kind": "qid",
+  "question": "Who is the author of Horton Hears a Who!?",
+  "paraphrase": "Who wrote Horton Hears a Who!?",
+  "answer": "Dr. Seuss",
+  "page_title": "Horton Hears a Who!",
+  "base_values": [
+   "Dr. Seuss"
+  ],
+  "target_values": [
+   "Dr. Seuss"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "is a children's book written and illustrated by Theodor Seuss Geisel under the pen name Dr.",
+    "alive": true
+   },
+   {
+    "text": "and also serves as the major moral theme that Dr.",
+    "alive": true
+   },
+   {
+    "text": "Seuss conveys to his audience.&lt;ref name=&quot;Altschuler&quot;&gt; &lt;/ref&gt; Horton endures harassment to care for and ensure the safety of the Whos, who represent the insignificant.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9714753271117065,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 15,
+  "qid": "4891881",
+  "entity": "Berisad Glacier",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Berisad Glacier located?",
+  "paraphrase": "What administrative territorial entity contains Berisad Glacier?",
+  "answer": "Antarctic Treaty area",
+  "page_title": "Berisad Glacier",
+  "base_values": [
+   "Antarctic Treaty area"
+  ],
+  "target_values": [
+   "Q10372207"
+  ],
+  "removed_values": [
+   "Antarctic Treaty area"
+  ],
+  "added_values": [
+   "Q10372207"
+  ],
+  "sentences": [
+   {
+    "text": "Berisad Glacier ( , ) is a glacier long and wide in Veregava Ridge, central Sentinel Range in Ellsworth Mountains, Antarctica.",
+    "alive": true
+   },
+   {
+    "text": "SCAR Composite Antarctic Gazetteer.&lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Scale 1:250000 topographic map of Antarctica.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9762529151572138,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 16,
+  "qid": "6513102",
+  "entity": "Lee Bo-na",
+  "prop": "P641",
+  "prop_name": "sport",
+  "kind": "qid",
+  "question": "Which sport does Lee Bo-na play?",
+  "paraphrase": "What sport is Lee Bo-na involved in?",
+  "answer": "shooting sports",
+  "page_title": "Lee Bo-na",
+  "base_values": [
+   "shooting sports"
+  ],
+  "target_values": [
+   "shooting sports"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Lee Bo-Na ( ; born July 22, 1981) is a female South Korean sports shooter who competed in the 2004 Summer Olympics where she won two medals: silver (double trap) and bronze (trap) .",
+    "alive": false
+   },
+   {
+    "text": "Category:21st-century South Korean sportswomen",
+    "alive": true
+   },
+   {
+    "text": "Category:Asian Games gold medalists in shooting",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9830410690542913,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 17,
+  "qid": "726944",
+  "entity": "So Little Time",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is So Little Time?",
+  "paraphrase": "What category does So Little Time belong to?",
+  "answer": "Teen sitcom / American television sitcom",
+  "page_title": "So Little Time",
+  "base_values": [
+   "teen sitcom",
+   "American television sitcom"
+  ],
+  "target_values": [
+   "teen sitcom",
+   "Q170238"
+  ],
+  "removed_values": [
+   "American television sitcom"
+  ],
+  "added_values": [
+   "Q170238"
+  ],
+  "sentences": [
+   {
+    "text": "So Little Time is an American sitcom starring Mary-Kate and Ashley Olsen in their third and final television sitcom (after Full House and Two of a Kind).&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Category:American television series about teenagers",
+    "alive": true
+   },
+   {
+    "text": "Category:2000s American single-camera sitcoms",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.914494514970434,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 18,
+  "qid": "37085",
+  "entity": "Solomon",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Solomon born?",
+  "paraphrase": "What is Solomon's birthplace?",
+  "answer": "Palestine",
+  "page_title": "Solomon",
+  "base_values": [
+   "Palestine"
+  ],
+  "target_values": [
+   "Q1218"
+  ],
+  "removed_values": [
+   "Palestine"
+  ],
+  "added_values": [
+   "Q1218"
+  ],
+  "sentences": [
+   {
+    "text": "| image = Simeon Solomon, King Solomon, 1872 or 1874, NGA 76152 (cropped).jpg",
+    "alive": true
+   },
+   {
+    "text": "| caption = King Solomon (1872) by Simeon Solomon",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9643714550406141,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 19,
+  "qid": "22772381",
+  "entity": "Iva Slonjšak",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Iva Slonjšak?",
+  "paraphrase": "What does Iva Slonjšak do for a living?",
+  "answer": "Basketball player",
+  "page_title": "Iva Slonjšak",
+  "base_values": [
+   "basketball player"
+  ],
+  "target_values": [
+   "basketball player"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Iva Slonjšak (born 16 April 1997 in Zagreb) is a Croatian female professional basketball player currently playing for Saint Amand Hainaut Basketball, France.",
+    "alive": true
+   },
+   {
+    "text": "Category:Croatian women's basketball players",
+    "alive": true
+   },
+   {
+    "text": "Category:Croatian expatriate basketball people in Slovenia",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9436310224669442,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 20,
+  "qid": "5161552",
+  "entity": "UConn Huskies men's soccer",
+  "prop": "P641",
+  "prop_name": "sport",
+  "kind": "qid",
+  "question": "Which sport does UConn Huskies men's soccer play?",
+  "paraphrase": "What is the sport played by the UConn Huskies men's soccer team?",
+  "answer": "Men's association football.",
+  "page_title": "UConn Huskies men's soccer",
+  "base_values": [
+   "men's association football"
+  ],
+  "target_values": [
+   "Q2736"
+  ],
+  "removed_values": [
+   "men's association football"
+  ],
+  "added_values": [
+   "Q2736"
+  ],
+  "sentences": [
+   {
+    "text": "The UConn Huskies men's soccer team is an intercollegiate varsity sports team of the University of Connecticut.",
+    "alive": true
+   },
+   {
+    "text": "The team is a member of the Big East Conference of the National Collegiate Athletic Association (NCAA).",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9799029341385693,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 21,
+  "qid": "3504785",
+  "entity": "Sven Otto Littorin",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Sven Otto Littorin?",
+  "paraphrase": "What does Sven Otto Littorin do for a living?",
+  "answer": "politician",
+  "page_title": "Sven Otto Littorin",
+  "base_values": [
+   "politician"
+  ],
+  "target_values": [
+   "politician",
+   "Q11986654"
+  ],
+  "removed_values": [],
+  "added_values": [
+   "Q11986654"
+  ],
+  "sentences": [
+   {
+    "text": "Sven Otto Julius Littorin (born 1966) is a Swedish former politician and architect of major structural reforms.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.912977560384751,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 22,
+  "qid": "1518934",
+  "entity": "Houghton Conquest",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Houghton Conquest located?",
+  "paraphrase": "What administrative territorial entity contains Houghton Conquest?",
+  "answer": "Central Bedfordshire",
+  "page_title": "Houghton Conquest",
+  "base_values": [
+   "Central Bedfordshire"
+  ],
+  "target_values": [
+   "Central Bedfordshire"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Houghton Conquest is a village and civil parish located in the Central Bedfordshire district of Bedfordshire, England.",
+    "alive": true
+   },
+   {
+    "text": "The village is located in the northern part of Central Bedfordshire, on the border with the Borough of Bedford.",
+    "alive": true
+   },
+   {
+    "text": "The Church of All Saints was constructed in the village during the 14th century, and is today the largest parish church in Bedfordshire.&lt;ref&gt; &lt;/ref&gt; Features of interest include the wall paintings, sculpture, stained glass, benches and stalls.&lt;ref&gt;Jones, Lawrence E.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9640642241341987,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 23,
+  "qid": "1476717",
+  "entity": "Sit Tight",
+  "prop": "P495",
+  "prop_name": "country of origin",
+  "kind": "qid",
+  "question": "What is the country of origin of Sit Tight?",
+  "paraphrase": "Where does Sit Tight originate from?",
+  "answer": "United States",
+  "page_title": "Sit Tight",
+  "base_values": [
+   "United States"
+  ],
+  "target_values": [
+   "United States"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was originally intended as a full musical, but due to the backlash against musicals, all the songs were cut from the film except for one &amp;ndash; sung by Winnie Lightner &amp;ndash; in all release prints in the United States.&lt;ref&gt;The AFI Catalog of Feature Films 1893-1993: Sit Tight&lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "They originally sang a number of songs in this film but these numbers were cut in the prints released in the United States.",
+    "alive": true
+   },
+   {
+    "text": "Only the cut print released in the United States seems to have survived.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9264058655218106,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 24,
+  "qid": "2360382",
+  "entity": "Stéphane Richard",
+  "prop": "P39",
+  "prop_name": "position held",
+  "kind": "qid",
+  "question": "Which position does Stéphane Richard hold?",
+  "paraphrase": "What role or job does Stéphane Richard occupy?",
+  "answer": "Chief executive officer",
+  "page_title": "Stéphane Richard",
+  "base_values": [
+   "chief executive officer",
+   "private secretary of the minister of Economy"
+  ],
+  "target_values": [
+   "Q428322",
+   "private secretary of the minister of Economy",
+   "Q1255921",
+   "council member"
+  ],
+  "removed_values": [
+   "chief executive officer"
+  ],
+  "added_values": [
+   "Q428322",
+   "Q1255921",
+   "council member"
+  ],
+  "sentences": [
+   {
+    "text": "Stéphane Richard (born 24 August 1961) is a French businessman who was the chief executive officer and chairman of the worldwide mobile phone network Orange from 2011 to 2021.",
+    "alive": true
+   },
+   {
+    "text": "From 2007 until 2009 Richard was chief of staff to Christine Lagarde, then French Minister for the Economy, Industry, and Employment.",
+    "alive": true
+   },
+   {
+    "text": "In 2019, Orange voted to renew his mandate.&lt;ref&gt;David Keohane and Nic Fildes (February 20, 2018), Orange gives Stéphane Richard another 4 years as chief executive Financial Times.&lt;/ref&gt; A popular chief executive, Richard is credited with improving revenues and market share in the competitive French telecoms market and restoring relations with unions after a spate of suicides shook the company.&lt;ref&gt;Emmanuel Jarry and Gwenaelle Barzic (July 9, 2021), Orange CEO Richard secures his position after acquittal Reuters.&lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9729886876017623,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 25,
+  "qid": "48732555",
+  "entity": "Permatang Berangan",
+  "prop": "P17",
+  "prop_name": "country",
+  "kind": "qid",
+  "question": "In which country is Permatang Berangan located?",
+  "paraphrase": "What country contains Permatang Berangan?",
+  "answer": "Malaysia",
+  "page_title": "Permatang Berangan",
+  "base_values": [
+   "Malaysia"
+  ],
+  "target_values": [
+   "Malaysia"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Permatang Berangan is a state constituency in Penang, Malaysia, that has been represented in the Penang State Legislative Assembly.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "| colspan=&quot;2&quot; align=&quot;right&quot; |&lt;small&gt;Source: Malaysian Election Commission&lt;ref name=2018report&gt; &lt;/ref&gt;&lt;/small&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9626350783056915,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 26,
+  "qid": "4699725",
+  "entity": "Aji Santoso",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Aji Santoso?",
+  "paraphrase": "What does Aji Santoso do for a living?",
+  "answer": "Association football player and association football coach.",
+  "page_title": "Aji Santoso",
+  "base_values": [
+   "association football player",
+   "association football coach"
+  ],
+  "target_values": [
+   "association football player",
+   "association football coach"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Category:Men's association football defenders",
+    "alive": true
+   },
+   {
+    "text": "Aji Santoso (born 6 April 1970 in Malang, East Java, Indonesia) is an Indonesian former professional footballer and football head coach.",
+    "alive": true
+   },
+   {
+    "text": "He was a left-back during his playing days, and was a regular for the Indonesia national football team and Persebaya Surabaya.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.935373256043744,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 27,
+  "qid": "4827008",
+  "entity": "Autostop/Love Is a Lonely Weekend",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Autostop/Love Is a Lonely Weekend part of?",
+  "paraphrase": "What larger work or collection does Autostop/Love Is a Lonely Weekend belong to?",
+  "answer": "Back to Time",
+  "page_title": "Autostop/Love Is a Lonely Weekend",
+  "base_values": [
+   "Back to Time"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Back to Time"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The song was performed with the backing group The Epikouri, which also included Vissi's sister Lia.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.8137464872267541,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 28,
+  "qid": "77937",
+  "entity": "Princess Kira of Prussia",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Princess Kira of Prussia?",
+  "paraphrase": "What does Princess Kira of Prussia do for a living?",
+  "answer": "Aristocrat",
+  "page_title": "Princess Kira of Prussia",
+  "base_values": [
+   "aristocrat"
+  ],
+  "target_values": [
+   "aristocrat"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Princess Kira Auguste Viktoria Friederike of Prussia (27 June 1943 – 10 January 2004) was the fourth child and second daughter of Louis Ferdinand, Prince of Prussia and Grand Duchess Kira Kirillovna of Russia.",
+    "alive": true
+   },
+   {
+    "text": "Princess Kira was born in Cadienen, East Prussia (today Kadyny, Poland).",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9231183072521393,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 29,
+  "qid": "107705",
+  "entity": "David Cespiva",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was David Cespiva born?",
+  "paraphrase": "What is David Cespiva's birthplace?",
+  "answer": "Duisburg",
+  "page_title": "David Cespiva",
+  "base_values": [
+   "Duisburg"
+  ],
+  "target_values": [
+   "Duisburg"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "David Cespiva (born November 5, 1986) is a German professional ice hockey player who is currently an Unrestricted Free Agent.",
+    "alive": true
+   },
+   {
+    "text": "He most recently played for EHC München in the Deutsche Eishockey Liga (DEL).",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9850856010371735,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 30,
+  "qid": "55975",
+  "entity": "Sant'Agata de' Goti",
+  "prop": "P1082",
+  "prop_name": "population",
+  "kind": "quantity",
+  "question": "What is the population of Sant'Agata de' Goti?",
+  "paraphrase": "What is the number of inhabitants in Sant'Agata de' Goti?",
+  "answer": "11,175",
+  "page_title": "Sant'Agata de' Goti",
+  "base_values": [
+   "11,175",
+   "11,151",
+   "10,282"
+  ],
+  "target_values": [
+   "11,175",
+   "11,151",
+   "10,282"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Sant'Agata de' Goti is a comune (municipality) and former Catholic bishopric in the Province of Benevento in the Italian region Campania, located about northeast of Naples and about west of Benevento near the Monte Taburno.",
+    "alive": true
+   },
+   {
+    "text": "The comune of Sant’Agata de’Goti was built over the site of the city of Saticula, and artefacts that belonged to the Samnites have been found in the territory of Sant’Agata.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9819442020197362,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 31,
+  "qid": "7428139",
+  "entity": "Saved by Zero",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Saved by Zero part of?",
+  "paraphrase": "What larger work or collection does \"Saved by Zero\" belong to?",
+  "answer": "Reach the Beach",
+  "page_title": "Saved by Zero",
+  "base_values": [
+   "Reach the Beach"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Reach the Beach"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "&quot;Saved by Zero&quot; is a song by the English new wave band the Fixx, released by MCA Records in the UK on 15 April 1983, followed by a US release on 12 May 1983.&lt;ref&gt; &lt;/ref&gt; It was the lead single off their second studio album, Reach the Beach, and is one of the group's best known hits.",
+    "alive": true
+   },
+   {
+    "text": "An extended 4:24 version of &quot;Saved by Zero&quot; is included as a bonus track on the 2003 reissue of Reach the Beach.",
+    "alive": true
+   },
+   {
+    "text": "The premise sees Cy Curnin playing a painter who creates the artwork for Reach the Beach.",
+    "alive": false
+   }
+  ],
+  "stale": true,
+  "sim": 0.7651210454558888,
+  "claims_dead": 1,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 32,
+  "qid": "30303186",
+  "entity": "Mathura Prasad Pal",
+  "prop": "P39",
+  "prop_name": "position held",
+  "kind": "qid",
+  "question": "Which position does Mathura Prasad Pal hold?",
+  "paraphrase": "What role or office is currently held by Mathura Prasad Pal?",
+  "answer": "Member of the Uttar Pradesh Legislative Assembly",
+  "page_title": "Mathura Prasad Pal",
+  "base_values": [
+   "Member of the Uttar Pradesh Legislative Assembly"
+  ],
+  "target_values": [
+   "Member of the Uttar Pradesh Legislative Assembly"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "In the 2017 Uttar Pradesh Assembly Election, Pal defeated his close contestant Mahendra Katiyar of the Bahujan Samaj Party with a margin of 38,103 votes and became a member of the Uttar Pradesh Legislative Assembly for the third time.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Mathura Prasad Pal (3 January 1946 – 22 July 2017) was an Indian politician and a member of Uttar Pradesh Legislative Assembly.",
+    "alive": true
+   },
+   {
+    "text": "| 01 || 2017 || Incumbent || Member, 17th Legislative Assembly ||",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9709977789572957,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 33,
+  "qid": "59194713",
+  "entity": "Morgenshtern",
+  "prop": "P264",
+  "prop_name": "record label",
+  "kind": "qid",
+  "question": "Which record label is Morgenshtern signed to?",
+  "paraphrase": "What record label has Morgenshtern signed a contract with?",
+  "answer": "Yoola, Sony Music, Atlantic Records Russia, Bugatti Music, S&P Digital",
+  "page_title": "Morgenshtern",
+  "base_values": [
+   "Yoola",
+   "Sony Music",
+   "Atlantic Records Russia",
+   "Bugatti Music",
+   "S&P Digital"
+  ],
+  "target_values": [
+   "Yoola",
+   "Atlantic Records Russia",
+   "Bugatti Music"
+  ],
+  "removed_values": [
+   "Sony Music",
+   "S&P Digital"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Morgenshtern was also a street musician,&lt;ref&gt; &lt;/ref&gt; and was the head singer of the rock band MMD Crew, with whom he collaborated in a song with the Russian rapper Face.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "In May 2022, the Russian Ministry of Justice put Morgenshtern on the list of foreign agents after receiving funding from the Israeli media company Yoola Labs and for his remarks about Victory Day.",
+    "alive": false
+   },
+   {
+    "text": "On 5 March 2020, he released the track &quot;Malyshka&quot; (ru: Малышка), collaborated with the Russian musician Sharlot.&lt;ref&gt; &lt;/ref&gt; On 5 June 2020 he released the track &quot;Pososi&quot;.&lt;ref&gt; &lt;/ref&gt; Official music video for this track, currently is the most disliked YouTube video in Russia.&lt;ref&gt; &lt;/ref&gt; On 9 June 2020 he released the track &quot;Cadillac, collaborated with Eldzhey.&lt;ref&gt; &lt;/ref&gt; On 31 July 2020 he released the track &quot;Ice&quot;,&lt;ref&gt; &lt;/ref&gt; which went viral on social network TikTok.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   }
+  ],
+  "stale": true,
+  "sim": 0.9779719772796386,
+  "claims_dead": 2,
+  "sents_dead": 3,
+  "gate_pass": false
+ },
+ {
+  "pid": 34,
+  "qid": "6056513",
+  "entity": "Pablo Troise",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Pablo Troise?",
+  "paraphrase": "What does Pablo Troise do for a living?",
+  "answer": "Lawyer and former judge.",
+  "page_title": "Pablo Troise",
+  "base_values": [
+   "magistrate",
+   "lawyer",
+   "judge"
+  ],
+  "target_values": [
+   "magistrate",
+   "lawyer",
+   "judge"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Pablo Troise (born 17 April 1936) is a Uruguayan lawyer and former judge.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9415921983409135,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 35,
+  "qid": "1364690",
+  "entity": "Konstantin Lopushansky",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Konstantin Lopushansky?",
+  "paraphrase": "What nation does Konstantin Lopushansky hold citizenship in?",
+  "answer": "Soviet Union, Russia",
+  "page_title": "Konstantin Lopushansky",
+  "base_values": [
+   "Soviet Union",
+   "Russia"
+  ],
+  "target_values": [
+   "Soviet Union",
+   "Russia"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Konstantin Sergeyevich Lopushansky ( ; born June 12, 1947) is a Soviet and Russian film director, film theorist and author.&lt;ref&gt; &lt;/ref&gt;&lt;ref name=&quot;vt&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;rc&quot;&gt; &lt;/ref&gt; He is best known for directing the apocalyptic and post-apocalyptic films Dead Man's Letters (1986), A Visitor to a Museum (1989), Russian Symphony (1994), and The Ugly Swans (2006).",
+    "alive": false
+   },
+   {
+    "text": "In February 2022 signed an open letter from the FilmUnion condemning Russia's military invasion of Ukraine.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "In 1997, Lopushansky was awarded the Honored Artist of the Russian Federation honorary title.",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9824618766682888,
+  "claims_dead": 0,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 36,
+  "qid": "3168274",
+  "entity": "Jean-Noël Tremblay",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Jean-Noël Tremblay die?",
+  "paraphrase": "What was the date of Jean-Noël Tremblay's death?",
+  "answer": "23 January 2020",
+  "page_title": "Jean-Noël Tremblay",
+  "base_values": [
+   "2020-01-23"
+  ],
+  "target_values": [
+   "2020-01-23"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Jean-Noël Tremblay, ( ; 7 June 1926 – 23 January 2020) was a Canadian politician, who made career at both the federal and the provincial levels.",
+    "alive": true
+   },
+   {
+    "text": "He died in January 2020 at the age of 93 in Quebec, Quebec.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9831965725898205,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 37,
+  "qid": "6048730",
+  "entity": "Hasan Fehmi Güneş",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Hasan Fehmi Güneş die?",
+  "paraphrase": "On what date did Hasan Fehmi Güneş pass away?",
+  "answer": "23 November 2021",
+  "page_title": "Hasan Fehmi Güneş",
+  "base_values": [
+   "2021-11-23"
+  ],
+  "target_values": [
+   "2021-11-23"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Hasan Fehmi Güneş (1934 – 23 November 2021) was a Turkish jurist and politician who served as the interior minister in 1979.",
+    "alive": true
+   },
+   {
+    "text": "Güneş was married and had two children.&lt;ref name=bbctr/&gt; He died in Ankara on 23 November 2021.&lt;ref name=bbctr&gt; &lt;/ref&gt; He was buried in his hometown, Karapürçek, Sakarya, on 25 November.&lt;ref name=sozcu/&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9727239497527703,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 38,
+  "qid": "60737566",
+  "entity": "The Burnt Orange Heresy",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is The Burnt Orange Heresy?",
+  "paraphrase": "What category does The Burnt Orange Heresy belong to?",
+  "answer": "Crime thriller film.",
+  "page_title": "The Burnt Orange Heresy",
+  "base_values": [
+   "crime thriller film",
+   "film based on a novel"
+  ],
+  "target_values": [
+   "crime thriller film"
+  ],
+  "removed_values": [
+   "film based on a novel"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The Burnt Orange Heresy is a 2019 crime thriller film directed by Giuseppe Capotondi and with a screenplay by Scott Smith.",
+    "alive": true
+   },
+   {
+    "text": "Category:English-language crime thriller films",
+    "alive": true
+   },
+   {
+    "text": "The film is based on the book of the same name by Charles Willeford and stars Claes Bang, Elizabeth Debicki, Mick Jagger, and Donald Sutherland.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9104242979561636,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 39,
+  "qid": "470302",
+  "entity": "Meg Rosoff",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Meg Rosoff receive?",
+  "paraphrase": "What prize or honor was given to Meg Rosoff?",
+  "answer": "Astrid Lindgren Memorial Award, Guardian Children's Fiction Prize, Michael L. Printz Award, Carnegie Medal, Fellow of the Royal Society of Literature, Branford Boase Award",
+  "page_title": "Meg Rosoff",
+  "base_values": [
+   "Guardian Children's Fiction Prize",
+   "Michael L. Printz Award",
+   "Carnegie Medal",
+   "Astrid Lindgren Memorial Award",
+   "Fellow of the Royal Society of Literature",
+   "Branford Boase Award"
+  ],
+  "target_values": [
+   "Guardian Children's Fiction Prize",
+   "Michael L. Printz Award",
+   "Carnegie Medal",
+   "Astrid Lindgren Memorial Award",
+   "Fellow of the Royal Society of Literature",
+   "Branford Boase Award"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "In 2016, Rosoff won the Astrid Lindgren memorial award and the largest cash prize in children's literature for her entire catalog of work.&lt;ref&gt;Flood, Alison (5 April 2016), &quot;Meg Rosoff wins £430,000 Astrid Lindgren memorial award&quot;, The Guardian.&lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "She is best known for the novel How I Live Now (Puffin, 2004), which won the Guardian Prize, the Printz Award, the Branford Boase Award and made the Whitbread Awards shortlist.",
+    "alive": true
+   },
+   {
+    "text": "Her young-adult novel How I Live Now was published in 2004, in the same week she herself was diagnosed with breast cancer.&lt;ref name=&quot;Pieces of Me&quot; /&gt; It won the annual Guardian Children's Fiction Prize,&lt;ref name=prize2004 /&gt;&lt;ref name=relaunch /&gt; and the annual Michael L.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9676277651603482,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 40,
+  "qid": "245343",
+  "entity": "Barclays",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Barclays part of?",
+  "paraphrase": "Which larger group or organization does Barclays belong to?",
+  "answer": "FTSE 100 Index, list of companies involved in the Gaza war",
+  "page_title": "Barclays",
+  "base_values": [
+   "FTSE 100 Index",
+   "list of companies involved in the Gaza war"
+  ],
+  "target_values": [
+   "FTSE 100 Index",
+   "list of companies involved in the Gaza war"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Barclays has a primary listing on the London Stock Exchange and is a constituent of the FTSE 100 Index.",
+    "alive": true
+   },
+   {
+    "text": "Category:Companies in the FTSE 100 Index",
+    "alive": true
+   },
+   {
+    "text": "Category:Companies involved in the Gaza war",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.8916117396441301,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 41,
+  "qid": "170842",
+  "entity": "Sergei Korolev",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Sergei Korolev?",
+  "paraphrase": "What nation did Sergei Korolev hold citizenship in?",
+  "answer": "Russian Empire, Soviet Union",
+  "page_title": "Sergei Korolev",
+  "base_values": [
+   "Russian Empire",
+   "Soviet Union"
+  ],
+  "target_values": [
+   "Russian Empire",
+   "Soviet Union"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| birth_place = Zhytomyr, Russian Empire",
+    "alive": true
+   },
+   {
+    "text": "| death_place = Moscow, Soviet Union",
+    "alive": false
+   },
+   {
+    "text": "Sergei Pavlovich Korolev ( 14 January 1966) was the lead Soviet rocket engineer and spacecraft designer during the Space Race between the United States and the Soviet Union in the 1950s and 1960s.",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9609912960860187,
+  "claims_dead": 0,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 42,
+  "qid": "6299657",
+  "entity": "Juan Edmunds Rapahango",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Juan Edmunds Rapahango?",
+  "paraphrase": "What nation does Juan Edmunds Rapahango hold citizenship in?",
+  "answer": "Chile",
+  "page_title": "Juan Edmunds Rapahango",
+  "base_values": [
+   "Chile"
+  ],
+  "target_values": [
+   "Chile"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Juan Edmunds Rapahango (1923 – August 20, 2012) was a Rapa Nui politician, the former Mayor of Hanga Roa, the municipality of Rapa Nui (Easter Island), in Chilean Polynesia.",
+    "alive": true
+   },
+   {
+    "text": "Category:Chilean people of English descent",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.981187917823394,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 43,
+  "qid": "6414305",
+  "entity": "Kinsmen of the Dragon",
+  "prop": "P50",
+  "prop_name": "author",
+  "kind": "qid",
+  "question": "Who is the author of Kinsmen of the Dragon?",
+  "paraphrase": "Who wrote Kinsmen of the Dragon?",
+  "answer": "Stanley Mullen",
+  "page_title": "Kinsmen of the Dragon",
+  "base_values": [
+   "Stanley Mullen"
+  ],
+  "target_values": [
+   "Stanley Mullen"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Kinsmen of the Dragon is a fantasy novel by author Stanley Mullen.",
+    "alive": true
+   },
+   {
+    "text": "The book had originally been announced by Mullen's own Gorgon Press.",
+    "alive": true
+   },
+   {
+    "text": "Francis McComas declared that &quot;Practically every theme of fantasy and science fiction has been mistreated in this silly melodrama.&quot;&lt;ref&gt;&quot;Spaceman's Bookshelf&quot;, The New York Times, February 10, 1952&lt;/ref&gt; Damon Knight described it as the paradigm of the idiot-plotted story, &quot;a plot that is kept in motion solely by the fact that everyone involved is an idiot.&quot;&lt;ref&gt;Damon Knight, In Search of Wonder, Advent:Publishers, p.17&lt;/ref&gt; James Blish characterized it as &quot;an incredibly bad novel from any point of view,&quot; suggesting that other genre reviewers had been &quot;gentle&quot; with Mullen because he was a popular member of the fan community.&lt;ref&gt;James Blish, The Issue at Hand, Advent:Publishers, p.22.&lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9764215049348803,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 44,
+  "qid": "7717451",
+  "entity": "The Bible Game",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is The Bible Game?",
+  "paraphrase": "What category does The Bible Game belong to?",
+  "answer": "Trivia, Christian video game.",
+  "page_title": "The Bible Game",
+  "base_values": [
+   "trivia",
+   "Christian video game"
+  ],
+  "target_values": [
+   "Q60617948",
+   "Christian video game"
+  ],
+  "removed_values": [
+   "trivia"
+  ],
+  "added_values": [
+   "Q60617948"
+  ],
+  "sentences": [
+   {
+    "text": "However, he noted that if a parent was looking for a cheap, non-violent game for their kids, they &quot;could definitely do worse.&quot;&lt;ref name=&quot;ign2&quot;/&gt; IGN writer Mark Bozon's review of the Game Boy Advance version was critical, pointing out how poor the gameplay is and how many bugs it has.&lt;ref name=&quot;ign&quot;/&gt; Eurogamer writer John Walker felt that it was &quot;well-presented&quot; and &quot;contemporary in design&quot; but still &quot;shallow.&quot; He felt that there was only a small niche of people who might enjoy it.&lt;ref name=&quot;eg&quot;/&gt; In discussing mainstream Christian video games, Vice author Emanuel Maiberg described The Bible Game as one of the better examples of a game that came close to the mainstream.&lt;ref&gt; &lt;/ref&gt; GameSpot writer Bob Colayco was critical of the game, calling it &quot;mediocre.&quot; He felt that it would be a Christian family friendly product and felt they would enjoy its &quot;commercial Christian pop soundtrack.&quot; He felt that the mini-games were &quot;basic&quot; and lacking in variety.&lt;ref name=&quot;gs&quot;/&gt;",
+    "alive": true
+   },
+   {
+    "text": "It is aimed at Christians and is &quot;family-friendly.&quot; There are a variety of trivia questions related to the Old Testament.",
+    "alive": true
+   },
+   {
+    "text": "The Bible Game is a Christian party game published by Crave Entertainment in North America and 505 GameStreet in Europe.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9149088975097837,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 45,
+  "qid": "7045765",
+  "entity": "Noble Peak",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Noble Peak located?",
+  "paraphrase": "What administrative territorial entity contains Noble Peak?",
+  "answer": "Antarctic Treaty area",
+  "page_title": "Noble Peak",
+  "base_values": [
+   "Antarctic Treaty area"
+  ],
+  "target_values": [
+   "Q10372207"
+  ],
+  "removed_values": [
+   "Antarctic Treaty area"
+  ],
+  "added_values": [
+   "Q10372207"
+  ],
+  "sentences": [
+   {
+    "text": "Discovered by the Belgian Antarctic Expedition, 1897–99, under Gerlache.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9711091523110544,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 46,
+  "qid": "7297365",
+  "entity": "Ray Crone",
+  "prop": "P641",
+  "prop_name": "sport",
+  "kind": "qid",
+  "question": "Which sport does Ray Crone play?",
+  "paraphrase": "What is Ray Crone's sport?",
+  "answer": "Baseball",
+  "page_title": "Ray Crone",
+  "base_values": [
+   "baseball"
+  ],
+  "target_values": [
+   "baseball"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Raymond Hayes Crone (August 7, 1931 – January 15, 2026) was an American professional baseball player and scout.",
+    "alive": true
+   },
+   {
+    "text": "In his playing days, he was a right-handed pitcher who played in Major League Baseball for the Milwaukee Braves from 1954 to 1957 and the New York / San Francisco Giants in 1957 and 1958.",
+    "alive": true
+   },
+   {
+    "text": "Prior to playing professionally, Crone attended Memphis, Christian Brothers High School.&lt;ref name=&quot;Nugnug&quot;&gt;Information at Baseball Reference&lt;/ref&gt;&lt;ref name=&quot;Rayray&quot;&gt;Wolf, Gregory H.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9871693769146426,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 47,
+  "qid": "33760",
+  "entity": "Bertrand Russell",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Bertrand Russell?",
+  "paraphrase": "What was Bertrand Russell's profession?",
+  "answer": "Philosopher, logician, mathematician, and public intellectual.",
+  "page_title": "Bertrand Russell",
+  "base_values": [
+   "mathematician",
+   "social critic",
+   "essayist",
+   "logician",
+   "epistemologist",
+   "philosopher of language",
+   "political activist",
+   "metaphysician",
+   "analytic philosopher",
+   "autobiographer",
+   "university teacher",
+   "science fiction writer",
+   "philosopher of science",
+   "politician",
+   "peace activist",
+   "journalist",
+   "philosopher",
+   "writer",
+   "pedagogue",
+   "pacifist"
+  ],
+  "target_values": [
+   "mathematician",
+   "social critic",
+   "essayist",
+   "logician",
+   "epistemologist",
+   "philosopher of language",
+   "metaphysician",
+   "analytic philosopher",
+   "autobiographer",
+   "university teacher",
+   "science fiction writer",
+   "philosopher of science",
+   "politician",
+   "peace activist",
+   "journalist",
+   "philosopher",
+   "writer",
+   "pedagogue",
+   "pacifist"
+  ],
+  "removed_values": [
+   "political activist"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Bertrand Arthur William Russell, 3rd Earl Russell&lt;ref name=&quot;frs&quot;&gt; &lt;/ref&gt; (18 May 1872 – 2 February 1970), was an English&lt;ref&gt; &lt;/ref&gt; philosopher, logician, mathematician, and public intellectual.",
+    "alive": false
+   },
+   {
+    "text": "In an inquiry on dialectical materialism, launched by the Austrian artist and philosopher Wolfgang Paalen in his journal DYN, Russell said: &quot;I think the metaphysics of both Hegel and Marx plain nonsense—Marx's claim to be 'science' is no more justified than Mary Baker Eddy's.",
+    "alive": true
+   },
+   {
+    "text": "Lord Amberley, a deist, asked the philosopher John Stuart Mill to act as Russell's secular godfather.&lt;ref&gt;Russell, Bertrand and Perkins, Ray (ed.) Yours faithfully, Bertrand Russell.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9618850514067158,
+  "claims_dead": 1,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 48,
+  "qid": "6296829",
+  "entity": "Jovita Moore",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Jovita Moore born?",
+  "paraphrase": "What is Jovita Moore's birthplace?",
+  "answer": "Atlanta",
+  "page_title": "Jovita Moore",
+  "base_values": [
+   "Atlanta"
+  ],
+  "target_values": [
+   "Q60"
+  ],
+  "removed_values": [
+   "Atlanta"
+  ],
+  "added_values": [
+   "Q60"
+  ],
+  "sentences": [
+   {
+    "text": "Jovita Moore (October 4, 1967 – October 28, 2021) was an American television news anchor who worked for WSB-TV in Atlanta, Georgia, from 1998 until her death.",
+    "alive": true
+   },
+   {
+    "text": "She later moved to Atlanta, Georgia for ABC affiliate WSB-TV in 1998.",
+    "alive": true
+   },
+   {
+    "text": "Outside of newscasting, she helped out several civic associations and non-profit organizations throughout metro Atlanta and sat in numerous boards of directors, including the Atlanta Association of Black Journalists and the National Association of Black Journalists.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9835769142733034,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 49,
+  "qid": "1115697",
+  "entity": "Kent Manderville",
+  "prop": "P69",
+  "prop_name": "educated at",
+  "kind": "qid",
+  "question": "Where was Kent Manderville educated?",
+  "paraphrase": "At which educational institution did Kent Manderville study?",
+  "answer": "Cornell University",
+  "page_title": "Kent Manderville",
+  "base_values": [
+   "Cornell University"
+  ],
+  "target_values": [
+   "Cornell University"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Manderville was drafted 24th overall in the second round by the Calgary Flames in the 1989 NHL Entry Draft and played for Cornell University from 1989 to 1991.",
+    "alive": false
+   },
+   {
+    "text": "After four years in Northern Europe he retired in 2007 and was accepted to attend law school at the University of Ottawa.&lt;ref&gt; &lt;/ref&gt; He deferred admission for a year and then ultimately decided to decline the offer, instead opting to complete his Cornell University Bachelor of Science degree.",
+    "alive": true
+   },
+   {
+    "text": "While in school Manderville also played for Canada in the World Junior Ice Hockey Championship in 1990 and 1991, winning the gold medal in both years.&lt;ref&gt; &lt;/ref&gt; Manderville left Cornell after two seasons to join the Canadian national team and played in the 1992 Winter Olympics where the team won the silver medal.&lt;ref&gt;Kent Manderville at Sports Reference&lt;/ref&gt; Following the Olympics he opted to turn professional and joined the Toronto Maple Leafs, who had obtained his rights from Calgary in a trade, for the remainder of the 1991–1992 season.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9690547247728932,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 50,
+  "qid": "40430",
+  "entity": "Bahia",
+  "prop": "P2046",
+  "prop_name": "area",
+  "kind": "quantity",
+  "question": "What is the area of Bahia?",
+  "paraphrase": "How large is Bahia in terms of area?",
+  "answer": "564,692",
+  "page_title": "Bahia",
+  "base_values": [
+   "564,692"
+  ],
+  "target_values": [
+   "565,733"
+  ],
+  "removed_values": [
+   "564,692"
+  ],
+  "added_values": [
+   "565,733"
+  ],
+  "sentences": [
+   {
+    "text": "Bahia ( , ; ) is one of the 26 states of Brazil, located in the Northeast Region of the country.",
+    "alive": true
+   },
+   {
+    "text": "It is the fourth-largest Brazilian state by population (after São Paulo, Minas Gerais, and Rio de Janeiro) and the 5th-largest by area.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9252603552851975,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 51,
+  "qid": "243439",
+  "entity": "Full Metal Jacket",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is Full Metal Jacket?",
+  "paraphrase": "What category of film does Full Metal Jacket belong to?",
+  "answer": "War film, drama film, film based on a novel.",
+  "page_title": "Full Metal Jacket",
+  "base_values": [
+   "war film",
+   "drama film",
+   "film based on a novel"
+  ],
+  "target_values": [
+   "war film",
+   "drama film"
+  ],
+  "removed_values": [
+   "film based on a novel"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "In early 1980, Stanley Kubrick contacted Michael Herr, author of the Vietnam War memoir Dispatches (1977), to discuss work on a film about the Holocaust but Kubrick discarded that idea in favor of a film about the Vietnam War.&lt;ref name=&quot;vulliamy&quot;&gt; &lt;/ref&gt; Herr and Kubrick met in England; Kubrick told Herr he wanted to make a war film but had yet to find a story to adapt.&lt;ref name=&quot;lobrutto&quot;&gt; &lt;/ref&gt; Kubrick discovered Gustav Hasford's novel The Short-Timers (1979) while reading the Kirkus Review.&lt;ref name=&quot;clines&quot;&gt; &lt;/ref&gt; Herr received the novel in bound galleys and thought it a masterpiece.&lt;ref name=&quot;lobrutto&quot; /&gt; In 1982, Kubrick read the novel twice; he concluded it is &quot;a unique, absolutely wonderful book&quot; and decided to adapt it for his next film.&lt;ref name=&quot;clines&quot; /&gt; According to Kubrick, he was drawn to the book's dialogue, which he found &quot;almost poetic in its carved-out, stark quality&quot;.&lt;ref name=&quot;clines&quot; /&gt; In 1983, Kubrick began researching for the film; he watched archival footage and documentaries, read Vietnamese newspapers on microfilm from the Library of Congress, and studied hundreds of photographs from the era.&lt;ref name=&quot;rose&quot;/&gt; Initially, Herr was not interested in revisiting his Vietnam War experiences, but Kubrick spent three years persuading him, describing the discussions as &quot;a single phone call lasting three years, with interruptions&quot;.&lt;ref name=&quot;vulliamy&quot; /&gt;",
+    "alive": true
+   },
+   {
+    "text": "Category:English-language war drama films",
+    "alive": true
+   },
+   {
+    "text": "Full Metal Jacket is a 1987 war film directed and produced by Stanley Kubrick from a screenplay he co-wrote with Michael Herr and Gustav Hasford.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.8363771188718344,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 52,
+  "qid": "221594",
+  "entity": "As Good as It Gets",
+  "prop": "P175",
+  "prop_name": "performer",
+  "kind": "qid",
+  "question": "Who performed As Good as It Gets?",
+  "paraphrase": "Which actor or actress starred in the film As Good as It Gets?",
+  "answer": "Hans Zimmer",
+  "page_title": "As Good as It Gets",
+  "base_values": [
+   "Hans Zimmer"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Hans Zimmer"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The soundtrack features instrumental pieces composed by Hans Zimmer and songs by various artists.",
+    "alive": true
+   },
+   {
+    "text": "Zimmer's work was nominated for the Academy Award for Best Original Score – Musical or Comedy.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.8693419949578642,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 53,
+  "qid": "11772434",
+  "entity": "Małgorzatów",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Małgorzatów located?",
+  "paraphrase": "What administrative territorial entity contains Małgorzatów?",
+  "answer": "Gmina Rawa Mazowiecka",
+  "page_title": "Małgorzatów",
+  "base_values": [
+   "Gmina Rawa Mazowiecka"
+  ],
+  "target_values": [
+   "Gmina Rawa Mazowiecka"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Małgorzatów is a village in the administrative district of Gmina Rawa Mazowiecka, within Rawa County, Łódź Voivodeship, in central Poland.",
+    "alive": true
+   },
+   {
+    "text": "It lies approximately south-west of Rawa Mazowiecka and east of the regional capital Łódź.",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9658771273030332,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 54,
+  "qid": "1122102",
+  "entity": "Vilson Dias de Oliveira",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Vilson Dias de Oliveira?",
+  "paraphrase": "What nation does Vilson Dias de Oliveira hold citizenship in?",
+  "answer": "Brazil",
+  "page_title": "Vilson Dias de Oliveira",
+  "base_values": [
+   "Brazil"
+  ],
+  "target_values": [
+   "Brazil"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Vilson Dias de Oliveira (born 26 November 1958) is a Brazilian prelate of the Catholic Church.",
+    "alive": true
+   },
+   {
+    "text": "On 17 May 2019, Pope Francis accepted his resignation as bishop and appointed an apostolic administrator to lead the diocese&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; following the launch of a civil investigation on charges of extortion relating to the coverup of several instances of sexual abuse on the part of a priest in the diocese.&lt;ref&gt; &lt;/ref&gt; Archbishop Giovanni d’Aniello, Apostolic Nuncio to Brazil, had arranged for a canonical investigation by Bishop João Inácio Müller of Lorena in February.&lt;ref&gt; &lt;/ref&gt; In April Dias admitted to having stolen from Church funds for his personal use.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Category:21st-century Roman Catholic bishops in Brazil",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.977144303800206,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 55,
+  "qid": "1890375",
+  "entity": "Lashmer Whistler",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Lashmer Whistler?",
+  "paraphrase": "What nation does Lashmer Whistler hold citizenship in?",
+  "answer": "United Kingdom",
+  "page_title": "Lashmer Whistler",
+  "base_values": [
+   "United Kingdom"
+  ],
+  "target_values": [
+   "United Kingdom"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Ashworth (later to succeed Whistler as Colonel of the Royal Sussex Regiment), was convinced he returned to look for any missing men, and the records show that he came back separately to the United Kingdom with the 5th Battalion of the Manchester Regiment, part of the 127th Brigade of Major General William Holmes's 42nd (East Lancashire) Infantry Division, on 1 June.",
+    "alive": true
+   },
+   {
+    "text": "For the next two years, the 44th Division, after moving briefly to Gloucestershire and then Yorkshire, served as part of XII Corps, defending Kent against a potential German invasion of the United Kingdom.",
+    "alive": true
+   },
+   {
+    "text": "In November, the 7th Armoured Division, now withdrawn from combat, received the news that it was to be transferred to the &quot;Imperial Strategic Reserve&quot; and would return to the United Kingdom, to spearhead the Allied invasion of Normandy.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9750177764850981,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 56,
+  "qid": "1601828",
+  "entity": "Helen Deutsch",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Helen Deutsch born?",
+  "paraphrase": "What is Helen Deutsch's birthplace?",
+  "answer": "Manhattan",
+  "page_title": "Helen Deutsch",
+  "base_values": [
+   "Manhattan"
+  ],
+  "target_values": [
+   "Q60"
+  ],
+  "removed_values": [
+   "Manhattan"
+  ],
+  "added_values": [
+   "Q60"
+  ],
+  "sentences": [
+   {
+    "text": "Helen Deutsch (March 21, 1906 – March 15, 1992) was an American screenwriter, journalist, and songwriter.",
+    "alive": true
+   },
+   {
+    "text": "Deutsch was born in New York City and graduated from Barnard College.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9779789859590826,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 57,
+  "qid": "2655237",
+  "entity": "Brzeźno-Kolonia",
+  "prop": "P17",
+  "prop_name": "country",
+  "kind": "qid",
+  "question": "In which country is Brzeźno-Kolonia located?",
+  "paraphrase": "What country contains Brzeźno-Kolonia?",
+  "answer": "Poland",
+  "page_title": "Brzeźno-Kolonia",
+  "base_values": [
+   "Poland"
+  ],
+  "target_values": [
+   "Poland"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Brzeźno-Kolonia is a village in the administrative district of Gmina Goworowo, within Ostrołęka County, Masovian Voivodeship, in east-central Poland.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9731868515505734,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 58,
+  "qid": "1477701",
+  "entity": "Ist der Ruf erst ruiniert...",
+  "prop": "P264",
+  "prop_name": "record label",
+  "kind": "qid",
+  "question": "Which record label is Ist der Ruf erst ruiniert... signed to?",
+  "paraphrase": "To which record label does Ist der Ruf erst ruiniert... belong?",
+  "answer": "RCA Records",
+  "page_title": "Ist der Ruf erst ruiniert...",
+  "base_values": [
+   "RCA Records"
+  ],
+  "target_values": [
+   "RCA Records"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "is the third studio album by German all-female pop-rap band Tic Tac Toe, released in 2000 by RCA Records.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9550103132108573,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 59,
+  "qid": "221594",
+  "entity": "As Good as It Gets",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is As Good as It Gets?",
+  "paraphrase": "What category does the movie As Good as It Gets belong to?",
+  "answer": "Romantic comedy",
+  "page_title": "As Good as It Gets",
+  "base_values": [
+   "romantic comedy",
+   "LGBTQ-related film",
+   "comedy drama",
+   "comedy film",
+   "romance film",
+   "drama film"
+  ],
+  "target_values": [
+   "Q118612349",
+   "LGBTQ-related film",
+   "comedy drama",
+   "comedy film",
+   "romance film",
+   "drama film"
+  ],
+  "removed_values": [
+   "romantic comedy"
+  ],
+  "added_values": [
+   "Q118612349"
+  ],
+  "sentences": [
+   {
+    "text": "As Good as It Gets is a 1997 American romantic comedy film directed by James L.",
+    "alive": true
+   },
+   {
+    "text": "Category:English-language romantic comedy films",
+    "alive": true
+   },
+   {
+    "text": "Brooks and Jack Nicholson, doing what they do best, combine smart dialogue and flawless acting to squeeze fresh entertainment value out of the romantic-comedy genre.&quot;&lt;ref&gt; &lt;/ref&gt; Metacritic gave the film a score of 67 out of 100, based on reviews from 30 critics, indicating generally favorable reviews.&lt;ref&gt; &lt;/ref&gt; Audiences polled by CinemaScore gave the film an average grade of &quot;A-&quot; on an A+ to F scale.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.877490201434903,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 60,
+  "qid": "1358755",
+  "entity": "Georges Garvarentz",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Georges Garvarentz?",
+  "paraphrase": "What job did Georges Garvarentz have?",
+  "answer": "Composer, songwriter, film score composer, conductor",
+  "page_title": "Georges Garvarentz",
+  "base_values": [
+   "Q36834",
+   "songwriter",
+   "film score composer",
+   "conductor"
+  ],
+  "target_values": [
+   "composer",
+   "songwriter",
+   "film score composer",
+   "conductor",
+   "musician"
+  ],
+  "removed_values": [],
+  "added_values": [
+   "musician"
+  ],
+  "sentences": [
+   {
+    "text": "Category:French male film score composers",
+    "alive": true
+   },
+   {
+    "text": "Georges Diran Garvarentz ( , 1 April 1932 - 19 March 1993) was an Armenian-French composer, noted for his music for films and Charles Aznavour's songs.",
+    "alive": true
+   },
+   {
+    "text": "Georges Garvarentz also composed over one hundred fifty film scores, including scores for Taxi for Tobruk (1961), Les Parisiennes (1962), The Devil and the Ten Commandments (1962), Le Rat d'Amérique (1963), That Man in Istanbul (1965), The Sultans (1966), The Sea Pirate (1966), Triple Cross (1966), The Peking Medallion (1967), Caroline chérie (1968), They Came to Rob Las Vegas (1968), The Southern Star (1969), The Heist (1970), Love Me Strangely (1971), Someone Behind the Door (1971), The Pebbles of Etratat (1972), Murder in a Blue World (1973), Killer Force (1976), Teheran 43 (1981), Hambone and Hillie (1983), The Triumphs of a Man Called Horse (1983), Too Scared to Scream (1985), Yiddish Connection (1986), A Star for Two (1991), and Catorce estaciones (1991)",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9715579359300769,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 61,
+  "qid": "3899349",
+  "entity": "Pep Coll",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Pep Coll born?",
+  "paraphrase": "What is Pep Coll's birthplace?",
+  "answer": "Pessonada, Conca de Dalt, Pallars Jussà, Catalonia",
+  "page_title": "Pep Coll",
+  "base_values": [
+   "Conca de Dalt"
+  ],
+  "target_values": [
+   "Q9058727"
+  ],
+  "removed_values": [
+   "Conca de Dalt"
+  ],
+  "added_values": [
+   "Q9058727"
+  ],
+  "sentences": [
+   {
+    "text": "Josep Coll i Martí (born October 16, 1949 in Pessonada, Conca de Dalt, Pallars Jussà (Catalonia)), better known as Pep Coll, is a Spanish writer.&lt;ref&gt; &lt;/ref&gt; A prolific author, he has cultivated all literary genres, including journalism (having contributed articles to the newspapers Segre and El Periódico and the magazine Descobrir Catalunya).",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9768469274685487,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 62,
+  "qid": "3413161",
+  "entity": "Naule Katuwal",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Naule Katuwal located?",
+  "paraphrase": "What administrative territorial entity contains Naule Katuwal?",
+  "answer": "Dailekh District",
+  "page_title": "Naule Katuwal",
+  "base_values": [
+   "Dailekh District"
+  ],
+  "target_values": [
+   "Dailekh District"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Naule Katuwal is a village and market center Dullu Municipality in Dailekh District in the Bheri Zone of western-central Nepal.",
+    "alive": true
+   },
+   {
+    "text": "*UN map of the municipalities of Dailekh District",
+    "alive": true
+   },
+   {
+    "text": "Category:Populated places in Dailekh District",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9803723320378702,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 63,
+  "qid": "64746600",
+  "entity": "Polatbay Berdaliyev",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Polatbay Berdaliyev born?",
+  "paraphrase": "What is the birthplace of Polatbay Berdaliyev?",
+  "answer": "Uzbek Soviet Socialist Republic",
+  "page_title": "Polatbay Berdaliyev",
+  "base_values": [
+   "Uzbek Soviet Socialist Republic"
+  ],
+  "target_values": [
+   "Uzbek Soviet Socialist Republic"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Polatbay Turganbekovich Berdaliyev (born 26 September 1986) is an Uzbekistani rapist and serial killer who, along with accomplices Abduseit Ormanov and two other unidentified men, was responsible for killing 11 women in both Uzbekistan and Kazakhstan from 2011 to 2012.&lt;ref name=taxi&gt; &lt;/ref&gt; Berdaliyev and Ormanov were both sentenced to life imprisonment in both countries, while the other members of their group are still sought after.&lt;ref name=two&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Returning to Uzbekistan, he fell in love with another woman, who became his girlfriend.",
+    "alive": true
+   },
+   {
+    "text": "The gang, initially operating in Tashkent,&lt;ref name=uzbek&gt; &lt;/ref&gt; managed to get away with the murders of 7 women (two of whom had their corpses burned),&lt;ref name=two/&gt; still unidentified to this day, before police eventually began taking interest in the case.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9794471031763353,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 64,
+  "qid": "7334975",
+  "entity": "Rings of Steel",
+  "prop": "P175",
+  "prop_name": "performer",
+  "kind": "qid",
+  "question": "Who performed Rings of Steel?",
+  "paraphrase": "Which artist or group performed the song \"Rings of Steel\"?",
+  "answer": "Die Krupps",
+  "page_title": "Rings of Steel",
+  "base_values": [
+   "Die Krupps"
+  ],
+  "target_values": [
+   "Die Krupps"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Rings of Steel is a compilation album by German industrial rock/EBM band Die Krupps.",
+    "alive": true
+   },
+   {
+    "text": "# &quot;Bloodsuckers [Die Krupps with Biohazard]&quot; – 4:03",
+    "alive": true
+   },
+   {
+    "text": "of Die Ärzte/Gørdi Gerhardt Remix)&quot; – 5:37",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.8849249216314009,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 65,
+  "qid": "2707250",
+  "entity": "Corineus",
+  "prop": "P39",
+  "prop_name": "position held",
+  "kind": "qid",
+  "question": "Which position does Corineus hold?",
+  "paraphrase": "What role or title does Corineus have?",
+  "answer": "Legendary ruler of Cornwall",
+  "page_title": "Corineus",
+  "base_values": [
+   "legendary ruler of Cornwall"
+  ],
+  "target_values": [
+   "legendary ruler of Cornwall"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Corineus was the first of the legendary rulers of Cornwall, which was named after him.",
+    "alive": true
+   },
+   {
+    "text": "Corineus, in medieval British legend, was a prodigious warrior, a fighter of giants, and the eponymous founder of Cornwall.",
+    "alive": false
+   },
+   {
+    "text": "Corineus settled in Cornwall, which was then inhabited by giants.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9423589438168036,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 66,
+  "qid": "9297870",
+  "entity": "Jerzy Polaczek",
+  "prop": "P102",
+  "prop_name": "member of political party",
+  "kind": "qid",
+  "question": "Which political party does Jerzy Polaczek belong to?",
+  "paraphrase": "What is the political party affiliation of Jerzy Polaczek?",
+  "answer": "Law and Justice",
+  "page_title": "Jerzy Polaczek",
+  "base_values": [
+   "Law and Justice"
+  ],
+  "target_values": [
+   "Law and Justice"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "He was elected to the Sejm on 25 September 2005 getting 39,335 votes in the 31st Katowice district as a candidate for the Law and Justice list.",
+    "alive": true
+   },
+   {
+    "text": "He was also a member of Sejm 1997-2001 and Sejm 2001-2005, 2005–2007, 2007–2011, 2011–2015, 2015–2019, 2019–2023 and 2023-2027.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "*Jerzy Polaczek - parliamentary page - includes declarations of interest, voting record, and transcripts of speeches.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9786433023093312,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 67,
+  "qid": "4947565",
+  "entity": "Bosse Nunatak",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Bosse Nunatak located?",
+  "paraphrase": "What administrative territorial division contains Bosse Nunatak?",
+  "answer": "Antarctic Treaty area",
+  "page_title": "Bosse Nunatak",
+  "base_values": [
+   "Antarctic Treaty area"
+  ],
+  "target_values": [
+   "Q10372207"
+  ],
+  "removed_values": [
+   "Antarctic Treaty area"
+  ],
+  "added_values": [
+   "Q10372207"
+  ],
+  "sentences": [],
+  "stale": true,
+  "sim": 0.9526243947766957,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 68,
+  "qid": "957749",
+  "entity": "John Marshall Harlan II",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was John Marshall Harlan II born?",
+  "paraphrase": "What is the birthplace of John Marshall Harlan II?",
+  "answer": "Chicago",
+  "page_title": "John Marshall Harlan II",
+  "base_values": [
+   "Chicago"
+  ],
+  "target_values": [
+   "Chicago"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "John Marshall Harlan was born on May 20, 1899, in Chicago.&lt;ref name=papers/&gt; He was the son of John Maynard Harlan, a Chicago lawyer and politician, and Elizabeth Flagg.",
+    "alive": true
+   },
+   {
+    "text": "In his younger years, Harlan attended The Latin School of Chicago.&lt;ref name=Yarbrough&gt;Yarbrough, 1992, pp.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9813200677663447,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 69,
+  "qid": "2683174",
+  "entity": "Květov",
+  "prop": "P1082",
+  "prop_name": "population",
+  "kind": "quantity",
+  "question": "What is the population of Květov?",
+  "paraphrase": "How many people live in Květov?",
+  "answer": "The population of Květov has varied over time, with recorded values including 104, 107, 110, 113, 114, 116, 117, 119, 120, 122, 123, 125, 131, 255, 297, 330, 458, 464, 476, 489, 492, 560, and 661.",
+  "page_title": "Květov",
+  "base_values": [
+   "114",
+   "107",
+   "125",
+   "197",
+   "255",
+   "330",
+   "297",
+   "458",
+   "464",
+   "492",
+   "489",
+   "476",
+   "560",
+   "661",
+   "117",
+   "122",
+   "123",
+   "120",
+   "116",
+   "114",
+   "104",
+   "110",
+   "113",
+   "131",
+   "119",
+   "113"
+  ],
+  "target_values": [
+   "114",
+   "107",
+   "125",
+   "197",
+   "255",
+   "330",
+   "297",
+   "458",
+   "464",
+   "492",
+   "489",
+   "476",
+   "560",
+   "661",
+   "117",
+   "122",
+   "123",
+   "120",
+   "116",
+   "114",
+   "104",
+   "110",
+   "113",
+   "131",
+   "119",
+   "113"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Květov is a municipality and village in Písek District in the South Bohemian Region of the Czech Republic.",
+    "alive": true
+   },
+   {
+    "text": "Květov lies approximately north-east of Písek, north of České Budějovice, and south of Prague.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9734470668322843,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 70,
+  "qid": "1983677",
+  "entity": "Nikolay Arabov",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Nikolay Arabov born?",
+  "paraphrase": "What is the birthplace of Nikolay Arabov?",
+  "answer": "Sliven",
+  "page_title": "Nikolay Arabov",
+  "base_values": [
+   "Sliven"
+  ],
+  "target_values": [
+   "Sliven"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Nikolay Asenov Arabov ( ; born 14 November 1953) is a Bulgarian former professional footballer and manager who played as a defender from 1971 to 1994, most notably for Sliven.",
+    "alive": true
+   },
+   {
+    "text": "Arabov made his debut for Sliven in 1971 and stayed in the club for 15 years, with 310 games in the A PFG.",
+    "alive": true
+   },
+   {
+    "text": "Capped 42 times for the Bulgaria national football team in the period 1976 – 1986,&lt;ref&gt; &lt;/ref&gt; including 3 games at 1986 FIFA World Cup in Mexico.&lt;ref&gt; &lt;/ref&gt; Arabov has also played for Spartak Pleven, Lokomotiv Plovdiv, Anagennisi Dherynia and Albanian KF Tirana before returning to Sliven for its last season in A PFG (1993).",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9823571366835837,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 71,
+  "qid": "1363457",
+  "entity": "Erwin Schrott",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Erwin Schrott?",
+  "paraphrase": "What does Erwin Schrott do for a living?",
+  "answer": "Opera singer, musician.",
+  "page_title": "Erwin Schrott",
+  "base_values": [
+   "opera singer",
+   "musician"
+  ],
+  "target_values": [
+   "opera singer",
+   "singer",
+   "Q98834056"
+  ],
+  "removed_values": [
+   "musician"
+  ],
+  "added_values": [
+   "singer",
+   "Q98834056"
+  ],
+  "sentences": [
+   {
+    "text": "After winning first prize (male singer) and the Audience Prize in the 1998 Operalia competition founded by Plácido Domingo, he went on to leading roles in major opera houses in both Europe and the United States.",
+    "alive": true
+   },
+   {
+    "text": "*1998: First prize (male singer) and Audience prize Operalia competition founded by Plácido Domingo",
+    "alive": true
+   },
+   {
+    "text": "Erwin Schrott (born 21 December 1972) is an Uruguayan operatic bass-baritone, particularly known for the title role of Mozart's Don Giovanni.&lt;ref&gt;See for example, ; ; ; ; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9333967888228566,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 72,
+  "qid": "2683174",
+  "entity": "Květov",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Květov located?",
+  "paraphrase": "What administrative territorial unit does Květov belong to?",
+  "answer": "Písek District",
+  "page_title": "Květov",
+  "base_values": [
+   "Písek District",
+   "Q12042020"
+  ],
+  "target_values": [
+   "Písek District",
+   "Q12042020"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Květov is a municipality and village in Písek District in the South Bohemian Region of the Czech Republic.",
+    "alive": true
+   },
+   {
+    "text": "Květov lies approximately north-east of Písek, north of České Budějovice, and south of Prague.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9643584122275013,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 73,
+  "qid": "2435711",
+  "entity": "Somebody's Me",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Somebody's Me part of?",
+  "paraphrase": "What does Somebody's Me belong to?",
+  "answer": "Insomniac",
+  "page_title": "Somebody's Me",
+  "base_values": [
+   "Insomniac"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Insomniac"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "&quot;Somebody's Me&quot; is the second single released from Enrique Iglesias fourth English studio album, Insomniac.",
+    "alive": true
+   },
+   {
+    "text": "Originally the song was not to be the second single from Insomniac.",
+    "alive": true
+   },
+   {
+    "text": "During a phone interview with KRQQ in Tucson, Arizona Iglesias stated that &quot;Somebody's Me&quot; would be the second US single from Insomniac.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9357993135590952,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 74,
+  "qid": "7509332",
+  "entity": "Sidney Shachnow",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Sidney Shachnow receive?",
+  "paraphrase": "What honor or recognition was given to Sidney Shachnow?",
+  "answer": "Sidney Shachnow received the Bronze Star Medal, Legion of Merit, Purple Heart, Air Medal, and Silver Star.",
+  "page_title": "Sidney Shachnow",
+  "base_values": [
+   "Bronze Star Medal",
+   "Legionnaire of Legion of Merit",
+   "Purple Heart",
+   "Air Medal",
+   "Silver Star"
+  ],
+  "target_values": [
+   "Bronze Star Medal",
+   "Legionnaire of Legion of Merit",
+   "Purple Heart",
+   "Air Medal",
+   "Silver Star"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Shachnow earned his first Silver Star for combat action there as well as a Purple Heart.",
+    "alive": true
+   },
+   {
+    "text": "|Bronze Star Medal with Valor device and two oak leaf clusters",
+    "alive": true
+   },
+   {
+    "text": "The army assigned Shachnow to the 101st Airborne Division, the Screaming Eagles, where he earned his second Silver Star for gallantry in action after escaping death several times.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.949405957846934,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 75,
+  "qid": "4776942",
+  "entity": "Antonio Rucco",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Antonio Rucco?",
+  "paraphrase": "What does Antonio Rucco do for a living?",
+  "answer": "Canoeist",
+  "page_title": "Antonio Rucco",
+  "base_values": [
+   "canoeist"
+  ],
+  "target_values": [
+   "canoeist"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Category:Canoeists at the 1960 Summer Olympics",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9437983523913451,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 76,
+  "qid": "7768615",
+  "entity": "The Thanksgiving Visitor",
+  "prop": "P577",
+  "prop_name": "publication date",
+  "kind": "time",
+  "question": "When was The Thanksgiving Visitor published or released?",
+  "paraphrase": "What year did The Thanksgiving Visitor come out or become available?",
+  "answer": "1967",
+  "page_title": "The Thanksgiving Visitor",
+  "base_values": [
+   "1967-00-00"
+  ],
+  "target_values": [
+   "1967-00-00"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "&quot;The Thanksgiving Visitor&quot; is a short story by Truman Capote originally published in the November 1967 issue of McCall's magazine, and later published as a book by Random House, Inc.",
+    "alive": true
+   },
+   {
+    "text": "Capote: A Biography (New York: Simon &amp; Schuster, 1988), pages 390-391.&lt;/ref&gt; The 1967 television production of &quot;The Thanksgiving Visitor&quot; earned Geraldine Page a second Emmy Award.&lt;ref&gt;Geraldine Page – Awards at the Internet Movie Database&lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9526199932859912,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 77,
+  "qid": "221594",
+  "entity": "As Good as It Gets",
+  "prop": "P577",
+  "prop_name": "publication date",
+  "kind": "time",
+  "question": "When was As Good as It Gets published or released?",
+  "paraphrase": "When did As Good as It Gets come out or become available?",
+  "answer": "1997 (theatrical release on December 25, 1997; home media release on May 19, 1998).",
+  "page_title": "As Good as It Gets",
+  "base_values": [
+   "1997-01-01",
+   "1998-02-12",
+   "1997-12-23",
+   "1997-12-23",
+   "1997-12-25"
+  ],
+  "target_values": [
+   "1997-12-23",
+   "1997-12-23",
+   "1997-12-25",
+   "1998-02-12"
+  ],
+  "removed_values": [
+   "1997-01-01"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "As Good as It Gets is a 1997 American romantic comedy film directed by James L.",
+    "alive": true
+   },
+   {
+    "text": "As Good as It Gets premiered at the Regency Village Theatre on December 6, 1997, and was released theatrically in the United States on Christmas Day.",
+    "alive": true
+   },
+   {
+    "text": "The film was released on VHS, LaserDisc and DVD on May 19, 1998 by Columbia TriStar Home Video.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9631065935002974,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 78,
+  "qid": "59194713",
+  "entity": "Morgenshtern",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Morgenshtern?",
+  "paraphrase": "What does Morgenshtern do for a living?",
+  "answer": "Rapper, singer, songwriter, musician, YouTuber, record producer, and showman.",
+  "page_title": "Morgenshtern",
+  "base_values": [
+   "rapper",
+   "singer",
+   "songwriter",
+   "musician",
+   "YouTuber"
+  ],
+  "target_values": [
+   "rapper",
+   "singer-songwriter",
+   "YouTuber"
+  ],
+  "removed_values": [
+   "singer",
+   "songwriter",
+   "musician"
+  ],
+  "added_values": [
+   "singer-songwriter"
+  ],
+  "sentences": [
+   {
+    "text": "Alisher Tagirovich Morgenshtern{{efn| }} (né Valeyev;{{efn| }}; 17 February 1998), known professionally as Morgenshtern (stylized in all caps), is a Russian rapper, hip-hop, pop and rock singer, songwriter, record producer and showman.",
+    "alive": false
+   },
+   {
+    "text": "Morgenshtern was also a street musician,&lt;ref&gt; &lt;/ref&gt; and was the head singer of the rock band MMD Crew, with whom he collaborated in a song with the Russian rapper Face.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "The organization clarified that the musician sent a total of 666,666 rubles, which was the largest donation to the NGO from a private person.",
+    "alive": false
+   }
+  ],
+  "stale": true,
+  "sim": 0.9287399998861254,
+  "claims_dead": 3,
+  "sents_dead": 3,
+  "gate_pass": false
+ },
+ {
+  "pid": 79,
+  "qid": "5019251",
+  "entity": "Caleb Heathcote",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Caleb Heathcote?",
+  "paraphrase": "What nation does Caleb Heathcote hold citizenship in?",
+  "answer": "Kingdom of England",
+  "page_title": "Caleb Heathcote",
+  "base_values": [
+   "Kingdom of England"
+  ],
+  "target_values": [
+   "Kingdom of England"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Heathcote was born on March 6, 1665, in his father's house in Chesterfield in Derbyshire, England.",
+    "alive": true
+   },
+   {
+    "text": "In 1691, Heathcote traveled to America from England.",
+    "alive": true
+   },
+   {
+    "text": "* Gilbert Heatcote, who died aged twenty of smallpox while in England completing his education.&lt;ref name=&quot;DeLancey1886&quot;/&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9798840625475925,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 80,
+  "qid": "3764091",
+  "entity": "Khammam Lok Sabha constituency",
+  "prop": "P571",
+  "prop_name": "inception",
+  "kind": "time",
+  "question": "When was Khammam Lok Sabha constituency established?",
+  "paraphrase": "In what year did Khammam Lok Sabha constituency come into existence?",
+  "answer": "1952",
+  "page_title": "Khammam Lok Sabha constituency",
+  "base_values": [
+   "1952-00-00"
+  ],
+  "target_values": [
+   "1952-00-00"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Since its inception in 1952 Khammam seat is Congress strong hold where it has won 12 times various other political outfits like Communist Party of India, Telugu Desam Party, Communist Party of India (Marxist) and YSR Congress Party have won it during different general elections.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9801050253485779,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 81,
+  "qid": "7302879",
+  "entity": "Recorded Live at the Monterey Jazz Festival",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is Recorded Live at the Monterey Jazz Festival?",
+  "paraphrase": "What musical category does Recorded Live at the Monterey Jazz Festival belong to?",
+  "answer": "Jazz",
+  "page_title": "Recorded Live at the Monterey Jazz Festival",
+  "base_values": [
+   "jazz"
+  ],
+  "target_values": [
+   "jazz"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Recorded Live at the Monterey Jazz Festival is a live album by saxophonist John Handy, recorded in 1965 and released in 1966.",
+    "alive": true
+   },
+   {
+    "text": "The original album only features two long instrumental pieces, notable for their &quot;free form&quot;, a peculiar use of harmonies and unusual instruments (violin and guitar along with more &quot;classic&quot; jazz instruments are uncommon in jazz music).",
+    "alive": true
+   },
+   {
+    "text": "Gleason called the lineup on the album &quot;an exciting group and one of that will make jazz history&quot;.&lt;ref&gt;Note on LP and CD cover&lt;/ref&gt; Notwithstanding the praises and its relevance, Recorded Live at the Monterey Jazz Festival still remains a little-known album.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9243597318321916,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 82,
+  "qid": "317705",
+  "entity": "Andorran Football Federation",
+  "prop": "P17",
+  "prop_name": "country",
+  "kind": "qid",
+  "question": "In which country is Andorran Football Federation located?",
+  "paraphrase": "Which nation is home to the Andorran Football Federation?",
+  "answer": "Andorra",
+  "page_title": "Andorran Football Federation",
+  "base_values": [
+   "Andorra"
+  ],
+  "target_values": [
+   "Andorra"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The Andorran Football Federation ( ) is the governing body of football in Andorra.&lt;ref&gt; &lt;/ref&gt; It was founded in 1994 and joined as a member of FIFA and UEFA in 1996.",
+    "alive": true
+   },
+   {
+    "text": "It organises the football league, Primera Divisió, the Copa Constitució and Andorran Supercup, and the Andorra national football team.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9641409256905952,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 83,
+  "qid": "555579",
+  "entity": "Duingen",
+  "prop": "P2046",
+  "prop_name": "area",
+  "kind": "quantity",
+  "question": "What is the area of Duingen?",
+  "paraphrase": "What is the size of Duingen in terms of area?",
+  "answer": "59.62, 59.64",
+  "page_title": "Duingen",
+  "base_values": [
+   "59.62",
+   "59.64"
+  ],
+  "target_values": [
+   "59.62",
+   "59.64"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Duingen is a village and a municipality in the district of Hildesheim, in Lower Saxony, Germany.",
+    "alive": true
+   },
+   {
+    "text": "It is situated approximately 25&amp;nbsp;km southwest of Hildesheim, and 40&amp;nbsp;km south of Hanover.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9492181015524491,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 84,
+  "qid": "1990220",
+  "entity": "Niki Cross",
+  "prop": "P54",
+  "prop_name": "member of sports team",
+  "kind": "qid",
+  "question": "Which sports team does Niki Cross play for?",
+  "paraphrase": "What team is Niki Cross a member of?",
+  "answer": "Houston Dash",
+  "page_title": "Niki Cross",
+  "base_values": [
+   "Houston Dash",
+   "SoccerPlus Connecticut",
+   "Umeå Södra FF",
+   "Saint Louis Athletica",
+   "FC Gold Pride",
+   "Newcastle Jets FC",
+   "FC Bayern Munich Women",
+   "Washington Spirit",
+   "UConn Huskies women's soccer"
+  ],
+  "target_values": [
+   "Houston Dash",
+   "SoccerPlus Connecticut",
+   "Umeå Södra FF",
+   "Saint Louis Athletica",
+   "FC Gold Pride",
+   "Newcastle Jets FC",
+   "FC Bayern Munich Women",
+   "Washington Spirit",
+   "UConn Huskies women's soccer"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "She last played for the Houston Dash of the National Women's Soccer League in the 2015 season; the team acquired her via trade with the Washington Spirit on December 2, 2014.&lt;ref name=&quot;Dash profile&quot;&gt; &lt;/ref&gt; She retired partway through the 2015 season, making her last appearance on August 1 against the Washington Spirit.&lt;ref name=&quot;Dash retirement&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;last game recap&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Category:UConn Huskies women's soccer players",
+    "alive": true
+   },
+   {
+    "text": "Her club Saint Louis Athletica then folded two months into the season.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9386726010765967,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 85,
+  "qid": "724757",
+  "entity": "Nuno Assis",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Nuno Assis born?",
+  "paraphrase": "What is the birthplace of Nuno Assis?",
+  "answer": "Lousã",
+  "page_title": "Nuno Assis",
+  "base_values": [
+   "Lousã"
+  ],
+  "target_values": [
+   "Lousã"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Born in Lousã, Coimbra District, Assis started playing football in his hometown, before being spotted by Sporting CP.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9751155743360108,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 86,
+  "qid": "49001",
+  "entity": "Whoopi Goldberg",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Whoopi Goldberg?",
+  "paraphrase": "What does Whoopi Goldberg do for a living?",
+  "answer": "Actor, comedian, author, and television personality.",
+  "page_title": "Whoopi Goldberg",
+  "base_values": [
+   "television actor",
+   "film actor",
+   "radio personality",
+   "singer-songwriter",
+   "singer",
+   "writer",
+   "novelist",
+   "voice actor",
+   "talk show host",
+   "character actor",
+   "stage actor",
+   "children's writer",
+   "comedian",
+   "film producer",
+   "television presenter",
+   "screenwriter",
+   "theatrical producer",
+   "manufacturer",
+   "television producer",
+   "Q36834",
+   "actor",
+   "film director"
+  ],
+  "target_values": [
+   "television actor",
+   "film actor",
+   "radio personality",
+   "singer-songwriter",
+   "singer",
+   "writer",
+   "novelist",
+   "voice actor",
+   "talk show host",
+   "character actor",
+   "stage actor",
+   "children's writer",
+   "comedian",
+   "film producer",
+   "television presenter",
+   "screenwriter",
+   "theatrical producer",
+   "television producer",
+   "composer",
+   "actor",
+   "film director",
+   "musician"
+  ],
+  "removed_values": [
+   "manufacturer"
+  ],
+  "added_values": [
+   "musician"
+  ],
+  "sentences": [
+   {
+    "text": "Caryn Elaine Johnson (born November 13, 1955),&lt;ref name=&quot;CBS&quot;/&gt;&lt;ref name=&quot;Huff&quot;/&gt;&lt;ref name=&quot;GH&quot;/&gt; known professionally as Whoopi Goldberg ( ), is an American &lt;!--She calls herself an &quot;actor&quot;, MOS:IDENTITY has a priority here.--&gt;actor, comedian, author, and television personality.&lt;ref name=&quot;1984APintv&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;guardian&quot;&gt; &lt;/ref&gt; The recipient of numerous accolades, she is one of few people to receive an Emmy Award, Grammy Award, Academy Award, and Tony Award, collectively known as the EGOT (Emmy, Grammy, Oscar, Tony).",
+    "alive": false
+   },
+   {
+    "text": "The New York Times praised Goldberg's performance describing her as a &quot;holiday gift&quot; adding, &quot;In a just sweet enough production with a strong cast, the &quot;View&quot; host delivers a performance that reaffirms her savvy as a comic actor.&quot;&lt;ref&gt; &lt;/ref&gt; Patrick Ryan of USA Today agreed writing, &quot;[She] is perfectly prickly and altogether hilarious in her first stage acting role in more than 15 years&quot;.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "Goldberg has received two Academy Award nominations, for The Color Purple and Ghost (winning for Ghost).&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; She is the first African-American actor to have received Academy Award nominations for both Best Actress and Best Supporting Actress, and the second African-American woman to win an Oscar.&lt;ref&gt; &lt;/ref&gt; She has received three Golden Globe Award nominations, winning two (Best Actress in 1986 for The Color Purple, and Best Supporting Actress in 1991 for Ghost).",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9288180615383375,
+  "claims_dead": 1,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 87,
+  "qid": "7279160",
+  "entity": "Rachel Blau DuPlessis",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Rachel Blau DuPlessis?",
+  "paraphrase": "What does Rachel Blau DuPlessis do for a living?",
+  "answer": "Poet, writer, essayist, feminist critic, and scholar.",
+  "page_title": "Rachel Blau DuPlessis",
+  "base_values": [
+   "poet",
+   "writer"
+  ],
+  "target_values": [
+   "poet",
+   "writer"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Rachel Blau DuPlessis (born December 14, 1941) is an American poet and essayist, known as a feminist critic and scholar with a special interest in modernist and contemporary poetry.",
+    "alive": true
+   },
+   {
+    "text": "In conjunction with teaching and editing projects, DuPlessis has been writing her &quot;poem of a life,&quot; called &quot;Drafts.&quot; Among others, poet Ron Silliman has referred to DuPlessis's poem Drafts as a &quot;life poem&quot;:&lt;blockquote&gt;More than any other text, Drafts has made me understand the difference between the longpoem and the life poem, and I read Drafts, like (Zukofsky's “A”), like The Cantos, like Bev Dahlen’s A Reading, like my own project, as an instance of the latter.&lt;ref name=&quot;ronsilliman.blogspot.com&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "The first two numbers of Drafts initially appeared in Leland Hickman’s journal, Temblor, two years before being collected into a volume entitled Tabula Rosa, published by Peter Ganick’s Potes &amp; Poets Press.&lt;ref name=&quot;ronsilliman.blogspot.com&quot;/&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9507426621028215,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 88,
+  "qid": "7346291",
+  "entity": "Robert Keith Alexander",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Robert Keith Alexander?",
+  "paraphrase": "What nation does Robert Keith Alexander hold citizenship in?",
+  "answer": "Canada",
+  "page_title": "Robert Keith Alexander",
+  "base_values": [
+   "Canada"
+  ],
+  "target_values": [
+   "Canada"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Robert Keith Alexander (July 23, 1930 – November 12, 2014) was a provincial level politician from Alberta, Canada.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.97979896178737,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 89,
+  "qid": "54869011",
+  "entity": "Moaning Lisa Smile",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Moaning Lisa Smile part of?",
+  "paraphrase": "What does Moaning Lisa Smile belong to?",
+  "answer": "Creature Songs",
+  "page_title": "Moaning Lisa Smile",
+  "base_values": [
+   "Creature Songs"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Creature Songs"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was released on 3 April 2014 as a single from their second EP, Creature Songs (2014).&lt;ref&gt; &lt;/ref&gt; It also appears on the US edition of their debut album, My Love Is Cool (2015).",
+    "alive": true
+   },
+   {
+    "text": "The song reached number 9 on the Alternative Songs chart and was nominated for the Grammy Award for Best Rock Performance at the 58th Annual Grammy Awards.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; The song was re-released as a single in April 2015 in the US, marking their first single release in the US.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9549338362832572,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 90,
+  "qid": "2595391",
+  "entity": "Leo Ehlen",
+  "prop": "P54",
+  "prop_name": "member of sports team",
+  "kind": "qid",
+  "question": "Which sports team does Leo Ehlen play for?",
+  "paraphrase": "For which sports team does Leo Ehlen play?",
+  "answer": "Fortuna Sittard, Roda JC Kerkrade, K. Waterschei S.V. Thor Genk",
+  "page_title": "Leo Ehlen",
+  "base_values": [
+   "Fortuna Sittard",
+   "Roda JC Kerkrade",
+   "K. Waterschei S.V. Thor Genk"
+  ],
+  "target_values": [
+   "Fortuna Sittard",
+   "Roda JC Kerkrade",
+   "K. Waterschei S.V. Thor Genk"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "A tough-tackling defender or defensive midfielder, Ehlen started his professional career with Fortuna SC and joined Roda JC in 1975,&lt;ref&gt;Oud-speler van Roda en Fortuna Leo Ehlen (62) overleden - 1Limburg &lt;/ref&gt; where he played alongside Dick Nanninga, Pierre Vermeulen and Theo de Jong.",
+    "alive": false
+   },
+   {
+    "text": "Nicknamed the Neeskens of Roda after Holland hard man Johan Neeskens, Ehlen scored 6 goals in 233 official matches for the club&lt;ref&gt;Oud-Roda JC speler Leo Ehlen (62) overleden - Voetbal International &lt;/ref&gt; and left them after nine years for a spell with Belgian side Waterschei.",
+    "alive": true
+   },
+   {
+    "text": "After retiring, Ehlen owned a bar in Broeksittard.&lt;ref&gt;Oud-speler Roda JC Leo Ehlen (62) overleden - Algemeen Dagblad &lt;/ref&gt;",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9978795756657395,
+  "claims_dead": 0,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 91,
+  "qid": "2847232",
+  "entity": "Andrew Baxter",
+  "prop": "P69",
+  "prop_name": "educated at",
+  "kind": "qid",
+  "question": "Where was Andrew Baxter educated?",
+  "paraphrase": "At which institution or institutions did Andrew Baxter receive his education?",
+  "answer": "University of Aberdeen (King's College)",
+  "page_title": "Andrew Baxter",
+  "base_values": [
+   "University of Aberdeen"
+  ],
+  "target_values": [
+   "University of Aberdeen"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Baxter was educated at King's College, University of Aberdeen.",
+    "alive": true
+   },
+   {
+    "text": "Category:Alumni of the University of Aberdeen",
+    "alive": true
+   },
+   {
+    "text": "Andrew Baxter (1686/1687, Aberdeen 23 April 1750, Whittingehame, East Lothian) was a Scottish metaphysician.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9389191112963627,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 92,
+  "qid": "8201210",
+  "entity": "Antonio Escohotado",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Antonio Escohotado die?",
+  "paraphrase": "What was the date of Antonio Escohotado's death?",
+  "answer": "21 November 2021",
+  "page_title": "Antonio Escohotado",
+  "base_values": [
+   "2021-11-21"
+  ],
+  "target_values": [
+   "2021-11-21"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Antonio Escohotado Espinosa (5 July 1941 – 21 November 2021),&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; commonly called Antonio Escohotado, was a Spanish philosopher, jurist, essayist and university professor.",
+    "alive": true
+   },
+   {
+    "text": "This channel exceeded 125,000 subscribers at the end of 2021.",
+    "alive": true
+   },
+   {
+    "text": "His son Jorge not only carried out work as a community manager, but served as the editor of the third volume of The Enemies of Commerce (Espasa, 2017) and promoter of works such as My Ibiza Privada (Espasa, 2019) and La forja de la gloria (Espasa, 2021);&lt;ref&gt; &lt;/ref&gt; the last text published by Escohotado where the author briefly covers and collects the history of Real Madrid from a philosophical, moral and cultural point of view.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9811757063699732,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 93,
+  "qid": "133151",
+  "entity": "Ozzy Osbourne",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Ozzy Osbourne?",
+  "paraphrase": "What does Ozzy Osbourne do for a living?",
+  "answer": "Singer, musician, songwriter, and media personality.",
+  "page_title": "Ozzy Osbourne",
+  "base_values": [
+   "singer",
+   "musician",
+   "rock singer",
+   "Q36834",
+   "singer-songwriter"
+  ],
+  "target_values": [
+   "musician",
+   "rock singer",
+   "singer-songwriter",
+   "singer"
+  ],
+  "removed_values": [
+   "Q36834"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "My thinking was, 'This is my last party, because after this I'm going back to Birmingham and the dole.&quot;&lt;ref&gt; &lt;/ref&gt; However, Don Arden signed him to Jet Records with the aim of recording new material.&lt;ref name=&quot;dais1&quot; /&gt; Arden dispatched his daughter Sharon to Los Angeles to &quot;look after Ozzy's needs, whatever they were&quot;, to protect his investment.&lt;ref name=&quot;dais1&quot;&gt; &lt;/ref&gt; Arden initially hoped Osbourne would return to Sabbath, who he was personally managing at that time, and later attempted to convince the singer to name his new band &quot;Son of Sabbath&quot;, which Osbourne hated.&lt;ref name=&quot;I Am Ozzy&quot; /&gt; Sharon attempted to convince Osbourne to form a supergroup with guitarist Gary Moore.&lt;ref name=&quot;I Am Ozzy&quot; /&gt; &quot;When I lived in Los Angeles&quot;, Moore recalled, &quot;[Moore's band] G-Force helped him to audition musicians.",
+    "alive": true
+   },
+   {
+    "text": "The band replaced Osbourne with former Rainbow singer Ronnie James Dio.&lt;ref name=&quot;AMG Biography&quot;/&gt; In a 21 August 1987 interview with Tommy Vance on BBC Radio 1's Friday Rock Show, Dio said, &quot;I was not, and never will be, Ozzy Osbourne.",
+    "alive": true
+   },
+   {
+    "text": "John Michael &quot;Ozzy&quot; Osbourne (3 December 1948 – 22 July 2025) was an English singer, songwriter, and media personality.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.917052251590957,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 94,
+  "qid": "4191934",
+  "entity": "Nikolai Zimin",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Nikolai Zimin receive?",
+  "paraphrase": "What prize or honor was given to Nikolai Zimin?",
+  "answer": "Order of Lenin",
+  "page_title": "Nikolai Zimin",
+  "base_values": [
+   "Order of Lenin"
+  ],
+  "target_values": [
+   "Order of Lenin"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "He was of Russian ethnicity.&lt;ref&gt;Открытый список&lt;/ref&gt; He was a recipient of the Order of Lenin.",
+    "alive": true
+   },
+   {
+    "text": "Category:Recipients of the Order of Lenin",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9680062825730734,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 95,
+  "qid": "21079862",
+  "entity": "Cars 3",
+  "prop": "P175",
+  "prop_name": "performer",
+  "kind": "qid",
+  "question": "Who performed Cars 3?",
+  "paraphrase": "Which actors provided the voices for Cars 3?",
+  "answer": "Randy Newman performed Cars 3.",
+  "page_title": "Cars 3",
+  "base_values": [
+   "Randy Newman"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Randy Newman"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| music = Randy Newman&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Randy Newman, who had worked on the first film, composed the film's score with artists such as Andra Day, James Bay, Brad Paisley and Jorge Blanco contributing tracks for the film.",
+    "alive": true
+   },
+   {
+    "text": "The film's score was composed by Pixar's frequent collaborator, Randy Newman, who previously composed the first film's score.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.8663611887976267,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 96,
+  "qid": "56065619",
+  "entity": "Ian Tutty",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Ian Tutty?",
+  "paraphrase": "What nation does Ian Tutty hold citizenship in?",
+  "answer": "Australia",
+  "page_title": "Ian Tutty",
+  "base_values": [
+   "Australia"
+  ],
+  "target_values": [
+   "Australia"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| birth_place = New South Wales, Australia",
+    "alive": true
+   },
+   {
+    "text": "Ian Victor Tutty (born 7 March 1937) is an Australian former representative rower.",
+    "alive": true
+   },
+   {
+    "text": "At the 1960 Australian Interstate Championships rowed in Launceston he was New South Wales' single sculls entrant and won his event - the President's Cup.&lt;ref&gt; &lt;/ref&gt; Tutty was selected with Kevyn Webb to race a double scull at the 1960 Rome Olympics.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9797544363677225,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 97,
+  "qid": "2940902",
+  "entity": "Case départ",
+  "prop": "P58",
+  "prop_name": "screenwriter",
+  "kind": "qid",
+  "question": "Who was the screenwriter of Case départ?",
+  "paraphrase": "Who wrote the screenplay for Case départ?",
+  "answer": "Fabrice Éboué",
+  "page_title": "Case départ",
+  "base_values": [
+   "Fabrice Éboué"
+  ],
+  "target_values": [
+   "Fabrice Éboué"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Case départ (Tee box) is a 2011 French comedy film directed by Lionel Steketee, Fabrice Eboué and Thomas N'Gijol.",
+    "alive": true
+   },
+   {
+    "text": "Half-brothers Régis (Fabrice Eboue) and Joel (Thomas N'Gijol) Grosdésir are called to their estranged father's deathbed in the French Antilles.",
+    "alive": true
+   },
+   {
+    "text": "Category:Films directed by Fabrice Eboué",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9716817828881116,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 99,
+  "qid": "4628",
+  "entity": "Faroe Islands",
+  "prop": "P1082",
+  "prop_name": "population",
+  "kind": "quantity",
+  "question": "What is the population of Faroe Islands?",
+  "paraphrase": "How many people live in the Faroe Islands?",
+  "answer": "49,469 to 54,149",
+  "page_title": "Faroe Islands",
+  "base_values": [
+   "34,266",
+   "34,730",
+   "35,153",
+   "35,550",
+   "35,946",
+   "36,363",
+   "36,804",
+   "37,258",
+   "37,718",
+   "38,164",
+   "38,587",
+   "38,983",
+   "39,360",
+   "39,731",
+   "40,116",
+   "40,529",
+   "40,974",
+   "41,447",
+   "41,946",
+   "42,468",
+   "43,010",
+   "43,559",
+   "44,105",
+   "44,661",
+   "45,239",
+   "45,840",
+   "46,501",
+   "47,194",
+   "47,789",
+   "48,105",
+   "48,031",
+   "47,496",
+   "46,580",
+   "45,512",
+   "44,609",
+   "44,099",
+   "44,058",
+   "44,413",
+   "45,050",
+   "45,788",
+   "46,491",
+   "47,135",
+   "47,751",
+   "48,308",
+   "48,782",
+   "49,157",
+   "49,414",
+   "49,554",
+   "49,601",
+   "49,600",
+   "49,581",
+   "49,551",
+   "49,506",
+   "49,469",
+   "52,154",
+   "49,136",
+   "51,336",
+   "52,912",
+   "54,149"
+  ],
+  "target_values": [
+   "34,266",
+   "34,730",
+   "35,153",
+   "35,550",
+   "35,946",
+   "36,363",
+   "36,804",
+   "37,258",
+   "37,718",
+   "38,164",
+   "38,587",
+   "38,983",
+   "39,360",
+   "39,731",
+   "40,116",
+   "40,529",
+   "40,974",
+   "41,447",
+   "41,946",
+   "42,468",
+   "43,010",
+   "43,559",
+   "44,105",
+   "44,661",
+   "45,239",
+   "45,840",
+   "46,501",
+   "47,194",
+   "47,789",
+   "48,105",
+   "48,031",
+   "47,496",
+   "46,580",
+   "45,512",
+   "44,609",
+   "44,099",
+   "44,058",
+   "44,413",
+   "45,050",
+   "45,788",
+   "46,491",
+   "47,135",
+   "47,751",
+   "48,308",
+   "48,782",
+   "49,157",
+   "49,414",
+   "49,554",
+   "49,601",
+   "49,600",
+   "49,581",
+   "49,551",
+   "49,506",
+   "49,469",
+   "52,154",
+   "49,136",
+   "51,336",
+   "52,912",
+   "54,149"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| settlement_type = Autonomous territory in the Kingdom of Denmark&lt;ref&gt;https://www.government.fo/en/foreign-relations/about-the-faroe-islands&lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "| image_flag = Flag of the Faroe Islands.svg",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9513009195822703,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 100,
+  "qid": "5815919",
+  "entity": "Días de cine",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Días de cine receive?",
+  "paraphrase": "What prize was given to Días de cine?",
+  "answer": "Iris Awards",
+  "page_title": "Días de cine",
+  "base_values": [
+   "Q6359608",
+   "Iris Awards"
+  ],
+  "target_values": [
+   "Q6359608",
+   "Iris Awards"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Días de cine is a weekly Spanish film review television programme which has been broadcast on La 2 of Televisión Española since 9 October 1991.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "The program was created by César Abeytua, inspired by the film by Woody Allen Radio Days.&lt;ref&gt; &lt;/ref&gt; He remained as the program's director until 29 October 1994,&lt;ref&gt; &lt;/ref&gt; when he was replaced by Aitana Sánchez-Gijón,&lt;ref&gt; &lt;/ref&gt; who then was replaced by Antonio Gasset after hosting Informe Semanal.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; Gasset worked on the program both as host and as director until his retirement in 2007 when he was replaced by Cayetana Guillén Cuervo.&lt;ref&gt; &lt;/ref&gt; as host, and by Gerardo Sánchez as director of the program, with co-director Raúl Alda serving along him until 2009.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9741316112272899,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 101,
+  "qid": "30078258",
+  "entity": "Universe 10",
+  "prop": "P123",
+  "prop_name": "publisher",
+  "kind": "qid",
+  "question": "Who published Universe 10?",
+  "paraphrase": "Which company or person published Universe 10?",
+  "answer": "Doubleday",
+  "page_title": "Universe 10",
+  "base_values": [
+   "Doubleday"
+  ],
+  "target_values": [
+   "Doubleday"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was first published in hardcover by Doubleday in September 1980, with a Science Fiction Book Club edition following from the same publisher in October of the same year, and a paperback edition from Zebra Books in November 1982.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9513028505779163,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 102,
+  "qid": "100732",
+  "entity": "Herbert Grundmann",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Herbert Grundmann born?",
+  "paraphrase": "In what location was Herbert Grundmann born?",
+  "answer": "Meerane, Saxony",
+  "page_title": "Herbert Grundmann",
+  "base_values": [
+   "Meerane"
+  ],
+  "target_values": [
+   "Meerane"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Grundmann was born in 1902 in Meerane, Saxony, and grew up in Chemnitz, Saxony.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.981606114742357,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 103,
+  "qid": "25096993",
+  "entity": "At Swim",
+  "prop": "P175",
+  "prop_name": "performer",
+  "kind": "qid",
+  "question": "Who performed At Swim?",
+  "paraphrase": "Which artist created the album At Swim?",
+  "answer": "Lisa Hannigan performed At Swim.",
+  "page_title": "At Swim",
+  "base_values": [
+   "Lisa Hannigan"
+  ],
+  "target_values": [
+   "Lisa Hannigan"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "At Swim is the third studio album by Irish singer-songwriter Lisa Hannigan.",
+    "alive": true
+   },
+   {
+    "text": "The video was directed by Jamie Hannigan and Lisa Hannigan.",
+    "alive": true
+   },
+   {
+    "text": "In the lead up to the album's release Lisa Hannigan confirmed a summer 2016 tour of Ireland.&lt;ref name=&quot;songkick&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.8638440732499548,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 104,
+  "qid": "1989",
+  "entity": "Saskatchewan",
+  "prop": "P6",
+  "prop_name": "head of government",
+  "kind": "qid",
+  "question": "Who is the head of government of Saskatchewan?",
+  "paraphrase": "Who serves as the premier of Saskatchewan?",
+  "answer": "Scott Moe",
+  "page_title": "Saskatchewan",
+  "base_values": [
+   "Thomas Walter Scott",
+   "Scott Moe"
+  ],
+  "target_values": [
+   "Thomas Walter Scott",
+   "Scott Moe"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "In 1992, the federal and provincial governments signed a historic land claim agreement with First Nations in Saskatchewan, granting these nations compensation which they could use to buy land on the open market for the bands.&lt;ref name=&quot;aadnc-aandc1&quot;&gt;&quot;Treaty Land Entitlement&amp;nbsp;– The English River Story, Saskatchewan&quot; , Aboriginal Affairs and Northern Development Canada, accessed November 25, 2011&lt;/ref&gt; Presently, Saskatchewan is governed by the Saskatchewan Party, led by Premier Scott Moe, which has been in power since 2007.",
+    "alive": true
+   },
+   {
+    "text": "The current Premier of Saskatchewan is Scott Moe, who took over the leadership of the Saskatchewan Party in 2018 following the resignation of Brad Wall.",
+    "alive": true
+   },
+   {
+    "text": "The Saskatchewan government bought out Bell Telephone Company in 1909, with the government owning the long-distance lines and left local service to small companies organized at the municipal level.&lt;ref&gt; &lt;/ref&gt; Premier Walter Scott preferred government assistance to outright ownership because he thought enterprises worked better if citizens had a stake in running them; he set up the Saskatchewan Cooperative Elevator Company in 1911.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.887639197635601,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 105,
+  "qid": "3751266",
+  "entity": "Franco Del Campo",
+  "prop": "P641",
+  "prop_name": "sport",
+  "kind": "qid",
+  "question": "Which sport does Franco Del Campo play?",
+  "paraphrase": "What is Franco Del Campo's sport?",
+  "answer": "Competitive swimming",
+  "page_title": "Franco Del Campo",
+  "base_values": [
+   "competitive swimming"
+  ],
+  "target_values": [
+   "competitive swimming"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "After retiring from competitions, in the 1970s Del Campo worked as a swimming coach, and since 1978 as a freelance journalist with national newspapers.",
+    "alive": true
+   },
+   {
+    "text": "Category:Mediterranean Games medalists in swimming",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9846340261476914,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 106,
+  "qid": "15273217",
+  "entity": "Paweł Dawidowicz",
+  "prop": "P54",
+  "prop_name": "member of sports team",
+  "kind": "qid",
+  "question": "Which sports team does Paweł Dawidowicz play for?",
+  "paraphrase": "What is the name of the sports team that Paweł Dawidowicz is a member of?",
+  "answer": "Hellas Verona FC",
+  "page_title": "Paweł Dawidowicz",
+  "base_values": [
+   "KS Lechia Gdańsk",
+   "Poland men's national football team",
+   "S.L. Benfica B",
+   "Poland national under-18 football team",
+   "Poland national under-19 football team",
+   "Poland national under-21 football team",
+   "Poland national under-20 football team",
+   "Palermo F.C.",
+   "Hellas Verona FC",
+   "VfL Bochum",
+   "Hellas Verona FC",
+   "Raków Częstochowa"
+  ],
+  "target_values": [
+   "KS Lechia Gdańsk",
+   "Poland men's national football team",
+   "S.L. Benfica B",
+   "Poland national under-18 football team",
+   "Poland national under-19 football team",
+   "Poland national under-21 football team",
+   "Poland national under-20 football team",
+   "Palermo F.C.",
+   "Hellas Verona FC",
+   "VfL Bochum",
+   "Hellas Verona FC",
+   "Raków Częstochowa"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Category:Poland men's under-21 international footballers",
+    "alive": true
+   },
+   {
+    "text": "Category:Poland men's youth international footballers",
+    "alive": true
+   },
+   {
+    "text": "Category:Poland men's international footballers",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9600325046554118,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 107,
+  "qid": "59194713",
+  "entity": "Morgenshtern",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is Morgenshtern?",
+  "paraphrase": "What musical style or category does Morgenshtern belong to?",
+  "answer": "Russian hip-hop, rock music, trap music, hip-hop.",
+  "page_title": "Morgenshtern",
+  "base_values": [
+   "Russian hip-hop",
+   "rock music",
+   "trap music",
+   "hip-hop"
+  ],
+  "target_values": [
+   "Russian hip-hop",
+   "rock music"
+  ],
+  "removed_values": [
+   "trap music",
+   "hip-hop"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Alisher Tagirovich Morgenshtern{{efn| }} (né Valeyev;{{efn| }}; 17 February 1998), known professionally as Morgenshtern (stylized in all caps), is a Russian rapper, hip-hop, pop and rock singer, songwriter, record producer and showman.",
+    "alive": false
+   },
+   {
+    "text": "Morgenshtern was also a street musician,&lt;ref&gt; &lt;/ref&gt; and was the head singer of the rock band MMD Crew, with whom he collaborated in a song with the Russian rapper Face.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "On 5 March 2020, he released the track &quot;Malyshka&quot; (ru: Малышка), collaborated with the Russian musician Sharlot.&lt;ref&gt; &lt;/ref&gt; On 5 June 2020 he released the track &quot;Pososi&quot;.&lt;ref&gt; &lt;/ref&gt; Official music video for this track, currently is the most disliked YouTube video in Russia.&lt;ref&gt; &lt;/ref&gt; On 9 June 2020 he released the track &quot;Cadillac, collaborated with Eldzhey.&lt;ref&gt; &lt;/ref&gt; On 31 July 2020 he released the track &quot;Ice&quot;,&lt;ref&gt; &lt;/ref&gt; which went viral on social network TikTok.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   }
+  ],
+  "stale": true,
+  "sim": 0.9126618514693644,
+  "claims_dead": 2,
+  "sents_dead": 3,
+  "gate_pass": false
+ },
+ {
+  "pid": 108,
+  "qid": "170135",
+  "entity": "Novaya Gazeta",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Novaya Gazeta located?",
+  "paraphrase": "What administrative territorial entity is Novaya Gazeta based in?",
+  "answer": "Moscow",
+  "page_title": "Novaya Gazeta",
+  "base_values": [
+   "Moscow"
+  ],
+  "target_values": [
+   "Moscow"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| headquarters = Moscow (formerly)",
+    "alive": true
+   },
+   {
+    "text": "It is known for its critical and investigative coverage of Russian political and social affairs, the Chechen wars, corruption among the ruling elite, and increasing authoritarianism in Russia.&lt;ref&gt; &lt;/ref&gt;&lt;ref name=&quot;auto&quot;&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; It was formerly published in Moscow until shortly after the 2022 Russian invasion of Ukraine began, in regions within Russia, and in some foreign countries.",
+    "alive": false
+   },
+   {
+    "text": "On 28 February 2002, the bank won the case in Moscow's Basmanny municipal court, and was awarded 15 million rubles (about $500,000) in lost revenue, an unprecedented sum for Russian newspapers that might undermine the very existence of , especially as on 22 February had been ordered by the same Basmanny court to pay about $1&amp;nbsp;million for a corruption allegation against the Krasnodar Krai's top judge.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9843761412905081,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 109,
+  "qid": "1459829",
+  "entity": "Friedrich Höricke",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Friedrich Höricke?",
+  "paraphrase": "What does Friedrich Höricke do for a living?",
+  "answer": "Pianist",
+  "page_title": "Friedrich Höricke",
+  "base_values": [
+   "Q36834",
+   "pianist"
+  ],
+  "target_values": [
+   "composer",
+   "pianist",
+   "Q1607826",
+   "Q1643514",
+   "musician"
+  ],
+  "removed_values": [],
+  "added_values": [
+   "Q1607826",
+   "Q1643514",
+   "musician"
+  ],
+  "sentences": [
+   {
+    "text": "Friedrich Höricke (born 1963) is a German pianist and composer.",
+    "alive": true
+   },
+   {
+    "text": "As a composer and pianist, Höricke feels obliged to the tradition of the great composing piano virtuosos.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9228310068673363,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 110,
+  "qid": "1768716",
+  "entity": "The Daleks",
+  "prop": "P57",
+  "prop_name": "director",
+  "kind": "qid",
+  "question": "Who directed The Daleks?",
+  "paraphrase": "Who was the director of The Daleks?",
+  "answer": "Christopher Barry and Richard Martin directed The Daleks.",
+  "page_title": "The Daleks",
+  "base_values": [
+   "Christopher Barry",
+   "Richard Martin"
+  ],
+  "target_values": [
+   "Christopher Barry",
+   "Richard Martin"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Written by Terry Nation and directed by Christopher Barry and Richard Martin, this story marks the first appearance of the show's most popular villains, the Daleks, and the recurring Skaro people, the Thals.",
+    "alive": true
+   },
+   {
+    "text": "Lambert's original choice for director was Richard Martin, but Wilson wanted Barry to remain in charge.",
+    "alive": true
+   },
+   {
+    "text": "On 16 September, following Tucker's departure from the show, Christopher Barry was appointed to direct the serial.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9710408700914669,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 111,
+  "qid": "829561",
+  "entity": "Gençay",
+  "prop": "P1082",
+  "prop_name": "population",
+  "kind": "quantity",
+  "question": "What is the population of Gençay?",
+  "paraphrase": "How many people live in Gençay?",
+  "answer": "1,733",
+  "page_title": "Gençay",
+  "base_values": [
+   "1,733",
+   "1,733",
+   "1,796",
+   "1,737",
+   "1,739",
+   "1,746",
+   "1,743",
+   "1,708",
+   "1,681",
+   "1,653"
+  ],
+  "target_values": [
+   "1,733",
+   "1,733",
+   "1,796",
+   "1,737",
+   "1,739",
+   "1,746",
+   "1,743",
+   "1,708",
+   "1,681",
+   "1,653"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Gençay ( ) is a commune in the Vienne department in the Nouvelle-Aquitaine region in western France.",
+    "alive": true
+   },
+   {
+    "text": "The village lies on the left bank of the Clouère, which forms the commune's northern border.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9681304338052916,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 112,
+  "qid": "18345424",
+  "entity": "Laura Pescatori",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Laura Pescatori?",
+  "paraphrase": "What nation does Laura Pescatori hold citizenship in?",
+  "answer": "Spain, Kingdom of Italy",
+  "page_title": "Laura Pescatori",
+  "base_values": [
+   "Spain",
+   "Kingdom of Italy"
+  ],
+  "target_values": [
+   "Spain",
+   "Q165040"
+  ],
+  "removed_values": [
+   "Kingdom of Italy"
+  ],
+  "added_values": [
+   "Q165040"
+  ],
+  "sentences": [
+   {
+    "text": "She did not accompany her in her retinue when Elisabeth left Italy for her marriage to King Philip V of Spain in 1714.",
+    "alive": true
+   },
+   {
+    "text": "Laura Pescatori ( ) was an influential favorite of the queen of Spain, Elisabeth Farnese.",
+    "alive": true
+   },
+   {
+    "text": "In Spain, Elisabeth quickly became the de facto ruler through the king and by the guidance of the Parmese ambassador, Cardinal Alberoni.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9801967134551818,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 113,
+  "qid": "2238795",
+  "entity": "Loch Alsh",
+  "prop": "P17",
+  "prop_name": "country",
+  "kind": "qid",
+  "question": "In which country is Loch Alsh located?",
+  "paraphrase": "Which nation contains Loch Alsh?",
+  "answer": "United Kingdom",
+  "page_title": "Loch Alsh",
+  "base_values": [
+   "United Kingdom"
+  ],
+  "target_values": [
+   "United Kingdom"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Loch Alsh ( , &quot;foaming lake&quot;&lt;ref&gt;&quot;Placename Gazetter&quot; Ainmean-Àite na h-Alba.",
+    "alive": false
+   },
+   {
+    "text": "Retrieved 24 August 2010&lt;/ref&gt;) is a sea inlet between the isle of Skye in the Inner Hebrides and the Northwest Highlands of Scotland.",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9584597812391772,
+  "claims_dead": 0,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 114,
+  "qid": "59194713",
+  "entity": "Morgenshtern",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Morgenshtern receive?",
+  "paraphrase": "What prize or honor was given to Morgenshtern?",
+  "answer": "Diamond Play Button",
+  "page_title": "Morgenshtern",
+  "base_values": [
+   "Diamond Play Button"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Diamond Play Button"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Alisher Tagirovich Morgenshtern{{efn| }} (né Valeyev;{{efn| }}; 17 February 1998), known professionally as Morgenshtern (stylized in all caps), is a Russian rapper, hip-hop, pop and rock singer, songwriter, record producer and showman.",
+    "alive": false
+   },
+   {
+    "text": "He first gained fame in 2017 thanks to parodies of popular music artists of the time, which he published on YouTube.&lt;ref&gt; &lt;/ref&gt; In 2018, he abandoned this format and began releasing only his own music releases, building his future career exclusively on them.",
+    "alive": false
+   }
+  ],
+  "stale": true,
+  "sim": 0.9672850283460948,
+  "claims_dead": 1,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 115,
+  "qid": "16962055",
+  "entity": "Shoulda Let You Go",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Shoulda Let You Go part of?",
+  "paraphrase": "What does Shoulda Let You Go belong to?",
+  "answer": "Just like You",
+  "page_title": "Shoulda Let You Go",
+  "base_values": [
+   "Just like You"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Just like You"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was written by Cole and Rodney &quot;Darkchild&quot; Jerkins for her second studio album Just like You (2007), while production was helmed by Jerkins.",
+    "alive": true
+   },
+   {
+    "text": "Credits adapted from the liner notes of Just like You.&lt;ref name=&quot;booklet&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "&quot;Shoulda Let You Go&quot; is a song by American R&amp;B singer Keyshia Cole.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9472597355928956,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 116,
+  "qid": "665070",
+  "entity": "George Lucas in Love",
+  "prop": "P577",
+  "prop_name": "publication date",
+  "kind": "time",
+  "question": "When was George Lucas in Love published or released?",
+  "paraphrase": "What is the publication or release date of George Lucas in Love?",
+  "answer": "1999",
+  "page_title": "George Lucas in Love",
+  "base_values": [
+   "1999-01-01"
+  ],
+  "target_values": [
+   "1999-01-01"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "George Lucas in Love is a 1999 American parodical short film directed by Joe Nussbaum.",
+    "alive": true
+   },
+   {
+    "text": "The film received great attention as it circulated around Hollywood in the summer of 1999 and eventually premiered at the Toronto International Film Festival on September 19 that year.",
+    "alive": true
+   },
+   {
+    "text": "It debuted online at MediaTrip.com on October 12, 1999.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9749597182906475,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 117,
+  "qid": "1309780",
+  "entity": "Johann Salomon Wahl",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Johann Salomon Wahl?",
+  "paraphrase": "What was Johann Salomon Wahl's profession or job?",
+  "answer": "Painter",
+  "page_title": "Johann Salomon Wahl",
+  "base_values": [
+   "painter"
+  ],
+  "target_values": [
+   "painter"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Johann Salomon Wahl (1689, Chemnitz, Electorate of Saxony – 5 December 1765, Copenhagen) was a German artist who became a court painter in Denmark.",
+    "alive": true
+   },
+   {
+    "text": "He trained as a painter between 1705 and 1711 with David Hoyer (1667–1720), the court painter in Leipzig.",
+    "alive": true
+   },
+   {
+    "text": "After that, he settled in Hamburg, where he worked as a portrait painter for the Holstein.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9749350375640105,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 118,
+  "qid": "4808732",
+  "entity": "Assender Glacier",
+  "prop": "P131",
+  "prop_name": "located in",
+  "kind": "qid",
+  "question": "In which administrative territorial entity is Assender Glacier located?",
+  "paraphrase": "What administrative territorial entity contains Assender Glacier?",
+  "answer": "Antarctic Treaty area",
+  "page_title": "Assender Glacier",
+  "base_values": [
+   "Antarctic Treaty area"
+  ],
+  "target_values": [
+   "Q10372207"
+  ],
+  "removed_values": [
+   "Antarctic Treaty area"
+  ],
+  "added_values": [
+   "Q10372207"
+  ],
+  "sentences": [
+   {
+    "text": "Assender Glacier is a glacier flowing west into Spooner Bay in Enderby Land, Antarctica.",
+    "alive": true
+   },
+   {
+    "text": "It was plotted from air photos taken from Australian National Antarctic Research Expeditions aircraft in 1956, and named by the Antarctic Names Committee of Australia for Pilot Officer Ken J.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9777485720533595,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 119,
+  "qid": "361167",
+  "entity": "Carmine Appice",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Carmine Appice?",
+  "paraphrase": "What does Carmine Appice do for a living?",
+  "answer": "Drummer, musician.",
+  "page_title": "Carmine Appice",
+  "base_values": [
+   "drummer",
+   "musician"
+  ],
+  "target_values": [
+   "drummer",
+   "musician",
+   "composer"
+  ],
+  "removed_values": [],
+  "added_values": [
+   "composer"
+  ],
+  "sentences": [
+   {
+    "text": "Carmine Appice ( ; born December 15, 1946)&lt;ref name=&quot;LarkinHR&quot;&gt; &lt;/ref&gt; is an American rock drummer.",
+    "alive": true
+   },
+   {
+    "text": "Appice was inducted into the Classic Drummer Hall of Fame in 2013&lt;ref&gt; &lt;/ref&gt; and the Modern Drummer Hall of Fame in 2014.&lt;ref&gt; &lt;/ref&gt; He is also a bass player.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Appice received classical music training, and was influenced early on by the work of jazz drummers Buddy Rich and Gene Krupa.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9382526230178001,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 120,
+  "qid": "5493791",
+  "entity": "Kaapro Moilanen",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Kaapro Moilanen die?",
+  "paraphrase": "On what date did Kaapro Moilanen pass away?",
+  "answer": "13 May 1957",
+  "page_title": "Kaapro Moilanen",
+  "base_values": [
+   "1957-05-13"
+  ],
+  "target_values": [
+   "1957-05-13"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Kaapro Moilanen (7 October 1878, in Pieksämäki – 13 May 1957) was a Finnish schoolteacher, journalist and politician.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9710405462567478,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 121,
+  "qid": "3713067",
+  "entity": "Domenico Gizzi",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Domenico Gizzi die?",
+  "paraphrase": "What was the date of Domenico Gizzi's death?",
+  "answer": "1745",
+  "page_title": "Domenico Gizzi",
+  "base_values": [
+   "1745-00-00"
+  ],
+  "target_values": [
+   "1745-01-01"
+  ],
+  "removed_values": [
+   "1745-00-00"
+  ],
+  "added_values": [
+   "1745-01-01"
+  ],
+  "sentences": [
+   {
+    "text": "Domenico Gizzi (Arpino, 1680 – Naples, 1745) was an Italian composer and singing teacher.&lt;ref&gt;Waldo Selden Pratt The History of Ballroom Dancing 1907 &quot;Other important singing-teachers were Domenico Gizzi and his pupil Fernando Feo..&quot;&lt;/ref&gt; Also known as &quot;Egizio&quot; or &quot;Egiziello&quot;, he founded a famous singing school in 1720 and among his pupils counted Francesco Feo and Gioacchino Conti, who was named &quot;Gizziello&quot; in his teacher's honour.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9814237248466541,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 122,
+  "qid": "4312896",
+  "entity": "Oazu Nantoi",
+  "prop": "P39",
+  "prop_name": "position held",
+  "kind": "qid",
+  "question": "Which position does Oazu Nantoi hold?",
+  "paraphrase": "What role or office does Oazu Nantoi currently occupy?",
+  "answer": "Member of the Parliament of Moldova",
+  "page_title": "Oazu Nantoi",
+  "base_values": [
+   "member of the Parliament of Moldova",
+   "member of the Parliament of Moldova",
+   "council member",
+   "member of the Parliament of Moldova",
+   "council member"
+  ],
+  "target_values": [
+   "member of the Parliament of Moldova",
+   "member of the Parliament of Moldova",
+   "council member",
+   "member of the Parliament of Moldova",
+   "council member"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Oazu Nantoi (born 3 February 1948) is a Moldovan politician and political analyst who served as member of the Parliament of Moldova.&lt;ref name=&quot;ACUM secure 26 out of 101 seats&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "In 2015, he participated in establishing of the Civil Platform „Dignity and Truth”.&lt;ref name=&quot;BASARABIA_2019-07-26&quot;&gt; &lt;/ref&gt; He was elected member of Parliament of Moldova in the 2019 parliamentary election running as independent within the ACUM Electoral Bloc.&lt;ref name=&quot;ACUM_2019-07-26&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;Lex.justice.md/index.php?action=view&amp;view=doc&amp;lang=1&amp;id=379919_2019-07-26&quot;&gt; &lt;/ref&gt;&lt;ref name=&quot;Curtea Constituţională a Republicii Moldova_2019-07-26&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "He was not a member of the Communist Party of Moldova.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9648282123033184,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 124,
+  "qid": "4946915",
+  "entity": "Borzechów-Kolonia",
+  "prop": "P1082",
+  "prop_name": "population",
+  "kind": "quantity",
+  "question": "What is the population of Borzechów-Kolonia?",
+  "paraphrase": "What is the number of inhabitants in Borzechów-Kolonia?",
+  "answer": "359 or 361",
+  "page_title": "Borzechów-Kolonia",
+  "base_values": [
+   "359",
+   "361"
+  ],
+  "target_values": [
+   "359",
+   "361"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Borzechów-Kolonia is a village in the administrative district of Gmina Borzechów, within Lublin County, Lublin Voivodeship, in eastern Poland.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9843729651515338,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 125,
+  "qid": "1601828",
+  "entity": "Helen Deutsch",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Helen Deutsch?",
+  "paraphrase": "What does Helen Deutsch do for a living?",
+  "answer": "Screenwriter, journalist, songwriter, theatre critic, director",
+  "page_title": "Helen Deutsch",
+  "base_values": [
+   "screenwriter",
+   "journalist",
+   "songwriter",
+   "theatre critic",
+   "director"
+  ],
+  "target_values": [
+   "screenwriter",
+   "Q214917",
+   "writer",
+   "film producer",
+   "journalist",
+   "theatre critic",
+   "poet",
+   "songwriter",
+   "composer"
+  ],
+  "removed_values": [
+   "director"
+  ],
+  "added_values": [
+   "Q214917",
+   "writer",
+   "film producer",
+   "poet",
+   "composer"
+  ],
+  "sentences": [
+   {
+    "text": "Helen Deutsch (March 21, 1906 – March 15, 1992) was an American screenwriter, journalist, and songwriter.",
+    "alive": true
+   },
+   {
+    "text": "Category:Screenwriters from New York City",
+    "alive": true
+   },
+   {
+    "text": "Category:Songwriters from New York (state)",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.943833786865069,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 126,
+  "qid": "313749",
+  "entity": "Jon Anderson",
+  "prop": "P264",
+  "prop_name": "record label",
+  "kind": "qid",
+  "question": "Which record label is Jon Anderson signed to?",
+  "paraphrase": "What record label has Jon Anderson signed with?",
+  "answer": "Atlantic Records",
+  "page_title": "Jon Anderson",
+  "base_values": [
+   "Columbia Records",
+   "Atlantic Records"
+  ],
+  "target_values": [
+   "Columbia Records",
+   "Atlantic Records"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Atlantic Records released the album in July 1976, and it reached number 8 in the UK and number 47 in the US.",
+    "alive": true
+   },
+   {
+    "text": "In early 1983, Anderson was contacted by Phil Carson of Atlantic Records who suggested that he hear a tape of demos that Cinema, a new group formed of Squire, White, Kaye, and guitarist Trevor Rabin, with Horn as producer, had developed for a new album.",
+    "alive": true
+   },
+   {
+    "text": "Anderson helped out by working at La Chasse; during this time he spoke to Paul Korda, a producer for EMI Records who took him on to sing several demos.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9929098153412327,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 127,
+  "qid": "4492951",
+  "entity": "Pyotr Frolov",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Pyotr Frolov die?",
+  "paraphrase": "What was the date of Pyotr Frolov's death?",
+  "answer": "December 10, 1839",
+  "page_title": "Pyotr Frolov",
+  "base_values": [
+   "1839-12-10"
+  ],
+  "target_values": [
+   "1839-12-10"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Pyotr Kozmich Frolov ( ; &lt;ref&gt; &lt;/ref&gt; – &lt;ref&gt; &lt;/ref&gt;) was a Russian mining engineer and inventor who built the first horse-railway in the Russian Empire in 1809.",
+    "alive": true
+   },
+   {
+    "text": "He elaborated on various canal projects and other artificial water constructions.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9826968010505727,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 128,
+  "qid": "1921337",
+  "entity": "Mercedes-Benz USA",
+  "prop": "P495",
+  "prop_name": "country of origin",
+  "kind": "qid",
+  "question": "What is the country of origin of Mercedes-Benz USA?",
+  "paraphrase": "Where does Mercedes-Benz USA originate from?",
+  "answer": "United States",
+  "page_title": "Mercedes-Benz USA",
+  "base_values": [
+   "United States"
+  ],
+  "target_values": [
+   "United States"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Mercedes-Benz USA (MBUSA) is the distributor for Mercedes-Benz passenger cars in the United States, headquartered in Sandy Springs, a suburb of Atlanta, Georgia.&lt;ref name=&quot;businessweek&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "In 1952, businessman Max Hoffman became the sole importer of Mercedes-Benz cars to the United States.",
+    "alive": true
+   },
+   {
+    "text": "Category:Car manufacturers of the United States",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9627184576242275,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 129,
+  "qid": "44638200",
+  "entity": "Nappily Ever After",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is Nappily Ever After?",
+  "paraphrase": "What category or type of film is Nappily Ever After?",
+  "answer": "Romantic comedy.",
+  "page_title": "Nappily Ever After",
+  "base_values": [
+   "romantic comedy"
+  ],
+  "target_values": [
+   "Q118612349"
+  ],
+  "removed_values": [
+   "romantic comedy"
+  ],
+  "added_values": [
+   "Q118612349"
+  ],
+  "sentences": [
+   {
+    "text": "Nappily Ever After is a 2018 American romantic comedy film directed by Haifaa al-Mansour and written by Adam Brooks and Cee Marcellus.",
+    "alive": true
+   },
+   {
+    "text": "The romantic comedy project Nappily Ever After was previously in development by Universal Pictures in 2003, when the studio had Patricia Cardoso to direct the film adaptation of Trisha R.",
+    "alive": true
+   },
+   {
+    "text": "Category:African-American romantic comedy films",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9044743502222741,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 130,
+  "qid": "2555550",
+  "entity": "Leaving New York",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Leaving New York part of?",
+  "paraphrase": "What larger work or collection does Leaving New York belong to?",
+  "answer": "Around the Sun",
+  "page_title": "Leaving New York",
+  "base_values": [
+   "Around the Sun"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Around the Sun"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was released as the lead single from the band's 13th studio album, Around the Sun (2004).",
+    "alive": true
+   },
+   {
+    "text": "Although it was not as heavily promoted as earlier singles, it reached number five on the UK Singles Chart, becoming their 11th and final top-10 hit there.",
+    "alive": true
+   },
+   {
+    "text": "However, the song failed to chart on the Billboard Hot 100, becoming the only lead US single from an R.E.M.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.7197315928059245,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 131,
+  "qid": "952054",
+  "entity": "Roberto Colautti",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Roberto Colautti born?",
+  "paraphrase": "What is Roberto Colautti's birthplace?",
+  "answer": "Córdoba, Argentina",
+  "page_title": "Roberto Colautti",
+  "base_values": [
+   "Córdoba"
+  ],
+  "target_values": [
+   "Córdoba"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Colautti was born in Córdoba, Argentina.",
+    "alive": true
+   },
+   {
+    "text": "Colautti was raised in , a settlement of 1,000 inhabitants near Córdoba.",
+    "alive": true
+   },
+   {
+    "text": "Category:Footballers from Córdoba, Argentina",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9855741510580626,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 132,
+  "qid": "11424907",
+  "entity": "Hiroichi Sakai",
+  "prop": "P20",
+  "prop_name": "place of death",
+  "kind": "qid",
+  "question": "Where did Hiroichi Sakai die?",
+  "paraphrase": "In what location did Hiroichi Sakai pass away?",
+  "answer": "Kainan",
+  "page_title": "Hiroichi Sakai",
+  "base_values": [
+   "Kainan"
+  ],
+  "target_values": [
+   "Kainan"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Hiroichi Sakai ( ; Sakai Hiroichi; 21 March 1929 – 22 November 2021) was a Japanese politician.&lt;ref&gt; &lt;/ref&gt; A member of the Komeito party, he served in the House of Representatives from 1969 to 1993.",
+    "alive": true
+   },
+   {
+    "text": "Category:Members of the House of Representatives (Japan)",
+    "alive": false
+   }
+  ],
+  "stale": false,
+  "sim": 0.9600913962593852,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 133,
+  "qid": "3622732",
+  "entity": "Ugrin Csák",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Ugrin Csák die?",
+  "paraphrase": "When did Ugrin Csák pass away?",
+  "answer": "1311",
+  "page_title": "Ugrin Csák",
+  "base_values": [
+   "1311-00-00"
+  ],
+  "target_values": [
+   "1311-01-01"
+  ],
+  "removed_values": [
+   "1311-00-00"
+  ],
+  "added_values": [
+   "1311-01-01"
+  ],
+  "sentences": [
+   {
+    "text": "Ugrin (III) from the kindred Csák ( , , ; died in 1311) was a prominent Hungarian baron and oligarch in the early 14th century.",
+    "alive": true
+   },
+   {
+    "text": "The elderly lord died in 1311, his dominion was soon integrated into the royal administration.",
+    "alive": true
+   },
+   {
+    "text": "Historian Iván Bertényi argued Ugrin Csák functioned as Judge royal from 1304 to 1311, however majority of the historians do not accept his theory, and considered that the position of Judge royal was in a state of vacancy for a decade, until Charles's third coronation was performed in full accordance with customary law in August 1310.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9853260141220248,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 134,
+  "qid": "20128677",
+  "entity": "Maurice J. McCauley",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Maurice J. McCauley?",
+  "paraphrase": "What nation does Maurice J. McCauley hold citizenship in?",
+  "answer": "United States",
+  "page_title": "Maurice J. McCauley",
+  "base_values": [
+   "United States"
+  ],
+  "target_values": [
+   "United States"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Born near Caledonia, Minnesota, McCauley served in the United States Marine Corps during World War II.",
+    "alive": true
+   },
+   {
+    "text": "Category:United States Marine Corps personnel of World War II",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9817425948779681,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 135,
+  "qid": "5932944",
+  "entity": "Hugh Vallance",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Hugh Vallance?",
+  "paraphrase": "What nation does Hugh Vallance hold citizenship in?",
+  "answer": "United Kingdom, United Kingdom of Great Britain and Ireland",
+  "page_title": "Hugh Vallance",
+  "base_values": [
+   "United Kingdom",
+   "United Kingdom of Great Britain and Ireland"
+  ],
+  "target_values": [
+   "United Kingdom",
+   "United Kingdom of Great Britain and Ireland"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The following season, Vallance scored twice in the first seven games before his Brighton contract was terminated for a &quot;serious misdemeanour&quot; at the same time as that of Ireland international Jack Curran.",
+    "alive": true
+   },
+   {
+    "text": "Vallance was born in Wolverhampton, England.",
+    "alive": true
+   },
+   {
+    "text": "He was given his chance by Brighton manager Charlie Webb and soon established himself in the Brighton attack alongside Dan Kirkwood.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9798489046588896,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 136,
+  "qid": "106506",
+  "entity": "The Fifth Element",
+  "prop": "P577",
+  "prop_name": "publication date",
+  "kind": "time",
+  "question": "When was The Fifth Element published or released?",
+  "paraphrase": "When did The Fifth Element come out?",
+  "answer": "1997",
+  "page_title": "The Fifth Element",
+  "base_values": [
+   "1997-05-07",
+   "1997-05-09",
+   "1997-08-22",
+   "1997-08-28",
+   "1997-05-07",
+   "1997-00-00"
+  ],
+  "target_values": [
+   "1997-05-07",
+   "1997-05-07",
+   "1997-05-09",
+   "1997-08-22",
+   "1997-08-28"
+  ],
+  "removed_values": [
+   "1997-00-00"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "The Fifth Element ( ) is a 1997 English-language French&lt;!--Please don't change it to American.",
+    "alive": true
+   },
+   {
+    "text": "The film premiered on 7 May at the 1997 Cannes Film Festival, where it was selected as the opening film.&lt;ref name=&quot;festival-cannes.com&quot;&gt; &lt;/ref&gt;&lt;ref name=todd /&gt; Gaumont built an area for the screening that was over .",
+    "alive": true
+   },
+   {
+    "text": "A novel was adapted from the screenplay of The Fifth Element, written by Terry Bisson and published by HarperPrism in 1997.&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; Rumors arose after the film's release that it would be followed by a sequel, tentatively titled Mr.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9631915820303764,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 137,
+  "qid": "2145",
+  "entity": "Quebec City",
+  "prop": "P2046",
+  "prop_name": "area",
+  "kind": "quantity",
+  "question": "What is the area of Quebec City?",
+  "paraphrase": "What is the size of Quebec City in terms of area?",
+  "answer": "485.18",
+  "page_title": "Quebec City",
+  "base_values": [
+   "485.18"
+  ],
+  "target_values": [
+   "485.18"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| name = Quebec City&lt;!-- DO NOT change without discussion--&gt;",
+    "alive": true
+   },
+   {
+    "text": "| settlement_type = City and provincial capital",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.8566014977694681,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 138,
+  "qid": "210453",
+  "entity": "Thiago Silva",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Thiago Silva?",
+  "paraphrase": "What does Thiago Silva do for a living?",
+  "answer": "Association football player",
+  "page_title": "Thiago Silva",
+  "base_values": [
+   "association football player"
+  ],
+  "target_values": [
+   "association football player"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "It was deemed to be a very harsh decision,&lt;ref name=&quot;leparisien.fr&quot;&gt; &lt;/ref&gt; with former referee Alain Sars claiming the expulsion was severe.&lt;ref&gt; &lt;/ref&gt; Sporting director Leonardo said that the expulsion was &quot;unacceptable&quot;, and Ancelotti said that he did not understand the reason for the expulsion.&lt;ref&gt; &lt;/ref&gt; Nevertheless, at the end of the season Silva was voted into the 2012–13 Ligue 1 Team of the Year for his level of play throughout the season.&lt;ref&gt; &lt;/ref&gt; Silva was also shortlisted for the Ligue 1 Player of the Year award, alongside teammates Blaise Matuidi and Zlatan Ibrahimović.&lt;ref&gt; &lt;/ref&gt; Over the course of the season, Silva committed an extremely-low 14 fouls, which was mentioned as an excellent total for a defender in Le Parisien.&lt;ref name=&quot;leparisien.fr&quot;/&gt; Silva was considered the best defender in Ligue 1 by France Football.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "On 15 January 2014, Manchester United central defender Rio Ferdinand claimed that Silva was, by a distance, the best defender in the world.&lt;ref name=&quot;Ferdinand&quot;&gt; &lt;/ref&gt; Silva was imperious in PSG's 2–0 win against Bordeaux at the Parc des Princes, where he covered for the errors of teammate Gregory van der Wiel and was even close to scoring himself.&lt;ref&gt; &lt;/ref&gt; This performance was followed by another strong performance against Monaco; despite scoring an unlucky own-goal, Silva made crucial interventions throughout the match, including a last-man block against striker Emmanuel Rivière.&lt;ref&gt; &lt;/ref&gt; In PSG's comprehensive 4–0 win in the Champions League over Bayer Leverkusen, Silva was regarded by Le Parisien as having &quot;dominated&quot; then Bundesliga leading-scorer Stefan Kießling.&lt;ref&gt; &lt;/ref&gt; Marseille defender Lucas Mendes said that Silva was the best defender in the world, and that Silva was his role model as a footballer.&lt;ref&gt; &lt;/ref&gt; On 16 February, Ronaldo, the three-time FIFA World Player of the Year, compared the qualities of Silva to legendary German sweeper Franz Beckenbauer.&lt;ref name=&quot;Beckenbauer&quot;&gt; &lt;/ref&gt; Silva managed another accomplished display in Le Classique, marshaling the club's defence to a clean sheet and helping extend its lead to eight points at the top of the Ligue 1 table.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "On 19 April, Silva captained PSG to a 2–1 victory in the 2014 Coupe de la Ligue Final, the first time the club had won the competition since 1998.&lt;ref&gt; &lt;/ref&gt; Despite losing 1–2 to Rennes, PSG clinched the league title; Silva had captained the club to their second consecutive league title, and their first double.&lt;ref&gt; &lt;/ref&gt; Silva again was shortlisted for Ligue 1 Player of the Year,&lt;ref&gt; &lt;/ref&gt; and named in the Ligue 1 Team of the Year for the second consecutive season.&lt;ref&gt; &lt;/ref&gt; Silva was rated by France Football as the league's fifth-best player, as well as the best defender in Ligue 1.&lt;ref name=&quot;auto&quot;&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9220088213181848,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 139,
+  "qid": "466228",
+  "entity": "Bronislav Kaminski",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Bronislav Kaminski receive?",
+  "paraphrase": "What honor or decoration was given to Bronislav Kaminski?",
+  "answer": "Iron Cross 1st Class",
+  "page_title": "Bronislav Kaminski",
+  "base_values": [
+   "Bandit-warfare Badge",
+   "Eastern Medal",
+   "Ostvolk Medal 1st Class in Gold with Swords",
+   "Ostvolk Medal 2nd Class in Silver with Swords",
+   "Iron Cross 1st Class",
+   "Wound Badge (1939) in Black"
+  ],
+  "target_values": [
+   "Bandit-warfare Badge",
+   "Eastern Medal",
+   "Ostvolk Medal 1st Class in Gold with Swords",
+   "Ostvolk Medal 2nd Class in Silver with Swords",
+   "Q140795229",
+   "Wound Badge (1939) in Black"
+  ],
+  "removed_values": [
+   "Iron Cross 1st Class"
+  ],
+  "added_values": [
+   "Q140795229"
+  ],
+  "sentences": [
+   {
+    "text": "On 27 January 1944, Himmler rewarded Kaminski's &quot;achievements&quot; by decorating him with the Iron Cross, 2nd Class, and on the same day with the Iron Cross, 1st Class.",
+    "alive": true
+   },
+   {
+    "text": "Category:Recipients of the Iron Cross (1939), 1st class",
+    "alive": true
+   },
+   {
+    "text": "The unit is regarded as one of the most brutal units, with Kaminski himself feared by his subordinates.&lt;ref name=&quot;Bishop&quot;&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; Kaminski's behavior made the Germans lose confidence in him: in August 1944, he was court-martialed and executed.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9400735134992688,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 140,
+  "qid": "8021634",
+  "entity": "Willie Littlechild",
+  "prop": "P166",
+  "prop_name": "award received",
+  "kind": "qid",
+  "question": "Which award did Willie Littlechild receive?",
+  "paraphrase": "What honor was given to Willie Littlechild?",
+  "answer": "Tom Longboat Awards, Canada's Sports Hall of Fame, Member of the Order of Canada, Pearson Medal of Peace",
+  "page_title": "Willie Littlechild",
+  "base_values": [
+   "Tom Longboat Awards",
+   "Canada's Sports Hall of Fame",
+   "Tom Longboat Awards",
+   "Member of the Order of Canada",
+   "Pearson Medal of Peace"
+  ],
+  "target_values": [
+   "Tom Longboat Awards",
+   "Canada's Sports Hall of Fame",
+   "Tom Longboat Awards",
+   "Member of the Order of Canada",
+   "Pearson Medal of Peace"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "On 30 November 2016, he became Grand Chief of the Confederacy of Treaty Six First Nations, becoming the first &quot;non-sitting&quot; chief to hold the position, and subsequently served for three years.&lt;ref&gt; &lt;/ref&gt; In 2018, he was awarded the Order of Sport, marking his induction into Canada's Sports Hall of Fame.&lt;ref&gt; &lt;/ref&gt; In 2019, Littlechild won the Pearson Peace Medal.&lt;ref&gt; &lt;/ref&gt; During Pope Francis' visit to Canada in 2022, Littlechild presented the Pontiff with a traditional Indian headdress, generating mixed reactions from the Indigenous community.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Defining the Tom Longboat Awards, 1951–2001.",
+    "alive": true
+   },
+   {
+    "text": "Littlechild was a member of the 1977 Indigenous delegation to the United Nations and worked on the UN's Declaration on the Rights of Indigenous Peoples.&lt;ref name=&quot;:2&quot; /&gt; He won the national Tom Longboat Award in 1967 and 1974,&lt;ref&gt;Forsyth, Janice.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9584546127313701,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 141,
+  "qid": "49001",
+  "entity": "Whoopi Goldberg",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Whoopi Goldberg?",
+  "paraphrase": "What nation does Whoopi Goldberg hold citizenship in?",
+  "answer": "United States",
+  "page_title": "Whoopi Goldberg",
+  "base_values": [
+   "United States"
+  ],
+  "target_values": [
+   "United States"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| image = Whoopi Goldberg Springsteen-71 (cropped).jpg",
+    "alive": false
+   },
+   {
+    "text": "| birth_name = Caryn Elaine Johnson",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9741674342792627,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 142,
+  "qid": "6759063",
+  "entity": "Marga Richter",
+  "prop": "P20",
+  "prop_name": "place of death",
+  "kind": "qid",
+  "question": "Where did Marga Richter die?",
+  "paraphrase": "In what location did Marga Richter pass away?",
+  "answer": "Barnegat Township, New Jersey.",
+  "page_title": "Marga Richter",
+  "base_values": [
+   "Barnegat Township"
+  ],
+  "target_values": [
+   "Barnegat Township"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "University of Illinois Press, 2012.&lt;/ref&gt; She died on June 25, 2020 at Barnegat, New Jersey.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9651613051970557,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 143,
+  "qid": "6937726",
+  "entity": "Murder by Contract",
+  "prop": "P136",
+  "prop_name": "genre",
+  "kind": "qid",
+  "question": "What genre is Murder by Contract?",
+  "paraphrase": "What category does Murder by Contract belong to?",
+  "answer": "Film noir, crime film, drama film",
+  "page_title": "Murder by Contract",
+  "base_values": [
+   "film noir",
+   "crime film",
+   "drama film"
+  ],
+  "target_values": [
+   "film noir",
+   "crime film",
+   "drama film"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Murder by Contract is a 1958 American film noir crime film directed by Irving Lerner.",
+    "alive": true
+   },
+   {
+    "text": "Category:English-language crime drama films",
+    "alive": true
+   },
+   {
+    "text": "Reviewing it for the Chicago Reader, Jonathan Rosenbaum praises the film as &quot;singular and nearly perfect&quot;, noting its &quot;lean, purposeful style&quot; and &quot;witty feeling for character, dialogue, and narrative ellipsis.&quot;&lt;ref name=&quot;chicagoreader&quot; /&gt; In overview of a 2006 Film Forum series on film noir for Slant Magazine, Fernando F.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9239007975032518,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 144,
+  "qid": "8017119",
+  "entity": "William Pryce Cumby",
+  "prop": "P20",
+  "prop_name": "place of death",
+  "kind": "qid",
+  "question": "Where did William Pryce Cumby die?",
+  "paraphrase": "In what location did William Pryce Cumby pass away?",
+  "answer": "Pembroke",
+  "page_title": "William Pryce Cumby",
+  "base_values": [
+   "Pembroke"
+  ],
+  "target_values": [
+   "Pembroke"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "At the time of his death, he was Superintendent of Pembroke Dockyard.",
+    "alive": true
+   },
+   {
+    "text": "Cumby had no further service, nevertheless, his reputation for solid service led to further rewards: command of the Royal yacht , and appointed a Companion of the Order of the Bath on 26 September 1831, on the occasion of King William IV's Coronation Honours.&lt;ref&gt; &lt;/ref&gt; In 1837, he was appointed Superintendent of Pembroke Dockyard;&lt;ref name=&quot;nmm.ac.uk&quot;/&gt; but he died in the same year in his office in Pembroke Dock, aged 66, and was buried in the Park Street graveyard at Pembroke Dock.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9621996090297522,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 145,
+  "qid": "2916363",
+  "entity": "Papa Little",
+  "prop": "P361",
+  "prop_name": "part of",
+  "kind": "qid",
+  "question": "What is Papa Little part of?",
+  "paraphrase": "What does Papa Little belong to?",
+  "answer": "Shetland Islands",
+  "page_title": "Papa Little",
+  "base_values": [
+   "Shetland Islands"
+  ],
+  "target_values": [
+   "Shetland Islands"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Category:Uninhabited islands of Shetland",
+    "alive": true
+   },
+   {
+    "text": "Papa Little ( ; Old Norse: Papey Litla, meaning &quot;the little island of the priests&quot;) is an island in St Magnus Bay, Shetland, Scotland.",
+    "alive": true
+   },
+   {
+    "text": "The island lies at the head of Aith Voe in north west Mainland, Shetland, south of Muckle Roe.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9566685671590118,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 146,
+  "qid": "7530349",
+  "entity": "Siritunga Jayasuriya",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Siritunga Jayasuriya?",
+  "paraphrase": "What nation does Siritunga Jayasuriya hold citizenship in?",
+  "answer": "Sri Lanka",
+  "page_title": "Siritunga Jayasuriya",
+  "base_values": [
+   "Sri Lanka"
+  ],
+  "target_values": [
+   "Sri Lanka"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Siritunga Jayasuriya is a Sri Lankan politician, trade unionist and current leader of the United Socialist Party.",
+    "alive": true
+   },
+   {
+    "text": "Jayasuriya is a perennial candidate in Sri Lankan presidential elections, running for president in every election from 2005 to 2024.&lt;ref&gt; &lt;/ref&gt; In 2005, he won 35,405 votes, 0.36% of the votes cast and came third.&lt;ref&gt;2005 Presidential Summary, Department of Elections website&lt;/ref&gt; This would be his best performance at a presidential election and has never been able to win more than 10,000 votes in an election since.",
+    "alive": true
+   },
+   {
+    "text": "In early 2007, Siritunga narrowly escaped a raid by 300 armed thugs at a place where an anti-war rally against the Sri Lankan Civil War was due to take place.&lt;ref&gt;'Murderous raid on Anti-War Rally in Colombo', Committee for a Workers' International website - retrieved 14/08/07&lt;/ref&gt;&lt;ref&gt;'Government blamed for violent attack on anti-war rally organisers', Committee for a Workers' International website - retrieved 14/08/07&lt;/ref&gt;",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9770071925688689,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 147,
+  "qid": "83287",
+  "entity": "Selena Gomez",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Selena Gomez?",
+  "paraphrase": "What does Selena Gomez do for a living?",
+  "answer": "Singer, singer-songwriter, record producer, actor, voice actor, model, fashion designer, filmmaker, businessperson, child actor",
+  "page_title": "Selena Gomez",
+  "base_values": [
+   "singer",
+   "singer-songwriter",
+   "record producer",
+   "actor",
+   "voice actor",
+   "model",
+   "fashion designer",
+   "filmmaker",
+   "businessperson",
+   "child actor"
+  ],
+  "target_values": [
+   "singer-songwriter",
+   "record producer",
+   "actor",
+   "voice actor",
+   "model",
+   "fashion designer",
+   "filmmaker",
+   "businessperson",
+   "child actor",
+   "Q60723829",
+   "musician"
+  ],
+  "removed_values": [
+   "singer"
+  ],
+  "added_values": [
+   "Q60723829",
+   "musician"
+  ],
+  "sentences": [
+   {
+    "text": "In terms of acting influences, Gomez has said that her mannerisms for portraying Alex Russo were patterned after Jennifer Aniston's performance as Rachel Green on Friends.&lt;ref&gt; &lt;/ref&gt; In a 2011 interview, she has also cited Shia LaBeouf's career transition from Disney Channel star to film actor in adulthood as a model she hoped to emulate.&lt;ref name=&quot;Billboard2011Cover&quot;&gt; &lt;/ref&gt; She has described Meryl Streep as an inspiration, saying that she learned from Streep's humility, professionalism and commitment to her craft while working with her on Only Murders in the Building.&lt;ref&gt; &lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "Gomez has won an Actor Award,&lt;ref name=&quot;SAG2025&quot;/&gt; an American Music Award,&lt;ref name=amas16/&gt; a Billboard Music Award,&lt;ref name=bbmas24/&gt; the Cannes Film Festival Award for Best Actress,&lt;ref name=cannes24/&gt; and two MTV Video Music Awards.&lt;ref name=vmas13/&gt;&lt;ref name=vmas23/&gt; She currently holds the record for the most Kids' Choice Awards wins (12) for an individual,&lt;ref&gt; &lt;/ref&gt;&lt;ref&gt; &lt;/ref&gt; and has been recognized with 16 Guinness World Records.&lt;ref&gt; &lt;/ref&gt; She has been nominated five times for a Golden Globe Award for acting,&lt;ref&gt; &lt;/ref&gt; and has also received nominations for a BAFTA Award,&lt;ref name=&quot;BAFTA25&quot;/&gt; three Critics' Choice Awards,&lt;ref&gt; &lt;br&gt; &lt;/ref&gt; three Grammy Awards,&lt;ref&gt; &lt;/ref&gt; a Latin Grammy Award,&lt;ref name=&quot;latingrammy21&quot;/&gt; and a Primetime Emmy Award for acting.&lt;ref name=&quot;deadline2024&quot;/&gt; As an executive producer, Gomez became the most-nominated Latina producer in Primetime Emmy Awards history after receiving four nominations for Outstanding Comedy Series, according to trade publications.&lt;ref name=&quot;emmyhistory1&quot;/&gt;&lt;ref name=&quot;emmyhistory2&quot;/&gt; She has also received three Daytime Emmy Award nominations,&lt;ref&gt; &lt;br&gt; &lt;br&gt; &lt;/ref&gt; and was nominated for five Producers Guild of America Awards.&lt;ref&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;/ref&gt;",
+    "alive": false
+   },
+   {
+    "text": "Her accolades include an Actor Award, an American Music Award, a Billboard Music Award, a Cannes Film Festival Award, two MTV Video Music Awards and 16 Guinness World Records.",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9236917258451153,
+  "claims_dead": 1,
+  "sents_dead": 2,
+  "gate_pass": false
+ },
+ {
+  "pid": 148,
+  "qid": "3876871",
+  "entity": "Nikki Garcia",
+  "prop": "P102",
+  "prop_name": "member of political party",
+  "kind": "qid",
+  "question": "Which political party does Nikki Garcia belong to?",
+  "paraphrase": "What is Nikki Garcia's political party affiliation?",
+  "answer": "Democratic Party",
+  "page_title": "Nikki Bella",
+  "base_values": [
+   "Democratic Party"
+  ],
+  "target_values": [],
+  "removed_values": [
+   "Democratic Party"
+  ],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "&lt;!--- Please do not use ALLCAPS in reference titles ---&gt;",
+    "alive": true
+   },
+   {
+    "text": "| image = Nikki Bella RR25 2 (cropped).jpg",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9813389863472377,
+  "claims_dead": 1,
+  "sents_dead": 0,
+  "gate_pass": false
+ },
+ {
+  "pid": 149,
+  "qid": "7052127",
+  "entity": "Norman Curtis",
+  "prop": "P570",
+  "prop_name": "date of death",
+  "kind": "time",
+  "question": "When did Norman Curtis die?",
+  "paraphrase": "What was the date of Norman Curtis's death?",
+  "answer": "7 September 2009",
+  "page_title": "Norman Curtis",
+  "base_values": [
+   "2009-09-07"
+  ],
+  "target_values": [
+   "2009-09-07"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Norman Curtis (10 September 1924 – 7 September 2009) was an English-born footballer, who played as a full back in the Football League in the 1950s and 1960s.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.983393507791006,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 150,
+  "qid": "1918",
+  "entity": "Franck Ribéry",
+  "prop": "P27",
+  "prop_name": "country of citizenship",
+  "kind": "qid",
+  "question": "What is the country of citizenship of Franck Ribéry?",
+  "paraphrase": "What nationality does Franck Ribéry hold?",
+  "answer": "France",
+  "page_title": "Franck Ribéry",
+  "base_values": [
+   "France"
+  ],
+  "target_values": [
+   "France"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "| birth_place = Boulogne-sur-Mer, France",
+    "alive": false
+   },
+   {
+    "text": "After six months at Galatasaray, he departed the club in controversial fashion in order to return to France to join Marseille.",
+    "alive": true
+   },
+   {
+    "text": "Ribéry spent two seasons at the club, helping OM reach the final of the Coupe de France in back-to-back seasons.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9592449355792362,
+  "claims_dead": 0,
+  "sents_dead": 1,
+  "gate_pass": false
+ },
+ {
+  "pid": 151,
+  "qid": "249344",
+  "entity": "Leandro Bacuna",
+  "prop": "P19",
+  "prop_name": "place of birth",
+  "kind": "qid",
+  "question": "Where was Leandro Bacuna born?",
+  "paraphrase": "What is Leandro Bacuna's birthplace?",
+  "answer": "Groningen",
+  "page_title": "Leandro Bacuna",
+  "base_values": [
+   "Groningen"
+  ],
+  "target_values": [
+   "Groningen"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "On 30 October 2009, Bacuna made his first team debut for Groningen in an Eredivisie match against PSV.&lt;ref&gt; &lt;/ref&gt; Bacuna has also played for Groningen's youth teams.",
+    "alive": true
+   },
+   {
+    "text": "On 6 November 2009, he scored his first goal for the first team in a league match against Heracles Almelo, an eventual 4–1 victory for Groningen.&lt;ref&gt;Holland, Æresdivisionen&amp;nbsp;– Politiken.dk &lt;/ref&gt;",
+    "alive": true
+   },
+   {
+    "text": "Category:Footballers from Groningen (city)",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9826576700867261,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 152,
+  "qid": "10856362",
+  "entity": "Daimyo Clock Museum",
+  "prop": "P571",
+  "prop_name": "inception",
+  "kind": "time",
+  "question": "When was Daimyo Clock Museum established?",
+  "paraphrase": "In what year was the Daimyo Clock Museum founded?",
+  "answer": "April 1, 1974",
+  "page_title": "Daimyo Clock Museum",
+  "base_values": [
+   "1974-04-01"
+  ],
+  "target_values": [
+   "1974-04-01"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "thumb|Guro Kamiguchi, collector of [[Japanese clocks]]",
+    "alive": true
+   },
+   {
+    "text": "thumb|Japanese incense clock, Daimyo Clock Museum, Tokyo",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9801087997814627,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 153,
+  "qid": "16203985",
+  "entity": "Murad Kalam",
+  "prop": "P69",
+  "prop_name": "educated at",
+  "kind": "qid",
+  "question": "Where was Murad Kalam educated?",
+  "paraphrase": "What institutions did Murad Kalam attend for his education?",
+  "answer": "Harvard Law School and Harvard College.",
+  "page_title": "Murad Kalam",
+  "base_values": [
+   "Harvard Law School",
+   "Harvard College"
+  ],
+  "target_values": [
+   "Harvard Law School",
+   "Harvard College"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "He graduated from Harvard Law School in 2002.",
+    "alive": true
+   },
+   {
+    "text": "In 1999, Kalam graduated from Harvard College, where he studied writing under Jamaica Kincaid and published in the Harvard Advocate.",
+    "alive": true
+   },
+   {
+    "text": "While in his second year of law school, Kalam published his first short story, &quot;Bow Down,&quot; in Harper's, which won an O.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9660692686464494,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 154,
+  "qid": "1383476",
+  "entity": "Teodor Andrzej Potocki",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Teodor Andrzej Potocki?",
+  "paraphrase": "What job or profession did Teodor Andrzej Potocki have?",
+  "answer": "Catholic priest, Catholic bishop.",
+  "page_title": "Teodor Andrzej Potocki",
+  "base_values": [
+   "Catholic priest",
+   "Catholic bishop"
+  ],
+  "target_values": [
+   "Catholic priest",
+   "Catholic bishop"
+  ],
+  "removed_values": [],
+  "added_values": [],
+  "sentences": [
+   {
+    "text": "Category:18th-century Roman Catholic archbishops in the Polish–Lithuanian Commonwealth",
+    "alive": true
+   },
+   {
+    "text": "Teodor was Rector of Przemyśl and canon of Kraków since 1687, Bishop of Chełmno since 1699 and Bishop of Warmia (Ermland) since 1711.",
+    "alive": true
+   },
+   {
+    "text": "In 1722 Teodor became Archbishop of Gniezno and Primate of Poland.&lt;ref&gt;Piotr Nitecki, Biskupi Kościoła w Polsce w latach 965-1999.",
+    "alive": true
+   }
+  ],
+  "stale": false,
+  "sim": 0.9725190206360126,
+  "claims_dead": 0,
+  "sents_dead": 0,
+  "gate_pass": true
+ },
+ {
+  "pid": 155,
+  "qid": "215508",
+  "entity": "Julius Rupp",
+  "prop": "P106",
+  "prop_name": "occupation",
+  "kind": "qid",
+  "question": "What is the occupation of Julius Rupp?",
+  "paraphrase": "What does Julius Rupp do for a living?",
+  "answer": "Theologian, philosopher, university teacher, writer.",
+  "page_title": "Julius Rupp",
+  "base_values": [
+   "philosopher",
+   "university teacher",
+   "writer",
+   "theologian"
+  ],
+  "target_values": [
+   "philosopher",
+   "university teacher",
+   "writer",
+   "pedagogue",
+   "journalist",
+   "Q6051619",
+   "Q98833883"
+  ],
+  "removed_values": [
+   "theologian"
+  ],
+  "added_values": [
+   "pedagogue",
+   "journalist",
+   "Q6051619",
+   "Q98833883"
+  ],
+  "sentences": [
+   {
+    "text": "Julius Friedrich Leopold Rupp (13 August 1809 – 11 July 1884) was a Prussian Protestant theologian.",
+    "alive": false
+   },
+   {
+    "text": "Category:19th-century German Protestant theologians",
+    "alive": true
+   },
+   {
+    "text": "Category:19th-century German male writers",
+    "alive": true
+   }
+  ],
+  "stale": true,
+  "sim": 0.9161914043349122,
+  "claims_dead": 1,
+  "sents_dead": 1,
+  "gate_pass": false
+ }
+]

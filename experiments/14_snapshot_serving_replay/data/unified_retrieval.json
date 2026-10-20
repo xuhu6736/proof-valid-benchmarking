@@ -1,0 +1,1447 @@
+{
+ "n": 154,
+ "tau": 0.8364,
+ "paired_hits_at_tau": 147,
+ "unified_at_tau": {
+  "accepted_correct": 147,
+  "misrouted": 0,
+  "missed": 7
+ },
+ "top1_identity_correct": 154,
+ "impostor_ge_tau": 5,
+ "genuine_minus_impostor_margin": {
+  "min": 0.0707609507791066,
+  "p5": 0.11883742814604184,
+  "median": 0.45183006297608563
+ },
+ "sweep": {
+  "0.50": {
+   "accepted_correct": 154,
+   "misrouted": 0,
+   "missed": 0
+  },
+  "0.60": {
+   "accepted_correct": 154,
+   "misrouted": 0,
+   "missed": 0
+  },
+  "0.70": {
+   "accepted_correct": 154,
+   "misrouted": 0,
+   "missed": 0
+  },
+  "0.75": {
+   "accepted_correct": 153,
+   "misrouted": 0,
+   "missed": 1
+  },
+  "0.80": {
+   "accepted_correct": 149,
+   "misrouted": 0,
+   "missed": 5
+  },
+  "0.84": {
+   "accepted_correct": 147,
+   "misrouted": 0,
+   "missed": 7
+  },
+  "0.85": {
+   "accepted_correct": 147,
+   "misrouted": 0,
+   "missed": 7
+  },
+  "0.90": {
+   "accepted_correct": 137,
+   "misrouted": 0,
+   "missed": 17
+  }
+ },
+ "rows": [
+  {
+   "pid": 0,
+   "genuine": 0.7859018984795634,
+   "rank": 1,
+   "top1_pid": 0,
+   "top1_sim": 0.7859018984795634,
+   "best_impostor": 0.43143766737160794,
+   "best_impostor_pid": 11
+  },
+  {
+   "pid": 1,
+   "genuine": 0.9807740230661116,
+   "rank": 1,
+   "top1_pid": 1,
+   "top1_sim": 0.9807740230661116,
+   "best_impostor": 0.5098839403322539,
+   "best_impostor_pid": 150
+  },
+  {
+   "pid": 2,
+   "genuine": 0.9061954521760989,
+   "rank": 1,
+   "top1_pid": 2,
+   "top1_sim": 0.9061954521760989,
+   "best_impostor": 0.7858860423803782,
+   "best_impostor_pid": 136
+  },
+  {
+   "pid": 3,
+   "genuine": 0.9411628459699489,
+   "rank": 1,
+   "top1_pid": 3,
+   "top1_sim": 0.9411628459699489,
+   "best_impostor": 0.43967207346132825,
+   "best_impostor_pid": 39
+  },
+  {
+   "pid": 4,
+   "genuine": 0.8820909095038474,
+   "rank": 1,
+   "top1_pid": 4,
+   "top1_sim": 0.8820909095038474,
+   "best_impostor": 0.5311905722475662,
+   "best_impostor_pid": 129
+  },
+  {
+   "pid": 5,
+   "genuine": 0.9441036592763153,
+   "rank": 1,
+   "top1_pid": 5,
+   "top1_sim": 0.9441036592763153,
+   "best_impostor": 0.5241557951305937,
+   "best_impostor_pid": 91
+  },
+  {
+   "pid": 6,
+   "genuine": 0.9453074129038945,
+   "rank": 1,
+   "top1_pid": 6,
+   "top1_sim": 0.9453074129038945,
+   "best_impostor": 0.4580059716375823,
+   "best_impostor_pid": 147
+  },
+  {
+   "pid": 7,
+   "genuine": 0.9609075962340088,
+   "rank": 1,
+   "top1_pid": 7,
+   "top1_sim": 0.9609075962340088,
+   "best_impostor": 0.4466904236898876,
+   "best_impostor_pid": 152
+  },
+  {
+   "pid": 8,
+   "genuine": 0.8920120573420178,
+   "rank": 1,
+   "top1_pid": 8,
+   "top1_sim": 0.8920120573420178,
+   "best_impostor": 0.7953803648324898,
+   "best_impostor_pid": 2
+  },
+  {
+   "pid": 9,
+   "genuine": 0.9071408949552652,
+   "rank": 1,
+   "top1_pid": 9,
+   "top1_sim": 0.9071408949552652,
+   "best_impostor": 0.49137972233683497,
+   "best_impostor_pid": 4
+  },
+  {
+   "pid": 10,
+   "genuine": 0.9883179057377733,
+   "rank": 1,
+   "top1_pid": 10,
+   "top1_sim": 0.9883179057377733,
+   "best_impostor": 0.5122881990232092,
+   "best_impostor_pid": 5
+  },
+  {
+   "pid": 11,
+   "genuine": 0.7954506575766119,
+   "rank": 1,
+   "top1_pid": 11,
+   "top1_sim": 0.7954506575766119,
+   "best_impostor": 0.4314675466759531,
+   "best_impostor_pid": 136
+  },
+  {
+   "pid": 12,
+   "genuine": 0.759513942017052,
+   "rank": 1,
+   "top1_pid": 12,
+   "top1_sim": 0.759513942017052,
+   "best_impostor": 0.41062479548575975,
+   "best_impostor_pid": 73
+  },
+  {
+   "pid": 13,
+   "genuine": 0.9688549113715214,
+   "rank": 1,
+   "top1_pid": 13,
+   "top1_sim": 0.9688549113715214,
+   "best_impostor": 0.7636751567422619,
+   "best_impostor_pid": 129
+  },
+  {
+   "pid": 14,
+   "genuine": 0.9714753271117065,
+   "rank": 1,
+   "top1_pid": 14,
+   "top1_sim": 0.9714753271117065,
+   "best_impostor": 0.4439361995267214,
+   "best_impostor_pid": 13
+  },
+  {
+   "pid": 15,
+   "genuine": 0.9762529151572138,
+   "rank": 1,
+   "top1_pid": 15,
+   "top1_sim": 0.9762529151572138,
+   "best_impostor": 0.6810001548248539,
+   "best_impostor_pid": 118
+  },
+  {
+   "pid": 16,
+   "genuine": 0.9830410690542913,
+   "rank": 1,
+   "top1_pid": 16,
+   "top1_sim": 0.9830410690542913,
+   "best_impostor": 0.4924496341384033,
+   "best_impostor_pid": 46
+  },
+  {
+   "pid": 17,
+   "genuine": 0.914494514970434,
+   "rank": 1,
+   "top1_pid": 17,
+   "top1_sim": 0.914494514970434,
+   "best_impostor": 0.5135481670292759,
+   "best_impostor_pid": 145
+  },
+  {
+   "pid": 18,
+   "genuine": 0.9643714550406141,
+   "rank": 1,
+   "top1_pid": 18,
+   "top1_sim": 0.9643714550406141,
+   "best_impostor": 0.4602804740173119,
+   "best_impostor_pid": 117
+  },
+  {
+   "pid": 19,
+   "genuine": 0.9436310224669442,
+   "rank": 1,
+   "top1_pid": 19,
+   "top1_sim": 0.9436310224669442,
+   "best_impostor": 0.47409109437819763,
+   "best_impostor_pid": 147
+  },
+  {
+   "pid": 20,
+   "genuine": 0.9799029341385693,
+   "rank": 1,
+   "top1_pid": 20,
+   "top1_sim": 0.9799029341385693,
+   "best_impostor": 0.5020504861377255,
+   "best_impostor_pid": 84
+  },
+  {
+   "pid": 21,
+   "genuine": 0.912977560384751,
+   "rank": 1,
+   "top1_pid": 21,
+   "top1_sim": 0.912977560384751,
+   "best_impostor": 0.49955907849122017,
+   "best_impostor_pid": 47
+  },
+  {
+   "pid": 22,
+   "genuine": 0.9640642241341987,
+   "rank": 1,
+   "top1_pid": 22,
+   "top1_sim": 0.9640642241341987,
+   "best_impostor": 0.5436767523227226,
+   "best_impostor_pid": 45
+  },
+  {
+   "pid": 23,
+   "genuine": 0.9264058655218106,
+   "rank": 1,
+   "top1_pid": 23,
+   "top1_sim": 0.9264058655218106,
+   "best_impostor": 0.41882563438572357,
+   "best_impostor_pid": 77
+  },
+  {
+   "pid": 24,
+   "genuine": 0.9729886876017623,
+   "rank": 1,
+   "top1_pid": 24,
+   "top1_sim": 0.9729886876017623,
+   "best_impostor": 0.5322892445784652,
+   "best_impostor_pid": 104
+  },
+  {
+   "pid": 25,
+   "genuine": 0.9626350783056915,
+   "rank": 1,
+   "top1_pid": 25,
+   "top1_sim": 0.9626350783056915,
+   "best_impostor": 0.43665741886316484,
+   "best_impostor_pid": 67
+  },
+  {
+   "pid": 26,
+   "genuine": 0.935373256043744,
+   "rank": 1,
+   "top1_pid": 26,
+   "top1_sim": 0.935373256043744,
+   "best_impostor": 0.4477942822119935,
+   "best_impostor_pid": 93
+  },
+  {
+   "pid": 27,
+   "genuine": 0.8137464872267541,
+   "rank": 1,
+   "top1_pid": 27,
+   "top1_sim": 0.8137464872267541,
+   "best_impostor": 0.407782342183612,
+   "best_impostor_pid": 116
+  },
+  {
+   "pid": 28,
+   "genuine": 0.9231183072521393,
+   "rank": 1,
+   "top1_pid": 28,
+   "top1_sim": 0.9231183072521393,
+   "best_impostor": 0.45768766174181313,
+   "best_impostor_pid": 86
+  },
+  {
+   "pid": 29,
+   "genuine": 0.9850856010371735,
+   "rank": 1,
+   "top1_pid": 29,
+   "top1_sim": 0.9850856010371735,
+   "best_impostor": 0.46681244393487786,
+   "best_impostor_pid": 151
+  },
+  {
+   "pid": 30,
+   "genuine": 0.9819442020197362,
+   "rank": 1,
+   "top1_pid": 30,
+   "top1_sim": 0.9819442020197362,
+   "best_impostor": 0.4629048978099423,
+   "best_impostor_pid": 99
+  },
+  {
+   "pid": 31,
+   "genuine": 0.7651210454558888,
+   "rank": 1,
+   "top1_pid": 31,
+   "top1_sim": 0.7651210454558888,
+   "best_impostor": 0.4076021299108925,
+   "best_impostor_pid": 101
+  },
+  {
+   "pid": 32,
+   "genuine": 0.9709977789572957,
+   "rank": 1,
+   "top1_pid": 32,
+   "top1_sim": 0.9709977789572957,
+   "best_impostor": 0.44214072234284757,
+   "best_impostor_pid": 47
+  },
+  {
+   "pid": 33,
+   "genuine": 0.9779719772796386,
+   "rank": 1,
+   "top1_pid": 33,
+   "top1_sim": 0.9779719772796386,
+   "best_impostor": 0.7653454950357418,
+   "best_impostor_pid": 114
+  },
+  {
+   "pid": 34,
+   "genuine": 0.9415921983409135,
+   "rank": 1,
+   "top1_pid": 34,
+   "top1_sim": 0.9415921983409135,
+   "best_impostor": 0.46881410659670236,
+   "best_impostor_pid": 138
+  },
+  {
+   "pid": 35,
+   "genuine": 0.9824618766682888,
+   "rank": 1,
+   "top1_pid": 35,
+   "top1_sim": 0.9824618766682888,
+   "best_impostor": 0.5442533317947659,
+   "best_impostor_pid": 141
+  },
+  {
+   "pid": 36,
+   "genuine": 0.9831965725898205,
+   "rank": 1,
+   "top1_pid": 36,
+   "top1_sim": 0.9831965725898205,
+   "best_impostor": 0.4928828982640459,
+   "best_impostor_pid": 133
+  },
+  {
+   "pid": 37,
+   "genuine": 0.9727239497527703,
+   "rank": 1,
+   "top1_pid": 37,
+   "top1_sim": 0.9727239497527703,
+   "best_impostor": 0.47227117163809795,
+   "best_impostor_pid": 36
+  },
+  {
+   "pid": 38,
+   "genuine": 0.9104242979561636,
+   "rank": 1,
+   "top1_pid": 38,
+   "top1_sim": 0.9104242979561636,
+   "best_impostor": 0.4782324743781196,
+   "best_impostor_pid": 4
+  },
+  {
+   "pid": 39,
+   "genuine": 0.9676277651603482,
+   "rank": 1,
+   "top1_pid": 39,
+   "top1_sim": 0.9676277651603482,
+   "best_impostor": 0.48746992111307663,
+   "best_impostor_pid": 74
+  },
+  {
+   "pid": 40,
+   "genuine": 0.8916117396441301,
+   "rank": 1,
+   "top1_pid": 40,
+   "top1_sim": 0.8916117396441301,
+   "best_impostor": 0.45758221106252367,
+   "best_impostor_pid": 0
+  },
+  {
+   "pid": 41,
+   "genuine": 0.9609912960860187,
+   "rank": 1,
+   "top1_pid": 41,
+   "top1_sim": 0.9609912960860187,
+   "best_impostor": 0.5123882125880882,
+   "best_impostor_pid": 35
+  },
+  {
+   "pid": 42,
+   "genuine": 0.981187917823394,
+   "rank": 1,
+   "top1_pid": 42,
+   "top1_sim": 0.981187917823394,
+   "best_impostor": 0.5387217185632179,
+   "best_impostor_pid": 150
+  },
+  {
+   "pid": 43,
+   "genuine": 0.9764215049348803,
+   "rank": 1,
+   "top1_pid": 43,
+   "top1_sim": 0.9764215049348803,
+   "best_impostor": 0.44823860484110173,
+   "best_impostor_pid": 110
+  },
+  {
+   "pid": 44,
+   "genuine": 0.9149088975097837,
+   "rank": 1,
+   "top1_pid": 44,
+   "top1_sim": 0.9149088975097837,
+   "best_impostor": 0.47605189614592897,
+   "best_impostor_pid": 4
+  },
+  {
+   "pid": 45,
+   "genuine": 0.9711091523110544,
+   "rank": 1,
+   "top1_pid": 45,
+   "top1_sim": 0.9711091523110544,
+   "best_impostor": 0.5552214149774218,
+   "best_impostor_pid": 118
+  },
+  {
+   "pid": 46,
+   "genuine": 0.9871693769146426,
+   "rank": 1,
+   "top1_pid": 46,
+   "top1_sim": 0.9871693769146426,
+   "best_impostor": 0.49298112177449216,
+   "best_impostor_pid": 16
+  },
+  {
+   "pid": 47,
+   "genuine": 0.9618850514067158,
+   "rank": 1,
+   "top1_pid": 47,
+   "top1_sim": 0.9618850514067158,
+   "best_impostor": 0.5307356038350557,
+   "best_impostor_pid": 155
+  },
+  {
+   "pid": 48,
+   "genuine": 0.9835769142733034,
+   "rank": 1,
+   "top1_pid": 48,
+   "top1_sim": 0.9835769142733034,
+   "best_impostor": 0.4327614483479084,
+   "best_impostor_pid": 29
+  },
+  {
+   "pid": 49,
+   "genuine": 0.9690547247728932,
+   "rank": 1,
+   "top1_pid": 49,
+   "top1_sim": 0.9690547247728932,
+   "best_impostor": 0.47018930172657397,
+   "best_impostor_pid": 91
+  },
+  {
+   "pid": 50,
+   "genuine": 0.9252603552851975,
+   "rank": 1,
+   "top1_pid": 50,
+   "top1_sim": 0.9252603552851975,
+   "best_impostor": 0.47756981401544096,
+   "best_impostor_pid": 138
+  },
+  {
+   "pid": 51,
+   "genuine": 0.8363771188718344,
+   "rank": 1,
+   "top1_pid": 51,
+   "top1_sim": 0.8363771188718344,
+   "best_impostor": 0.5012159994391913,
+   "best_impostor_pid": 4
+  },
+  {
+   "pid": 52,
+   "genuine": 0.8693419949578642,
+   "rank": 1,
+   "top1_pid": 52,
+   "top1_sim": 0.8693419949578642,
+   "best_impostor": 0.7569548828355438,
+   "best_impostor_pid": 77
+  },
+  {
+   "pid": 53,
+   "genuine": 0.9658771273030332,
+   "rank": 1,
+   "top1_pid": 53,
+   "top1_sim": 0.9658771273030332,
+   "best_impostor": 0.5604710432197509,
+   "best_impostor_pid": 108
+  },
+  {
+   "pid": 54,
+   "genuine": 0.977144303800206,
+   "rank": 1,
+   "top1_pid": 54,
+   "top1_sim": 0.977144303800206,
+   "best_impostor": 0.5168821156804784,
+   "best_impostor_pid": 135
+  },
+  {
+   "pid": 55,
+   "genuine": 0.9750177764850981,
+   "rank": 1,
+   "top1_pid": 55,
+   "top1_sim": 0.9750177764850981,
+   "best_impostor": 0.5294072571197019,
+   "best_impostor_pid": 141
+  },
+  {
+   "pid": 56,
+   "genuine": 0.9779789859590826,
+   "rank": 1,
+   "top1_pid": 56,
+   "top1_sim": 0.9779789859590826,
+   "best_impostor": 0.907218035179976,
+   "best_impostor_pid": 125
+  },
+  {
+   "pid": 57,
+   "genuine": 0.9731868515505734,
+   "rank": 1,
+   "top1_pid": 57,
+   "top1_sim": 0.9731868515505734,
+   "best_impostor": 0.5964467059970496,
+   "best_impostor_pid": 124
+  },
+  {
+   "pid": 58,
+   "genuine": 0.9550103132108573,
+   "rank": 1,
+   "top1_pid": 58,
+   "top1_sim": 0.9550103132108573,
+   "best_impostor": 0.5029052851478629,
+   "best_impostor_pid": 126
+  },
+  {
+   "pid": 59,
+   "genuine": 0.877490201434903,
+   "rank": 1,
+   "top1_pid": 59,
+   "top1_sim": 0.877490201434903,
+   "best_impostor": 0.7575097289871363,
+   "best_impostor_pid": 77
+  },
+  {
+   "pid": 60,
+   "genuine": 0.9715579359300769,
+   "rank": 1,
+   "top1_pid": 60,
+   "top1_sim": 0.9715579359300769,
+   "best_impostor": 0.44359445394467373,
+   "best_impostor_pid": 71
+  },
+  {
+   "pid": 61,
+   "genuine": 0.9768469274685487,
+   "rank": 1,
+   "top1_pid": 61,
+   "top1_sim": 0.9768469274685487,
+   "best_impostor": 0.44228305399812706,
+   "best_impostor_pid": 131
+  },
+  {
+   "pid": 62,
+   "genuine": 0.9803723320378702,
+   "rank": 1,
+   "top1_pid": 62,
+   "top1_sim": 0.9803723320378702,
+   "best_impostor": 0.541336991186211,
+   "best_impostor_pid": 45
+  },
+  {
+   "pid": 63,
+   "genuine": 0.9794471031763353,
+   "rank": 1,
+   "top1_pid": 63,
+   "top1_sim": 0.9794471031763353,
+   "best_impostor": 0.4573240520278594,
+   "best_impostor_pid": 70
+  },
+  {
+   "pid": 64,
+   "genuine": 0.8849249216314009,
+   "rank": 1,
+   "top1_pid": 64,
+   "top1_sim": 0.8849249216314009,
+   "best_impostor": 0.6026342059112707,
+   "best_impostor_pid": 8
+  },
+  {
+   "pid": 65,
+   "genuine": 0.9423589438168036,
+   "rank": 1,
+   "top1_pid": 65,
+   "top1_sim": 0.9423589438168036,
+   "best_impostor": 0.42876867587111794,
+   "best_impostor_pid": 109
+  },
+  {
+   "pid": 66,
+   "genuine": 0.9786433023093312,
+   "rank": 1,
+   "top1_pid": 66,
+   "top1_sim": 0.9786433023093312,
+   "best_impostor": 0.5743932645042026,
+   "best_impostor_pid": 154
+  },
+  {
+   "pid": 67,
+   "genuine": 0.9526243947766957,
+   "rank": 1,
+   "top1_pid": 67,
+   "top1_sim": 0.9526243947766957,
+   "best_impostor": 0.48360380064208613,
+   "best_impostor_pid": 45
+  },
+  {
+   "pid": 68,
+   "genuine": 0.9813200677663447,
+   "rank": 1,
+   "top1_pid": 68,
+   "top1_sim": 0.9813200677663447,
+   "best_impostor": 0.45135338483067095,
+   "best_impostor_pid": 18
+  },
+  {
+   "pid": 69,
+   "genuine": 0.9734470668322843,
+   "rank": 1,
+   "top1_pid": 69,
+   "top1_sim": 0.9734470668322843,
+   "best_impostor": 0.816650935180495,
+   "best_impostor_pid": 72
+  },
+  {
+   "pid": 70,
+   "genuine": 0.9823571366835837,
+   "rank": 1,
+   "top1_pid": 70,
+   "top1_sim": 0.9823571366835837,
+   "best_impostor": 0.47256569478146343,
+   "best_impostor_pid": 85
+  },
+  {
+   "pid": 71,
+   "genuine": 0.9333967888228566,
+   "rank": 1,
+   "top1_pid": 71,
+   "top1_sim": 0.9333967888228566,
+   "best_impostor": 0.46576862025136356,
+   "best_impostor_pid": 47
+  },
+  {
+   "pid": 72,
+   "genuine": 0.9643584122275013,
+   "rank": 1,
+   "top1_pid": 72,
+   "top1_sim": 0.9643584122275013,
+   "best_impostor": 0.8229389169687497,
+   "best_impostor_pid": 69
+  },
+  {
+   "pid": 73,
+   "genuine": 0.9357993135590952,
+   "rank": 1,
+   "top1_pid": 73,
+   "top1_sim": 0.9357993135590952,
+   "best_impostor": 0.5477937885167447,
+   "best_impostor_pid": 0
+  },
+  {
+   "pid": 74,
+   "genuine": 0.949405957846934,
+   "rank": 1,
+   "top1_pid": 74,
+   "top1_sim": 0.949405957846934,
+   "best_impostor": 0.48717461020243796,
+   "best_impostor_pid": 139
+  },
+  {
+   "pid": 75,
+   "genuine": 0.9437983523913451,
+   "rank": 1,
+   "top1_pid": 75,
+   "top1_sim": 0.9437983523913451,
+   "best_impostor": 0.43425108839922555,
+   "best_impostor_pid": 47
+  },
+  {
+   "pid": 76,
+   "genuine": 0.9526199932859912,
+   "rank": 1,
+   "top1_pid": 76,
+   "top1_sim": 0.9526199932859912,
+   "best_impostor": 0.47928893578612713,
+   "best_impostor_pid": 116
+  },
+  {
+   "pid": 77,
+   "genuine": 0.9631065935002974,
+   "rank": 1,
+   "top1_pid": 77,
+   "top1_sim": 0.9631065935002974,
+   "best_impostor": 0.8463919619146016,
+   "best_impostor_pid": 59
+  },
+  {
+   "pid": 78,
+   "genuine": 0.9287399998861254,
+   "rank": 1,
+   "top1_pid": 78,
+   "top1_sim": 0.9287399998861254,
+   "best_impostor": 0.8361779591599448,
+   "best_impostor_pid": 107
+  },
+  {
+   "pid": 79,
+   "genuine": 0.9798840625475925,
+   "rank": 1,
+   "top1_pid": 79,
+   "top1_sim": 0.9798840625475925,
+   "best_impostor": 0.5719503099334508,
+   "best_impostor_pid": 141
+  },
+  {
+   "pid": 80,
+   "genuine": 0.9801050253485779,
+   "rank": 1,
+   "top1_pid": 80,
+   "top1_sim": 0.9801050253485779,
+   "best_impostor": 0.4288730701508492,
+   "best_impostor_pid": 152
+  },
+  {
+   "pid": 81,
+   "genuine": 0.9243597318321916,
+   "rank": 1,
+   "top1_pid": 81,
+   "top1_sim": 0.9243597318321916,
+   "best_impostor": 0.4427425412938723,
+   "best_impostor_pid": 51
+  },
+  {
+   "pid": 82,
+   "genuine": 0.9641409256905952,
+   "rank": 1,
+   "top1_pid": 82,
+   "top1_sim": 0.9641409256905952,
+   "best_impostor": 0.5024174813861132,
+   "best_impostor_pid": 150
+  },
+  {
+   "pid": 83,
+   "genuine": 0.9492181015524491,
+   "rank": 1,
+   "top1_pid": 83,
+   "top1_sim": 0.9492181015524491,
+   "best_impostor": 0.422631737843437,
+   "best_impostor_pid": 56
+  },
+  {
+   "pid": 84,
+   "genuine": 0.9386726010765967,
+   "rank": 1,
+   "top1_pid": 84,
+   "top1_sim": 0.9386726010765967,
+   "best_impostor": 0.5351844153099824,
+   "best_impostor_pid": 148
+  },
+  {
+   "pid": 85,
+   "genuine": 0.9751155743360108,
+   "rank": 1,
+   "top1_pid": 85,
+   "top1_sim": 0.9751155743360108,
+   "best_impostor": 0.4894994956063158,
+   "best_impostor_pid": 70
+  },
+  {
+   "pid": 86,
+   "genuine": 0.9288180615383375,
+   "rank": 1,
+   "top1_pid": 86,
+   "top1_sim": 0.9288180615383375,
+   "best_impostor": 0.7725058816748513,
+   "best_impostor_pid": 141
+  },
+  {
+   "pid": 87,
+   "genuine": 0.9507426621028215,
+   "rank": 1,
+   "top1_pid": 87,
+   "top1_sim": 0.9507426621028215,
+   "best_impostor": 0.4947176361210973,
+   "best_impostor_pid": 147
+  },
+  {
+   "pid": 88,
+   "genuine": 0.97979896178737,
+   "rank": 1,
+   "top1_pid": 88,
+   "top1_sim": 0.97979896178737,
+   "best_impostor": 0.5396456470265688,
+   "best_impostor_pid": 79
+  },
+  {
+   "pid": 89,
+   "genuine": 0.9549338362832572,
+   "rank": 1,
+   "top1_pid": 89,
+   "top1_sim": 0.9549338362832572,
+   "best_impostor": 0.44589660889598376,
+   "best_impostor_pid": 0
+  },
+  {
+   "pid": 90,
+   "genuine": 0.9978795756657395,
+   "rank": 1,
+   "top1_pid": 90,
+   "top1_sim": 0.9978795756657395,
+   "best_impostor": 0.5179267867858055,
+   "best_impostor_pid": 10
+  },
+  {
+   "pid": 91,
+   "genuine": 0.9389191112963627,
+   "rank": 1,
+   "top1_pid": 91,
+   "top1_sim": 0.9389191112963627,
+   "best_impostor": 0.51849317271067,
+   "best_impostor_pid": 5
+  },
+  {
+   "pid": 92,
+   "genuine": 0.9811757063699732,
+   "rank": 1,
+   "top1_pid": 92,
+   "top1_sim": 0.9811757063699732,
+   "best_impostor": 0.43049581492230243,
+   "best_impostor_pid": 36
+  },
+  {
+   "pid": 93,
+   "genuine": 0.917052251590957,
+   "rank": 1,
+   "top1_pid": 93,
+   "top1_sim": 0.917052251590957,
+   "best_impostor": 0.5235247169466692,
+   "best_impostor_pid": 86
+  },
+  {
+   "pid": 94,
+   "genuine": 0.9680062825730734,
+   "rank": 1,
+   "top1_pid": 94,
+   "top1_sim": 0.9680062825730734,
+   "best_impostor": 0.5258498685031513,
+   "best_impostor_pid": 139
+  },
+  {
+   "pid": 95,
+   "genuine": 0.8663611887976267,
+   "rank": 1,
+   "top1_pid": 95,
+   "top1_sim": 0.8663611887976267,
+   "best_impostor": 0.44066989956845926,
+   "best_impostor_pid": 64
+  },
+  {
+   "pid": 96,
+   "genuine": 0.9797544363677225,
+   "rank": 1,
+   "top1_pid": 96,
+   "top1_sim": 0.9797544363677225,
+   "best_impostor": 0.5226199112313402,
+   "best_impostor_pid": 79
+  },
+  {
+   "pid": 97,
+   "genuine": 0.9716817828881116,
+   "rank": 1,
+   "top1_pid": 97,
+   "top1_sim": 0.9716817828881116,
+   "best_impostor": 0.5012845129781917,
+   "best_impostor_pid": 13
+  },
+  {
+   "pid": 99,
+   "genuine": 0.9513009195822703,
+   "rank": 1,
+   "top1_pid": 99,
+   "top1_sim": 0.9513009195822703,
+   "best_impostor": 0.4508359720861569,
+   "best_impostor_pid": 30
+  },
+  {
+   "pid": 100,
+   "genuine": 0.9741316112272899,
+   "rank": 1,
+   "top1_pid": 100,
+   "top1_sim": 0.9741316112272899,
+   "best_impostor": 0.45303063354950013,
+   "best_impostor_pid": 3
+  },
+  {
+   "pid": 101,
+   "genuine": 0.9513028505779163,
+   "rank": 1,
+   "top1_pid": 101,
+   "top1_sim": 0.9513028505779163,
+   "best_impostor": 0.4141777837482414,
+   "best_impostor_pid": 136
+  },
+  {
+   "pid": 102,
+   "genuine": 0.981606114742357,
+   "rank": 1,
+   "top1_pid": 102,
+   "top1_sim": 0.981606114742357,
+   "best_impostor": 0.45676023483746037,
+   "best_impostor_pid": 56
+  },
+  {
+   "pid": 103,
+   "genuine": 0.8638440732499548,
+   "rank": 1,
+   "top1_pid": 103,
+   "top1_sim": 0.8638440732499548,
+   "best_impostor": 0.43622524004965907,
+   "best_impostor_pid": 8
+  },
+  {
+   "pid": 104,
+   "genuine": 0.887639197635601,
+   "rank": 1,
+   "top1_pid": 104,
+   "top1_sim": 0.887639197635601,
+   "best_impostor": 0.5004136517706219,
+   "best_impostor_pid": 24
+  },
+  {
+   "pid": 105,
+   "genuine": 0.9846340261476914,
+   "rank": 1,
+   "top1_pid": 105,
+   "top1_sim": 0.9846340261476914,
+   "best_impostor": 0.4798117998729856,
+   "best_impostor_pid": 46
+  },
+  {
+   "pid": 106,
+   "genuine": 0.9600325046554118,
+   "rank": 1,
+   "top1_pid": 106,
+   "top1_sim": 0.9600325046554118,
+   "best_impostor": 0.49398656609949304,
+   "best_impostor_pid": 66
+  },
+  {
+   "pid": 107,
+   "genuine": 0.9126618514693644,
+   "rank": 1,
+   "top1_pid": 107,
+   "top1_sim": 0.9126618514693644,
+   "best_impostor": 0.804178478593173,
+   "best_impostor_pid": 33
+  },
+  {
+   "pid": 108,
+   "genuine": 0.9843761412905081,
+   "rank": 1,
+   "top1_pid": 108,
+   "top1_sim": 0.9843761412905081,
+   "best_impostor": 0.5843551841463888,
+   "best_impostor_pid": 53
+  },
+  {
+   "pid": 109,
+   "genuine": 0.9228310068673363,
+   "rank": 1,
+   "top1_pid": 109,
+   "top1_sim": 0.9228310068673363,
+   "best_impostor": 0.5284860584816351,
+   "best_impostor_pid": 86
+  },
+  {
+   "pid": 110,
+   "genuine": 0.9710408700914669,
+   "rank": 1,
+   "top1_pid": 110,
+   "top1_sim": 0.9710408700914669,
+   "best_impostor": 0.49438471117377913,
+   "best_impostor_pid": 13
+  },
+  {
+   "pid": 111,
+   "genuine": 0.9681304338052916,
+   "rank": 1,
+   "top1_pid": 111,
+   "top1_sim": 0.9681304338052916,
+   "best_impostor": 0.498420874715394,
+   "best_impostor_pid": 69
+  },
+  {
+   "pid": 112,
+   "genuine": 0.9801967134551818,
+   "rank": 1,
+   "top1_pid": 112,
+   "top1_sim": 0.9801967134551818,
+   "best_impostor": 0.5521625339978247,
+   "best_impostor_pid": 141
+  },
+  {
+   "pid": 113,
+   "genuine": 0.9584597812391772,
+   "rank": 1,
+   "top1_pid": 113,
+   "top1_sim": 0.9584597812391772,
+   "best_impostor": 0.4677763929818248,
+   "best_impostor_pid": 82
+  },
+  {
+   "pid": 114,
+   "genuine": 0.9672850283460948,
+   "rank": 1,
+   "top1_pid": 114,
+   "top1_sim": 0.9672850283460948,
+   "best_impostor": 0.8441755877195947,
+   "best_impostor_pid": 78
+  },
+  {
+   "pid": 115,
+   "genuine": 0.9472597355928956,
+   "rank": 1,
+   "top1_pid": 115,
+   "top1_sim": 0.9472597355928956,
+   "best_impostor": 0.49922583898138606,
+   "best_impostor_pid": 12
+  },
+  {
+   "pid": 116,
+   "genuine": 0.9749597182906475,
+   "rank": 1,
+   "top1_pid": 116,
+   "top1_sim": 0.9749597182906475,
+   "best_impostor": 0.516552278768203,
+   "best_impostor_pid": 76
+  },
+  {
+   "pid": 117,
+   "genuine": 0.9749350375640105,
+   "rank": 1,
+   "top1_pid": 117,
+   "top1_sim": 0.9749350375640105,
+   "best_impostor": 0.4623605254077284,
+   "best_impostor_pid": 47
+  },
+  {
+   "pid": 118,
+   "genuine": 0.9777485720533595,
+   "rank": 1,
+   "top1_pid": 118,
+   "top1_sim": 0.9777485720533595,
+   "best_impostor": 0.6772253129089997,
+   "best_impostor_pid": 15
+  },
+  {
+   "pid": 119,
+   "genuine": 0.9382526230178001,
+   "rank": 1,
+   "top1_pid": 119,
+   "top1_sim": 0.9382526230178001,
+   "best_impostor": 0.466316412029302,
+   "best_impostor_pid": 86
+  },
+  {
+   "pid": 120,
+   "genuine": 0.9710405462567478,
+   "rank": 1,
+   "top1_pid": 120,
+   "top1_sim": 0.9710405462567478,
+   "best_impostor": 0.4776095268169555,
+   "best_impostor_pid": 36
+  },
+  {
+   "pid": 121,
+   "genuine": 0.9814237248466541,
+   "rank": 1,
+   "top1_pid": 121,
+   "top1_sim": 0.9814237248466541,
+   "best_impostor": 0.47457863782547766,
+   "best_impostor_pid": 37
+  },
+  {
+   "pid": 122,
+   "genuine": 0.9648282123033184,
+   "rank": 1,
+   "top1_pid": 122,
+   "top1_sim": 0.9648282123033184,
+   "best_impostor": 0.49928078786813374,
+   "best_impostor_pid": 93
+  },
+  {
+   "pid": 124,
+   "genuine": 0.9843729651515338,
+   "rank": 1,
+   "top1_pid": 124,
+   "top1_sim": 0.9843729651515338,
+   "best_impostor": 0.6076325915506784,
+   "best_impostor_pid": 57
+  },
+  {
+   "pid": 125,
+   "genuine": 0.943833786865069,
+   "rank": 1,
+   "top1_pid": 125,
+   "top1_sim": 0.943833786865069,
+   "best_impostor": 0.8404727808094877,
+   "best_impostor_pid": 56
+  },
+  {
+   "pid": 126,
+   "genuine": 0.9929098153412327,
+   "rank": 1,
+   "top1_pid": 126,
+   "top1_sim": 0.9929098153412327,
+   "best_impostor": 0.544066435830251,
+   "best_impostor_pid": 33
+  },
+  {
+   "pid": 127,
+   "genuine": 0.9826968010505727,
+   "rank": 1,
+   "top1_pid": 127,
+   "top1_sim": 0.9826968010505727,
+   "best_impostor": 0.45424899611250275,
+   "best_impostor_pid": 41
+  },
+  {
+   "pid": 128,
+   "genuine": 0.9627184576242275,
+   "rank": 1,
+   "top1_pid": 128,
+   "top1_sim": 0.9627184576242275,
+   "best_impostor": 0.4479294447677273,
+   "best_impostor_pid": 11
+  },
+  {
+   "pid": 129,
+   "genuine": 0.9044743502222741,
+   "rank": 1,
+   "top1_pid": 129,
+   "top1_sim": 0.9044743502222741,
+   "best_impostor": 0.7599426256452341,
+   "best_impostor_pid": 13
+  },
+  {
+   "pid": 130,
+   "genuine": 0.7197315928059245,
+   "rank": 1,
+   "top1_pid": 130,
+   "top1_sim": 0.7197315928059245,
+   "best_impostor": 0.44648888527444613,
+   "best_impostor_pid": 76
+  },
+  {
+   "pid": 131,
+   "genuine": 0.9855741510580626,
+   "rank": 1,
+   "top1_pid": 131,
+   "top1_sim": 0.9855741510580626,
+   "best_impostor": 0.4582995901699904,
+   "best_impostor_pid": 151
+  },
+  {
+   "pid": 132,
+   "genuine": 0.9600913962593852,
+   "rank": 1,
+   "top1_pid": 132,
+   "top1_sim": 0.9600913962593852,
+   "best_impostor": 0.5400026832361455,
+   "best_impostor_pid": 142
+  },
+  {
+   "pid": 133,
+   "genuine": 0.9853260141220248,
+   "rank": 1,
+   "top1_pid": 133,
+   "top1_sim": 0.9853260141220248,
+   "best_impostor": 0.4827121668588068,
+   "best_impostor_pid": 36
+  },
+  {
+   "pid": 134,
+   "genuine": 0.9817425948779681,
+   "rank": 1,
+   "top1_pid": 134,
+   "top1_sim": 0.9817425948779681,
+   "best_impostor": 0.5081245647464568,
+   "best_impostor_pid": 150
+  },
+  {
+   "pid": 135,
+   "genuine": 0.9798489046588896,
+   "rank": 1,
+   "top1_pid": 135,
+   "top1_sim": 0.9798489046588896,
+   "best_impostor": 0.581148425524606,
+   "best_impostor_pid": 79
+  },
+  {
+   "pid": 136,
+   "genuine": 0.9631915820303764,
+   "rank": 1,
+   "top1_pid": 136,
+   "top1_sim": 0.9631915820303764,
+   "best_impostor": 0.8684739562623311,
+   "best_impostor_pid": 2
+  },
+  {
+   "pid": 137,
+   "genuine": 0.8566014977694681,
+   "rank": 1,
+   "top1_pid": 137,
+   "top1_sim": 0.8566014977694681,
+   "best_impostor": 0.48658390581737243,
+   "best_impostor_pid": 50
+  },
+  {
+   "pid": 138,
+   "genuine": 0.9220088213181848,
+   "rank": 1,
+   "top1_pid": 138,
+   "top1_sim": 0.9220088213181848,
+   "best_impostor": 0.5419332464851466,
+   "best_impostor_pid": 147
+  },
+  {
+   "pid": 139,
+   "genuine": 0.9400735134992688,
+   "rank": 1,
+   "top1_pid": 139,
+   "top1_sim": 0.9400735134992688,
+   "best_impostor": 0.5193923620545572,
+   "best_impostor_pid": 94
+  },
+  {
+   "pid": 140,
+   "genuine": 0.9584546127313701,
+   "rank": 1,
+   "top1_pid": 140,
+   "top1_sim": 0.9584546127313701,
+   "best_impostor": 0.4336698995672579,
+   "best_impostor_pid": 114
+  },
+  {
+   "pid": 141,
+   "genuine": 0.9741674342792627,
+   "rank": 1,
+   "top1_pid": 141,
+   "top1_sim": 0.9741674342792627,
+   "best_impostor": 0.7964320307629729,
+   "best_impostor_pid": 86
+  },
+  {
+   "pid": 142,
+   "genuine": 0.9651613051970557,
+   "rank": 1,
+   "top1_pid": 142,
+   "top1_sim": 0.9651613051970557,
+   "best_impostor": 0.5364153636120371,
+   "best_impostor_pid": 132
+  },
+  {
+   "pid": 143,
+   "genuine": 0.9239007975032518,
+   "rank": 1,
+   "top1_pid": 143,
+   "top1_sim": 0.9239007975032518,
+   "best_impostor": 0.47234569961407485,
+   "best_impostor_pid": 4
+  },
+  {
+   "pid": 144,
+   "genuine": 0.9621996090297522,
+   "rank": 1,
+   "top1_pid": 144,
+   "top1_sim": 0.9621996090297522,
+   "best_impostor": 0.44074552133466427,
+   "best_impostor_pid": 132
+  },
+  {
+   "pid": 145,
+   "genuine": 0.9566685671590118,
+   "rank": 1,
+   "top1_pid": 145,
+   "top1_sim": 0.9566685671590118,
+   "best_impostor": 0.48266570364891365,
+   "best_impostor_pid": 17
+  },
+  {
+   "pid": 146,
+   "genuine": 0.9770071925688689,
+   "rank": 1,
+   "top1_pid": 146,
+   "top1_sim": 0.9770071925688689,
+   "best_impostor": 0.5369672443637046,
+   "best_impostor_pid": 141
+  },
+  {
+   "pid": 147,
+   "genuine": 0.9236917258451153,
+   "rank": 1,
+   "top1_pid": 147,
+   "top1_sim": 0.9236917258451153,
+   "best_impostor": 0.565675543518756,
+   "best_impostor_pid": 86
+  },
+  {
+   "pid": 148,
+   "genuine": 0.9813389863472377,
+   "rank": 1,
+   "top1_pid": 148,
+   "top1_sim": 0.9813389863472377,
+   "best_impostor": 0.5355765741102516,
+   "best_impostor_pid": 84
+  },
+  {
+   "pid": 149,
+   "genuine": 0.983393507791006,
+   "rank": 1,
+   "top1_pid": 149,
+   "top1_sim": 0.983393507791006,
+   "best_impostor": 0.43306704808519164,
+   "best_impostor_pid": 37
+  },
+  {
+   "pid": 150,
+   "genuine": 0.9592449355792362,
+   "rank": 1,
+   "top1_pid": 150,
+   "top1_sim": 0.9592449355792362,
+   "best_impostor": 0.476122600281909,
+   "best_impostor_pid": 42
+  },
+  {
+   "pid": 151,
+   "genuine": 0.9826576700867261,
+   "rank": 1,
+   "top1_pid": 151,
+   "top1_sim": 0.9826576700867261,
+   "best_impostor": 0.4925474388147666,
+   "best_impostor_pid": 16
+  },
+  {
+   "pid": 152,
+   "genuine": 0.9801087997814627,
+   "rank": 1,
+   "top1_pid": 152,
+   "top1_sim": 0.9801087997814627,
+   "best_impostor": 0.44749220265831663,
+   "best_impostor_pid": 80
+  },
+  {
+   "pid": 153,
+   "genuine": 0.9660692686464494,
+   "rank": 1,
+   "top1_pid": 153,
+   "top1_sim": 0.9660692686464494,
+   "best_impostor": 0.3932294458324012,
+   "best_impostor_pid": 5
+  },
+  {
+   "pid": 154,
+   "genuine": 0.9725190206360126,
+   "rank": 1,
+   "top1_pid": 154,
+   "top1_sim": 0.9725190206360126,
+   "best_impostor": 0.5241881825845176,
+   "best_impostor_pid": 66
+  },
+  {
+   "pid": 155,
+   "genuine": 0.9161914043349122,
+   "rank": 1,
+   "top1_pid": 155,
+   "top1_sim": 0.9161914043349122,
+   "best_impostor": 0.5269446277050923,
+   "best_impostor_pid": 47
+  }
+ ]
+}

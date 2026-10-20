@@ -1,9 +1,4 @@
-# Paper (published on ChinaXiv)
-ChinaXiv202608.00158v1_Proof-Valid-Caching(1).pdf
-
-# OS junk
 .DS_Store
-
-# Python
 __pycache__/
 *.pyc
+node_modules/

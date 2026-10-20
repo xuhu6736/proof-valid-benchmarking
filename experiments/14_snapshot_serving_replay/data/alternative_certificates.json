@@ -1,0 +1,132 @@
+{
+ "n_hits": 147,
+ "n_correct": 118,
+ "policies": {
+  "claims-only": {
+   "served": 104,
+   "decayed_served": 0,
+   "drifted_served": 0,
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ],
+   "correct_declined": 25,
+   "correct_decline_rate": 21.2,
+   "correct_decline_ci": [
+    14.2,
+    29.7
+   ],
+   "served_wrong_pids": []
+  },
+  "sentences-only": {
+   "served": 122,
+   "decayed_served": 5,
+   "drifted_served": 3,
+   "wrong_served": 8,
+   "wrong_serve_rate": 5.4,
+   "wrong_serve_ci": [
+    2.4,
+    10.4
+   ],
+   "correct_declined": 17,
+   "correct_decline_rate": 14.4,
+   "correct_decline_ci": [
+    8.6,
+    22.1
+   ],
+   "served_wrong_pids": [
+    8,
+    24,
+    48,
+    50,
+    52,
+    95,
+    112,
+    125
+   ]
+  },
+  "strict-AND": {
+   "served": 89,
+   "decayed_served": 0,
+   "drifted_served": 0,
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ],
+   "correct_declined": 38,
+   "correct_decline_rate": 32.2,
+   "correct_decline_ci": [
+    23.9,
+    41.4
+   ],
+   "served_wrong_pids": []
+  },
+  "family-OR": {
+   "served": 137,
+   "decayed_served": 5,
+   "drifted_served": 3,
+   "wrong_served": 8,
+   "wrong_serve_rate": 5.4,
+   "wrong_serve_ci": [
+    2.4,
+    10.4
+   ],
+   "correct_declined": 4,
+   "correct_decline_rate": 3.4,
+   "correct_decline_ci": [
+    0.9,
+    8.5
+   ],
+   "served_wrong_pids": [
+    8,
+    24,
+    48,
+    50,
+    52,
+    95,
+    112,
+    125
+   ]
+  },
+  "majority": {
+   "served": 96,
+   "decayed_served": 0,
+   "drifted_served": 0,
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ],
+   "correct_declined": 33,
+   "correct_decline_rate": 28.0,
+   "correct_decline_ci": [
+    20.1,
+    37.0
+   ],
+   "served_wrong_pids": []
+  },
+  "asserted": {
+   "served": 111,
+   "decayed_served": 0,
+   "drifted_served": 0,
+   "wrong_served": 0,
+   "wrong_serve_rate": 0.0,
+   "wrong_serve_ci": [
+    0.0,
+    2.5
+   ],
+   "correct_declined": 18,
+   "correct_decline_rate": 15.3,
+   "correct_decline_ci": [
+    9.3,
+    23.0
+   ],
+   "served_wrong_pids": []
+  }
+ }
+}

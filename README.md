@@ -16,15 +16,18 @@ measured on an Apple M3 Pro as a separate memory-resident context-record
 microbenchmark (see
 `experiments/08_instrumented_pipeline/remeasure_timing_m3pro.json`).
 
-**Reproducibility boundary (snapshot change-detection audit).** The locally
-derived per-page JSON inputs of the original 2026 snapshot run are no longer
-retained in the authors' local environment. The configuration-level counts,
-paired comparison summaries (`constructor_results_v4.json`), and the retained
-per-entity outputs (`constructor_results.json`, 1,511-entity panel) are
-archived here, and the paper's matched selector×matcher comparison
-(`constructor_ablation_2x2.json`) is a re-aggregation of those retained
-outputs; end-to-end re-execution of the snapshot extraction pipeline requires
-recovering the corresponding historical snapshot inputs and panel mappings.
+**Reproducibility of the snapshot audits.** The 2026 snapshot inputs
+have been rebuilt end to end: all five English Wikipedia page snapshots,
+four Wikidata entity views, the title↔QID panel mappings, and the
+WikiFactDiff legacy split were re-fetched from public Wikimedia mirrors
+and re-derived with the archived extraction code. Every paper-cited
+count from the original run reproduces **exactly** from the rebuilt
+inputs (sentence- and claim-level change rates, the 1,511-entity
+constructor table, and the detection operating points including the
+paired discordant counts). The rebuilt inputs and the reconciliation
+report live in `experiments/12_real_dynamics_audit/data/rebuilt_2026/`
+(see `RECONCILIATION.md` in the same folder tree), so the snapshot
+pipeline is now re-executable end to end.
 
 ## Repository layout
 
@@ -52,9 +55,19 @@ experiments/
                                (SemBenchmark SearchQueries + LmArena)
   12_real_dynamics_audit/      Fig. 8, Table 4 — 2026 Wikipedia/Wikidata
                                real-dynamics audit; Fig. 12, Tables 8–9 —
-                               snapshot change-detection audit and constructor frontier
+                               snapshot change-detection audit and constructor frontier;
+                               data/rebuilt_2026/ — rebuilt snapshot inputs
+                               (pages ×5, entities ×4, panel mappings, statement
+                               diff) + RECONCILIATION.md + rebuild scripts
   13_production_trace_replay/  Fig. 7, Table 3 — Azure conversation-trace cost
                                projection and trace-driven single-server queueing check
+  14_snapshot_serving_replay/  §7.2, Tables 5–8 — end-to-end serving replay of the
+                               full Fig. 1 pipeline on the real 2026-04-01 →
+                               2026-08-01 snapshot change (LLM answer generation,
+                               certificate gate, two serving arms, closed-loop
+                               regeneration, cost decomposition, simple serve-time
+                               baselines, protection-recovery overlay + revert
+                               negative control; human answer labels included)
 ```
 
 Each experiment folder contains the run script(s), the canonical result
@@ -108,6 +121,7 @@ Included in this repository:
 | Tables 5–6 trace operating points | `11_trace_operating_points` | `run_experiment.py`, `run_supplement_sq.py` | `trace_endpoints_results.json`, `trace_endpoints_sq_results.json` |
 | Fig. 8 + Table 4 real dynamics | `12_real_dynamics_audit` | `eps_t.py`, `wd_pipeline.py`, `wd_pipeline_v2.py`, `module1_wikifactdiff.py`, `module2_analyze.py`, `make_figures_eps_v2.py` | `eps_t.json`, `eps_stmt_v2.json`, `wfd_popularity_workload.json`, `workload_corrected_2026.json` |
 | Fig. 12 + Tables 8–9 gate-audit operating points and ablation | `12_real_dynamics_audit` | `constructor_lab.py` … `constructor_lab4.py`, `compute_matched_ablation.py`, `make_frontier_fig.py`, `analyze_roc.py`, `roc_close.py` | `constructor_results_v4.json`, `constructor_results.json` (per-entity), `constructor_ablation_2x2.json`, `statement_diff_v2_2026.json` |
+| §7.2 + Tables 5–11 snapshot serving replay | `14_snapshot_serving_replay` | `s1_build_panel.py` … `s52_claim_equality_loop_alias.py` (see `RESULTS.md`) | `replay_summary.json`, `replay.json`, cached `generation.json` and `embeddings.json`, `age_curve.json`, `simple_baselines.json`, `protection_recovery.json`, `current_claims/`, `annotation/` (incl. `incoming_query_labels.json`), `incoming_query_crosstab.json`, `alternative_certificates.json`, `qualified_alternatives.json`, `fixed_budget_protection.json`, `retrieval_scaling.json`, `unified_strategy_table.json`, `paired_transition.json`, `population_reweight.json`, `population_reweight_schemeA.json`, `closed_loop_system.json`, `sensitivity_ttl_vs_loop.json`, `protected_closed_loop.json`, `staged_timing_failclosed.json`, `certificates_handoff.jsonl`, `certificate_handoff.json`, `real_payload_chain.json`, `payload_stores.sqlite`, `frozen_independent_check.json`, `tableb_regeneration.json`, `tableb_endpoint_map.json`, `tableb_labels.json`, `tableb_endpoint_quality.json`, `tableb_protected_loop.json`, `real_driven_loop.json`, `real_driven_sweep.json` (Decimal re-aggregated; pre-correction backup `real_driven_sweep_binary_rounding_backup.json`), `residual_decomposition.json`, `paired_transitions_real.json`, `frozen_panel_generation.json`, `frozen_panel_check.json`, `tableb_regeneration_gpt.json`, `regeneration_gpt.json`, `gpt_generator_compare.json` (second-generator replication, GPT via Poe API), `mechanism_arms.json` (mechanism-level comparison arms), `gate_alias_cross.json` (crossed gate-by-alias control), `gate_alias_request_diff.json` (per-request alias toggle diff), `annotation/pairing_audit.json` (second-generator answer-pairing audit), `claim_equality_loop.json` (claim-level equality ablation arm, aliases off), `claim_equality_loop_alias.json` (same ablation, aliases on) |
 
 ## Naming notes (please read before citing artifact files)
 
@@ -122,20 +136,33 @@ Included in this repository:
   statistics are exactly `constructor_results_v4.json` (130 proxy-positive /
   1,381 proxy-negative entities), and the proxy labels derive from
   `statement_diff_v2_2026.json` (per-entity removed-statement diffs).
-  Rebuilding the panel itself additionally requires the historical snapshot
-  page inputs, which are no longer retained locally (see the reproducibility
-  boundary above).
+  The panel and all derived counts rebuild exactly from the snapshot inputs
+  in `data/rebuilt_2026/` (see the reproducibility note above).
+- Experiment 14 caches all LLM answers and embeddings
+  (`generation.json`, `embeddings.json`); `s5_replay.py` therefore
+  recomputes every reported replay metric deterministically. Regenerating
+  the answers themselves requires an OpenAI/Anthropic-compatible LLM
+  endpoint (the paper's run used `kimi-k2-turbo-preview` for generation and
+  `bge-m3` embeddings via an API gateway). The second-generator replication
+  (`s41_gpt_regenerate.py`, `s42_gpt_compare.py`) likewise replays
+  deterministically from `tableb_regeneration_gpt.json`; re-running the GPT
+  generation itself requires a Poe API key in `POE_API_KEY` (the paper's
+  run used `gpt-5-mini`).
 - Figure-replot scripts (`replot_*.py`, `make_figures_eps_v2.py`,
   `make_frontier_fig.py`) only re-render published figures from the archived
   JSONs; they never recompute measurements.
 
 ## GitHub size note
 
+Two files exceed GitHub's 100 MB per-file limit and should be tracked with
+Git LFS (or excluded and regenerated):
 `experiments/11_trace_operating_points/data/SemBenchmarkLmArena_trimmed.parquet`
-is 101 MB, marginally above GitHub's 100 MB per-file limit — track it with
-Git LFS, or exclude it and regenerate with `_dl_trace_emb.py`. All other
-files are below the limit. The full repository is intended to be archived on
-Zenodo (or another DOI minting service) as-is.
+(101 MB; regenerate with `_dl_trace_emb.py`) and
+`experiments/12_real_dynamics_audit/data/wikifactdiff_20210104_20230227.parquet`
+(178 MB; the complete, untruncated WikiFactDiff legacy split — re-download
+from the WikiFactDiff release). All other files, including the rebuilt 2026
+snapshot inputs, are below the limit. The full repository is intended to be
+archived on Zenodo (or another DOI minting service) as-is.
 
 ## License
 

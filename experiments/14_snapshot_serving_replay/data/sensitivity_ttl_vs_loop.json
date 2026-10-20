@@ -1,0 +1,88 @@
+{
+ "accounting": "published generous accounting of Table 10 (template compositions count as correct)",
+ "observed_correct": {
+  "TTL-1mo": 132,
+  "page-change-loop": 130,
+  "pvsb-strict-loop": 130,
+  "pvsb-asserted-loop": 128
+ },
+ "proxy_counts": {
+  "TTL-1mo": 89,
+  "page-change-loop": 74,
+  "pvsb-strict-loop": 47,
+  "pvsb-asserted-loop": 27
+ },
+ "non_proxy_correct": {
+  "TTL-1mo": 43,
+  "page-change-loop": 56,
+  "pvsb-strict-loop": 83,
+  "pvsb-asserted-loop": 101
+ },
+ "A_paired_cluster_bootstrap": {
+  "B": 10000,
+  "clusters": 143,
+  "seed": 20261017,
+  "results": {
+   "page-change-loop": {
+    "delta_observed": 2,
+    "ci95": [
+     -4.75,
+     8.94
+    ],
+    "p_ttl_better": 0.6595
+   },
+   "pvsb-strict-loop": {
+    "delta_observed": 2,
+    "ci95": [
+     -6.87,
+     10.79
+    ],
+    "p_ttl_better": 0.6295
+   },
+   "pvsb-asserted-loop": {
+    "delta_observed": 4,
+    "ci95": [
+     -5.03,
+     13.17
+    ],
+    "p_ttl_better": 0.7706
+   }
+  }
+ },
+ "B_rho_crossover": {
+  "rho_observed": 0.8431,
+  "rho_wilson95": [
+   0.72,
+   0.918
+  ],
+  "per_policy": {
+   "page-change-loop": {
+    "ttl_rho": "43 + 89*rho",
+    "loop_rho": "56 + 74*rho",
+    "rho_star": 0.8667,
+    "ttl_at_rho_obs": 118.0,
+    "loop_at_rho_obs": 118.4
+   },
+   "pvsb-strict-loop": {
+    "ttl_rho": "43 + 89*rho",
+    "loop_rho": "83 + 47*rho",
+    "rho_star": 0.9524,
+    "ttl_at_rho_obs": 118.0,
+    "loop_at_rho_obs": 122.6
+   },
+   "pvsb-asserted-loop": {
+    "ttl_rho": "43 + 89*rho",
+    "loop_rho": "101 + 27*rho",
+    "rho_star": 0.9355,
+    "ttl_at_rho_obs": 118.0,
+    "loop_at_rho_obs": 123.8
+   }
+  },
+  "note": "rho is the accuracy of regeneration from current evidence; rho* is the blind-refresh break-even accuracy"
+ },
+ "marginal_regen_per_correct": {
+  "page-change-loop": 124.0,
+  "pvsb-strict-loop": 184.5,
+  "pvsb-asserted-loop": 98.2
+ }
+}

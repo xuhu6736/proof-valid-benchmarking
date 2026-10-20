@@ -1,0 +1,538 @@
+{
+ "accounting": "state machine driven by archived real generations (s9 + s32 + s36); write-back certificates asserted sets reflect the real answer; coverage assertion enforced (no silent template fallback)",
+ "coverage_misses": 0,
+ "erasure_free": {
+  "per_tick": {
+   "similarity-static": [
+    {
+     "tick": "20260501",
+     "abstain": 6,
+     "served": 147,
+     "decayed_proxy": 4,
+     "wrong_proxy": 13,
+     "fallback": 1
+    },
+    {
+     "tick": "20260701",
+     "abstain": 6,
+     "served": 147,
+     "decayed_proxy": 7,
+     "wrong_proxy": 34,
+     "fallback": 1
+    },
+    {
+     "tick": "20260801",
+     "abstain": 6,
+     "served": 147,
+     "decayed_proxy": 7,
+     "wrong_proxy": 36,
+     "fallback": 1
+    }
+   ],
+   "TTL-1mo": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "fallback": 142,
+     "served": 0,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 15,
+     "fallback": 139,
+     "served": 0,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "fallback": 140,
+     "served": 0,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "page-change-loop": [
+    {
+     "tick": "20260501",
+     "abstain": 9,
+     "served": 89,
+     "fallback": 56,
+     "decayed_proxy": 2,
+     "wrong_proxy": 5
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 70,
+     "fallback": 70,
+     "decayed_proxy": 2,
+     "wrong_proxy": 8
+    },
+    {
+     "tick": "20260801",
+     "abstain": 13,
+     "served": 93,
+     "fallback": 48,
+     "decayed_proxy": 2,
+     "wrong_proxy": 7
+    }
+   ],
+   "pvsb-strict-loop": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 123,
+     "fallback": 19,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 110,
+     "fallback": 30,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 136,
+     "fallback": 4,
+     "wrong_proxy": 0,
+     "decayed_proxy": 0
+    }
+   ],
+   "pvsb-asserted-loop": [
+    {
+     "tick": "20260501",
+     "abstain": 12,
+     "served": 134,
+     "decayed_proxy": 4,
+     "fallback": 8,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260701",
+     "abstain": 14,
+     "served": 121,
+     "decayed_proxy": 7,
+     "fallback": 19,
+     "wrong_proxy": 0
+    },
+    {
+     "tick": "20260801",
+     "abstain": 14,
+     "served": 138,
+     "decayed_proxy": 7,
+     "fallback": 2,
+     "wrong_proxy": 0
+    }
+   ]
+  },
+  "endpoint_quality": {
+   "similarity-static": {
+    "abstain": 6,
+    "correct": 119,
+    "incomplete": 17,
+    "wrong": 6,
+    "indet": 6
+   },
+   "TTL-1mo": {
+    "abstain": 14,
+    "correct": 119,
+    "incomplete": 21
+   },
+   "page-change-loop": {
+    "abstain": 13,
+    "correct": 121,
+    "incomplete": 19,
+    "indet": 1
+   },
+   "pvsb-strict-loop": {
+    "abstain": 14,
+    "correct": 122,
+    "incomplete": 17,
+    "indet": 1
+   },
+   "pvsb-asserted-loop": {
+    "abstain": 14,
+    "correct": 124,
+    "incomplete": 14,
+    "indet": 2
+   }
+  }
+ },
+ "fault_cells": {
+  "asserted/none/p=0.05": {
+   "fallbacks_mean": 51.2,
+   "serves_mean": 371.1,
+   "abstains_mean": 39.8,
+   "endpoint_correct_mean": 112.8,
+   "endpoint_unlabeled_mean": 13.61
+  },
+  "asserted/none/p=0.1": {
+   "fallbacks_mean": 68.6,
+   "serves_mean": 353.9,
+   "abstains_mean": 39.5,
+   "endpoint_correct_mean": 103.0,
+   "endpoint_unlabeled_mean": 24.35
+  },
+  "asserted/none/p=0.2": {
+   "fallbacks_mean": 97.7,
+   "serves_mean": 325.2,
+   "abstains_mean": 39.1,
+   "endpoint_correct_mean": 86.4,
+   "endpoint_unlabeled_mean": 42.89
+  },
+  "asserted/random/p=0.05": {
+   "fallbacks_mean": 32.1,
+   "serves_mean": 389.9,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 122.8,
+   "endpoint_unlabeled_mean": 1.78
+  },
+  "asserted/random/p=0.1": {
+   "fallbacks_mean": 37.4,
+   "serves_mean": 384.7,
+   "abstains_mean": 39.9,
+   "endpoint_correct_mean": 120.3,
+   "endpoint_unlabeled_mean": 5.04
+  },
+  "asserted/random/p=0.2": {
+   "fallbacks_mean": 52.2,
+   "serves_mean": 370.0,
+   "abstains_mean": 39.8,
+   "endpoint_correct_mean": 112.2,
+   "endpoint_unlabeled_mean": 14.2
+  },
+  "asserted/fixed/p=0.05": {
+   "fallbacks_mean": 30.3,
+   "serves_mean": 391.7,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 123.5,
+   "endpoint_unlabeled_mean": 0.71
+  },
+  "asserted/fixed/p=0.1": {
+   "fallbacks_mean": 34.1,
+   "serves_mean": 387.9,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 121.9,
+   "endpoint_unlabeled_mean": 2.98
+  },
+  "asserted/fixed/p=0.2": {
+   "fallbacks_mean": 47.4,
+   "serves_mean": 374.7,
+   "abstains_mean": 39.9,
+   "endpoint_correct_mean": 114.9,
+   "endpoint_unlabeled_mean": 11.12
+  },
+  "asserted/full/p=0.05": {
+   "fallbacks_mean": 29.0,
+   "serves_mean": 393.0,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 124.0,
+   "endpoint_unlabeled_mean": 0.0
+  },
+  "asserted/full/p=0.1": {
+   "fallbacks_mean": 29.0,
+   "serves_mean": 393.0,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 124.0,
+   "endpoint_unlabeled_mean": 0.0
+  },
+  "asserted/full/p=0.2": {
+   "fallbacks_mean": 29.0,
+   "serves_mean": 393.0,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 124.0,
+   "endpoint_unlabeled_mean": 0.0
+  },
+  "strict/none/p=0.05": {
+   "fallbacks_mean": 115.7,
+   "serves_mean": 306.2,
+   "abstains_mean": 40.2,
+   "endpoint_correct_mean": 100.6,
+   "endpoint_unlabeled_mean": 24.59
+  },
+  "strict/none/p=0.1": {
+   "fallbacks_mean": 158.0,
+   "serves_mean": 263.6,
+   "abstains_mean": 40.4,
+   "endpoint_correct_mean": 89.2,
+   "endpoint_unlabeled_mean": 36.77
+  },
+  "strict/none/p=0.2": {
+   "fallbacks_mean": 217.0,
+   "serves_mean": 204.4,
+   "abstains_mean": 40.6,
+   "endpoint_correct_mean": 79.9,
+   "endpoint_unlabeled_mean": 45.52
+  },
+  "strict/random/p=0.05": {
+   "fallbacks_mean": 64.2,
+   "serves_mean": 357.7,
+   "abstains_mean": 40.1,
+   "endpoint_correct_mean": 118.1,
+   "endpoint_unlabeled_mean": 4.65
+  },
+  "strict/random/p=0.1": {
+   "fallbacks_mean": 81.2,
+   "serves_mean": 340.5,
+   "abstains_mean": 40.2,
+   "endpoint_correct_mean": 112.6,
+   "endpoint_unlabeled_mean": 10.84
+  },
+  "strict/random/p=0.2": {
+   "fallbacks_mean": 123.6,
+   "serves_mean": 298.0,
+   "abstains_mean": 40.4,
+   "endpoint_correct_mean": 99.2,
+   "endpoint_unlabeled_mean": 25.59
+  },
+  "strict/fixed/p=0.05": {
+   "fallbacks_mean": 60.8,
+   "serves_mean": 361.1,
+   "abstains_mean": 40.1,
+   "endpoint_correct_mean": 119.2,
+   "endpoint_unlabeled_mean": 3.29
+  },
+  "strict/fixed/p=0.1": {
+   "fallbacks_mean": 75.2,
+   "serves_mean": 346.6,
+   "abstains_mean": 40.2,
+   "endpoint_correct_mean": 114.2,
+   "endpoint_unlabeled_mean": 9.05
+  },
+  "strict/fixed/p=0.2": {
+   "fallbacks_mean": 115.2,
+   "serves_mean": 306.4,
+   "abstains_mean": 40.4,
+   "endpoint_correct_mean": 100.6,
+   "endpoint_unlabeled_mean": 24.25
+  },
+  "strict/full/p=0.05": {
+   "fallbacks_mean": 53.0,
+   "serves_mean": 369.0,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 122.0,
+   "endpoint_unlabeled_mean": 0.0
+  },
+  "strict/full/p=0.1": {
+   "fallbacks_mean": 53.0,
+   "serves_mean": 369.0,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 122.0,
+   "endpoint_unlabeled_mean": 0.0
+  },
+  "strict/full/p=0.2": {
+   "fallbacks_mean": 53.0,
+   "serves_mean": 369.0,
+   "abstains_mean": 40.0,
+   "endpoint_correct_mean": 122.0,
+   "endpoint_unlabeled_mean": 0.0
+  }
+ },
+ "unlabeled_endpoint_keys": [
+  "100|20260501",
+  "100|20260701",
+  "101|20260501",
+  "101|20260701",
+  "102|20260501",
+  "102|20260701",
+  "103|20260701",
+  "104|20260501",
+  "104|20260701",
+  "105|20260501",
+  "106|20260501",
+  "107|20260501",
+  "108|20260501",
+  "109|20260501",
+  "109|20260701",
+  "10|20260701",
+  "110|20260501",
+  "110|20260701",
+  "111|20260501",
+  "111|20260701",
+  "112|20260501",
+  "112|20260701",
+  "113|20260501",
+  "114|20260501",
+  "116|20260701",
+  "117|20260501",
+  "117|20260701",
+  "118|20260501",
+  "119|20260501",
+  "120|20260501",
+  "120|20260701",
+  "122|20260501",
+  "122|20260701",
+  "124|20260701",
+  "125|20260501",
+  "126|20260501",
+  "126|20260701",
+  "127|20260701",
+  "128|20260501",
+  "128|20260701",
+  "129|20260701",
+  "131|20260501",
+  "132|20260701",
+  "134|20260501",
+  "134|20260701",
+  "135|20260501",
+  "135|20260701",
+  "136|20260701",
+  "137|20260501",
+  "137|20260701",
+  "138|20260501",
+  "138|20260701",
+  "139|20260501",
+  "139|20260701",
+  "13|20260501",
+  "13|20260701",
+  "140|20260501",
+  "141|20260501",
+  "142|20260501",
+  "142|20260701",
+  "143|20260501",
+  "143|20260701",
+  "144|20260501",
+  "145|20260501",
+  "145|20260701",
+  "146|20260501",
+  "146|20260701",
+  "147|20260501",
+  "148|20260501",
+  "149|20260501",
+  "14|20260501",
+  "14|20260701",
+  "150|20260501",
+  "151|20260501",
+  "151|20260701",
+  "152|20260501",
+  "152|20260701",
+  "153|20260501",
+  "153|20260701",
+  "154|20260501",
+  "155|20260501",
+  "15|20260501",
+  "16|20260501",
+  "17|20260501",
+  "18|20260501",
+  "19|20260501",
+  "19|20260701",
+  "1|20260501",
+  "1|20260701",
+  "20|20260701",
+  "21|20260701",
+  "22|20260501",
+  "23|20260501",
+  "23|20260701",
+  "25|20260501",
+  "25|20260701",
+  "26|20260501",
+  "26|20260701",
+  "28|20260501",
+  "29|20260501",
+  "29|20260701",
+  "2|20260701",
+  "30|20260501",
+  "32|20260701",
+  "33|20260501",
+  "34|20260501",
+  "34|20260701",
+  "35|20260501",
+  "35|20260701",
+  "36|20260701",
+  "37|20260701",
+  "38|20260701",
+  "39|20260501",
+  "39|20260701",
+  "3|20260501",
+  "3|20260701",
+  "40|20260501",
+  "40|20260701",
+  "41|20260501",
+  "42|20260501",
+  "42|20260701",
+  "43|20260501",
+  "45|20260501",
+  "46|20260501",
+  "47|20260501",
+  "48|20260701",
+  "4|20260701",
+  "51|20260701",
+  "53|20260501",
+  "53|20260701",
+  "54|20260501",
+  "55|20260501",
+  "56|20260501",
+  "57|20260701",
+  "58|20260501",
+  "59|20260701",
+  "5|20260701",
+  "61|20260501",
+  "62|20260501",
+  "62|20260701",
+  "63|20260501",
+  "63|20260701",
+  "64|20260501",
+  "64|20260701",
+  "66|20260701",
+  "67|20260501",
+  "68|20260501",
+  "69|20260501",
+  "69|20260701",
+  "6|20260501",
+  "6|20260701",
+  "70|20260501",
+  "70|20260701",
+  "71|20260501",
+  "72|20260501",
+  "72|20260701",
+  "74|20260501",
+  "74|20260701",
+  "75|20260501",
+  "75|20260701",
+  "76|20260501",
+  "77|20260701",
+  "78|20260501",
+  "79|20260501",
+  "7|20260501",
+  "7|20260701",
+  "80|20260501",
+  "80|20260701",
+  "81|20260501",
+  "81|20260701",
+  "82|20260501",
+  "82|20260701",
+  "83|20260501",
+  "83|20260701",
+  "84|20260501",
+  "85|20260501",
+  "85|20260701",
+  "86|20260501",
+  "87|20260501",
+  "87|20260701",
+  "88|20260701",
+  "90|20260501",
+  "91|20260501",
+  "91|20260701",
+  "92|20260501",
+  "92|20260701",
+  "93|20260501",
+  "94|20260501",
+  "94|20260701",
+  "96|20260501",
+  "97|20260501",
+  "97|20260701",
+  "99|20260501"
+ ],
+ "notes": [
+  "endpoint deliveries from gap-fill keys without human labels are counted as unlabeled, never scored"
+ ]
+}

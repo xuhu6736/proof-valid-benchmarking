@@ -1,0 +1,20 @@
+{
+ "label_store_total": 225,
+ "decomposition": "225 = 126 inherited-identical + 99 fresh",
+ "inherited_identical": 126,
+ "fresh": 99,
+ "fresh_decomposition": "99 = 98 paired + 1 unpaired (24|20260701: kimi accept-fail, GPT accepted; freshly annotated, no inherited delivery label)",
+ "paired": 98,
+ "paired_split": {
+  "merged_store_keys": 69,
+  "s9_endpoint_keys": 29
+ },
+ "gpt_incomplete_on_paired": 41,
+ "kimi_incomplete_on_paired": {
+  "store_keys_via_tableb_labels": 13,
+  "s9_endpoint_keys_via_regen_ann1_adjudicated": 6,
+  "total": 19
+ },
+ "adjudication_rule": "first annotator adjudicates disagreements (established protocol)",
+ "unpaired_key_fresh_label": "不完整"
+}
