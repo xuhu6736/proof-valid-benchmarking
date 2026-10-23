@@ -9,7 +9,10 @@ artifacts for the paper
 > arXiv:2608.11782).
 
 **Permanent archive:** this repository is archived at Zenodo,
-[doi:10.5281/zenodo.23502165](https://doi.org/10.5281/zenodo.23502165).
+[doi:10.5281/zenodo.23502164](https://doi.org/10.5281/zenodo.23502164)
+(the concept DOI always resolves to the latest version).
+The tree corresponding to the KAIS submission is tagged
+`kais-submission`; the Zenodo record archives that same tree.
 Section and table numbers below refer to the KAIS submission version of the
 manuscript.
 
@@ -46,36 +49,35 @@ data/                          Shared inputs for the benchmark experiments
   gptcache_matches.npz         Cached GPTCache match index for the pipeline run
   azure_conv_slice.csv         13.3 h Azure conversation-trace slice (replay input)
 experiments/
-  01_grounded_audit/           Fig. 2 — footprint audit + grounded stress test
-  02_constructor_noise/        Constructor-noise sensitivity (Appendix)
-  03_coded_regime/             Fig. 3 — coded regime map, MDS parity, converse band
-  04_or_redundancy/            Fig. 9 — loose/strict OR redundancy (bookends)
-  05_module_selection/         Fig. 4 — shared-root module selection (HotpotQA + MuSiQue)
-  06_gain_curve/               Fig. 10 — coded-advantage gain curve on natural certificates
-  07_grounded_operating_points/ Table 2 — grounded operating-point availability
-  08_instrumented_pipeline/    Fig. 5 — retrieval grounding, record availability, overhead
-  09_correlated_erasure/       Fig. 6 — document-correlated and matched-marginal burst erasure
-  10_pareto_frontiers/         Fig. 11 — error–throughput operating curves (1x4 panels)
-  11_trace_operating_points/   Tables 5–6 — trace configuration and operating points
+  01_grounded_audit/           footprint audit + grounded stress test
+  02_constructor_noise/        constructor-noise sensitivity
+  03_coded_regime/             coded regime map, MDS parity, converse band
+  04_or_redundancy/            loose/strict OR redundancy (bookends)
+  05_module_selection/         shared-root module selection (HotpotQA + MuSiQue)
+  06_gain_curve/               coded-advantage gain curve on natural certificates
+  07_grounded_operating_points/ grounded operating-point availability
+  08_instrumented_pipeline/    retrieval grounding, record availability, overhead
+  09_correlated_erasure/       document-correlated and matched-marginal burst erasure
+  10_pareto_frontiers/         error–throughput operating curves (1x4 panels)
+  11_trace_operating_points/   trace configuration and operating points
                                (SemBenchmark SearchQueries + LmArena)
-  12_real_dynamics_audit/      Fig. 8, Table 4 — 2026 Wikipedia/Wikidata
-                               real-dynamics audit; Fig. 12, Tables 8–9 —
-                               snapshot change-detection audit and constructor frontier;
-                               data/rebuilt_2026/ — rebuilt snapshot inputs
-                               (pages ×5, entities ×4, panel mappings, statement
-                               diff) + RECONCILIATION.md + rebuild scripts
-  13_production_trace_replay/  Fig. 7, Table 3 — Azure conversation-trace cost
-                               projection and trace-driven single-server queueing check
-  14_snapshot_serving_replay/  §7.3, Tables 6–8 — end-to-end monthly serving
-                               replay of the full Fig. 1 pipeline on the real
+  12_real_dynamics_audit/      2026 Wikipedia/Wikidata real-dynamics audit;
+                               snapshot change-detection audit and constructor
+                               frontier; data/rebuilt_2026/ — rebuilt snapshot
+                               inputs (pages ×5, entities ×4, panel mappings,
+                               statement diff) + RECONCILIATION.md + rebuild scripts
+  13_production_trace_replay/  Azure conversation-trace cost projection
+                               and trace-driven single-server queueing check
+  14_snapshot_serving_replay/  §7.3 — end-to-end monthly serving replay
+                               of the full pipeline on the real
                                2026-04-01 → 2026-08-01 snapshot change (LLM answer
                                generation, certificate gate, two serving arms,
                                closed-loop regeneration, cost decomposition,
                                simple serve-time baselines, protection-recovery
                                overlay + revert negative control; human answer
                                labels included)
-  15_second_domain_daily_replay/ §7.2, Tables 3–5 — main-scenario daily
-                               frozen-cache replay: 100 candidate pages (99
+  15_second_domain_daily_replay/ §7.2 — main-scenario daily frozen-cache
+                               replay: 100 candidate pages (99
                                usable) tracked over 21 daily ticks (2026-07-01 →
                                2026-07-21); lead-sentence certificate premises
                                vs. infobox value truth; dual-generator (Kimi/GPT)
@@ -91,6 +93,10 @@ experiments/
                                conjunctive DAG schemas, all 990,560
                                erasure/cache states agree (no model calls)
 ```
+
+The authoritative experiment→result map, with section and table
+cross-references for the KAIS submission, is the inventory in Online
+Resource 1, Section S10.
 
 Each experiment folder contains the run script(s), the canonical result
 JSON(s) cited in the paper's experiment-inventory table, the figure-replot
@@ -129,25 +135,37 @@ Included in this repository:
 
 | Paper item | Folder | Main script(s) | Canonical result JSON(s) |
 |---|---|---|---|
-| Fig. 2 grounded audit + stress | `01_grounded_audit` | `run_grounded_experiment.py`, `measure_overhead.py` | `results_grounded.json`, `overhead_results.json` |
+| Grounded audit + stress | `01_grounded_audit` | `run_grounded_experiment.py`, `measure_overhead.py` | `results_grounded.json`, `overhead_results.json` |
 | Constructor noise (Appendix) | `02_constructor_noise` | `run_constructor_noise_experiment.py` | `e13_constructor_noise_results.json`, `e13_unbalanced_sensitivity.json` |
-| Fig. 3 coded regime + converse | `03_coded_regime` | `run_coded_regime_experiment.py` | `coded_regime_results.json` |
-| Fig. 9 OR redundancy | `04_or_redundancy` | `run_or_redundancy_strict_experiment.py`, `compute_exact_family_agreement.py` | `e11_or_strict_results.json`, `e11_exact_family_agreement.json` |
-| Fig. 4 module selection | `05_module_selection` | `run_module_selection_experiment.py`, `run_module_selection_musique_experiment.py`, `verify_closed_form.py` | `module_selection_results.json`, `e12_module_musique_results.json`, `module_closed_form_verification.json` |
-| Fig. 10 gain curve | `06_gain_curve` | `run_gain_curve_experiment.py`, `run_natural_context_curve_experiment.py` | `gain_curve_results.json`, `e6b_natural_context_results.json` |
-| Table 2 grounded operating points | `07_grounded_operating_points` | `run_grounded_operating_experiment.py` | `grounded_operating_results.json` |
-| Fig. 5 instrumented pipeline | `08_instrumented_pipeline` | `embed_docs_sliced.py` (doc embeddings), `run_pipeline_experiment.py`, `run_retrieval_grounding_experiment.py`, `remeasure_timing_m3pro.py`, `measure_gate_intact_m3pro.py` | `e8_pipeline_results.json`, `remeasure_timing_m3pro.json`, `remeasure_gate_intact_m3pro.json`, `e8_timings_m3pro.npz` |
-| Fig. 6 correlated erasure | `09_correlated_erasure` | `run_correlated_erasure_experiment.py`, `run_correlated_erasure_matched.py` | `e9_correlated_results_matched.json` (canonical; `e9_correlated_results.json` is the earlier unmatched burst arm) |
-| Fig. 7 + Table 3 production-trace projection + queueing | `13_production_trace_replay` | `replay_azure_trace.py` | `azure_replay_results.json` |
-| Fig. 11 operating curves | `10_pareto_frontiers` | `run_pareto_frontier_experiment.py` | `e10_pareto_results.json` |
-| Tables 5–6 trace operating points | `11_trace_operating_points` | `run_experiment.py`, `run_supplement_sq.py` | `trace_endpoints_results.json`, `trace_endpoints_sq_results.json` |
-| Fig. 8 + Table 4 real dynamics | `12_real_dynamics_audit` | `eps_t.py`, `wd_pipeline.py`, `wd_pipeline_v2.py`, `module1_wikifactdiff.py`, `module2_analyze.py`, `make_figures_eps_v2.py` | `eps_t.json`, `eps_stmt_v2.json`, `wfd_popularity_workload.json`, `workload_corrected_2026.json` |
-| Fig. 12 + Tables 8–9 gate-audit operating points and ablation | `12_real_dynamics_audit` | `constructor_lab.py` … `constructor_lab4.py`, `compute_matched_ablation.py`, `make_frontier_fig.py`, `analyze_roc.py`, `roc_close.py` | `constructor_results_v4.json`, `constructor_results.json` (per-entity), `constructor_ablation_2x2.json`, `statement_diff_v2_2026.json` |
-| §7.3 + Tables 6–8 monthly snapshot serving replay | `14_snapshot_serving_replay` | `s1_build_panel.py` … `s52_claim_equality_loop_alias.py` (see `RESULTS.md`) | `replay_summary.json`, `replay.json`, cached `generation.json` and `embeddings.json`, `age_curve.json`, `simple_baselines.json`, `protection_recovery.json`, `current_claims/`, `annotation/` (incl. `incoming_query_labels.json`), `incoming_query_crosstab.json`, `alternative_certificates.json`, `qualified_alternatives.json`, `fixed_budget_protection.json`, `retrieval_scaling.json`, `unified_strategy_table.json`, `paired_transition.json`, `population_reweight.json`, `population_reweight_schemeA.json`, `closed_loop_system.json`, `sensitivity_ttl_vs_loop.json`, `protected_closed_loop.json`, `staged_timing_failclosed.json`, `certificates_handoff.jsonl`, `certificate_handoff.json`, `real_payload_chain.json`, `payload_stores.sqlite`, `frozen_independent_check.json`, `tableb_regeneration.json`, `tableb_endpoint_map.json`, `tableb_labels.json`, `tableb_endpoint_quality.json`, `tableb_protected_loop.json`, `real_driven_loop.json`, `real_driven_sweep.json` (Decimal re-aggregated; pre-correction backup `real_driven_sweep_binary_rounding_backup.json`), `residual_decomposition.json`, `paired_transitions_real.json`, `frozen_panel_generation.json`, `frozen_panel_check.json`, `tableb_regeneration_gpt.json`, `regeneration_gpt.json`, `gpt_generator_compare.json` (second-generator replication, GPT via Poe API), `mechanism_arms.json` (mechanism-level comparison arms), `gate_alias_cross.json` (crossed gate-by-alias control), `gate_alias_request_diff.json` (per-request alias toggle diff), `annotation/pairing_audit.json` (second-generator answer-pairing audit), `claim_equality_loop.json` (claim-level equality ablation arm, aliases off), `claim_equality_loop_alias.json` (same ablation, aliases on) |
-| §7.2 + Tables 3–5 daily frozen-cache replay (main scenario, dual-generator) | `15_second_domain_daily_replay` | `stage1c_fetch_expanded.py`, `stage1d_static_fill.py`, `stage2e_build_panel_prox.py`, `stage0_generate_answers.py`, `stage4_dual_replay.py`, `stage5_fallback_regen.py`, `stage6_load_cost.py`, `stage7_mechanism_arms21.py`, `stage8_spotcheck_sheet.py`, `stage9_parse_spotcheck.py` | `series21.json`, `panel21.json`, `pool_stats21.json`, `answers_kimi.json`, `answers_gpt.json`, `dual_replay_results.json`, `fallback_regen.json`, `load_cost.json`, `mechanism_arms21.json`, `fallback_spotcheck_sample20.json`, `fallback_spotcheck_results.json` (double-annotated fallback spot check: agreement 19/20, Cohen's κ=0.90, adjudicated correct 9/20 [25.8, 65.8]), `perpart_rescore.json` (per-part re-scoring: regenerations 24/41 vs 37/41 set-level, 7 of 10 false accepts rejected, base answers flagged 16/62 Kimi, 17/68 GPT), `base_answer_sample40.json`, `base_answer_results.json` (double-annotated base-answer audit: agreement 40/40, κ=1.0, design-weighted b = 22.8% [20.6, 25.1]; Eq.(window) verdict: r−b ≈ 32 points exceeds the upper bound vs similarity-only, clears the TTL-1d lower bound by two orders of magnitude), `annotation/` (returned annotator sheets) |
+| Coded regime + converse | `03_coded_regime` | `run_coded_regime_experiment.py` | `coded_regime_results.json` |
+| OR redundancy | `04_or_redundancy` | `run_or_redundancy_strict_experiment.py`, `compute_exact_family_agreement.py` | `e11_or_strict_results.json`, `e11_exact_family_agreement.json` |
+| Module selection | `05_module_selection` | `run_module_selection_experiment.py`, `run_module_selection_musique_experiment.py`, `verify_closed_form.py` | `module_selection_results.json`, `e12_module_musique_results.json`, `module_closed_form_verification.json` |
+| Gain curve | `06_gain_curve` | `run_gain_curve_experiment.py`, `run_natural_context_curve_experiment.py` | `gain_curve_results.json`, `e6b_natural_context_results.json` |
+| Grounded operating points | `07_grounded_operating_points` | `run_grounded_operating_experiment.py` | `grounded_operating_results.json` |
+| Instrumented pipeline | `08_instrumented_pipeline` | `embed_docs_sliced.py` (doc embeddings), `run_pipeline_experiment.py`, `run_retrieval_grounding_experiment.py`, `remeasure_timing_m3pro.py`, `measure_gate_intact_m3pro.py` | `e8_pipeline_results.json`, `remeasure_timing_m3pro.json`, `remeasure_gate_intact_m3pro.json`, `e8_timings_m3pro.npz` |
+| Correlated erasure | `09_correlated_erasure` | `run_correlated_erasure_experiment.py`, `run_correlated_erasure_matched.py` | `e9_correlated_results_matched.json` (canonical; `e9_correlated_results.json` is the earlier unmatched burst arm) |
+| Production-trace projection + queueing | `13_production_trace_replay` | `replay_azure_trace.py` | `azure_replay_results.json` |
+| Error–throughput operating curves | `10_pareto_frontiers` | `run_pareto_frontier_experiment.py` | `e10_pareto_results.json` |
+| Trace operating points | `11_trace_operating_points` | `run_experiment.py`, `run_supplement_sq.py` | `trace_endpoints_results.json`, `trace_endpoints_sq_results.json` |
+| Real dynamics | `12_real_dynamics_audit` | `eps_t.py`, `wd_pipeline.py`, `wd_pipeline_v2.py`, `module1_wikifactdiff.py`, `module2_analyze.py`, `make_figures_eps_v2.py` | `eps_t.json`, `eps_stmt_v2.json`, `wfd_popularity_workload.json`, `workload_corrected_2026.json` |
+| Gate-audit operating points and ablation | `12_real_dynamics_audit` | `constructor_lab.py` … `constructor_lab4.py`, `compute_matched_ablation.py`, `make_frontier_fig.py`, `analyze_roc.py`, `roc_close.py` | `constructor_results_v4.json`, `constructor_results.json` (per-entity), `constructor_ablation_2x2.json`, `statement_diff_v2_2026.json` |
+| §7.3 monthly snapshot serving replay | `14_snapshot_serving_replay` | `s1_build_panel.py` … `s52_claim_equality_loop_alias.py` (see `RESULTS.md`) | `replay_summary.json`, `replay.json`, cached `generation.json` and `embeddings.json`, `age_curve.json`, `simple_baselines.json`, `protection_recovery.json`, `current_claims/`, `annotation/` (incl. `incoming_query_labels.json`), `incoming_query_crosstab.json`, `alternative_certificates.json`, `qualified_alternatives.json`, `fixed_budget_protection.json`, `retrieval_scaling.json`, `unified_strategy_table.json`, `paired_transition.json`, `population_reweight.json`, `population_reweight_schemeA.json`, `closed_loop_system.json`, `sensitivity_ttl_vs_loop.json`, `protected_closed_loop.json`, `staged_timing_failclosed.json`, `certificates_handoff.jsonl`, `certificate_handoff.json`, `real_payload_chain.json`, `payload_stores.sqlite`, `frozen_independent_check.json`, `tableb_regeneration.json`, `tableb_endpoint_map.json`, `tableb_labels.json`, `tableb_endpoint_quality.json`, `tableb_protected_loop.json`, `real_driven_loop.json`, `real_driven_sweep.json` (Decimal re-aggregated; pre-correction backup `real_driven_sweep_binary_rounding_backup.json`), `residual_decomposition.json`, `paired_transitions_real.json`, `frozen_panel_generation.json`, `frozen_panel_check.json`, `tableb_regeneration_gpt.json`, `regeneration_gpt.json`, `gpt_generator_compare.json` (second-generator replication, GPT via Poe API), `mechanism_arms.json` (mechanism-level comparison arms), `gate_alias_cross.json` (crossed gate-by-alias control), `gate_alias_request_diff.json` (per-request alias toggle diff), `annotation/pairing_audit.json` (second-generator answer-pairing audit), `claim_equality_loop.json` (claim-level equality ablation arm, aliases off), `claim_equality_loop_alias.json` (same ablation, aliases on) |
+| §7.2 daily frozen-cache replay (main scenario, dual-generator) | `15_second_domain_daily_replay` | `stage1c_fetch_expanded.py`, `stage1d_static_fill.py`, `stage2e_build_panel_prox.py`, `stage0_generate_answers.py`, `stage4_dual_replay.py`, `stage5_fallback_regen.py`, `stage6_load_cost.py`, `stage7_mechanism_arms21.py`, `stage8_spotcheck_sheet.py`, `stage9_parse_spotcheck.py` | `series21.json`, `panel21.json`, `pool_stats21.json`, `answers_kimi.json`, `answers_gpt.json`, `dual_replay_results.json`, `fallback_regen.json`, `load_cost.json`, `mechanism_arms21.json`, `fallback_spotcheck_sample20.json`, `fallback_spotcheck_results.json` (double-annotated fallback spot check: agreement 19/20, Cohen's κ=0.90, adjudicated correct 9/20 [25.8, 65.8]), `perpart_rescore.json` (per-part re-scoring: regenerations 24/41 vs 37/41 set-level, 7 of 10 false accepts rejected, base answers flagged 16/62 Kimi, 17/68 GPT), `base_answer_sample40.json`, `base_answer_results.json` (double-annotated base-answer audit: agreement 40/40, κ=1.0, design-weighted b = 22.8% [20.6, 25.1]; Eq.(window) verdict: r−b ≈ 32 points exceeds the upper bound vs similarity-only, clears the TTL-1d lower bound by two orders of magnitude), `annotation/` (returned annotator sheets) |
 
 ## Naming notes (please read before citing artifact files)
 
+- **Result precedence.** Primary erasure-free endpoint quality uses the
+  label-aware endpoint fields in `real_driven_loop.json`;
+  `tableb_endpoint_quality.json` retains the annotation-agreement and
+  bootstrap blocks, but its per-arm endpoint counts are superseded by the
+  real-driven accounting. Replacement-generator endpoint delivery uses
+  `gpt_reexec_endpoint.json`. Fault routing, p95 values, and guard counts
+  use `real_driven_sweep.json`; label-aware fault quality uses
+  `real_driven_loop.json` (its `endpoint_correct_mean`-style fields in the
+  sweep file are routing aggregates, not human-labeled quality). Daily
+  quality projections are recomputed from retained item labels, acceptance
+  decisions, and routing counts; the legacy `window_verdict` field embedded
+  in `base_answer_results.json` is superseded and not authoritative.
 - `trace_endpoints_results.json` / `trace_endpoints_sq_results.json` are the
   canonical names used in the paper. They are, respectively, the LmArena main
   run summary (static quantile 0.9) and the supplementary SearchQueries run
@@ -186,7 +204,7 @@ Git LFS (see `.gitattributes`):
 from the WikiFactDiff release). All other files, including the rebuilt 2026
 snapshot inputs, are below the limit. The full repository is archived
 as-is on Zenodo
-([doi:10.5281/zenodo.23502165](https://doi.org/10.5281/zenodo.23502165)).
+([doi:10.5281/zenodo.23502164](https://doi.org/10.5281/zenodo.23502164)).
 
 ## License
 
