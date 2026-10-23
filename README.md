@@ -164,8 +164,9 @@ Included in this repository:
   `real_driven_loop.json` (its `endpoint_correct_mean`-style fields in the
   sweep file are routing aggregates, not human-labeled quality). Daily
   quality projections are recomputed from retained item labels, acceptance
-  decisions, and routing counts; the legacy `window_verdict` field embedded
-  in `base_answer_results.json` is superseded and not authoritative.
+  decisions, and routing counts; the legacy confidence intervals and the
+  embedded `window_verdict` field in `base_answer_results.json` are
+  superseded and not authoritative.
 - **Multiplicity-preserving page-cluster bootstrap.** `stage13`/`stage14`
   key each bootstrap draw by sampling position, so a page drawn repeatedly
   contributes its counts repeatedly. The current
