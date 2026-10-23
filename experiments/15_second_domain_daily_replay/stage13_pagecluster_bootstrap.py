@@ -110,8 +110,11 @@ def boot_paired(perA, perB, stat, rng):
     diffs = []
     for _ in range(BOOT):
         samp = [ids[rng.randrange(len(ids))] for _ in ids]
-        diffs.append(stat({i: perA[i] for i in samp})
-                     - stat({i: perB[i] for i in samp}))
+        # key by draw position so resampled pages contribute with their
+        # bootstrap multiplicity (a page drawn twice counts twice)
+        drawA = {j: perA[page] for j, page in enumerate(samp)}
+        drawB = {j: perB[page] for j, page in enumerate(samp)}
+        diffs.append(stat(drawA) - stat(drawB))
     diffs.sort()
     return (diffs[int(0.025 * BOOT)], diffs[int(0.975 * BOOT) - 1],
             len(ids))

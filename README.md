@@ -166,6 +166,14 @@ Included in this repository:
   quality projections are recomputed from retained item labels, acceptance
   decisions, and routing counts; the legacy `window_verdict` field embedded
   in `base_answer_results.json` is superseded and not authoritative.
+- **Multiplicity-preserving page-cluster bootstrap.** `stage13`/`stage14`
+  key each bootstrap draw by sampling position, so a page drawn repeatedly
+  contributes its counts repeatedly. The current
+  `pagecluster_bootstrap.json` and `perpart_filtered_replay.json` were
+  regenerated under this implementation (10,000 resamples, seed 42); the
+  pre-fix outputs are kept as `*_premultfix_backup.json` for provenance and
+  must not be cited. `stage15_zero_denominator_check.py` sums served counts
+  over the draw list and audits the same convention.
 - `trace_endpoints_results.json` / `trace_endpoints_sq_results.json` are the
   canonical names used in the paper. They are, respectively, the LmArena main
   run summary (static quantile 0.9) and the supplementary SearchQueries run

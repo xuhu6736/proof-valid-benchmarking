@@ -1,0 +1,138 @@
+{
+ "unit": "page",
+ "boot": 10000,
+ "seed": 42,
+ "meta": {
+  "kimi": {
+   "n_cases": 1240,
+   "n_cached_answers": 62,
+   "n_pages": 42
+  },
+  "gpt": {
+   "n_cases": 1360,
+   "n_cached_answers": 68,
+   "n_pages": 47
+  }
+ },
+ "contrasts": {
+  "B1p_kimi_minus_gpt_stalerate": {
+   "ci": [
+    -5.2260849806862186e-05,
+    0.00016918837917532744
+   ],
+   "n_common_pages": 41
+  },
+  "B2p_kimi_asserted_minus_ttl14_stale": {
+   "ci": [
+    -0.05532136351808483,
+    -0.005494505494505495
+   ],
+   "n_pages": 42
+  },
+  "B3p_kimi_asserted_minus_ttl1_regen": {
+   "ci": [
+    -0.8476744186046511,
+    -0.6828571428571428
+   ],
+   "n_pages": 42
+  },
+  "Mp_kimi_asserted_minus_GC-overlap_stale": {
+   "ci": [
+    0.0,
+    0.001937984496124031
+   ],
+   "n_pages": 42
+  },
+  "Mp_kimi_asserted_minus_GC-overlap_regen": {
+   "ci": [
+    -0.7205128205128205,
+    -0.5276315789473685
+   ],
+   "n_pages": 42
+  },
+  "Mp_kimi_asserted_minus_FC-equality_stale": {
+   "ci": [
+    0.0,
+    0.001941747572815534
+   ],
+   "n_pages": 42
+  },
+  "Mp_kimi_asserted_minus_FC-equality_regen": {
+   "ci": [
+    -0.72,
+    -0.5261363636363636
+   ],
+   "n_pages": 42
+  },
+  "Mp_kimi_asserted_minus_FC-claim-eq_stale": {
+   "ci": [
+    0.0,
+    0.001941747572815534
+   ],
+   "n_pages": 42
+  },
+  "Mp_kimi_asserted_minus_FC-claim-eq_regen": {
+   "ci": [
+    0.07439024390243902,
+    0.20972222222222225
+   ],
+   "n_pages": 42
+  },
+  "B2p_gpt_asserted_minus_ttl14_stale": {
+   "ci": [
+    -0.050070448419505025,
+    -0.00510204081632653
+   ],
+   "n_pages": 47
+  },
+  "B3p_gpt_asserted_minus_ttl1_regen": {
+   "ci": [
+    -0.827906976744186,
+    -0.6767441860465115
+   ],
+   "n_pages": 47
+  },
+  "Mp_gpt_asserted_minus_GC-overlap_stale": {
+   "ci": [
+    0.0,
+    0.0017574692442882249
+   ],
+   "n_pages": 47
+  },
+  "Mp_gpt_asserted_minus_GC-overlap_regen": {
+   "ci": [
+    -0.7097222222222221,
+    -0.5317073170731708
+   ],
+   "n_pages": 47
+  },
+  "Mp_gpt_asserted_minus_FC-equality_stale": {
+   "ci": [
+    0.0,
+    0.0017667844522968198
+   ],
+   "n_pages": 47
+  },
+  "Mp_gpt_asserted_minus_FC-equality_regen": {
+   "ci": [
+    -0.7097560975609756,
+    -0.5308823529411766
+   ],
+   "n_pages": 47
+  },
+  "Mp_gpt_asserted_minus_FC-claim-eq_stale": {
+   "ci": [
+    0.0,
+    0.001763668430335097
+   ],
+   "n_pages": 47
+  },
+  "Mp_gpt_asserted_minus_FC-claim-eq_regen": {
+   "ci": [
+    0.09651162790697675,
+    0.22045454545454546
+   ],
+   "n_pages": 47
+  }
+ }
+}
