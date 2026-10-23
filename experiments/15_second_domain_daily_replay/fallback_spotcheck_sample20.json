@@ -1,0 +1,427 @@
+{
+ "sample_seed": 42,
+ "items": [
+  {
+   "n": 1,
+   "gen": "gpt",
+   "key": "Lionel Messi#97",
+   "page": "Lionel Messi",
+   "tick": "2026-07-04",
+   "claim_keys": [
+    "clubs3",
+    "clubs5",
+    "currentclub"
+   ],
+   "question": "Answer the following three questions about Lionel Messi as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 3 for Lionel Messi?\n(2) Which club is listed as senior-career entry 5 for Lionel Messi?\n(3) Which club does Lionel Messi currently play for?",
+   "current_values": [
+    "Barcelona",
+    "Inter Miami",
+    "Inter Miami"
+   ],
+   "regen": "(1) Barcelona  \n(2) Paris Saint-Germain  \n(3) Inter Miami",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 2,
+   "gen": "kimi",
+   "key": "2026 British Grand Prix#29",
+   "page": "2026 British Grand Prix",
+   "tick": "2026-07-05",
+   "claim_keys": [
+    "grand prix",
+    "type",
+    "year"
+   ],
+   "question": "Answer the following three questions about 2026 British Grand Prix as of 1 July 2026, using only the evidence below.\n(1) What is the grand prix of 2026 British Grand Prix, as listed in its Wikipedia infobox?\n(2) What is the type of 2026 British Grand Prix, as listed in its Wikipedia infobox?\n(3) What is the year of 2026 British Grand Prix, as listed in its Wikipedia infobox?",
+   "current_values": [
+    "British",
+    "F1",
+    "2026"
+   ],
+   "regen": "(1) Formula 1 Pirelli British Grand Prix 2026\n(2) Formula One motor race\n(3) 2026",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 3,
+   "gen": "kimi",
+   "key": "Luka Modrić#1",
+   "page": "Luka Modrić",
+   "tick": "2026-07-17",
+   "claim_keys": [
+    "clubs6",
+    "currentclub",
+    "full_name"
+   ],
+   "question": "Answer the following three questions about Luka Modrić as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 6 for Luka Modrić?\n(2) Which club does Luka Modrić currently play for?\n(3) What is Luka Modrić's full name?",
+   "current_values": [
+    "AC Milan",
+    null,
+    "Luka Modrić"
+   ],
+   "regen": "(1) AC Milan\n(2) AC Milan\n(3) Luka Modrić",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 4,
+   "gen": "kimi",
+   "key": "Kevin De Bruyne#92",
+   "page": "Kevin De Bruyne",
+   "tick": "2026-07-10",
+   "claim_keys": [
+    "clubs5",
+    "clubs6",
+    "currentclub"
+   ],
+   "question": "Answer the following three questions about Kevin De Bruyne as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 5 for Kevin De Bruyne?\n(2) Which club is listed as senior-career entry 6 for Kevin De Bruyne?\n(3) Which club does Kevin De Bruyne currently play for?",
+   "current_values": [
+    "Manchester City",
+    "Napoli",
+    "Napoli"
+   ],
+   "regen": "(1) Manchester City\n(2) Napoli\n(3) Napoli",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 5,
+   "gen": "kimi",
+   "key": "2026 FIFA World Cup#59",
+   "page": "2026 FIFA World Cup",
+   "tick": "2026-07-03",
+   "claim_keys": [
+    "prevseason",
+    "tourney_name",
+    "year"
+   ],
+   "question": "Answer the following three questions about 2026 FIFA World Cup as of 1 July 2026, using only the evidence below.\n(1) What is the prevseason of 2026 FIFA World Cup, as listed in its Wikipedia infobox?\n(2) What is the tourney name of 2026 FIFA World Cup, as listed in its Wikipedia infobox?\n(3) What is the year of 2026 FIFA World Cup, as listed in its Wikipedia infobox?",
+   "current_values": [
+    "2022",
+    "FIFA World Cup",
+    "2026"
+   ],
+   "regen": "(1) 2022\n(2) FIFA World Cup\n(3) 2026",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 6,
+   "gen": "kimi",
+   "key": "Federico Valverde#54",
+   "page": "Federico Valverde",
+   "tick": "2026-07-06",
+   "claim_keys": [
+    "full_name",
+    "nationalyears5",
+    "position"
+   ],
+   "question": "Answer the following three questions about Federico Valverde as of 1 July 2026, using only the evidence below.\n(1) What is Federico Valverde's full name?\n(2) In which year did Federico Valverde start playing for this national team?\n(3) What position does Federico Valverde play?",
+   "current_values": [
+    "Federico Santiago Valverde Dipetta",
+    "2017–",
+    "Central midfielder"
+   ],
+   "regen": "(1) Federico Santiago Valverde Dipetta\n(2) 2015\n(3) Central midfielder (also able to play as right-back)",
+   "auto_correct": false,
+   "auto_missing": [
+    "2017–"
+   ]
+  },
+  {
+   "n": 7,
+   "gen": "kimi",
+   "key": "Vinícius Júnior#41",
+   "page": "Vinícius Júnior",
+   "tick": "2026-07-06",
+   "claim_keys": [
+    "clubs1",
+    "clubs3",
+    "currentclub"
+   ],
+   "question": "Answer the following three questions about Vinícius Júnior as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 1 for Vinícius Júnior?\n(2) Which club is listed as senior-career entry 3 for Vinícius Júnior?\n(3) Which club does Vinícius Júnior currently play for?",
+   "current_values": [
+    "Flamengo",
+    "Real Madrid",
+    "Real Madrid"
+   ],
+   "regen": "(1) Flamengo\n(2) Real Madrid\n(3) Real Madrid",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 8,
+   "gen": "kimi",
+   "key": "Neymar#21",
+   "page": "Neymar",
+   "tick": "2026-07-05",
+   "claim_keys": [
+    "clubs1",
+    "clubs5",
+    "currentclub"
+   ],
+   "question": "Answer the following three questions about Neymar as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 1 for Neymar?\n(2) Which club is listed as senior-career entry 5 for Neymar?\n(3) Which club does Neymar currently play for?",
+   "current_values": [
+    "Santos",
+    "Santos",
+    "Santos"
+   ],
+   "regen": "(1) Santos\n(2) Al-Hilal\n(3) Santos",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 9,
+   "gen": "kimi",
+   "key": "Jude Bellingham#18",
+   "page": "Jude Bellingham",
+   "tick": "2026-07-08",
+   "claim_keys": [
+    "clubs1",
+    "clubs2",
+    "clubs3"
+   ],
+   "question": "Answer the following three questions about Jude Bellingham as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 1 for Jude Bellingham?\n(2) Which club is listed as senior-career entry 2 for Jude Bellingham?\n(3) Which club is listed as senior-career entry 3 for Jude Bellingham?",
+   "current_values": [
+    "Birmingham City",
+    "Borussia Dortmund",
+    "Real Madrid"
+   ],
+   "regen": "(1) Birmingham City\n(2) Borussia Dortmund\n(3) Real Madrid",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 10,
+   "gen": "gpt",
+   "key": "Neymar#21",
+   "page": "Neymar",
+   "tick": "2026-07-05",
+   "claim_keys": [
+    "clubs1",
+    "clubs5",
+    "currentclub"
+   ],
+   "question": "Answer the following three questions about Neymar as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 1 for Neymar?\n(2) Which club is listed as senior-career entry 5 for Neymar?\n(3) Which club does Neymar currently play for?",
+   "current_values": [
+    "Santos",
+    "Santos",
+    "Santos"
+   ],
+   "regen": "(1) Santos\n(2) Paris Saint-Germain\n(3) Santos",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 11,
+   "gen": "gpt",
+   "key": "Kevin De Bruyne#92",
+   "page": "Kevin De Bruyne",
+   "tick": "2026-07-10",
+   "claim_keys": [
+    "clubs5",
+    "clubs6",
+    "currentclub"
+   ],
+   "question": "Answer the following three questions about Kevin De Bruyne as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 5 for Kevin De Bruyne?\n(2) Which club is listed as senior-career entry 6 for Kevin De Bruyne?\n(3) Which club does Kevin De Bruyne currently play for?",
+   "current_values": [
+    "Manchester City",
+    "Napoli",
+    "Napoli"
+   ],
+   "regen": "(1) VfL Wolfsburg\n(2) Manchester City\n(3) Napoli",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 12,
+   "gen": "kimi",
+   "key": "Antoine Griezmann#0",
+   "page": "Antoine Griezmann",
+   "tick": "2026-07-04",
+   "claim_keys": [
+    "clubs5",
+    "currentclub",
+    "full_name"
+   ],
+   "question": "Answer the following three questions about Antoine Griezmann as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 5 for Antoine Griezmann?\n(2) Which club does Antoine Griezmann currently play for?\n(3) What is Antoine Griezmann's full name?",
+   "current_values": [
+    "Atlético Madrid",
+    "Atlético Madrid",
+    "Antoine Griezmann"
+   ],
+   "regen": "(1) Barcelona\n(2) Atlético Madrid (joining Orlando City on 13 July 2026)\n(3) Antoine Griezmann",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 13,
+   "gen": "kimi",
+   "key": "Neymar#2",
+   "page": "Neymar",
+   "tick": "2026-07-04",
+   "claim_keys": [
+    "full_name",
+    "name",
+    "nationalgoals4"
+   ],
+   "question": "Answer the following three questions about Neymar as of 1 July 2026, using only the evidence below.\n(1) What is Neymar's full name?\n(2) What is the name of Neymar, as listed in its Wikipedia infobox?\n(3) How many goals has Neymar scored for their national team?",
+   "current_values": [
+    "Neymar da Silva Santos Júnior",
+    "Neymar",
+    "79"
+   ],
+   "regen": "(1) Neymar da Silva Santos Júnior\n(2) Neymar\n(3) 79",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 14,
+   "gen": "gpt",
+   "key": "2026 FIFA World Cup#47",
+   "page": "2026 FIFA World Cup",
+   "tick": "2026-07-05",
+   "claim_keys": [
+    "country",
+    "country2",
+    "country3"
+   ],
+   "question": "Answer the following three questions about 2026 FIFA World Cup as of 1 July 2026, using only the evidence below.\n(1) What is the country of 2026 FIFA World Cup, as listed in its Wikipedia infobox?\n(2) What is the country of 2026 FIFA World Cup, as listed in its Wikipedia infobox?\n(3) What is the country of 2026 FIFA World Cup, as listed in its Wikipedia infobox?",
+   "current_values": [
+    "Canada",
+    "Mexico",
+    "United States"
+   ],
+   "regen": "(1) United States, Canada and Mexico\n(2) United States, Canada and Mexico\n(3) United States, Canada and Mexico",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 15,
+   "gen": "gpt",
+   "key": "Kylian Mbappé#95",
+   "page": "Kylian Mbappé",
+   "tick": "2026-07-20",
+   "claim_keys": [
+    "currentclub",
+    "full_name",
+    "name"
+   ],
+   "question": "Answer the following three questions about Kylian Mbappé as of 1 July 2026, using only the evidence below.\n(1) Which club does Kylian Mbappé currently play for?\n(2) What is Kylian Mbappé's full name?\n(3) What is the name of Kylian Mbappé, as listed in its Wikipedia infobox?",
+   "current_values": [
+    "Real Madrid",
+    "Kylian Mbappé Lottin",
+    "Kylian Mbappé"
+   ],
+   "regen": "(1) Real Madrid\n(2) Kylian Mbappé Lottin\n(3) Kylian Mbappé",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 16,
+   "gen": "kimi",
+   "key": "Lamine Yamal#73",
+   "page": "Lamine Yamal",
+   "tick": "2026-07-02",
+   "claim_keys": [
+    "clubs2",
+    "currentclub",
+    "youthclubs2"
+   ],
+   "question": "Answer the following three questions about Lamine Yamal as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 2 for Lamine Yamal?\n(2) Which club does Lamine Yamal currently play for?\n(3) Which club is listed as youth-career entry 2 for Lamine Yamal?",
+   "current_values": [
+    "Barcelona",
+    "Barcelona",
+    "Barcelona"
+   ],
+   "regen": "(1) Not listed in evidence.\n(2) Barcelona\n(3) Not listed in evidence.",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 17,
+   "gen": "gpt",
+   "key": "Antoine Griezmann#0",
+   "page": "Antoine Griezmann",
+   "tick": "2026-07-04",
+   "claim_keys": [
+    "clubs5",
+    "currentclub",
+    "full_name"
+   ],
+   "question": "Answer the following three questions about Antoine Griezmann as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 5 for Antoine Griezmann?\n(2) Which club does Antoine Griezmann currently play for?\n(3) What is Antoine Griezmann's full name?",
+   "current_values": [
+    "Atlético Madrid",
+    "Atlético Madrid",
+    "Antoine Griezmann"
+   ],
+   "regen": "(1) Barcelona\n(2) Atlético Madrid\n(3) Antoine Griezmann",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 18,
+   "gen": "gpt",
+   "key": "Kylian Mbappé#32",
+   "page": "Kylian Mbappé",
+   "tick": "2026-07-19",
+   "claim_keys": [
+    "clubs2",
+    "clubs4",
+    "clubs5"
+   ],
+   "question": "Answer the following three questions about Kylian Mbappé as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 2 for Kylian Mbappé?\n(2) Which club is listed as senior-career entry 4 for Kylian Mbappé?\n(3) Which club is listed as senior-career entry 5 for Kylian Mbappé?",
+   "current_values": [
+    "Monaco",
+    "Paris Saint-Germain",
+    "Real Madrid"
+   ],
+   "regen": "(1) Monaco\n(2) Paris Saint-Germain\n(3) Real Madrid",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 19,
+   "gen": "gpt",
+   "key": "Lamine Yamal#73",
+   "page": "Lamine Yamal",
+   "tick": "2026-07-02",
+   "claim_keys": [
+    "clubs2",
+    "currentclub",
+    "youthclubs2"
+   ],
+   "question": "Answer the following three questions about Lamine Yamal as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 2 for Lamine Yamal?\n(2) Which club does Lamine Yamal currently play for?\n(3) Which club is listed as youth-career entry 2 for Lamine Yamal?",
+   "current_values": [
+    "Barcelona",
+    "Barcelona",
+    "Barcelona"
+   ],
+   "regen": "(1) Barcelona  \n(2) Barcelona  \n(3) FC Barcelona's youth academy, La Masia",
+   "auto_correct": true,
+   "auto_missing": []
+  },
+  {
+   "n": 20,
+   "gen": "gpt",
+   "key": "Antoine Griezmann#43",
+   "page": "Antoine Griezmann",
+   "tick": "2026-07-04",
+   "claim_keys": [
+    "clubs1",
+    "clubs2",
+    "clubs3"
+   ],
+   "question": "Answer the following three questions about Antoine Griezmann as of 1 July 2026, using only the evidence below.\n(1) Which club is listed as senior-career entry 1 for Antoine Griezmann?\n(2) Which club is listed as senior-career entry 2 for Antoine Griezmann?\n(3) Which club is listed as senior-career entry 3 for Antoine Griezmann?",
+   "current_values": [
+    "Real Sociedad",
+    "Atlético Madrid",
+    "Barcelona"
+   ],
+   "regen": "(1) Real Sociedad\n(2) Atlético Madrid\n(3) Barcelona",
+   "auto_correct": true,
+   "auto_missing": []
+  }
+ ]
+}

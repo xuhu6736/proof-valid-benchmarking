@@ -1,0 +1,409 @@
+{
+ "sample": "40 of 130 accepted base answers, stratified (10 per-part-flagged + 10 clean per generator), seed 42",
+ "annotators": "two independent annotators, blinded to per-part verdicts and gate labels",
+ "agreement": {
+  "raw": "40/40",
+  "raw_pct": 100.0,
+  "cohens_kappa": 1.0
+ },
+ "disagreements": [],
+ "adjudication_rule": "conservative (system-less-favourable)",
+ "b_estimate_primary": {
+  "estimate_pct": 22.8,
+  "se_pct": 1.1,
+  "ci95_pct": [
+   20.6,
+   25.1
+  ]
+ },
+ "b_definition_primary": "P(label != 正确), design-weighted",
+ "b_wrong_only": {
+  "estimate_pct": 5.0,
+  "se_pct": 1.4,
+  "ci95_pct": [
+   2.2,
+   7.8
+  ]
+ },
+ "label_distribution": {
+  "正确": 22,
+  "不完整": 14,
+  "错误": 4,
+  "无法判断": 0
+ },
+ "window_verdict": {
+  "r_estimate_pct": 55.0,
+  "r_ci95_pct": [
+   34.2,
+   74.2
+  ],
+  "r_minus_b_pct": 32.2,
+  "upper_bound_kimi_pct": 17.4,
+  "upper_bound_gpt_pct": 15.0,
+  "lower_bound_ttl1d_pct": 0.08,
+  "gate_beats_similarity_only": false,
+  "gate_beats_ttl1d": true
+ },
+ "per_item": [
+  {
+   "n": 1,
+   "gen": "kimi",
+   "key": "Claude Monet#66",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 2,
+   "gen": "kimi",
+   "key": "Jamal Musiala#40",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 3,
+   "gen": "kimi",
+   "key": "2026 British Grand Prix#29",
+   "stratum": "flagged",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 4,
+   "gen": "kimi",
+   "key": "Kevin De Bruyne#7",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 5,
+   "gen": "kimi",
+   "key": "Rodrygo#56",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 6,
+   "gen": "kimi",
+   "key": "Luka Modrić#26",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 7,
+   "gen": "kimi",
+   "key": "Antoine Griezmann#0",
+   "stratum": "flagged",
+   "ann1": "错误",
+   "ann2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 8,
+   "gen": "kimi",
+   "key": "Rodrygo#94",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 9,
+   "gen": "kimi",
+   "key": "Xavi Simons#86",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 10,
+   "gen": "kimi",
+   "key": "Bruno Fernandes#69",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 11,
+   "gen": "kimi",
+   "key": "Lamine Yamal#73",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 12,
+   "gen": "kimi",
+   "key": "Virgil van Dijk#22",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 13,
+   "gen": "kimi",
+   "key": "Uruguay national football team#5",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 14,
+   "gen": "kimi",
+   "key": "William Saliba#93",
+   "stratum": "flagged",
+   "ann1": "错误",
+   "ann2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 15,
+   "gen": "kimi",
+   "key": "Xavi Simons#81",
+   "stratum": "flagged",
+   "ann1": "错误",
+   "ann2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 16,
+   "gen": "kimi",
+   "key": "Cody Gakpo#25",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 17,
+   "gen": "kimi",
+   "key": "Luka Modrić#1",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 18,
+   "gen": "kimi",
+   "key": "Ryan Gravenberch#14",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 19,
+   "gen": "kimi",
+   "key": "Rúben Dias#84",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 20,
+   "gen": "kimi",
+   "key": "Neymar#21",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 21,
+   "gen": "gpt",
+   "key": "Kevin De Bruyne#48",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 22,
+   "gen": "gpt",
+   "key": "2026 British Grand Prix#29",
+   "stratum": "flagged",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 23,
+   "gen": "gpt",
+   "key": "Spain national football team#9",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 24,
+   "gen": "gpt",
+   "key": "Kai Havertz#24",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 25,
+   "gen": "gpt",
+   "key": "Bruno Fernandes#69",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 26,
+   "gen": "gpt",
+   "key": "Rúben Dias#84",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 27,
+   "gen": "gpt",
+   "key": "Bernardo Silva#39",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 28,
+   "gen": "gpt",
+   "key": "Joshua Kimmich#71",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 29,
+   "gen": "gpt",
+   "key": "2026 FIFA World Cup#47",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 30,
+   "gen": "gpt",
+   "key": "Cody Gakpo#25",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 31,
+   "gen": "gpt",
+   "key": "Aurélien Tchouaméni#82",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 32,
+   "gen": "gpt",
+   "key": "Jamal Musiala#40",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 33,
+   "gen": "gpt",
+   "key": "Luka Modrić#1",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 34,
+   "gen": "gpt",
+   "key": "Erling Haaland#8",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 35,
+   "gen": "gpt",
+   "key": "Kylian Mbappé#32",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 36,
+   "gen": "gpt",
+   "key": "2026 Austrian Grand Prix#19",
+   "stratum": "clean",
+   "ann1": "正确",
+   "ann2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 37,
+   "gen": "gpt",
+   "key": "Nicolò Barella#63",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 38,
+   "gen": "gpt",
+   "key": "Neymar#21",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 39,
+   "gen": "gpt",
+   "key": "Japan national football team#38",
+   "stratum": "flagged",
+   "ann1": "不完整",
+   "ann2": "不完整",
+   "adjudicated": "不完整"
+  },
+  {
+   "n": 40,
+   "gen": "gpt",
+   "key": "Florian Wirtz#45",
+   "stratum": "flagged",
+   "ann1": "错误",
+   "ann2": "错误",
+   "adjudicated": "错误"
+  }
+ ]
+}

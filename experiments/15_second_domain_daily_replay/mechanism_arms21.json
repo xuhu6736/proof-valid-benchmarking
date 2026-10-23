@@ -1,0 +1,312 @@
+{
+ "kimi": {
+  "n_cases": 1240,
+  "arms": {
+   "sent-asserted": {
+    "n": 1240,
+    "served": 1009,
+    "rejected": 231,
+    "n_stale": 53,
+    "stale_deliv": 1,
+    "stale_rate": [
+     0.0009910802775024777,
+     0.00017496693203876356,
+     0.005592568682612135
+    ],
+    "intercept": 52,
+    "intercept_rate": [
+     0.9811320754716981,
+     0.9005685649885058,
+     0.9966616326132507
+    ],
+    "false_rej": 179,
+    "fr_valid": [
+     0.15080033698399326,
+     0.13157043096966972,
+     0.17228324696700967
+    ],
+    "regen_share": 0.18629032258064515
+   },
+   "GC-overlap": {
+    "n": 1240,
+    "served": 233,
+    "rejected": 1007,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.016220123491819
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 954,
+    "fr_valid": [
+     0.8037068239258636,
+     0.7801462614037746,
+     0.8253078980746985
+    ],
+    "regen_share": 0.8120967741935484
+   },
+   "FC-equality": {
+    "n": 1240,
+    "served": 233,
+    "rejected": 1007,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.016220123491819
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 954,
+    "fr_valid": [
+     0.8037068239258636,
+     0.7801462614037746,
+     0.8253078980746985
+    ],
+    "regen_share": 0.8120967741935484
+   },
+   "FC-claim-eq": {
+    "n": 1240,
+    "served": 1187,
+    "rejected": 53,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.0032259538128328736
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 0,
+    "fr_valid": [
+     0.0,
+     0.0,
+     0.0032259538128328736
+    ],
+    "regen_share": 0.042741935483870966
+   },
+   "page-hash": {
+    "n": 1240,
+    "served": 233,
+    "rejected": 1007,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.016220123491819
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 954,
+    "fr_valid": [
+     0.8037068239258636,
+     0.7801462614037746,
+     0.8253078980746985
+    ],
+    "regen_share": 0.8120967741935484
+   }
+  }
+ },
+ "gpt": {
+  "n_cases": 1360,
+  "arms": {
+   "sent-asserted": {
+    "n": 1360,
+    "served": 1092,
+    "rejected": 268,
+    "n_stale": 53,
+    "stale_deliv": 1,
+    "stale_rate": [
+     0.0009157509157509158,
+     0.0001616666582050386,
+     0.005169030771058462
+    ],
+    "intercept": 52,
+    "intercept_rate": [
+     0.9811320754716981,
+     0.9005685649885058,
+     0.9966616326132507
+    ],
+    "false_rej": 216,
+    "fr_valid": [
+     0.16526396327467482,
+     0.14611415918760542,
+     0.18637574653403172
+    ],
+    "regen_share": 0.19705882352941176
+   },
+   "GC-overlap": {
+    "n": 1360,
+    "served": 247,
+    "rejected": 1113,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.015314844108792162
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 1060,
+    "fr_valid": [
+     0.811017597551645,
+     0.788892826961338,
+     0.8313194092081582
+    ],
+    "regen_share": 0.8183823529411764
+   },
+   "FC-equality": {
+    "n": 1360,
+    "served": 247,
+    "rejected": 1113,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.015314844108792162
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 1060,
+    "fr_valid": [
+     0.811017597551645,
+     0.788892826961338,
+     0.8313194092081582
+    ],
+    "regen_share": 0.8183823529411764
+   },
+   "FC-claim-eq": {
+    "n": 1360,
+    "served": 1307,
+    "rejected": 53,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.002930636317919724
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 0,
+    "fr_valid": [
+     0.0,
+     0.0,
+     0.002930636317919724
+    ],
+    "regen_share": 0.03897058823529412
+   },
+   "page-hash": {
+    "n": 1360,
+    "served": 247,
+    "rejected": 1113,
+    "n_stale": 53,
+    "stale_deliv": 0,
+    "stale_rate": [
+     0.0,
+     0.0,
+     0.015314844108792162
+    ],
+    "intercept": 53,
+    "intercept_rate": [
+     1.0,
+     0.9324156955469233,
+     1.0
+    ],
+    "false_rej": 1060,
+    "fr_valid": [
+     0.811017597551645,
+     0.788892826961338,
+     0.8313194092081582
+    ],
+    "regen_share": 0.8183823529411764
+   }
+  }
+ },
+ "bootstrap": {
+  "kimi_asserted_minus_GC-overlap_stale": [
+   0.0,
+   0.0018050541516245488
+  ],
+  "kimi_asserted_minus_GC-overlap_regen": [
+   -0.7013157894736842,
+   -0.55
+  ],
+  "kimi_asserted_minus_FC-equality_stale": [
+   0.0,
+   0.0018050541516245488
+  ],
+  "kimi_asserted_minus_FC-equality_regen": [
+   -0.7012195121951219,
+   -0.55
+  ],
+  "kimi_asserted_minus_FC-claim-eq_stale": [
+   0.0,
+   0.0018050541516245488
+  ],
+  "kimi_asserted_minus_FC-claim-eq_regen": [
+   0.08333333333333334,
+   0.2
+  ],
+  "gpt_asserted_minus_GC-overlap_stale": [
+   0.0,
+   0.0016611295681063123
+  ],
+  "gpt_asserted_minus_GC-overlap_regen": [
+   -0.694186046511628,
+   -0.55
+  ],
+  "gpt_asserted_minus_FC-equality_stale": [
+   0.0,
+   0.0016611295681063123
+  ],
+  "gpt_asserted_minus_FC-equality_regen": [
+   -0.6920454545454546,
+   -0.5521276595744681
+  ],
+  "gpt_asserted_minus_FC-claim-eq_stale": [
+   0.0,
+   0.0016501650165016502
+  ],
+  "gpt_asserted_minus_FC-claim-eq_regen": [
+   0.09893617021276595,
+   0.2142857142857143
+  ]
+ }
+}

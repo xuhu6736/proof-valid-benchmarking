@@ -1,0 +1,9 @@
+{
+ "result": "all states agree",
+ "seed": 20261022,
+ "schemas_tested": 400,
+ "states_checked": 990560,
+ "max_leaves": 5,
+ "max_vertices": 11,
+ "statement": "q not in Cn(B~ u S) <=> Dexp(q,S) not subseteq B~ verified exhaustively over all erasure/cache states of each randomly generated conjunctive schema"
+}

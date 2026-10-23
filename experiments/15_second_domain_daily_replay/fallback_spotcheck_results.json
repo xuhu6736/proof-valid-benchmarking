@@ -1,0 +1,234 @@
+{
+ "sample": "20 of 41 executed fallback regenerations (seed 42)",
+ "annotators": "two independent annotators, blinded to auto-judgments and gate decisions",
+ "agreement": {
+  "raw": "19/20",
+  "raw_pct": 95.0,
+  "cohens_kappa": 0.9
+ },
+ "disagreements": [
+  {
+   "n": 14,
+   "annotator1": "正确",
+   "annotator2": "错误",
+   "adjudicated": "错误",
+   "rule": "conservative (system-less-favourable)"
+  }
+ ],
+ "adjudication_rule": "conservative: disagreement resolves to the system-less-favourable label",
+ "adjudicated_correct": 9,
+ "adjudicated_correct_pct": 45.0,
+ "adjudicated_correct_wilson95": [
+  25.8,
+  65.8
+ ],
+ "auto_value_mention": {
+  "accepted_in_sample": 19,
+  "false_accepts": 10,
+  "false_accept_rate_pct": 52.6,
+  "rejected_in_sample": 1,
+  "reject_confirmed_incorrect": 1
+ },
+ "per_item": [
+  {
+   "n": 1,
+   "gen": "gpt",
+   "key": "Lionel Messi#97",
+   "tick": "2026-07-04",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 2,
+   "gen": "kimi",
+   "key": "2026 British Grand Prix#29",
+   "tick": "2026-07-05",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 3,
+   "gen": "kimi",
+   "key": "Luka Modrić#1",
+   "tick": "2026-07-17",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 4,
+   "gen": "kimi",
+   "key": "Kevin De Bruyne#92",
+   "tick": "2026-07-10",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 5,
+   "gen": "kimi",
+   "key": "2026 FIFA World Cup#59",
+   "tick": "2026-07-03",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 6,
+   "gen": "kimi",
+   "key": "Federico Valverde#54",
+   "tick": "2026-07-06",
+   "auto_correct": false,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 7,
+   "gen": "kimi",
+   "key": "Vinícius Júnior#41",
+   "tick": "2026-07-06",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 8,
+   "gen": "kimi",
+   "key": "Neymar#21",
+   "tick": "2026-07-05",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 9,
+   "gen": "kimi",
+   "key": "Jude Bellingham#18",
+   "tick": "2026-07-08",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 10,
+   "gen": "gpt",
+   "key": "Neymar#21",
+   "tick": "2026-07-05",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 11,
+   "gen": "gpt",
+   "key": "Kevin De Bruyne#92",
+   "tick": "2026-07-10",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 12,
+   "gen": "kimi",
+   "key": "Antoine Griezmann#0",
+   "tick": "2026-07-04",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 13,
+   "gen": "kimi",
+   "key": "Neymar#2",
+   "tick": "2026-07-04",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 14,
+   "gen": "gpt",
+   "key": "2026 FIFA World Cup#47",
+   "tick": "2026-07-05",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 15,
+   "gen": "gpt",
+   "key": "Kylian Mbappé#95",
+   "tick": "2026-07-20",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 16,
+   "gen": "kimi",
+   "key": "Lamine Yamal#73",
+   "tick": "2026-07-02",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 17,
+   "gen": "gpt",
+   "key": "Antoine Griezmann#0",
+   "tick": "2026-07-04",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 18,
+   "gen": "gpt",
+   "key": "Kylian Mbappé#32",
+   "tick": "2026-07-19",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  },
+  {
+   "n": 19,
+   "gen": "gpt",
+   "key": "Lamine Yamal#73",
+   "tick": "2026-07-02",
+   "auto_correct": true,
+   "annotator1": "错误",
+   "annotator2": "错误",
+   "adjudicated": "错误"
+  },
+  {
+   "n": 20,
+   "gen": "gpt",
+   "key": "Antoine Griezmann#43",
+   "tick": "2026-07-04",
+   "auto_correct": true,
+   "annotator1": "正确",
+   "annotator2": "正确",
+   "adjudicated": "正确"
+  }
+ ]
+}

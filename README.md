@@ -8,6 +8,11 @@ artifacts for the paper
 > Derivation DAGs: Exact Reliability Laws and a Sharp Complexity Dichotomy*,
 > arXiv:2608.11782).
 
+**Permanent archive:** this repository is archived at Zenodo,
+[doi:10.5281/zenodo.23502165](https://doi.org/10.5281/zenodo.23502165).
+Section and table numbers below refer to the KAIS submission version of the
+manuscript.
+
 Every number, table, and figure in the paper can be audited against the
 retained result artifacts in this repository, and all figures and tables can
 be regenerated from them. Unless stated otherwise, all stochastic experiments
@@ -61,13 +66,30 @@ experiments/
                                diff) + RECONCILIATION.md + rebuild scripts
   13_production_trace_replay/  Fig. 7, Table 3 — Azure conversation-trace cost
                                projection and trace-driven single-server queueing check
-  14_snapshot_serving_replay/  §7.2, Tables 5–8 — end-to-end serving replay of the
-                               full Fig. 1 pipeline on the real 2026-04-01 →
-                               2026-08-01 snapshot change (LLM answer generation,
-                               certificate gate, two serving arms, closed-loop
-                               regeneration, cost decomposition, simple serve-time
-                               baselines, protection-recovery overlay + revert
-                               negative control; human answer labels included)
+  14_snapshot_serving_replay/  §7.3, Tables 6–8 — end-to-end monthly serving
+                               replay of the full Fig. 1 pipeline on the real
+                               2026-04-01 → 2026-08-01 snapshot change (LLM answer
+                               generation, certificate gate, two serving arms,
+                               closed-loop regeneration, cost decomposition,
+                               simple serve-time baselines, protection-recovery
+                               overlay + revert negative control; human answer
+                               labels included)
+  15_second_domain_daily_replay/ §7.2, Tables 3–5 — main-scenario daily
+                               frozen-cache replay: 100 candidate pages (99
+                               usable) tracked over 21 daily ticks (2026-07-01 →
+                               2026-07-21); lead-sentence certificate premises
+                               vs. infobox value truth; dual-generator (Kimi/GPT)
+                               caches with real answer generation, fallback
+                               regeneration, and double-annotated audits; gate
+                               arms vs. TTL/page-hash/infobox-diff baselines;
+                               page-cluster bootstrap (stage13) and
+                               per-part-filtered replay (stage14); the initial
+                               48-page pilot pool is included (stage1b–stage3b)
+  16_dag_correctness_test/       §7.1 + Supplementary Section S1 — exhaustive
+                               small-schema check of the
+                               residual-failure-path lemma — 400 random
+                               conjunctive DAG schemas, all 990,560
+                               erasure/cache states agree (no model calls)
 ```
 
 Each experiment folder contains the run script(s), the canonical result
@@ -121,7 +143,8 @@ Included in this repository:
 | Tables 5–6 trace operating points | `11_trace_operating_points` | `run_experiment.py`, `run_supplement_sq.py` | `trace_endpoints_results.json`, `trace_endpoints_sq_results.json` |
 | Fig. 8 + Table 4 real dynamics | `12_real_dynamics_audit` | `eps_t.py`, `wd_pipeline.py`, `wd_pipeline_v2.py`, `module1_wikifactdiff.py`, `module2_analyze.py`, `make_figures_eps_v2.py` | `eps_t.json`, `eps_stmt_v2.json`, `wfd_popularity_workload.json`, `workload_corrected_2026.json` |
 | Fig. 12 + Tables 8–9 gate-audit operating points and ablation | `12_real_dynamics_audit` | `constructor_lab.py` … `constructor_lab4.py`, `compute_matched_ablation.py`, `make_frontier_fig.py`, `analyze_roc.py`, `roc_close.py` | `constructor_results_v4.json`, `constructor_results.json` (per-entity), `constructor_ablation_2x2.json`, `statement_diff_v2_2026.json` |
-| §7.2 + Tables 5–11 snapshot serving replay | `14_snapshot_serving_replay` | `s1_build_panel.py` … `s52_claim_equality_loop_alias.py` (see `RESULTS.md`) | `replay_summary.json`, `replay.json`, cached `generation.json` and `embeddings.json`, `age_curve.json`, `simple_baselines.json`, `protection_recovery.json`, `current_claims/`, `annotation/` (incl. `incoming_query_labels.json`), `incoming_query_crosstab.json`, `alternative_certificates.json`, `qualified_alternatives.json`, `fixed_budget_protection.json`, `retrieval_scaling.json`, `unified_strategy_table.json`, `paired_transition.json`, `population_reweight.json`, `population_reweight_schemeA.json`, `closed_loop_system.json`, `sensitivity_ttl_vs_loop.json`, `protected_closed_loop.json`, `staged_timing_failclosed.json`, `certificates_handoff.jsonl`, `certificate_handoff.json`, `real_payload_chain.json`, `payload_stores.sqlite`, `frozen_independent_check.json`, `tableb_regeneration.json`, `tableb_endpoint_map.json`, `tableb_labels.json`, `tableb_endpoint_quality.json`, `tableb_protected_loop.json`, `real_driven_loop.json`, `real_driven_sweep.json` (Decimal re-aggregated; pre-correction backup `real_driven_sweep_binary_rounding_backup.json`), `residual_decomposition.json`, `paired_transitions_real.json`, `frozen_panel_generation.json`, `frozen_panel_check.json`, `tableb_regeneration_gpt.json`, `regeneration_gpt.json`, `gpt_generator_compare.json` (second-generator replication, GPT via Poe API), `mechanism_arms.json` (mechanism-level comparison arms), `gate_alias_cross.json` (crossed gate-by-alias control), `gate_alias_request_diff.json` (per-request alias toggle diff), `annotation/pairing_audit.json` (second-generator answer-pairing audit), `claim_equality_loop.json` (claim-level equality ablation arm, aliases off), `claim_equality_loop_alias.json` (same ablation, aliases on) |
+| §7.3 + Tables 6–8 monthly snapshot serving replay | `14_snapshot_serving_replay` | `s1_build_panel.py` … `s52_claim_equality_loop_alias.py` (see `RESULTS.md`) | `replay_summary.json`, `replay.json`, cached `generation.json` and `embeddings.json`, `age_curve.json`, `simple_baselines.json`, `protection_recovery.json`, `current_claims/`, `annotation/` (incl. `incoming_query_labels.json`), `incoming_query_crosstab.json`, `alternative_certificates.json`, `qualified_alternatives.json`, `fixed_budget_protection.json`, `retrieval_scaling.json`, `unified_strategy_table.json`, `paired_transition.json`, `population_reweight.json`, `population_reweight_schemeA.json`, `closed_loop_system.json`, `sensitivity_ttl_vs_loop.json`, `protected_closed_loop.json`, `staged_timing_failclosed.json`, `certificates_handoff.jsonl`, `certificate_handoff.json`, `real_payload_chain.json`, `payload_stores.sqlite`, `frozen_independent_check.json`, `tableb_regeneration.json`, `tableb_endpoint_map.json`, `tableb_labels.json`, `tableb_endpoint_quality.json`, `tableb_protected_loop.json`, `real_driven_loop.json`, `real_driven_sweep.json` (Decimal re-aggregated; pre-correction backup `real_driven_sweep_binary_rounding_backup.json`), `residual_decomposition.json`, `paired_transitions_real.json`, `frozen_panel_generation.json`, `frozen_panel_check.json`, `tableb_regeneration_gpt.json`, `regeneration_gpt.json`, `gpt_generator_compare.json` (second-generator replication, GPT via Poe API), `mechanism_arms.json` (mechanism-level comparison arms), `gate_alias_cross.json` (crossed gate-by-alias control), `gate_alias_request_diff.json` (per-request alias toggle diff), `annotation/pairing_audit.json` (second-generator answer-pairing audit), `claim_equality_loop.json` (claim-level equality ablation arm, aliases off), `claim_equality_loop_alias.json` (same ablation, aliases on) |
+| §7.2 + Tables 3–5 daily frozen-cache replay (main scenario, dual-generator) | `15_second_domain_daily_replay` | `stage1c_fetch_expanded.py`, `stage1d_static_fill.py`, `stage2e_build_panel_prox.py`, `stage0_generate_answers.py`, `stage4_dual_replay.py`, `stage5_fallback_regen.py`, `stage6_load_cost.py`, `stage7_mechanism_arms21.py`, `stage8_spotcheck_sheet.py`, `stage9_parse_spotcheck.py` | `series21.json`, `panel21.json`, `pool_stats21.json`, `answers_kimi.json`, `answers_gpt.json`, `dual_replay_results.json`, `fallback_regen.json`, `load_cost.json`, `mechanism_arms21.json`, `fallback_spotcheck_sample20.json`, `fallback_spotcheck_results.json` (double-annotated fallback spot check: agreement 19/20, Cohen's κ=0.90, adjudicated correct 9/20 [25.8, 65.8]), `perpart_rescore.json` (per-part re-scoring: regenerations 24/41 vs 37/41 set-level, 7 of 10 false accepts rejected, base answers flagged 16/62 Kimi, 17/68 GPT), `base_answer_sample40.json`, `base_answer_results.json` (double-annotated base-answer audit: agreement 40/40, κ=1.0, design-weighted b = 22.8% [20.6, 25.1]; Eq.(window) verdict: r−b ≈ 32 points exceeds the upper bound vs similarity-only, clears the TTL-1d lower bound by two orders of magnitude), `annotation/` (returned annotator sheets) |
 
 ## Naming notes (please read before citing artifact files)
 
@@ -154,15 +177,16 @@ Included in this repository:
 
 ## GitHub size note
 
-Two files exceed GitHub's 100 MB per-file limit and should be tracked with
-Git LFS (or excluded and regenerated):
+Two files exceed GitHub's 100 MB per-file limit and are tracked with
+Git LFS (see `.gitattributes`):
 `experiments/11_trace_operating_points/data/SemBenchmarkLmArena_trimmed.parquet`
 (101 MB; regenerate with `_dl_trace_emb.py`) and
 `experiments/12_real_dynamics_audit/data/wikifactdiff_20210104_20230227.parquet`
 (178 MB; the complete, untruncated WikiFactDiff legacy split — re-download
 from the WikiFactDiff release). All other files, including the rebuilt 2026
-snapshot inputs, are below the limit. The full repository is intended to be
-archived on Zenodo (or another DOI minting service) as-is.
+snapshot inputs, are below the limit. The full repository is archived
+as-is on Zenodo
+([doi:10.5281/zenodo.23502165](https://doi.org/10.5281/zenodo.23502165)).
 
 ## License
 

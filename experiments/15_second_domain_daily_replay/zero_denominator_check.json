@@ -1,0 +1,114 @@
+{
+ "boot": 10000,
+ "seed": 42,
+ "full_cache": {
+  "kimi|sent-asserted vs TTL-14d": {
+   "n_pages": 42,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs TTL-1d": {
+   "n_pages": 42,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs GC-overlap": {
+   "n_pages": 42,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs FC-equality": {
+   "n_pages": 42,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs FC-claim-eq": {
+   "n_pages": 42,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs TTL-14d": {
+   "n_pages": 47,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs TTL-1d": {
+   "n_pages": 47,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs GC-overlap": {
+   "n_pages": 47,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs FC-equality": {
+   "n_pages": 47,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs FC-claim-eq": {
+   "n_pages": 47,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi vs gpt|sent-asserted": {
+   "n_pages": 41,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  }
+ },
+ "filtered": {
+  "kimi|sent-asserted vs TTL-14d": {
+   "n_pages": 33,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs TTL-1d": {
+   "n_pages": 33,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs GC-overlap": {
+   "n_pages": 33,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs FC-equality": {
+   "n_pages": 33,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "kimi|sent-asserted vs FC-claim-eq": {
+   "n_pages": 33,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs TTL-14d": {
+   "n_pages": 36,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs TTL-1d": {
+   "n_pages": 36,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs GC-overlap": {
+   "n_pages": 36,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs FC-equality": {
+   "n_pages": 36,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  },
+  "gpt|sent-asserted vs FC-claim-eq": {
+   "n_pages": 36,
+   "zero_den_A": 0,
+   "zero_den_B": 0
+  }
+ },
+ "any_zero_denominator_draw": false
+}

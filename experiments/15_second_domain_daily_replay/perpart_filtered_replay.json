@@ -1,0 +1,188 @@
+{
+ "unit": "page",
+ "boot": 10000,
+ "seed": 42,
+ "filter": "cache restricted to base answers passing per-part matching (stage 10 rescore)",
+ "arms": {
+  "kimi|sent-asserted": {
+   "cases": 920,
+   "coverage": 0.8326086956521739,
+   "stale_delivery_rate": 0.0013054830287206266,
+   "rejections": 154,
+   "rejection_precision": 0.23376623376623376,
+   "fallback_demand": 0.1673913043478261
+  },
+  "kimi|TTL-1d": {
+   "cases": 920,
+   "coverage": 0.05,
+   "stale_delivery_rate": 0.0,
+   "rejections": 874,
+   "rejection_precision": 0.04233409610983982,
+   "fallback_demand": 0.95
+  },
+  "kimi|TTL-14d": {
+   "cases": 920,
+   "coverage": 0.7,
+   "stale_delivery_rate": 0.03881987577639751,
+   "rejections": 276,
+   "rejection_precision": 0.043478260869565216,
+   "fallback_demand": 0.3
+  },
+  "kimi|GC-overlap": {
+   "cases": 920,
+   "coverage": 0.17173913043478262,
+   "stale_delivery_rate": 0.0,
+   "rejections": 762,
+   "rejection_precision": 0.048556430446194225,
+   "fallback_demand": 0.8282608695652174
+  },
+  "kimi|FC-equality": {
+   "cases": 920,
+   "coverage": 0.17173913043478262,
+   "stale_delivery_rate": 0.0,
+   "rejections": 762,
+   "rejection_precision": 0.048556430446194225,
+   "fallback_demand": 0.8282608695652174
+  },
+  "kimi|FC-claim-eq": {
+   "cases": 920,
+   "coverage": 0.9597826086956521,
+   "stale_delivery_rate": 0.0,
+   "rejections": 37,
+   "rejection_precision": 1.0,
+   "fallback_demand": 0.04021739130434782
+  },
+  "gpt|sent-asserted": {
+   "cases": 1020,
+   "coverage": 0.8294117647058824,
+   "stale_delivery_rate": 0.001182033096926714,
+   "rejections": 174,
+   "rejection_precision": 0.25862068965517243,
+   "fallback_demand": 0.17058823529411765
+  },
+  "gpt|TTL-1d": {
+   "cases": 1020,
+   "coverage": 0.05,
+   "stale_delivery_rate": 0.0,
+   "rejections": 969,
+   "rejection_precision": 0.047471620227038186,
+   "fallback_demand": 0.95
+  },
+  "gpt|TTL-14d": {
+   "cases": 1020,
+   "coverage": 0.7,
+   "stale_delivery_rate": 0.0392156862745098,
+   "rejections": 306,
+   "rejection_precision": 0.058823529411764705,
+   "fallback_demand": 0.3
+  },
+  "gpt|GC-overlap": {
+   "cases": 1020,
+   "coverage": 0.1696078431372549,
+   "stale_delivery_rate": 0.0,
+   "rejections": 847,
+   "rejection_precision": 0.05430932703659976,
+   "fallback_demand": 0.8303921568627451
+  },
+  "gpt|FC-equality": {
+   "cases": 1020,
+   "coverage": 0.1696078431372549,
+   "stale_delivery_rate": 0.0,
+   "rejections": 847,
+   "rejection_precision": 0.05430932703659976,
+   "fallback_demand": 0.8303921568627451
+  },
+  "gpt|FC-claim-eq": {
+   "cases": 1020,
+   "coverage": 0.9549019607843138,
+   "stale_delivery_rate": 0.0,
+   "rejections": 46,
+   "rejection_precision": 1.0,
+   "fallback_demand": 0.045098039215686274
+  }
+ },
+ "contrasts": {
+  "kimi_asserted_minus_TTL-14d_stale": {
+   "ci": [
+    -0.0660961810466761,
+    -0.002304147465437788
+   ],
+   "n_pages": 33
+  },
+  "kimi_asserted_minus_GC-overlap_stale": {
+   "ci": [
+    0.0,
+    0.0026455026455026454
+   ],
+   "n_pages": 33
+  },
+  "kimi_asserted_minus_FC-equality_stale": {
+   "ci": [
+    0.0,
+    0.002638522427440633
+   ],
+   "n_pages": 33
+  },
+  "kimi_asserted_minus_FC-claim-eq_stale": {
+   "ci": [
+    0.0,
+    0.002631578947368421
+   ],
+   "n_pages": 33
+  },
+  "kimi_asserted_minus_TTL-1d_regen": {
+   "ci": [
+    -0.8673913043478261,
+    -0.6979166666666666
+   ],
+   "n_pages": 33
+  },
+  "gpt_asserted_minus_TTL-14d_stale": {
+   "ci": [
+    -0.06437026689214029,
+    -0.003861003861003861
+   ],
+   "n_pages": 36
+  },
+  "gpt_asserted_minus_GC-overlap_stale": {
+   "ci": [
+    0.0,
+    0.0023584905660377358
+   ],
+   "n_pages": 36
+  },
+  "gpt_asserted_minus_FC-equality_stale": {
+   "ci": [
+    0.0,
+    0.002364066193853428
+   ],
+   "n_pages": 36
+  },
+  "gpt_asserted_minus_FC-claim-eq_stale": {
+   "ci": [
+    0.0,
+    0.00234192037470726
+   ],
+   "n_pages": 36
+  },
+  "gpt_asserted_minus_TTL-1d_regen": {
+   "ci": [
+    -0.8564516129032258,
+    -0.7
+   ],
+   "n_pages": 36
+  }
+ },
+ "meta": {
+  "kimi": {
+   "n_cached_answers": 46,
+   "n_cases": 920,
+   "n_pages": 33
+  },
+  "gpt": {
+   "n_cached_answers": 51,
+   "n_cases": 1020,
+   "n_pages": 36
+  }
+ }
+}

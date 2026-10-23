@@ -1,0 +1,1359 @@
+{
+ "regenerations": {
+  "kimi|Antoine Griezmann#0": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Atlético Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Luka Modrić#1": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Neymar#2": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Uruguay national football team#5": {
+   "set_level_accept": false,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Vacant"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Federico Valverde#17": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Jude Bellingham#18": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Neymar#21": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Santos"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|2026 British Grand Prix#29": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "F1"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Vinícius Júnior#41": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Antoine Griezmann#43": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Endrick#44": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Real Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|2026 FIFA World Cup#47": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kevin De Bruyne#48": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|England national football team#52": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Federico Valverde#54": {
+   "set_level_accept": false,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "2017–"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|2026 FIFA World Cup#59": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Lamine Yamal#73": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Barcelona"
+    },
+    {
+     "part": 3,
+     "value": "Barcelona"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Kevin De Bruyne#92": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kylian Mbappé#95": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Antoine Griezmann#0": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Atlético Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Luka Modrić#1": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "AC Milan"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Neymar#2": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Uruguay national football team#5": {
+   "set_level_accept": false,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Vacant"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Erling Haaland#8": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Borussia Dortmund"
+    },
+    {
+     "part": 2,
+     "value": "Manchester City"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Spain national football team#9": {
+   "set_level_accept": false,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "12"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Federico Valverde#17": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Jude Bellingham#18": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Neymar#21": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Santos"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|2026 British Grand Prix#29": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "F1"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Kylian Mbappé#32": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Vinícius Júnior#41": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Antoine Griezmann#43": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Endrick#44": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Real Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|2026 FIFA World Cup#47": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kevin De Bruyne#48": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|England national football team#52": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Federico Valverde#54": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Lamine Yamal#73": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kevin De Bruyne#92": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Manchester City"
+    },
+    {
+     "part": 2,
+     "value": "Napoli"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Kylian Mbappé#95": {
+   "set_level_accept": true,
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Lionel Messi#97": {
+   "set_level_accept": true,
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Inter Miami"
+    }
+   ],
+   "unparsed": false
+  }
+ },
+ "base_answers": {
+  "kimi|Antoine Griezmann#0": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Atlético Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Luka Modrić#1": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "AC Milan"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Neymar#2": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Uruguay national football team#5": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kevin De Bruyne#7": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Virgil van Dijk#11": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Robert Lewandowski#12": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Ryan Gravenberch#14": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Mohamed Salah#15": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Leroy Sané#16": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Federico Valverde#17": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Jude Bellingham#18": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|2026 Austrian Grand Prix#19": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Neymar#21": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Santos"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Virgil van Dijk#22": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Liverpool"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Bruno Guimarães#23": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kai Havertz#24": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Cody Gakpo#25": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Luka Modrić#26": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Ollie Watkins#28": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|2026 British Grand Prix#29": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "F1"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Alexis Mac Allister#30": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|2026 Austrian Grand Prix#31": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Mercedes"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Bukayo Saka#33": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Harry Kane#37": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Bayern Munich"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Bernardo Silva#39": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Real Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Jamal Musiala#40": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Bayern Munich"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Vinícius Júnior#41": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Antoine Griezmann#43": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Endrick#44": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Florian Wirtz#45": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Bayer Leverkusen"
+    },
+    {
+     "part": 2,
+     "value": "Liverpool"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|2026 FIFA World Cup#47": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kevin De Bruyne#48": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Leroy Sané#51": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|England national football team#52": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Federico Valverde#54": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Alexis Mac Allister#55": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Rodrygo#56": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Robert Lewandowski#57": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|2026 NBA Finals#58": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|2026 FIFA World Cup#59": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Nicolò Barella#63": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Inter Milan"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Declan Rice#64": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Claude Monet#66": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Rúben Dias#67": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Serge Gnabry#68": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Bruno Fernandes#69": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Joshua Kimmich#71": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Lamine Yamal#73": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Barcelona"
+    },
+    {
+     "part": 3,
+     "value": "Barcelona"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Bruno Guimarães#75": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Xavi Simons#81": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Paris Saint-Germain"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Rúben Dias#84": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Robert Lewandowski#85": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Xavi Simons#86": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Tottenham Hotspur"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Declan Rice#87": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Bernardo Silva#88": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Benfica"
+    },
+    {
+     "part": 2,
+     "value": "Monaco"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Argentina national football team#89": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kevin De Bruyne#92": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|William Saliba#93": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Saint-Étienne"
+    }
+   ],
+   "unparsed": false
+  },
+  "kimi|Rodrygo#94": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Kylian Mbappé#95": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "kimi|Bruno Fernandes#96": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Antoine Griezmann#0": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Luka Modrić#1": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "AC Milan"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Neymar#2": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Uruguay national football team#5": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kevin De Bruyne#7": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Erling Haaland#8": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Spain national football team#9": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Virgil van Dijk#11": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Ryan Gravenberch#14": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Mohamed Salah#15": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Leroy Sané#16": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Federico Valverde#17": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Jude Bellingham#18": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|2026 Austrian Grand Prix#19": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Neymar#21": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Santos"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Virgil van Dijk#22": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Liverpool"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Bruno Guimarães#23": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kai Havertz#24": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Arsenal"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Cody Gakpo#25": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Liverpool"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Luka Modrić#26": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Ollie Watkins#28": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|2026 British Grand Prix#29": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "F1"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Alexis Mac Allister#30": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|2026 Austrian Grand Prix#31": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kylian Mbappé#32": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Bukayo Saka#33": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Great Wall of China#34": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Harry Kane#37": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Bayern Munich"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Japan national football team#38": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Japan"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Bernardo Silva#39": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Real Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Jamal Musiala#40": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Bayern Munich"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Vinícius Júnior#41": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Antoine Griezmann#43": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Endrick#44": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Real Madrid"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Florian Wirtz#45": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Bayer Leverkusen"
+    },
+    {
+     "part": 2,
+     "value": "Liverpool"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|2026 FIFA World Cup#47": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kevin De Bruyne#48": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Leroy Sané#51": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Galatasaray"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|England national football team#52": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Federico Valverde#54": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Alexis Mac Allister#55": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Rodrygo#56": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Robert Lewandowski#57": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|2026 NBA Finals#58": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Mohamed Salah#62": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Nicolò Barella#63": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 1,
+     "value": "Inter Milan"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Declan Rice#64": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Claude Monet#66": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Rúben Dias#67": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Bruno Fernandes#69": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Joshua Kimmich#71": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Lamine Yamal#73": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 3,
+     "value": "Barcelona"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Bruno Guimarães#75": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Ollie Watkins#78": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Xavi Simons#81": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Paris Saint-Germain"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|Aurélien Tchouaméni#82": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Rúben Dias#84": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Robert Lewandowski#85": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Xavi Simons#86": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Declan Rice#87": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Bernardo Silva#88": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Argentina national football team#89": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kevin De Bruyne#92": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|William Saliba#93": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Rodrygo#94": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Kylian Mbappé#95": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  },
+  "gpt|Lionel Messi#97": {
+   "per_part_accept": false,
+   "per_part_missing": [
+    {
+     "part": 2,
+     "value": "Inter Miami"
+    }
+   ],
+   "unparsed": false
+  },
+  "gpt|William Saliba#98": {
+   "per_part_accept": true,
+   "per_part_missing": [],
+   "unparsed": false
+  }
+ },
+ "spotcheck_vs_human": {
+  "n": 20,
+  "agree": 16,
+  "false_accept": 3,
+  "false_reject": 1,
+  "set_level_agree": 10,
+  "detail": [
+   {
+    "n": 1,
+    "gen": "gpt",
+    "key": "Lionel Messi#97",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 2,
+    "gen": "kimi",
+    "key": "2026 British Grand Prix#29",
+    "per_part_accept": false,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 3,
+    "gen": "kimi",
+    "key": "Luka Modrić#1",
+    "per_part_accept": true,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 4,
+    "gen": "kimi",
+    "key": "Kevin De Bruyne#92",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 5,
+    "gen": "kimi",
+    "key": "2026 FIFA World Cup#59",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 6,
+    "gen": "kimi",
+    "key": "Federico Valverde#54",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": false
+   },
+   {
+    "n": 7,
+    "gen": "kimi",
+    "key": "Vinícius Júnior#41",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 8,
+    "gen": "kimi",
+    "key": "Neymar#21",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 9,
+    "gen": "kimi",
+    "key": "Jude Bellingham#18",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 10,
+    "gen": "gpt",
+    "key": "Neymar#21",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 11,
+    "gen": "gpt",
+    "key": "Kevin De Bruyne#92",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 12,
+    "gen": "kimi",
+    "key": "Antoine Griezmann#0",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 13,
+    "gen": "kimi",
+    "key": "Neymar#2",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 14,
+    "gen": "gpt",
+    "key": "2026 FIFA World Cup#47",
+    "per_part_accept": true,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 15,
+    "gen": "gpt",
+    "key": "Kylian Mbappé#95",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 16,
+    "gen": "kimi",
+    "key": "Lamine Yamal#73",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 17,
+    "gen": "gpt",
+    "key": "Antoine Griezmann#0",
+    "per_part_accept": false,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 18,
+    "gen": "gpt",
+    "key": "Kylian Mbappé#32",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   },
+   {
+    "n": 19,
+    "gen": "gpt",
+    "key": "Lamine Yamal#73",
+    "per_part_accept": true,
+    "human": "错误",
+    "set_level_accept": true
+   },
+   {
+    "n": 20,
+    "gen": "gpt",
+    "key": "Antoine Griezmann#43",
+    "per_part_accept": true,
+    "human": "正确",
+    "set_level_accept": true
+   }
+  ]
+ },
+ "summary": {
+  "regen_set_level_accept": "37/41",
+  "regen_per_part_accept": "24/41",
+  "base_per_part_accept": {
+   "kimi": "46/62",
+   "gpt": "51/68"
+  },
+  "spotcheck_per_part_vs_human": "16/20 agree, 3 false-accept, 1 false-reject",
+  "spotcheck_set_level_vs_human": "10/20 agree"
+ }
+}

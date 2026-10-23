@@ -1,0 +1,259 @@
+{
+ "n_cases": 1320,
+ "N_weighted": 1320.0,
+ "W_stale": 116.0,
+ "arms": {
+  "similarity-only": {
+   "served": 1320,
+   "rejected": 0,
+   "stale_delivered": 116.0,
+   "stale_rate": [
+    0.0879,
+    0.0738,
+    0.1044
+   ],
+   "intercepted": 0.0,
+   "intercept_rate": [
+    0.0,
+    0.0,
+    0.0321
+   ],
+   "false_rejected": 0.0,
+   "false_rej_rate": [
+    0.0,
+    0.0,
+    0.7935
+   ],
+   "false_rej_given_valid": [
+    0.0,
+    0.0,
+    0.0032
+   ],
+   "regenerations": 0
+  },
+  "sent-asserted": {
+   "served": 826,
+   "rejected": 494,
+   "stale_delivered": 7.0,
+   "stale_rate": [
+    0.0085,
+    0.0041,
+    0.0174
+   ],
+   "intercepted": 109.0,
+   "intercept_rate": [
+    0.9397,
+    0.8807,
+    0.9705
+   ],
+   "false_rejected": 385.0,
+   "false_rej_rate": [
+    0.7794,
+    0.7407,
+    0.8137
+   ],
+   "false_rej_given_valid": [
+    0.3198,
+    0.294,
+    0.3466
+   ],
+   "regenerations": 494
+  },
+  "sent-strict": {
+   "served": 755,
+   "rejected": 565,
+   "stale_delivered": 7.0,
+   "stale_rate": [
+    0.0093,
+    0.0045,
+    0.019
+   ],
+   "intercepted": 109.0,
+   "intercept_rate": [
+    0.9397,
+    0.8807,
+    0.9705
+   ],
+   "false_rejected": 456.0,
+   "false_rej_rate": [
+    0.8071,
+    0.7725,
+    0.8375
+   ],
+   "false_rej_given_valid": [
+    0.3787,
+    0.3518,
+    0.4065
+   ],
+   "regenerations": 565
+  },
+  "infobox-any-key": {
+   "served": 369,
+   "rejected": 951,
+   "stale_delivered": 0.0,
+   "stale_rate": [
+    0.0,
+    0.0,
+    0.0103
+   ],
+   "intercepted": 116.0,
+   "intercept_rate": [
+    1.0,
+    0.9679,
+    1.0
+   ],
+   "false_rejected": 835.0,
+   "false_rej_rate": [
+    0.878,
+    0.8557,
+    0.8973
+   ],
+   "false_rej_given_valid": [
+    0.6935,
+    0.6669,
+    0.7189
+   ],
+   "regenerations": 951
+  },
+  "page-hash": {
+   "served": 69,
+   "rejected": 1251,
+   "stale_delivered": 0.0,
+   "stale_rate": [
+    0.0,
+    0.0,
+    0.0527
+   ],
+   "intercepted": 116.0,
+   "intercept_rate": [
+    1.0,
+    0.9679,
+    1.0
+   ],
+   "false_rejected": 1135.0,
+   "false_rej_rate": [
+    0.9073,
+    0.8899,
+    0.9221
+   ],
+   "false_rej_given_valid": [
+    0.9427,
+    0.9281,
+    0.9545
+   ],
+   "regenerations": 1251
+  },
+  "TTL-1d": {
+   "served": 66,
+   "rejected": 1254,
+   "stale_delivered": 0.0,
+   "stale_rate": [
+    0.0,
+    0.0,
+    0.055
+   ],
+   "intercepted": 116.0,
+   "intercept_rate": [
+    1.0,
+    0.9679,
+    1.0
+   ],
+   "false_rejected": 1138.0,
+   "false_rej_rate": [
+    0.9075,
+    0.8902,
+    0.9223
+   ],
+   "false_rej_given_valid": [
+    0.9452,
+    0.9309,
+    0.9567
+   ],
+   "regenerations": 1254
+  },
+  "TTL-3d": {
+   "served": 198,
+   "rejected": 1122,
+   "stale_delivered": 0.0,
+   "stale_rate": [
+    0.0,
+    0.0,
+    0.019
+   ],
+   "intercepted": 116.0,
+   "intercept_rate": [
+    1.0,
+    0.9679,
+    1.0
+   ],
+   "false_rejected": 1006.0,
+   "false_rej_rate": [
+    0.8966,
+    0.8774,
+    0.9131
+   ],
+   "false_rej_given_valid": [
+    0.8355,
+    0.8135,
+    0.8554
+   ],
+   "regenerations": 1122
+  },
+  "TTL-7d": {
+   "served": 462,
+   "rejected": 858,
+   "stale_delivered": 15.0,
+   "stale_rate": [
+    0.0325,
+    0.0198,
+    0.0529
+   ],
+   "intercepted": 101.0,
+   "intercept_rate": [
+    0.8707,
+    0.7976,
+    0.92
+   ],
+   "false_rejected": 757.0,
+   "false_rej_rate": [
+    0.8823,
+    0.859,
+    0.9022
+   ],
+   "false_rej_given_valid": [
+    0.6287,
+    0.6011,
+    0.6556
+   ],
+   "regenerations": 858
+  },
+  "TTL-14d": {
+   "served": 924,
+   "rejected": 396,
+   "stale_delivered": 58.0,
+   "stale_rate": [
+    0.0628,
+    0.0489,
+    0.0803
+   ],
+   "intercepted": 58.0,
+   "intercept_rate": [
+    0.5,
+    0.4105,
+    0.5895
+   ],
+   "false_rejected": 338.0,
+   "false_rej_rate": [
+    0.8535,
+    0.8153,
+    0.885
+   ],
+   "false_rej_given_valid": [
+    0.2807,
+    0.2561,
+    0.3068
+   ],
+   "regenerations": 396
+  }
+ }
+}

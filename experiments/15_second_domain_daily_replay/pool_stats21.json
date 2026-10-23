@@ -1,0 +1,41 @@
+{
+ "pool_claims": 373,
+ "pool_stats": {
+  "2026-07-02": {
+   "n": 373,
+   "superseded": 0,
+   "rate": 0.0
+  },
+  "2026-07-04": {
+   "n": 373,
+   "superseded": 2,
+   "rate": 0.0054
+  },
+  "2026-07-08": {
+   "n": 373,
+   "superseded": 4,
+   "rate": 0.0107
+  },
+  "2026-07-15": {
+   "n": 373,
+   "superseded": 11,
+   "rate": 0.0295
+  },
+  "2026-07-21": {
+   "n": 373,
+   "superseded": 11,
+   "rate": 0.0295
+  }
+ },
+ "answers_total": 99,
+ "sup_stratum": 6,
+ "comp_stratum": 93,
+ "comp_sampled": 93,
+ "p_comp": 1.0,
+ "drops": {
+  "filtered": 1044,
+  "no_support": 1920,
+  "page_no_claim": 29,
+  "page_lt3": 13
+ }
+}
