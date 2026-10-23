@@ -47,9 +47,11 @@ audits over the expanded 100-page pool.
    -> `dual_replay_results.json`.
 8. `stage5_fallback_regen.py` — same-generator real regeneration at
    each cached answer's first asserted-gate rejection, judged against
-   tick-k truth -> `fallback_regen.json` (Kimi 17/19, GPT 20/22
-   correct) and a 20-row human spot-check sheet
-   (`PVSB_主场景回退抽检表.docx`).
+   tick-k truth -> `fallback_regen.json`: lexical acceptance retains
+   17/19 Kimi and 20/22 GPT first-rejection regenerations (these counts
+   are lexical-acceptance results, not human correctness judgments);
+   a 20-row human spot-check sheet (`PVSB_主场景回退抽检表.docx`) is
+   emitted separately.
 
 9. `stage6_load_cost.py` — measured component costs (gate check
    microseconds, regeneration call seconds, source re-read seconds)
@@ -88,12 +90,12 @@ audits over the expanded 100-page pool.
    root.
 15. `stage12_parse_base_annotations.py` — parse the two returned
    base-answer sheets, audit agreement (40/40 raw, kappa 1.0),
-   adjudicate conservatively, and emit `base_answer_results.json`:
-   design-weighted b = 22.8% [20.6, 25.1] (wrong-only 5.0% [2.2, 7.8]);
-   per-part flagging matches human labels on 38/40; the Eq.(window)
-   verdict: excess error r-b ~ 32 points exceeds the daily panel's
-   upper bound (17.4 Kimi / 15.0 GPT) while clearing the TTL-1d lower
-   bound (0.08) by two orders of magnitude.  Returned sheets archived
+   adjudicate conservatively, and emit `base_answer_results.json`.
+   The manuscript's base-error estimate uses the stratified
+   sensitivity analysis over the retained item labels and routing
+   counts; the design-weighted interval and the embedded
+   `window_verdict` field in this file are legacy displays,
+   superseded and not authoritative.  Returned sheets archived
    under `annotation/`.
 
 Note: `stage1b/1c/1d` require network access to the Wikimedia API.
@@ -103,7 +105,7 @@ Stages 2-4 are purely local and deterministic.
     Wikipedia page, since answers on one page share its edit process;
     42 Kimi / 47 GPT pages, 41 shared), no model calls ->
     `pagecluster_bootstrap.json`: B1' cross-generator stale-delivery
-    difference paired on the 41 shared pages [-0.01,+0.02] pp;
+    difference paired on the 41 shared pages [-0.01,+0.03] pp;
     B2'/B3' and the GC-overlap/FC-equality regeneration contrasts are
     slightly wider than the answer-level intervals with no conclusion
     changed (case counts verified identical to stages 4/7).
