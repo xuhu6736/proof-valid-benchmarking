@@ -16,6 +16,10 @@ The tree corresponding to the KAIS submission is tagged
 Section and table numbers below refer to the KAIS submission version of the
 manuscript.
 
+**Paper files:** `main.pdf` (manuscript) and `supplementary_material.pdf`
+(Online Resource 1) at the repository root are the exact files of the KAIS
+submission / ChinaXiv preprint version.
+
 Every number, table, and figure in the paper can be audited against the
 retained result artifacts in this repository, and all figures and tables can
 be regenerated from them. Unless stated otherwise, all stochastic experiments
